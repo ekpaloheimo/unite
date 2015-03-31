@@ -1,3 +1,0 @@
-# stop-disaster
-
-= Stop Disaster

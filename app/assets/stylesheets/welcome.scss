@@ -2,8 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.sd-index {
+.sd-banner {
   background-image: url("main-banner.jpg");
   background-size: cover;
   height: 440px;
+}
+
+.alert { 
+  text-align: center;
 }

@@ -17,7 +17,7 @@ class VotesControllerTest < ActionController::TestCase
       name: "foobar", 
       email: "foobar@foobar.com", 
       email_confirmation: "foobar@foobar.com", 
-      country: "Finland"
+      country: "fi"
     }
     assert_difference("Vote.count") do
       post :create, vote: values
@@ -31,11 +31,26 @@ class VotesControllerTest < ActionController::TestCase
       name: "foobar", 
       email: "foobar1@foobar.com", 
       email_confirmation: "foobar2@foobar.com", 
-      country: "Finland",
+      country: "fi",
     }
     assert_no_difference("Vote.count") do
       post :create, vote: values
     end   
+  end
+
+  test 'should return correct language code' do
+    @request.headers["Accept-Language"] = "fi-FI"
+    assert_equal @controller.send(:language_code), "fi"
+  end
+
+  test 'should return correct country code' do
+    @request.headers["Accept-Language"] = "fi-FI"
+    @request.params[:vote] = {:country => "BY"}
+    assert_equal @controller.send(:country_code), "BY"
+
+    @request.headers["Accept-Language"] = nil
+    @request.params[:vote] = nil
+    assert_equal @controller.send(:country_code), "EN"
   end
 
 

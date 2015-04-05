@@ -15,11 +15,99 @@
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>    
-    <%= flash_messages %>
-
-    <div class="jumbotron sd-banner"></div>
-    <div class="container">
-      <%= yield %>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <%= link_to "Stop Disaster", root_path, :class => "navbar-brand" %></a>
+        </div>
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to "Vote", new_vote_path %></li>
+            <li><%= link_to "Stats", votes_path %></li>
+            <li><%= link_to "Discuss", root_path %></li>
+          </ul>
+        </div>
+      </div>
     </div>
+
+    <%= flash_messages %>
+    <div class="jumbotron sd-banner"></div>
+    <div class="container sd-main">
+      <%= yield %>
+      <hr/>
+      <footer class="row text-center">
+        <div class="col-md-2">
+          <h6>about us</h6>
+          <ul class="list-unstyled">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+            <li>f</li>
+            <li>g</li>
+            <li>members</li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6>news</h6>
+          <ul class="list-unstyled">
+            <li>blog</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+            <li>f</li>
+            <li>g</li>
+            <li>h</li>
+            <li>i</li>
+          </ul>
+
+        </div>
+        <div class="col-md-2">
+          <h6>contact</h6>
+          <ul class="list-unstyled">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+            <li>f</li>
+            <li>g</li>
+            <li>h</li>
+            <li>i</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6>store</h6>
+          <ul class="list-unstyled">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+            <li>f</li>
+            <li>g</li>
+            <li>h</li>
+            <li>i</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6>share</h6>
+          <ul class="list-unstyled">
+            <li>facebook</li>
+            <li>twitter</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+            <li>f</li>
+            <li>g</li>
+            <li>h</li>
+            <li>i</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

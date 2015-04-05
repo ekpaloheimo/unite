@@ -1,32 +1,30 @@
 <%= form_for @vote, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
-  <% if @vote.errors.any? %>
-    <div id="error_explanation">
-      <h2>
-        <%= pluralize(@vote.errors.count, "error") %> 
-        prohibited this vote from being saved:
-      </h2>
-      <ul>
-        <% @vote.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>  
-
-  <div class="table-responsive">
-    <table class="table table-bordered">
-      <tr><td>Name (*)</td><td><%= f.text_field :name %></td></tr>
-      <tr><td>Email (*)</td><td><%= f.text_field :email %></td></tr>
-      <tr><td>Email Confirmation (*)</td><td><%= f.text_field :email_confirmation %></td></tr>
-      <tr><td>Country (*)</td><td><%= f.select(:country, {name: :country}) %></td></tr>
-      <tr><td colspan="2"><%= f.submit "Create" %></td></tr>
-    </table>
+<% if @vote.errors.any? %>
+  <div id="error_explanation">
+    <h2>
+      <%= pluralize(@vote.errors.count, "error") %> 
+      prohibited this vote from being saved:
+    </h2>
+    <ul>
+      <% @vote.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
   </div>
+<% end %>  
+
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <tr><td>Name (*)</td><td><%= f.text_field :name %></td></tr>
+    <tr><td>Email (*)</td><td><%= f.text_field :email %></td></tr>
+    <tr><td>Email Confirmation (*)</td><td><%= f.text_field :email_confirmation %></td></tr>
+    <tr><td>Country (*)</td>
+      <td>
+        <%= f.select(:country, options_for_select(Country.for_select, country_code)) %>
+      </td>
+    </tr>
+    <tr><td colspan="2"><%= f.submit "Create" %></td></tr>
+  </table>
+</div>
 <% end %>
 
-
-<script language="javascript">
-  $(document).ready(function() {
-    populateCountries("vote_country");
-  });
-</script>

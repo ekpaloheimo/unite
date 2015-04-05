@@ -4,7 +4,7 @@
 vote_<%= n %>:
   name: <%= "vote#{n}" %>
   email: <%= "user#{n}@vote-example.com" %>
-  country: "Finland"
+  country: "FI"
   ip: <%= "127.#{(rand * 255).round}.#{(rand * 255).round}.#{(rand * 255).round}" %>
 <% end %>
 

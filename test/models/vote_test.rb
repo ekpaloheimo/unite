@@ -60,6 +60,14 @@ class VoteTest < ActiveSupport::TestCase
   test 'should not save invalid country' do
     @vote.country = "-1"
     assert_not @vote.save, "Save vote with invalid country"
+
+    @vote.country = "Finland"
+    assert_not @vote.save, "Save vote with invalid country"
+  end
+
+  test 'should save correct country' do
+    @vote.country = "fi"
+    assert @vote.save
   end
 
   test 'should save with correct values' do

@@ -18,7 +18,7 @@ class Country < ActiveRecord::Base
   end
 
   def self.code_to_name code
-    from_disc.to_h[code]
+    from_disc.to_h[code.upcase]
   end
 
   def self.from_disc

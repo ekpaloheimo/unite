@@ -74,4 +74,11 @@ class VoteTest < ActiveSupport::TestCase
     assert @vote.save
   end
 
+  test 'should add vote count' do
+    @vote.save
+    vote_count = VoteCount.where(country: @vote.country).first
+    assert vote_count
+    assert_equal vote_count.count, 1
+  end
+
 end

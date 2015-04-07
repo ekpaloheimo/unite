@@ -1,10 +1,10 @@
-<h1>Total: <%= Vote.count %></h1>
+<h1>Total: <%= VoteCount.total %> votes</h1>
 
 <table class="table">
   <% @sorted_votes.each do |vote| %>
     <tr>
-      <td><%= image_tag "", :class => [:flag, vote[0].downcase] %></td>
-      <td><%= Country.code_to_name(vote[0]) %></td><td><%= vote[1] %></td>
+      <td><%= image_tag "", :class => [:flag, vote.country] %></td>
+      <td><%= Country.code_to_name(vote.country) %></td><td><%= vote.count %></td>
     </tr>
   <% end %>
 </table>

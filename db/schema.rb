@@ -11,15 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150404081321) do
+ActiveRecord::Schema.define(version: 20150407090004) do
+
+  create_table "vote_counts", force: :cascade do |t|
+    t.string   "country",    limit: 255
+    t.integer  "count",      limit: 4
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
 
   create_table "votes", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "country"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "ip"
+    t.string   "name",       limit: 255
+    t.string   "email",      limit: 255
+    t.string   "country",    limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.string   "ip",         limit: 255
   end
 
 end

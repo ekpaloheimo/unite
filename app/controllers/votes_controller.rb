@@ -20,26 +20,11 @@ class VotesController < ApplicationController
   end
 
   def index    
-    @votes = Vote.all
-    @sorted_votes = country_votes.to_a.sort {|a,b| b[1] <=> a[1]}
-
+    @votes = VoteCount.all
+    @sorted_votes = @votes.sort {|a,b| b.count <=> a.count}
   end
 
   private
-
-  
-
-  def country_votes
-    value = {}
-    @votes.map do |v| 
-      if value.has_key?(v.country)
-        value[v.country] += 1 
-      else
-        value[v.country] = 1
-      end
-    end
-    value
-  end
 
   def country_code
     return request[:vote][:country] if request[:vote] and request[:vote][:country]

@@ -22,7 +22,7 @@ class VotesControllerTest < ActionController::TestCase
     assert_difference("Vote.count") do
       post :create, vote: values
     end
-    assert_redirected_to root_path
+    assert_redirected_to votes_path
     assert flash[:notice], "Thank you for your vote!"
   end
 

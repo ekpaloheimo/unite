@@ -1,10 +1,14 @@
 <h1>Total: <%= VoteCount.total %> votes</h1>
 
 <table class="table">
-  <% @sorted_votes.each do |vote| %>
+  <% @sorted_votes.each do |vote_count| %>
     <tr>
-      <td><%= image_tag "", :class => [:flag, vote.country] %></td>
-      <td><%= Country.code_to_name(vote.country) %></td><td><%= vote.count %></td>
+      <td><%= image_tag "", :class => [:flag, vote_count.country] %></td>
+      <td><%= Country.code_to_name(vote_count.country) %></td>
+      <td style="width:100%">
+        <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
+      </td> 
+      <td><%= vote_count.count %></td>
     </tr>
   <% end %>
 </table>

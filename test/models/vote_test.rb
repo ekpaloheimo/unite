@@ -6,6 +6,7 @@ class VoteTest < ActiveSupport::TestCase
     @vote = votes("vote_1").dup
     @vote.email = "invalid@vote-example.com"
     @vote.email_confirmation = @vote.email
+    @vote.bypass_humanizer = true
   end
 
   def teardown
@@ -66,7 +67,7 @@ class VoteTest < ActiveSupport::TestCase
   end
 
   test 'should save correct country' do
-    @vote.country = "fi"
+    @vote.country = "FI"
     assert @vote.save
   end
 

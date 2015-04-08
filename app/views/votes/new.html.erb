@@ -23,6 +23,10 @@
         <%= f.select(:country, options_for_select(Country.for_select, country_code)) %>
       </td>
     </tr>
+    <tr>
+      <td><%= f.label :humanizer_answer, @vote.humanizer_question %></td>
+      <td><%= f.text_field :humanizer_answer %><%= f.hidden_field :humanizer_question_id %></td>
+    </tr>
     <tr><td colspan="2"><%= f.submit "Create" %></td></tr>
   </table>
 </div>

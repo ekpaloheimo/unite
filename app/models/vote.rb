@@ -1,4 +1,8 @@
 class Vote < ActiveRecord::Base
+  include Humanizer
+  attr_accessor :bypass_humanizer
+  require_human_on :create, :unless => :bypass_humanizer
+
   class EmailValidator < ActiveModel::EachValidator
     def validate_each(record, attribute, value)
       unless value =~ /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i

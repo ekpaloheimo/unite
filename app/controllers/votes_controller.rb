@@ -9,11 +9,12 @@ class VotesController < ApplicationController
   def create
     @vote = Vote.new(vote_params)
     @vote.ip = request.env["REMOTE_ADDR"]
+    @vote.bypass_humanizer = true if Rails.env.test?
     @vote.save
 
     if @vote.valid?
       flash[:notice] = "Thank you for your vote!"
-      redirect_to root_url
+      redirect_to votes_path
     else
       render :new
     end
@@ -40,7 +41,7 @@ class VotesController < ApplicationController
   end
 
   def vote_params
-    params.require(:vote).permit(:name, :email, :email_confirmation, :country)
+    params.require(:vote).permit(:name, :email, :email_confirmation, :country, :humanizer_answer, :humanizer_question_id)
   end
 
 end

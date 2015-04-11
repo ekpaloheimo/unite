@@ -1,6 +1,10 @@
 require 'test_helper'
 
 class VotesControllerTest < ActionController::TestCase
+  
+  def json_response
+    ActiveSupport::JSON.decode @response.body
+  end
 
   test "should get new" do
     get :new
@@ -10,6 +14,14 @@ class VotesControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
+  end
+  
+  # /votes/recently_added
+  test 'should get recent votes as json' do
+    get :recently_added, format: :json
+    assert_response :success
+    assert json_response.class == Array
+    assert json_response[0]["id"]
   end
 
   test "should create vote" do

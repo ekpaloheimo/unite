@@ -25,6 +25,14 @@ class VotesController < ApplicationController
     @sorted_votes = @votes.sort {|a,b| b.count <=> a.count}
   end
 
+  def recently_added
+    @votes = Vote.select(:id,:country,:name).last(10)
+    render :json => @votes
+  end
+
+  def show
+  end
+
   private
 
   def country_code

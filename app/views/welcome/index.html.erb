@@ -9,11 +9,24 @@
       })
     }
 
-    setInterval(function() {
-      load_votes()
-    }, 5000)
+    setInterval(function() { load_votes() }, 5000)
 
-  })
+    $("a#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+      $("div.modal-body").html(data);
+      $("form#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+        console.log("success", data)
+        $("div.modal").modal("hide");
+      });
+      $("form#new_vote").on("ajax:error", function(evt, data, status, xhr) {
+        console.log("error", data)
+      });
+      $("div.modal").modal("show");
+    });
+    $("a#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
+
+
+
+  });
 </script>
 
 <div class="row">
@@ -62,10 +75,20 @@
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
         </p>
 
-        <%= link_to(new_vote_path) do %>
+        <div class="modal fade">
+          <div class="modal-dialog">
+          <div class="modal-header">
+            <%= button_tag(type: :button, class: :close, :"data-dismiss" => "modal") do %>
+              <%= "&times;".html_safe %>
+            <% end %>
+            <h4 class="modal-title">Add new vote</h4>
+          </div>
+          <div class="modal-body"></div>
+      </div>
+        </div>       
+        <%= link_to(new_vote_path, remote: true, id: "new_vote" ) do %>
           <button class="btn btn-lg btn-success" type="button">Vote!</button>
         <% end %>
-
       </div>
     </div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>

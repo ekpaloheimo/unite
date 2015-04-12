@@ -4,19 +4,38 @@ class VotesController < ApplicationController
 
   def new
     @vote = Vote.new
+    respond_to do |format|
+      format.html do
+        if request.xhr?
+          render layout: false
+        end
+      end
+    end
   end
-
+  
   def create
     @vote = Vote.new(vote_params)
     @vote.ip = request.env["REMOTE_ADDR"]
     @vote.bypass_humanizer = true if Rails.env.test?
     @vote.save
 
-    if @vote.valid?
-      flash[:notice] = "Thank you for your vote!"
-      redirect_to votes_path
-    else
-      render :new
+    respond_to do |format|
+      format.html do
+        if request.xhr?
+          if @vote.valid?
+            render json: { notice: "Thank you for your vote!" }
+          else
+            render json: { error: "There was an error while adding your vote" }
+          end
+        else
+          if @vote.valid?
+            flash[:notice] = "Thank you for your vote!"
+            redirect_to votes_path
+          else
+            render :new
+          end
+        end
+      end
     end
   end
 

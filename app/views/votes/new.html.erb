@@ -1,4 +1,7 @@
-<%= form_for @vote, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+<% 
+   remote = request.xhr? ? true : false   
+%>
+<%= form_for @vote, url: {action: "create"}, html: {class: "nifty_form"}, remote: remote do |f| %>
 <% if @vote.errors.any? %>
   <div id="error_explanation">
     <h2>

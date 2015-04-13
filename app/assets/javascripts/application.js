@@ -17,6 +17,7 @@
 //= require underscore
 //= require backbone
 //= require stop_disaster
+//= require flash_messages
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections

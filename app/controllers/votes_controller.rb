@@ -23,9 +23,11 @@ class VotesController < ApplicationController
       format.html do
         if request.xhr?
           if @vote.valid?
-            render json: { notice: "Thank you for your vote!" }
+            flash[:notice] = "Thank you for your vote!"
+            head :ok
           else
-            render json: { error: "There was an error while adding your vote" }
+            flash[:error] = "There was an error while adding your vote"
+            head :ok
           end
         else
           if @vote.valid?

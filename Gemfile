@@ -20,14 +20,19 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem 'capistrano',  '~> 3.1'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-passenger'
+end
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Use Unicorn as the app server
 # gem 'unicorn'
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # bundle exec rake doc:rails generates the API under doc/api.
 

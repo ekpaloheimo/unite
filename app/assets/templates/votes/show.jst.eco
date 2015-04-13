@@ -1,4 +1,5 @@
 <tr>
-  <td><%= this.country %></td>
+  <td><image class="flag <%= this.country %>"/></td>
   <td><%= this.name %></td>
+  <td>...</td>
 </tr>

@@ -23,7 +23,7 @@ class VotesController < ApplicationController
       format.html do
         if request.xhr?
           if @vote.valid?
-            flash[:notice] = "Thank you for your vote!"
+            flash[:success] = "Thank you for your vote!"
             head :ok
           else
             flash[:error] = "There was an error while adding your vote"
@@ -31,7 +31,7 @@ class VotesController < ApplicationController
           end
         else
           if @vote.valid?
-            flash[:notice] = "Thank you for your vote!"
+            flash[:success] = "Thank you for your vote!"
             redirect_to votes_path
           else
             render :new

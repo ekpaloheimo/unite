@@ -35,7 +35,7 @@ class VotesControllerTest < ActionController::TestCase
       post :create, vote: values
     end
     assert_redirected_to votes_path
-    assert flash[:notice], "Thank you for your vote!"
+    assert flash[:success], "Thank you for your vote!"
   end
 
   test "should flash error if invalid vote" do

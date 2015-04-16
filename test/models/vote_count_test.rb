@@ -2,6 +2,10 @@ require 'test_helper'
 
 class VoteCountTest < ActiveSupport::TestCase
 
+  def teardown
+    VoteCount.destroy_all
+  end
+
   test 'should add vote count' do
     vote = votes(:vote_1)
     VoteCount.add_vote(vote)
@@ -50,8 +54,18 @@ class VoteCountTest < ActiveSupport::TestCase
     vote4.save
 
     assert_equal VoteCount.total, 2
-    assert vote1.diagram_width, 25    
+    assert vote1.diagram_width, 25       
   end
+
+  test 'should return correct diagram width percent with multiple votes' do
+    vote1 = VoteCount.new(:country => "FI", :count => 2)
+    vote2 = VoteCount.new(:country => "GB", :count => 1)
+    vote1.save
+    vote2.save
+
+    assert vote1.diagram_width, 100
+    assert vote2.diagram_width, 50
+  end  
 
   test 'should calculate diagram width correctly' do
     assert_equal VoteCount.new.calculate_diagram_width(100000, 1), 0.001

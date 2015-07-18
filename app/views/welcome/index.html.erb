@@ -67,29 +67,61 @@
   <div class="col-md-6">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Join Stop Disaster!</h3>
+        <h3 class="panel-title">Stop Disaster - Now!</h3>
       </div>
       <div class="panel-body">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
+        <p>
+          The global environmental catastrophe is emerging and the process is accelerating. 
+          We are in a hurry. Radical actions are urgently needed to save our planet.
+        </p>
+        <p>
+          There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.
+          Save the planet. Act NOW!
+          <p>
+            <%= link_to(new_vote_path, remote: true, id: "new_vote" ) do %>
+              <button class="btn btn-lg btn-success" type="button">Vote!</button>
+            <% end %>
+          </p>
         </p>
 
-        <div class="modal fade">
-          <div class="modal-dialog">
-          <div class="modal-header">
-            <%= button_tag(type: :button, class: :close, :"data-dismiss" => "modal") do %>
-              <%= "&times;".html_safe %>
-            <% end %>
-            <h4 class="modal-title">Add new vote</h4>
-          </div>
-          <div class="modal-body"></div>
-      </div>
-        </div>       
-        <%= link_to(new_vote_path, remote: true, id: "new_vote" ) do %>
-          <button class="btn btn-lg btn-success" type="button">Vote!</button>
-        <% end %>
+        <p>
+          <div class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-header">
+                <%= button_tag(type: :button, class: :close, :"data-dismiss" => "modal") do %>
+                  <%= "&times;".html_safe %>
+                <% end %>
+                <h4 class="modal-title">Sign the petition</h4>
+              </div>
+              <div class="modal-body"></div>
+            </div>
+          </div>          
+        </p>
+
+        <iframe width="520" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>
+        
+        <p>
+          <h1>BACKGROUND</h1>
+        </p>
+        <p>
+          We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.
+        </p>
+        <p>
+          <h2>State of the global environment - point of no return</h2>
+          The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. 
+          Harmful developments have accelerated and we are approaching a point of no return.
+        </p>       
+        <p>
+          <h2>New global role for the Military</h2>
+          It is the accepted practice all round the globe that the military is called in to assist those affected by sudden and unexpected environmental disasters.
+          It would simply be a logical extension of this to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.
+        </p>
+        <p>
+          <b>We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.</b>
+        </p>
+        
       </div>
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <div class="col-md-3">

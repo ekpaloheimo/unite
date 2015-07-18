@@ -4,6 +4,7 @@ class VoteCountTest < ActiveSupport::TestCase
 
   def teardown
     VoteCount.destroy_all
+    VoteCount.clear_values
   end
 
   test 'should add vote count' do

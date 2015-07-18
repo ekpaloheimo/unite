@@ -22,6 +22,11 @@ class VoteCount < ActiveRecord::Base
     vote_count.count += 1 unless vote_count.new_record?
     vote_count.save
   end
+  
+  def self.clear_values
+    @@total = nil
+    @@max = nil
+  end
 
   def self.total
     @@total ||= all.map(&:count).reduce(:+)

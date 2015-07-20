@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'http_accept_language'
 gem 'humanizer'
 gem 'backbone-on-rails'
+gem 'fast_gettext'
+gem 'gettext_i18n_rails'
 
 group :development, :test do
   gem 'byebug'
@@ -24,6 +26,7 @@ group :development do
   gem 'capistrano',  '~> 3.1'
   gem 'capistrano-rails', '~> 1.1'
   gem 'capistrano-passenger'
+  gem 'gettext'
 end
 
 # See https://github.com/rails/execjs#readme for more supported runtimes

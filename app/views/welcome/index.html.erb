@@ -29,34 +29,39 @@
 
 <div class="row">
   <div class="col-md-3">
-    <div class="panel panel-success">
+    <div class="panel panel-success appeal">
       <div class="panel-heading">
-        <h3 class="panel-title">Read Appeal</h3>
+        <h3 class="panel-title">
+          <strong class="appeal-title">
+            <%= _("To the Secretary-General and Secretariat of the United Nations") %>
+          </strong>
+        </h3>
       </div>
       <div class="panel-body">
-        <p>
-          <strong>To the Secretary-General and Secretariat of the United Nations</strong>
-        </p>             
         <small>
-          <p>We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population.</p>
-          <p>Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention...</p>
+          <p>
+            <%= _("We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population.") %>
+          </p>
+          <p>
+            <%= _("Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention...") %>
+          </p>
         </small>
-        <%= link_to "Read more", controller: "welcome", action: "appeal" %>
+        <%= link_to _("Read Appeal"), controller: "welcome", action: "appeal" %>
       </div>            
     </div>
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">View Votes</h3>
+        <h3 class="panel-title"><%= _("View Votes") %></h3>
       </div>
       <div class="panel-body">
-        <%= link_to "Votes", controller: "votes", action: "index" %>
+        <%= link_to _("Votes"), controller: "votes", action: "index" %>
       </div>
     </div>
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Recent Votes</h3>
+        <h3 class="panel-title"><%= _("Recent Votes") %></h3>
       </div>
       <div class="panel-body" id="recent_votes">
         
@@ -67,19 +72,17 @@
   <div class="col-md-6">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Stop Disaster - Now!</h3>
+        <h3 class="panel-title"><%= _("Stop Disaster - Now!") %></h3>
       </div>
       <div class="panel-body">
         <p>
-          The global environmental catastrophe is emerging and the process is accelerating. 
-          We are in a hurry. Radical actions are urgently needed to save our planet.
+          <%= _("The global environmental catastrophe is emerging and the process is accelerating. We are in a hurry. Radical actions are urgently needed to save our planet.") %>
         </p>
         <p>
-          There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.
-          Save the planet. Act NOW!
-          <p>
+          <%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative. Save the planet. Act NOW!") %>
+        <p>
             <%= link_to(new_vote_path, remote: true, id: "new_vote" ) do %>
-              <button class="btn btn-lg btn-success" type="button">Vote!</button>
+              <button class="btn btn-lg btn-success" type="button"><%= _("Vote!") %></button>
             <% end %>
           </p>
         </p>
@@ -91,7 +94,7 @@
                 <%= button_tag(type: :button, class: :close, :"data-dismiss" => "modal") do %>
                   <%= "&times;".html_safe %>
                 <% end %>
-                <h4 class="modal-title">Sign the petition</h4>
+                <h4 class="modal-title"><%= _("Sign the petition") %></h4>
               </div>
               <div class="modal-body"></div>
             </div>
@@ -101,23 +104,21 @@
         <iframe width="520" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>
         
         <p>
-          <h1>BACKGROUND</h1>
+          <h1><%= _("BACKGROUND") %></h1>
         </p>
         <p>
-          We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.
+          <%= _("We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.") %>
         </p>
         <p>
-          <h2>State of the global environment - point of no return</h2>
-          The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. 
-          Harmful developments have accelerated and we are approaching a point of no return.
+          <h2><%= _("State of the global environment - point of no return") %></h2>
+          <%= _("The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return.") %>
         </p>       
         <p>
-          <h2>New global role for the Military</h2>
-          It is the accepted practice all round the globe that the military is called in to assist those affected by sudden and unexpected environmental disasters.
-          It would simply be a logical extension of this to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.
+          <h2><%= _("New global role for the Military") %></h2>
+          <%= _("It is the accepted practice all round the globe that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.") %>
         </p>
         <p>
-          <b>We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.</b>
+          <b><%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %></b>
         </p>
         
       </div>
@@ -127,39 +128,38 @@
   <div class="col-md-3">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Discussion: General</h3>
+        <h3 class="panel-title"><%= _("Discussion: General") %></h3>
       </div>
       <div class="panel-body">
-        <a href="https://muut.com/stopdisaster", target="top">Join discussion</a>
+        <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
       </div>
     </div>
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Discussion: Methane clathrate issue </h3>
+        <h3 class="panel-title"><%= _("Discussion: Methane clathrate issue") %> </h3>
       </div>
       <div class="panel-body">
-        <a href="https://muut.com/stopdisaster", target="top">Join discussion</a>
+        <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
       </div>
     </div>
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Discussion: Sahara Forestication</h3>
+        <h3 class="panel-title"><%= _("Discussion: Sahara Forestication") %></h3>
       </div>
       <div class="panel-body">
-        <a href="https://muut.com/stopdisaster", target="top">Join discussion</a>
+        <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
       </div>
     </div>
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title">Discussion: Plastic Disaster</h3>
+        <h3 class="panel-title"><%= _("Discussion: Plastic Disaster") %></h3>
       </div>
       <div class="panel-body">
-        <p>How did plastic garbage patches floating in the ocean become an object of public concern? Baptiste Monsaingeon relates the media campaigns that turned the gradual accumulation of oceanic waste from an abstract and imperceptible concern to a dire emergency requiring
-        immediate attention.</p>
-        <a href="https://muut.com/stopdisaster", target="top">Join discussion</a>
+        <p></p>
+        <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
       </div>
     </div>
 

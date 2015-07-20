@@ -1,0 +1,120 @@
+# English translations for stop-disaster package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the stop-disaster package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: stop-disaster 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 14:10+0300\n"
+"PO-Revision-Date: 2015-07-20 12:13+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+msgid "BACKGROUND"
+msgstr ""
+
+msgid "Discussion: General"
+msgstr ""
+
+msgid "Discussion: Methane clathrate issue"
+msgstr ""
+
+msgid "Discussion: Plastic Disaster"
+msgstr ""
+
+msgid "Discussion: Sahara Forestication"
+msgstr ""
+
+msgid "How did plastic garbage patches floating in the ocean become an object of public concern? Baptiste Monsaingeon relates the media campaigns that turned the gradual accumulation of oceanic waste from an abstract and imperceptible concern to a dire emergency requiring immediate attention."
+msgstr ""
+
+msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
+msgstr ""
+
+msgid "It is the accepted practice all round the globe that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes."
+msgstr ""
+
+msgid "Join discussion"
+msgstr ""
+
+msgid "New global role for the Military"
+msgstr ""
+
+msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
+msgstr ""
+
+msgid "Read Appeal"
+msgstr ""
+
+msgid "Recent Votes"
+msgstr ""
+
+msgid "Sign the petition"
+msgstr ""
+
+msgid "State of the global environment - point of no return"
+msgstr ""
+
+msgid "Stop Disaster - Now!"
+msgstr ""
+
+msgid "Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention."
+msgstr ""
+
+msgid "Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention..."
+msgstr ""
+
+msgid "The global environmental catastrophe is emerging and the process is accelerating. We are in a hurry. Radical actions are urgently needed to save our planet."
+msgstr ""
+
+msgid "The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return."
+msgstr ""
+
+msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative. Save the planet. Act NOW!"
+msgstr ""
+
+msgid "To the Secretary-General and Secretariat of the United Nations"
+msgstr ""
+
+msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
+msgstr ""
+
+msgid "View Votes"
+msgstr ""
+
+msgid "Vote!"
+msgstr ""
+
+msgid "Votes"
+msgstr ""
+
+msgid "We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
+msgstr ""
+
+msgid ""
+"We earnestly hope that the United Nations will consider instigating a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have \n"
+"a tangible effect in promoting world peace."
+msgstr ""
+
+msgid "We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo."
+msgstr ""
+
+msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
+msgstr ""
+
+msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
+msgstr ""
+
+msgid "e-mail"
+msgstr ""
+
+msgid "professor"
+msgstr ""

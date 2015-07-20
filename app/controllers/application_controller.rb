@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   after_filter :add_flash_to_header
+  before_filter :set_locale
 
   private
 
@@ -14,5 +15,12 @@ class ApplicationController < ActionController::Base
     # make sure flash does not appear on the next page
     flash.discard
   end  
+
+  def set_locale
+    FastGettext.text_domain = 'stop-disaster'
+    FastGettext.available_locales = ['en','fi','de','ru','zh'] # only allow these locales to be set (optional)
+    FastGettext.set_locale(params[:locale] || session[:locale] || request.env['HTTP_ACCEPT_LANGUAGE'])
+    session[:locale] = I18n.locale = FastGettext.locale
+  end
 
 end

@@ -52,10 +52,15 @@
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= _("View Votes") %></h3>
+        <h3 class="panel-title"><%= _("Votes") %></h3>
       </div>
-      <div class="panel-body">
-        <%= link_to _("Votes"), controller: "votes", action: "index" %>
+      <div class="panel-body">  
+        <p>
+        <%= link_to _("View how people have voted"), controller: "votes", action: "index" %>
+        </p>
+        <p>
+        <%= link_to _("View the best public votes"), controller: "votes", action: "index" %>
+        </p>
       </div>
     </div>
 
@@ -101,7 +106,9 @@
           </div>          
         </p>
 
+        <!--
         <iframe width="520" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>
+        -->
         
         <p>
           <h1><%= _("BACKGROUND") %></h1>

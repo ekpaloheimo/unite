@@ -20,4 +20,5 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_select "div.appeal>div>h3>strong.appeal-title", "YK:n pääsihteeri ja sihteeristö"
   end
 
+
 end

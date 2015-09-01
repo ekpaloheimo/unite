@@ -27,6 +27,76 @@
   });
 </script>
 
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag "kuva01.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva02.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva03.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva04.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva05.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva06.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva07.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva08.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva09.jpg" %>
+    </div>
+
+    <div class="item">
+      <%= image_tag "kuva10.jpg" %>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 <div class="row">
   <div class="col-md-3">
     <div class="panel panel-success appeal">
@@ -77,7 +147,7 @@
   <div class="col-md-6">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= _("Stop Disaster - Now!") %></h3>
+        <h1 class="panel-title"><%= _("Stop Disaster - Now!") %></h1>
       </div>
       <div class="panel-body">
         <p>
@@ -87,7 +157,7 @@
           <%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative. Save the planet. Act NOW!") %>
         <p>
             <%= link_to(new_vote_path, remote: true, id: "new_vote" ) do %>
-              <button class="btn btn-lg btn-success" type="button"><%= _("Vote!") %></button>
+              <button class="btn btn-lg btn-success" type="button"><%= _("Sign!") %></button>
             <% end %>
           </p>
         </p>
@@ -109,25 +179,22 @@
         <!--
         <iframe width="520" height="315" src="https://www.youtube.com/embed/PwSHOI7DwWM" frameborder="0" allowfullscreen></iframe>
         -->
-        
-        <p>
-          <h1><%= _("BACKGROUND") %></h1>
-        </p>
+      </div>
+      <div class="panel-heading">
+        <h1 class="panel-title"><%= _("Background") %></h1>
+      </div>
+      <div class="panel-body">
         <p>
           <%= _("We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.") %>
         </p>
         <p>
-          <h2><%= _("State of the global environment - point of no return") %></h2>
+          <h3><%= _("State of the global environment - point of no return") %></h3>
           <%= _("The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return.") %>
         </p>       
         <p>
-          <h2><%= _("New global role for the Military") %></h2>
+          <h3><%= _("New global role for the Military") %></h3>
           <%= _("It is the accepted practice all round the globe that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.") %>
-        </p>
-        <p>
-          <b><%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %></b>
-        </p>
-        
+        </p>      
       </div>
     </div>
   </div>
@@ -135,7 +202,7 @@
   <div class="col-md-3">
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= _("Discussion: General") %></h3>
+        <h3 class="panel-title"><%= _("Discussion: World Government") %></h3>
       </div>
       <div class="panel-body">
         <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
@@ -144,7 +211,7 @@
 
     <div class="panel panel-success">
       <div class="panel-heading">
-        <h3 class="panel-title"><%= _("Discussion: Methane clathrate issue") %> </h3>
+        <h3 class="panel-title"><%= _("Discussion: Water and nature conservation") %> </h3>
       </div>
       <div class="panel-body">
         <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
@@ -169,6 +236,11 @@
         <a href="https://muut.com/stopdisaster", target="top"><%= _("Join discussion") %></a>
       </div>
     </div>
-
   </div>
 </div>
+
+  <div class="jumbotron">
+    <p class="container">
+      <b><%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %></b>
+    </p>
+  </div>

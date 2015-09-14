@@ -1,37 +1,40 @@
-<% 
-   remote = request.xhr? ? true : false   
-%>
-<%= form_for @vote, url: {action: "create"}, html: {class: "nifty_form"}, remote: remote do |f| %>
-<% if @vote.errors.any? %>
-  <div id="error_explanation">
-    <h2>
-      <%= pluralize(@vote.errors.count, "error") %> 
-      prohibited this vote from being saved:
-    </h2>
-    <ul>
-      <% @vote.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-    </ul>
-  </div>
-<% end %>  
+<article>
+<h1><%= _("Background") %></h1>
+<p>
+  <%= _("We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.") %>
+</p>
 
-<div class="table-responsive">
-  <table class="table table-bordered">
-    <tr><td>Name (*)</td><td><%= f.text_field :name %></td></tr>
-    <tr><td>Email (*)</td><td><%= f.text_field :email %></td></tr>
-    <tr><td>Email Confirmation (*)</td><td><%= f.text_field :email_confirmation %></td></tr>
-    <tr><td>Country (*)</td>
-      <td>
-        <%= f.select(:country, options_for_select(Country.for_select, country_code)) %>
-      </td>
-    </tr>
-    <tr>
-      <td><%= f.label :humanizer_answer, @vote.humanizer_question %></td>
-      <td><%= f.text_field :humanizer_answer %><%= f.hidden_field :humanizer_question_id %></td>
-    </tr>
-    <tr><td colspan="2"><%= f.submit "Create" %></td></tr>
-  </table>
-</div>
-<% end %>
+<h2> <%= _("State of the global environment - point of no return") %> </h2>
 
+<p>
+  <%= _("The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return.") %>
+</p>
+
+<h2><%= _("New global role for the Military") %> </h2>
+
+<p>
+  <%= _("It is the accepted practice all round the globe that the military is called in to assist those areas affected by sudden and unexpected environmental disasters.") %>
+</p>
+
+<p>
+  <%= _("It would simply be a logical extension of these actions to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.") %>
+</p>
+
+<h2 class="jumbotron"> <%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %> </h2>
+</article>
+
+<article>
+<h1><%= _("Sign now!") %></h1>
+<h2><%= _("STOP DISASTER – NOW!") %></h2>
+<p>
+  <%= _("The global environmental catastrophe is emerging and the process is accelerating.") %>
+</p>
+<p>
+  <%= _("We are in a hurry. Radical actions are urgently needed to save our planet.") %>
+</p>
+<h2 class="jumbotron">
+  <%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.") %>
+</h2>
+</article>
+
+<%= render partial: "new_form" %>

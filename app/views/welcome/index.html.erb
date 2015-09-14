@@ -1,1 +1,12 @@
-<iframe style="width:100%;height:100%" id="video" src="//www.youtube.com/embed/5iiPC-VGFLU?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<script>
+  $(document).ready(function() {
+    function setVideoHeight() {
+      var h = $( window ).height();
+      $("#video").css({height: h});
+    }
+    $( window ).on("resize", setVideoHeight);
+    setVideoHeight();
+  });
+</script>
+
+<iframe style="width:100%" id="video" src="//www.youtube.com/embed/5iiPC-VGFLU?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>

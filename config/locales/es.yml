@@ -19,10 +19,10 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  arabic: "arabic"
-  english: "english"
-  spanish: "spanish"
-  chinese: "chinese"
-  russian: "russian"
-  french: "french"
+es:
+  arabic: "arabe"
+  english: "ingles"
+  spanish: "español"
+  chinese: "chino"
+  russian: "ruso"
+  french: "frances"

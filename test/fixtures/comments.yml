@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  topic: Kommentti1
+  body: Testataan kommentointia
+  email: test01@testi.fi
+  language: english
+  name: Test Testaaja
+  ip: 0.0.0.0
+  theme: air
+

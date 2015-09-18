@@ -30,37 +30,37 @@ class CommentsControllerTest < ActionController::TestCase
         theme: "air"
       }
     end
-    assert_redirected_to comment_path(assigns(:comment))
+    assert_redirected_to "welcome#appeal"
     @comment.destroy
   end
 
-  test "should show comment" do
-    get :show, id: @comment
-    assert_response :success
-  end
+  # test "should show comment" do
+  #   get :show, id: @comment
+  #   assert_response :success
+  # end
 
-  test "should get edit" do
-    get :edit, id: @comment
-    assert_response :success
-  end
+  # test "should get edit" do
+  #   get :edit, id: @comment
+  #   assert_response :success
+  # end
 
-  test "should update comment" do
-    patch :update, id: @comment, comment: { 
-      body: @comment.body, 
-      email: "test03@test.fi", 
-      email_confirmation: "test03@test.fi",
-      language: @comment.language, 
-      name: @comment.name, 
-      topic: @comment.topic 
-    }
-    assert_redirected_to comment_path(assigns(:comment))
-  end
+  # test "should update comment" do
+  #   patch :update, id: @comment, comment: { 
+  #     body: @comment.body, 
+  #     email: "test03@test.fi", 
+  #     email_confirmation: "test03@test.fi",
+  #     language: @comment.language, 
+  #     name: @comment.name, 
+  #     topic: @comment.topic 
+  #   }
+  #   assert_redirected_to comment_path(assigns(:comment))
+  # end
 
-  test "should destroy comment" do
-    assert_difference('Comment.count', -1) do
-      delete :destroy, id: @comment
-    end
+  # test "should destroy comment" do
+  #   assert_difference('Comment.count', -1) do
+  #     delete :destroy, id: @comment
+  #   end
 
-    assert_redirected_to comments_path
-  end
+  #   assert_redirected_to comments_path
+  # end
 end

@@ -19,18 +19,25 @@
       <div class="container-fluid">
         <div class="navbar-collapse">
           <ul class="nav navbar-nav navbar-right sd-navbar-flags">
-            <li><a href="/?locale=ar"><img class="flag sa"/></a></li>
-            <li><a href="/?locale=zh"><img class="flag cn"/></a></li>
-            <li><a href="/?locale=en"><img class="flag gb"/></a></li>
-            <li><a href="/?locale=fr"><img class="flag fr"/></a></li>
-            <li><a href="/?locale=ru"><img class="flag ru"/></a></li>
-            <li><a href="/?locale=es"><img class="flag es"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :ar %>><img class="flag sa"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :zh %>><img class="flag cn"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :en %>><img class="flag gb"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :fr %>><img class="flag fr"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :ru %>><img class="flag ru"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :es %>><img class="flag es"/></a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li><%= link_to _("Video"), root_path %></li>
-            <li><%= link_to _("Sign"), new_vote_path %></li>
-            <li><%= link_to _("Statistics"), votes_path %></li>
-            <li><%= link_to _("Letter"), "/welcome/appeal" %></li>
+            <li><%= link_to _("Video"), "/#{locale}" %></li>
+            <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
+            <li><%= link_to _("Comment"), new_comment_path(locale: locale) %></li>
+            <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
+            <li><%= link_to _("Letter"), "/#{locale}/appeal" %></li>
           </ul>
         </div>
       </div>

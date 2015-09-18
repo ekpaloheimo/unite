@@ -43,7 +43,7 @@ class VotesController < ApplicationController
 
   def index    
     @votes = VoteCount.all
-    @sorted_votes = @votes.sort {|a,b| b.count <=> a.count}
+    @sorted_votes = @votes.sort { |a,b| b.count <=> a.count }
   end
 
   def recently_added

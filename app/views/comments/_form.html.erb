@@ -1,3 +1,16 @@
+<script>
+  $(document).ready(function() {
+    function showTopic(el) {
+      $(".comment-topic").each(function(ind,el) {
+        $(el).css("display","none")
+      })
+      $(".comment-area").show();
+      $(".comment-"+el.value).show();
+    }
+    window.showTopic = showTopic
+  });
+</script>
+
 <%= form_for(@comment) do |f| %>
   <% if @comment.errors.any? %>
     <div id="error_explanation">
@@ -13,31 +26,71 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :topic %><br>
-    <%= f.text_field :topic %>
-  </div>
-  <div class="field">
-    <%= f.label :language %><br>
+    <%= f.label _("Choose the language") %><br>
     <%# f.text_field :language %>
     <%= f.select(:language, Language.translated_select_options) %>
   </div>
+
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.label _("Choose the topic") %><br>
+    <% topics = %w(administration water air plastic-waste protected-areas) 
+       topics.each do |topic| %>
+       <p>
+       <label for="<%= topic %>">
+         <%= radio_button("comment","theme", topic, onChange: "showTopic(this)", :id => topic) %> 
+         <%= _(topic.capitalize) %>
+       </label>
+       </p>
+    <% end %>
   </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+
+  <div class="comment-area">
+    <% 
+       descriptions = {
+         "administration" => "The activites of the United Armies must be controlled by a common, international organ.",
+         "water" => "The force and capacity of the United Armies must ensure the sufficient water resources of our planet.",
+         "air" => "The force and capacity of the United Armies must be directed to the reforestation of deserts.",
+         "plastic-disaster" => "The United Armies must gather the plastic waste from oceans and shores.",
+         "protected-areas" => "The United Armies must protect National Parks on land and sea."
+       }
+       %>
+    <% topics.each do |topic| %>
+      <div class="comment-topic comment-<%= topic %>">
+        <h1 class="page-header"><%= _(topic.capitalize) %></h1>
+        <%= image_tag("#{topic}.jpg") %>
+        <p class="lead">
+          <%= 
+              _(descriptions[topic]) %>
+        </p>
+      </div>
+    <% end %>
+
+    <br style="clear:both"/>
+
+    <p><%= _("Give your name and email") %></p>
+    <div class="field">
+      <%= f.label :name %><br>
+      <%= f.text_field :name, :class => "form-control" %>
+    </div>
+    <div class="field">
+      <%= f.label :email %><br>
+      <%= f.text_field :email, :class => "form-control" %>
+    </div>
+    <div class="field">
+      <%= f.label :email_confirmation %><br>
+      <%= f.text_field :email_confirmation, :class => "form-control" %>
+    </div>
+    <div class="field">
+      <%= f.label _('Comment (max 1000 characters)') %><br>
+      <%= f.text_area :body, :class => "form-control" %>
+    </div>
+    <div class="field">
+      <%= f.label :humanizer_answer, @comment.humanizer_question %>
+      <%= f.text_field :humanizer_answer %><%= f.hidden_field :humanizer_question_id %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :email_confirmation %><br>
-    <%= f.text_field :email_confirmation %>
-  </div>
-  <div class="field">
-    <%= f.label :body %><br>
-    <%= f.text_area :body %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  
 <% end %>

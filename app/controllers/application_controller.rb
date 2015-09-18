@@ -19,7 +19,11 @@ class ApplicationController < ActionController::Base
   def set_locale
     FastGettext.text_domain = 'stop-disaster'
     FastGettext.available_locales = ['en','es','fr','ar','ru','zh']
-    FastGettext.set_locale(params[:locale] || session[:locale] || request.env['HTTP_ACCEPT_LANGUAGE'])
+    FastGettext.set_locale(
+                           params[:locale] || 
+                           session[:locale] || 
+                           request.env['HTTP_ACCEPT_LANGUAGE']
+                           )
     session[:locale] = I18n.locale = FastGettext.locale
   end
 

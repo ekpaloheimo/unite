@@ -1,14 +1,15 @@
 Rails.application.routes.draw do   
-  resources :comments
   root 'welcome#index'
 
-  get 'welcome/index'
-  get 'welcome/appeal'
-  get 'welcome/discussion'
+  get ':locale/' => 'welcome#index'
+  get ':locale/appeal' => 'welcome#appeal'
+  get ':locale/votes/recently_added' => 'votes#recently_added'
+  get 'votes/recently_added' => 'votes#recently_added'
 
-  get "votes/recently_added" => "votes#recently_added"
-
-  resources :votes
+  scope "(:locale)" do
+    resources :votes, :only => [:new, :index, :create, :recently_added]
+    resources :comments, :only => [:new, :index, :create]
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,4 +1,4 @@
-<article>
+<article class="container">
 <h1 class="page-header"><%= _("Helsinki, 04.11.2014") %></h1>
 <p class="lead">
   <%= _("To the Secretary-General and Secretariat of the United Nations") %>
@@ -36,17 +36,30 @@ a tangible effect in promoting world peace.") %>
 <br/>
 <br/>
 
-<table class="sd-table-appeal">
-<tr><td><%= image_tag("lindstrom.jpg") %></td><td><%= image_tag("paloheimo.jpg") %></td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
-<tr><td>__________________________________</td><td> _____________________________________</td></tr>
-<tr><td>U.B. Lindström, <%= _("professor") %></td><td>Eero Paloheimo, <%= _("professor") %></td></tr>
-<tr><td colspan="2">&nbsp;</td></tr>
-<tr><td>U.B. Lindström</td><td>Eero Paloheimo</td></tr>
-<tr><td>Sädepolku 2, 00750 Helsinki</td><td>Ilmari Kiannon kuja 11, 04310 Tuusula</td></tr>
-<tr><td><%= _("e-mail") %>: ulf.lindstrom@kolumbus.fi</td><td><%= _("e-mail") %>: ekpaloheimo@hotmail.com</td></tr>
-</table>
 
-	
+<div class="row">
+  <div class="col-md-4">
+    <%= image_tag("lindstrom.jpg", :class => "img-responsive") %>
+  </div>
+  <div class="col-md-4">
+    <%= image_tag("paloheimo.jpg", :class => "img-responsive") %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    U.B. Lindström, <%= _("professor") %>
+  </div>
+  <div class="col-md-4">
+    Eero Paloheimo, <%= _("professor") %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <%= _("e-mail") %>: ulf.lindstrom@kolumbus.fi
+  </div>
+  <div class="col-md-4">
+    <%= _("e-mail") %>: ekpaloheimo@hotmail.com
+  </div>
+</div>
 
 </article>

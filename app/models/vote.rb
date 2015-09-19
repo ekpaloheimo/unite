@@ -15,6 +15,24 @@ class Vote < ActiveRecord::Base
   after_initialize :downcase_country_code
   after_save :add_vote_count
 
+  attr_reader :ago
+
+  def ago
+    diff = TimeDifference.between(Time.zone.now, created_at).in_each_component
+    diff = OpenStruct.new(diff)
+    if diff.seconds < 60
+      ago = "%.2f" % diff.seconds
+      ago_string = _("seconds")
+    elsif diff.minutes < 60
+      ago = "%.2f" % diff.minutes
+      ago_string = _("minutes")
+    else
+      ago = "%.2f" % diff.days
+      ago_string = _("days")
+    end     
+    "#{ago} #{ago_string}"
+  end
+
   # Country code is always saved with downcased letters
   def downcase_country_code
     self.country.downcase! unless country.blank?

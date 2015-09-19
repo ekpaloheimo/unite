@@ -84,4 +84,10 @@ class VoteTest < ActiveSupport::TestCase
     assert_equal vote_count.count, 1
   end
 
+  test 'should calculate ago' do
+    @vote.save
+    assert @vote.ago
+    assert @vote.ago.match(/seconds/)
+  end
+
 end

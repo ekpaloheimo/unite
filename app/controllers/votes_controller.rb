@@ -32,7 +32,7 @@ class VotesController < ApplicationController
         else
           if @vote.valid?
             flash[:success] = "Thank you for your vote!"
-            redirect_to votes_path
+            redirect_to votes_path(locale: locale)
           else
             render :new
           end
@@ -47,8 +47,13 @@ class VotesController < ApplicationController
   end
 
   def recently_added
-    @votes = Vote.select(:id,:country,:name).last(10)
-    render :json => @votes
+    @votes = Vote.select(:id, :country,:name, :created_at).last(6)
+    votes = @votes.map do |vote|
+      vote_h = vote.attributes.to_h
+      vote_h[:ago] = vote.ago
+      vote_h
+    end
+    render :json => votes.to_json
   end
 
   def show

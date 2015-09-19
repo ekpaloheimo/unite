@@ -13,6 +13,30 @@
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+      function load_votes() {
+      $.get('<%= recently_added_votes_path(format: :json, locale: locale) %>').success(function(data) { 
+      recent_votes = new StopDisaster.Collections.Votes(data)
+      view = new StopDisaster.Views.VotesIndex({collection: recent_votes})
+      view.render()
+      $("#recent_votes").html(view.$el.html())
+      })
+      }
+
+      setInterval(function() { load_votes() }, 5000)
+
+      $("a#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+      $("div.modal-body").html(data);
+      $("form#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+        $("div.modal").modal("hide");
+      });
+      $("form#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
+        $("div.modal").modal("show");
+      });
+      $("a#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
+      });
+    </script>
   </head>
   <body>    
     <div class="navbar navbar-default navbar-static-top">
@@ -76,6 +100,10 @@
               <li><%= _("YouTube") %></li>
             </ul>
           </div>
+          <div class="col-md-3">
+            <h6><%= _("Recent Votes") %></h6>
+            <div id="recent_votes"></div>
+          </div>          
         </div>
       </div>
     </footer>

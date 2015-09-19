@@ -3,5 +3,6 @@ class StopDisaster.Views.VotesShow extends Backbone.View
 
   render: ->
     console.log("render VoteShow")
+    this.model.calculateAgo()
     this.$el.html( this.template( this.model.attributes ) )
     this

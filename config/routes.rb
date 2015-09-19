@@ -2,9 +2,8 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get ':locale/' => 'welcome#index'
-  get ':locale/appeal' => 'welcome#appeal'
-  get ':locale/votes/recently_added' => 'votes#recently_added'
-  get 'votes/recently_added' => 'votes#recently_added'
+  get ':locale/appeal' => 'welcome#appeal', as: :appeal
+  get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
 
   scope "(:locale)" do
     resources :votes, :only => [:new, :index, :create, :recently_added]

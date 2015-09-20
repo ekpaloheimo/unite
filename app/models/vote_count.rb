@@ -21,7 +21,15 @@ class VoteCount < ActiveRecord::Base
       new(country: vote.country.downcase, count: 1)
     vote_count.count += 1 unless vote_count.new_record?
     vote_count.save
+
+    VoteCount.clear_values
+    VoteCount.total # calculate new total number of votes
+
     vote_count
+  end
+
+  def self.target_vote_count
+    100000000
   end
   
   def self.clear_values
@@ -30,6 +38,8 @@ class VoteCount < ActiveRecord::Base
   end
 
   # Count of all votes in all countries
+  #
+  # CACHE !!!
   def self.total
     @@total ||= all.map(&:count).reduce(:+)
   end

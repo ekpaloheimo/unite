@@ -97,7 +97,7 @@ class VoteTest < ActiveSupport::TestCase
 
   test 'should have number' do
     @vote.save
-    assert_equal @vote.order_number, 1001
+    assert_equal @vote.order_number, 3001
   end
 
 end

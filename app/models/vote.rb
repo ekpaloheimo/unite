@@ -45,13 +45,25 @@ class Vote < ActiveRecord::Base
     end
   end
 
-  def add_vote_count
-    vote_count = VoteCount.add_vote(self)
-    self.order_number = vote_count.count
+  def votes_missed
+    VoteCount.target_vote_count - order_number
   end
 
+  # Vote#order_number as the total number of all votes
+  def add_vote_count
+    vote_count = VoteCount.add_vote(self)
+    self.order_number = VoteCount.total
+  end
+
+  # We do not allow duplicate tokens, lets be sure there is no equal
+  # token already in database.
   def add_secret_token    
-    self.secret_token = SecureRandom.hex(64)
+    while token = SecureRandom.hex(64) do
+      if Vote.where(secret_token: token).blank?
+        self.secret_token = token
+        break
+      end
+    end
   end
 
 end

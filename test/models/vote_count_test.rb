@@ -32,6 +32,8 @@ class VoteCountTest < ActiveSupport::TestCase
   test 'should return correct percent of all votes' do
     vote1 = vote_counts(:vote_count_fi)
     vote2 = vote_counts(:vote_count_gb)
+
+    VoteCount.clear_values
     assert_equal VoteCount.total, 3000
     assert_equal vote1.percent_of_total.to_i, 33
     assert_equal vote2.percent_of_total.to_i, 66

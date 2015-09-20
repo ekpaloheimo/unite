@@ -90,4 +90,9 @@ class VoteTest < ActiveSupport::TestCase
     assert @vote.ago.match(/seconds/)
   end
 
+  test 'should have secret token' do
+    @vote.save
+    assert @vote.secret_token
+  end
+
 end

@@ -30,7 +30,7 @@ class CommentsControllerTest < ActionController::TestCase
         theme: "air"
       }
     end
-    assert_redirected_to "welcome#appeal"
+    assert_redirected_to appeal_path(locale: "en")
     @comment.destroy
   end
 

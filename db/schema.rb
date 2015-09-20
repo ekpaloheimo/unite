@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150916081352) do
+ActiveRecord::Schema.define(version: 20150920061219) do
 
   create_table "comments", force: :cascade do |t|
     t.string   "topic",      limit: 255
@@ -33,12 +33,13 @@ ActiveRecord::Schema.define(version: 20150916081352) do
   end
 
   create_table "votes", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "email",      limit: 255
-    t.string   "country",    limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-    t.string   "ip",         limit: 255
+    t.string   "name",         limit: 255
+    t.string   "email",        limit: 255
+    t.string   "country",      limit: 255
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.string   "ip",           limit: 255
+    t.string   "secret_token", limit: 255
   end
 
 end

@@ -18,7 +18,7 @@ class VotesControllerTest < ActionController::TestCase
   
   # /votes/recently_added
   test 'should get recent votes as json' do
-    get :recently_added, format: :json
+    get :recently_added, format: :json, locale: "en"
     assert_response :success
     assert json_response.class == Array
     assert json_response[0]["id"]
@@ -34,7 +34,7 @@ class VotesControllerTest < ActionController::TestCase
     assert_difference("Vote.count") do
       post :create, vote: values
     end
-    assert_redirected_to votes_path
+    assert_redirected_to votes_path(locale: "en")
     assert flash[:success], "Thank you for your vote!"
   end
 

@@ -14,6 +14,7 @@ class Vote < ActiveRecord::Base
   validate :validate_country_code
   after_initialize :downcase_country_code
   after_save :add_vote_count
+  before_save :add_secret_token
 
   attr_reader :ago
 
@@ -46,6 +47,10 @@ class Vote < ActiveRecord::Base
 
   def add_vote_count
     VoteCount.add_vote(self)
+  end
+
+  def add_secret_token
+    self.secret_token = SecureRandom.hex(64)
   end
 
 end

@@ -32,7 +32,7 @@ class VotesController < ApplicationController
         else
           if @vote.valid?
             flash[:success] = "Thank you for your vote!"
-            redirect_to votes_path(locale: locale)
+            redirect_to vote_path(locale: locale, secret_token: @vote.secret_token)
           else
             render :new
           end
@@ -57,6 +57,11 @@ class VotesController < ApplicationController
   end
 
   def show
+    @vote = Vote.where(secret_token: params[:secret_token]).first
+    if @vote.blank?
+      redirect_to votes_path(locale: locale)
+      return
+    end
   end
 
   private

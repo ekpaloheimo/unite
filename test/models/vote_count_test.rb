@@ -13,7 +13,7 @@ class VoteCountTest < ActiveSupport::TestCase
     vote_count = VoteCount.where(:country => "FI").first
 
     assert vote_count
-    assert_equal vote_count.count, 1
+    assert_equal vote_count.count, 1001
   end
 
   test 'should not add vote whene unvalid data' do
@@ -30,48 +30,25 @@ class VoteCountTest < ActiveSupport::TestCase
   end
 
   test 'should return correct percent of all votes' do
-    vote1 = VoteCount.new(:country => "FI", :count => 1)
-    vote2 = VoteCount.new(:country => "GB", :count => 1)
-    vote1.save
-    vote2.save
-
-    assert_equal VoteCount.total, 2
-    assert_equal vote1.percent_of_total, 50
-    assert_equal vote1.percent_of_total, 50
+    vote1 = vote_counts(:vote_count_fi)
+    vote2 = vote_counts(:vote_count_gb)
+    assert_equal VoteCount.total, 3000
+    assert_equal vote1.percent_of_total.to_i, 33
+    assert_equal vote2.percent_of_total.to_i, 66
   end
 
   test 'should return correct diagram width percent' do
-    vote1 = VoteCount.new(:country => "FI", :count => 1)
-    vote2 = VoteCount.new(:country => "GB", :count => 1)
-    vote1.save
-    vote2.save
-
-    assert_equal VoteCount.total, 2
-    assert vote1.diagram_width, 50
-
-    vote3 = VoteCount.new(:country => "FI", :count => 1)
-    vote4 = VoteCount.new(:country => "GB", :count => 1)
-    vote3.save
-    vote4.save
-
-    assert_equal VoteCount.total, 2
-    assert vote1.diagram_width, 25       
+    vote1 = vote_counts(:vote_count_fi)
+    vote2 = vote_counts(:vote_count_gb)
+    assert_equal VoteCount.total, 3000
+    assert_equal vote1.diagram_width, 50
+    assert_equal vote2.diagram_width, 100       
   end
 
-  test 'should return correct diagram width percent with multiple votes' do
-    vote1 = VoteCount.new(:country => "FI", :count => 2)
-    vote2 = VoteCount.new(:country => "GB", :count => 1)
-    vote1.save
-    vote2.save
-
-    assert vote1.diagram_width, 100
-    assert vote2.diagram_width, 50
-  end  
-
   test 'should calculate diagram width correctly' do
-    assert_equal VoteCount.new.calculate_diagram_width(100000, 1), 0.001
-    assert_equal VoteCount.new.calculate_diagram_width(100000, 100), 0.1
     assert_equal VoteCount.new.calculate_diagram_width(100000, 10000), 10
+    assert_equal VoteCount.new.calculate_diagram_width(100000, 20000), 20
+    assert_equal VoteCount.new.calculate_diagram_width(100000, 30000), 30
   end
 
 end

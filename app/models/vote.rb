@@ -1,7 +1,9 @@
 class Vote < ActiveRecord::Base
   include Humanizer
-  attr_accessor :bypass_humanizer
   require_human_on :create, :unless => :bypass_humanizer
+
+  attr_accessor :bypass_humanizer
+  attr_reader :ago
 
   validates :name, presence: true
   validates :country, presence: true
@@ -10,13 +12,11 @@ class Vote < ActiveRecord::Base
   validates :email_confirmation, presence: true
   validates :ip, presence: true
   validates_format_of :ip, :with => /\A(\d{1,3}\.){3}\d{1,3}\z/
-
   validate :validate_country_code
-  after_initialize :downcase_country_code
-  after_save :add_vote_count
-  before_save :add_secret_token
 
-  attr_reader :ago
+  after_initialize :downcase_country_code
+  before_save :add_secret_token
+  before_save :add_vote_count
 
   def ago
     diff = TimeDifference.between(Time.zone.now, created_at).in_each_component
@@ -46,10 +46,11 @@ class Vote < ActiveRecord::Base
   end
 
   def add_vote_count
-    VoteCount.add_vote(self)
+    vote_count = VoteCount.add_vote(self)
+    self.order_number = vote_count.count
   end
 
-  def add_secret_token
+  def add_secret_token    
     self.secret_token = SecureRandom.hex(64)
   end
 

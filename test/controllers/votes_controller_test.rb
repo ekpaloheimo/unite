@@ -6,6 +6,15 @@ class VotesControllerTest < ActionController::TestCase
     ActiveSupport::JSON.decode @response.body
   end
 
+  test 'should route' do
+    assert_recognizes({:controller => 'votes', :action => 'index', :locale => "en"}, '/en/votes')
+
+    @vote = votes("vote_1")
+    @vote.email_confirmation = @vote.email
+    @vote.save
+    assert_recognizes({controller: 'votes', action: 'show', locale: 'en', secret_token: @vote.secret_token}, "/en/votes/#{@vote.secret_token}")
+  end
+
   test "should get new" do
     get :new
     assert_response :success
@@ -24,6 +33,15 @@ class VotesControllerTest < ActionController::TestCase
     assert json_response[0]["id"]
   end
 
+  test 'should route vote path with secret token' do
+    @vote = votes("vote_1")
+    @vote.email_confirmation = @vote.email
+    @vote.save
+    assert @vote.secret_token
+    votes_path(secret_token: @vote.secret_token, locale: "en")
+    assert_response :success
+  end
+
   test "should create vote" do
     values = {
       name: "foobar", 
@@ -33,8 +51,9 @@ class VotesControllerTest < ActionController::TestCase
     }
     assert_difference("Vote.count") do
       post :create, vote: values
-    end
-    assert_redirected_to votes_path(locale: "en")
+    end    
+    vote = assigns(:vote)
+    assert_redirected_to vote_path(locale: "en", secret_token: vote.secret_token)
     assert flash[:success], "Thank you for your vote!"
   end
 
@@ -64,6 +83,5 @@ class VotesControllerTest < ActionController::TestCase
     @request.params[:vote] = nil
     assert_equal @controller.send(:country_code), "EN"
   end
-
 
 end

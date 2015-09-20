@@ -81,7 +81,7 @@ class VoteTest < ActiveSupport::TestCase
     @vote.save
     vote_count = VoteCount.where(country: @vote.country).first
     assert vote_count
-    assert_equal vote_count.count, 1
+    assert_equal vote_count.count, 1001
   end
 
   test 'should calculate ago' do
@@ -93,6 +93,11 @@ class VoteTest < ActiveSupport::TestCase
   test 'should have secret token' do
     @vote.save
     assert @vote.secret_token
+  end
+
+  test 'should have number' do
+    @vote.save
+    assert_equal @vote.order_number, 1001
   end
 
 end

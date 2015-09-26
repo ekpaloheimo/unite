@@ -1,6 +1,6 @@
 <article>
   <h1 class="page-header"><%= _("This is your private vote!") %></h1>
-  <p class="lead"><%= _("Do not share this direct link to anybody") %> </p>
+  <p class="lead"><%= _("Do not share this direct link to anybody. Instead, you can use a form below to share a public version of this vote to your friends.") %> </p>
   <p class="lead"><%= _("Thank you for your support #{@vote.name}!") %></p>
   <p class="lead"><%= _("You are supporter number #{@vote.order_number}.") %></p>
   <p class="lead"><%= _("We still miss #{@vote.votes_missed} of the 100.000.000") %></p>
@@ -8,21 +8,18 @@
 </article>
 
 <article>
-  <h1 class="page-header"><%= _("Add a comment") %></h1>
-  <p class="lead">
+  <p class="lead"><%= _("Add a comment") %></p>
+  <p>
     <%= _("You can now add a comment and start discussing") %>
   </p>
   <%= button_tag(_("Comment"), class: "btn btn-lg btn-primary", onClick: "window.location='#{new_comment_path}'") %>
 </article>
 
 <article>
-  <h1 class="page-header"><%= _("Join the community! Share your vote!") %></h1>
-  <p class="lead">
-    Lomake jolla tämän äänen kontekstissa voi levittää sanomaa ja haalia uusia äänestäjiä
-  </p>
-  <p class="lead">
-    Tällä äänellä on myös oma julkinen osoite jota voi levittää sähköpostilla, sosiaalisessa mediassa, äänelle generoidaan oma ulkoasu yms.
-  </p>
-  <p class="lead">Äänen ulkoasuun vaikuttaa äänestäjän aktiivisuus</p>
+  <p class="lead"><%= _("Join the community! Share your vote!") %></p>
+  <p><%= _("Invite a friend. Fill out a form below and information will be send to given email") %></p>
+
+  <%= render partial: "share_vote" %>
+
 </article>
 

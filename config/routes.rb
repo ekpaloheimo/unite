@@ -4,9 +4,10 @@ Rails.application.routes.draw do
   get ':locale/' => 'welcome#index'
   get ':locale/appeal' => 'welcome#appeal', as: :appeal
   get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
+  post 'votes/share' => 'votes#share', as: :share_votes
 
   scope "(:locale)" do
-    resources :votes, :only => [:new, :index, :create, :recently_added]
+    resources :votes, :only => [:new, :index, :create]
     resources :comments, :only => [:new, :index, :create]
   end
 

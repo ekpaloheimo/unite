@@ -12,6 +12,17 @@ class VotesController < ApplicationController
       end
     end
   end
+
+  # Share only with ajax
+  def share
+    @vote = Vote.where(secret_token: params[:secret_token]).first
+    respond_to do |format|
+      format.html do
+        if request.xhr?
+        end
+      end
+    end
+  end
   
   def create
     @vote = Vote.new(vote_params)
@@ -23,6 +34,7 @@ class VotesController < ApplicationController
       format.html do
         if request.xhr?
           if @vote.valid?
+            VoteMailer.sign_up(@vote).deliver_later
             flash[:success] = "Thank you for your vote!"
             head :ok
           else
@@ -31,6 +43,7 @@ class VotesController < ApplicationController
           end
         else
           if @vote.valid?
+            VoteMailer.sign_up(@vote).deliver_later
             flash[:success] = "Thank you for your vote!"
             redirect_to vote_path(locale: locale, secret_token: @vote.secret_token)
           else

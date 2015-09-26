@@ -1,0 +1,44 @@
+<%= form_tag share_votes_path, html: {class: "nifty_form"} do %>
+<% if @vote.errors.any? %>
+  <div id="error_explanation">
+    <h2>
+      <%= pluralize(@vote.errors.count, "error") %> 
+      prohibited this vote from being saved:
+    </h2>
+    <ul>
+      <% @vote.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>  
+
+<div>
+  <%= hidden_field_tag(:secret_token, @vote.secret_token) %>
+  <div class="field">
+    <%= label_tag _("Choose the language of the invitation letter") %><br>
+    <%= select_tag(:share_with_locale, options_for_select(Language.translated_select_options), :class => "form-control") %>
+  </div>
+  <div class="field">
+    <%= label_tag _("Name of your friend") %> (*) </br>
+    <%= text_field_tag :name, nil, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= label_tag _("Your friends email address") %> (*) </br>
+    <%= text_field_tag :email, nil, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= label_tag _("Email Confirmation") %> (*) </br>
+    <%= text_field_tag :email_confirmation, nil, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= label_tag :humanizer_answer, @vote.humanizer_question %> </br>
+    <%= text_field_tag :humanizer_answer, nil, :class => "form-control" %>
+    <%= hidden_field_tag :humanizer_question_id, @vote.humanizer_question_id %>
+  </div>
+  <div class="field">
+    <%= submit_tag "Send", :class => "btn btn-primary btn-lg btn-block" %>
+  </div>
+</div>
+<% end %>
+

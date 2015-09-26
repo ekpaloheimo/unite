@@ -42,6 +42,7 @@ class VoteCountTest < ActiveSupport::TestCase
   test 'should return correct diagram width percent' do
     vote1 = vote_counts(:vote_count_fi)
     vote2 = vote_counts(:vote_count_gb)
+
     assert_equal VoteCount.total, 3000
     assert_equal vote1.diagram_width, 50
     assert_equal vote2.diagram_width, 100       

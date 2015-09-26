@@ -1,0 +1,8 @@
+<h1>Your vote has been registered <%= @vote.name %>!</h1>
+
+<p class="lead"><%= _("Instructions") %></p>
+<p>Tähän yleistä tietoa kampanjasta ja miten äänestäjä voi vaikuttaa jakamalla ääntään sähköpostilla tai sosiaalisessa mediassa</p>
+
+<p class="lead"><%= _("Private vote") %></p>
+<p class="lead"><%= _("Do not share this direct link to anybody. Instead, you can use a form below to share a public version of this vote to your friends.") %> </p>
+<a href="<%= vote_url(secret_token: @vote.secret_token, locale: locale)  %>">View your vote</a>

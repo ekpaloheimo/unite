@@ -17,37 +17,33 @@
   </div>
 <% end %>  
 
-<div class="table-responsive sd-table-votes">
-  <table class="table table-bordered">
-    <h1><%= _("Sign the petition") %></h1>
-    <tr>
-      <td><%= _("Name") %> (*)</td>
-      <td><%= f.text_field :name %></td>
-    </tr>
-    <tr>
-      <td><%= _("Email") %> (*)</td>
-      <td><%= f.text_field :email %></td>
-    </tr>
-    <tr>
-      <td><%= _("Email Confirmation") %> (*)</td>
-      <td><%= f.text_field :email_confirmation %></td>
-    </tr>
-    <tr>
-      <td><%= _("Country") %> (*)</td>
-      <td>
-        <%= f.select(:country, options_for_select(Country.for_select, country_code)) %>
-      </td>
-    </tr>
-    <tr>
-      <td><%= f.label :humanizer_answer, @vote.humanizer_question %></td>
-      <td><%= f.text_field :humanizer_answer %><%= f.hidden_field :humanizer_question_id %></td>
-    </tr>
-    <tr>
-      <td colspan="2" class="text-center">
-        <%= f.submit "Sign", :class => "btn btn-primary btn-lg btn-block" %>
-      </td>
-    </tr>
-  </table>
+<div>
+  <h1><%= _("Sign the petition") %></h1>
+  <div class="field">
+    <%= _("Name") %> (*) </br>
+    <%= f.text_field :name, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= _("Email") %> (*) </br>
+    <%= f.text_field :email, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= _("Email Confirmation") %> (*) </br>
+    <%= f.text_field :email_confirmation, :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= _("Country") %> (*) </br>
+    <%= f.select :country, options_for_select(Country.for_select, country_code), :class => "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :humanizer_answer, @vote.humanizer_question %> </br>
+    <%= f.text_field :humanizer_answer, :class => "form-control" %>
+    <%= f.hidden_field :humanizer_question_id %>
+  </div>
+  <div class="field">
+    <%= f.submit "Sign", :class => "btn btn-primary form-control" %>
+  </div>
 </div>
+
 <% end %>
 

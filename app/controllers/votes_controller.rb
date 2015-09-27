@@ -19,6 +19,7 @@ class VotesController < ApplicationController
     respond_to do |format|
       format.html do
         if request.xhr?
+          render layout: false
         end
       end
     end

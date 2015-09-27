@@ -59,8 +59,7 @@
         <h1 class="page-header"><%= _(topic.capitalize) %></h1>
         <%= image_tag("#{topic}.jpg") %>
         <p class="lead">
-          <%= 
-              _(descriptions[topic]) %>
+          <%= _(descriptions[topic]) %>
         </p>
       </div>
     <% end %>
@@ -86,10 +85,11 @@
     </div>
     <div class="field">
       <%= f.label :humanizer_answer, @comment.humanizer_question %>
-      <%= f.text_field :humanizer_answer %><%= f.hidden_field :humanizer_question_id %>
+      <%= f.text_field :humanizer_answer, :class => "form-control" %>
+      <%= f.hidden_field :humanizer_question_id %>
     </div>
     <div class="actions">
-      <%= f.submit %>
+      <%= f.submit "Add", :class => "btn btn-primary form-control" %>
     </div>
   </div>
   

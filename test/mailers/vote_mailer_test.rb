@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'test_helper'
 
 class VoteMailerTest < ActionMailer::TestCase
@@ -18,6 +19,13 @@ class VoteMailerTest < ActionMailer::TestCase
     assert_equal 'Thank you for your contribution to the Save the World - Unite The Armies!', email.subject
     #assert_equal read_fixture('invite').join, email.body.to_s
 
+  end
+
+  test 'should send email invitations' do
+    I18n.locale = :en
+    vote = votes(:vote_1)
+    email = VoteMailer.email_invite(inviter_name: "Kalle Kutsuja", name: "Joni Töyrylä", email: "info@jonitoyryla.eu", language: :en).deliver_now
+    assert_not ActionMailer::Base.deliveries.empty?   
   end
 
 end

@@ -12,6 +12,12 @@ toastr = {
   info: function(msg) {
     $('.unobtrusive-flash-container').append('<div class="alert alert-dismissable alert-info"><button class="close" data-dismiss="alert" type="button" name="button">&times;</button><h1>'+msg+'</h1></div>')
   },
+  success: function(msg) {
+    $('.unobtrusive-flash-container').append('<div class="alert alert-dismissable alert-success"><button class="close" data-dismiss="alert" type="button" name="button">&times;</button><h1>'+msg+'</h1></div>')
+  },
+  alert: function(msg) {
+    $('.unobtrusive-flash-container').append('<div class="alert alert-dismissable alert-block"><button class="close" data-dismiss="alert" type="button" name="button">&times;</button><h1>'+msg+'</h1></div>')
+  },
   error: function(msg) {
     $('.unobtrusive-flash-container').append('<div class="alert alert-dismissable alert-error"><button class="close" data-dismiss="alert" type="button" name="button">&times;</button><h1>'+msg+'</h1></div>')
   }

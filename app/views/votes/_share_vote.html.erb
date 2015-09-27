@@ -1,4 +1,4 @@
-<%= form_tag share_votes_path, html: {class: "nifty_form"}, remote: true do %>
+<%= form_tag email_invite_votes_path, remote: true do %>
 <% if @vote.errors.any? %>
   <div id="error_explanation">
     <h2>
@@ -16,23 +16,23 @@
 <div>
   <%= hidden_field_tag(:secret_token, @vote.secret_token) %>
   <div class="field">
-    <%= label_tag _("Choose the language of the invitation letter") %><br>
-    <%= select_tag(:share_with_locale, options_for_select(Language.translated_select_options), :class => "form-control") %>
+    <%= label_tag _("Choose the language of the invitation letter") %></br>
+    <%= select_tag :language, options_for_select(Language.translated_select_options), :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Name of your friend") %> (*) </br>
+    <%= label_tag _("Name of your friend") %> (*) <br/>
     <%= text_field_tag :name, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Your friends email address") %> (*) </br>
+    <%= label_tag _("Your friends email address") %> (*) <br/>
     <%= text_field_tag :email, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Email Confirmation") %> (*) </br>
+    <%= label_tag _("Email Confirmation") %> (*) <br/>
     <%= text_field_tag :email_confirmation, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag :humanizer_answer, @vote.humanizer_question %> </br>
+    <%= label_tag :humanizer_answer, @vote.humanizer_question %> <br/>
     <%= text_field_tag :humanizer_answer, nil, :class => "form-control" %>
     <%= hidden_field_tag :humanizer_question_id, @vote.humanizer_question_id %>
   </div>

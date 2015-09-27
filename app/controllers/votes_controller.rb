@@ -14,12 +14,27 @@ class VotesController < ApplicationController
   end
 
   # Share only with ajax
-  def share
-    @vote = Vote.where(secret_token: params[:secret_token]).first
+  def email_invite
+    vote = Vote.where(secret_token: params[:secret_token]).first
+    unless vote
+      flash[:error] = "There was an error"
+      head :bad_request
+      return
+    end
+
+    # Share a vote with ActionMailer. If everything is ok, return 200.
+    @share_valid = vote.email_invite(params)
+    
     respond_to do |format|
       format.html do
         if request.xhr?
-          render layout: false
+          if @share_valid
+            flash[:success] = "Invitation has been sent, thank you!"
+            head :ok
+          else
+            flash[:error] = "There was an error"
+            head :bad_request
+          end
         end
       end
     end
@@ -40,7 +55,7 @@ class VotesController < ApplicationController
             head :ok
           else
             flash[:error] = "There was an error while adding your vote"
-            head :ok
+            head :bad_request
           end
         else
           if @vote.valid?

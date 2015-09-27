@@ -13,6 +13,9 @@ class VotesControllerTest < ActionController::TestCase
     @vote.email_confirmation = @vote.email
     @vote.save
     assert_recognizes({controller: 'votes', action: 'show', locale: 'en', secret_token: @vote.secret_token}, "/en/votes/#{@vote.secret_token}")
+
+    assert_recognizes({:controller => 'votes', :action => 'email_invite'}, {method: :post, path: '/votes/email_invite'})
+    assert_routing({method: :post, path: '/votes/email_invite'}, {controller: 'votes', action: 'email_invite'})
   end
 
   test "should get new" do
@@ -82,6 +85,14 @@ class VotesControllerTest < ActionController::TestCase
     @request.headers["Accept-Language"] = nil
     @request.params[:vote] = nil
     assert_equal @controller.send(:country_code), "EN"
+  end
+
+  test 'should send email invite' do
+    options = {
+      secret_token: "secret1"      
+    }
+    post :email_invite, options
+    assert_not ActionMailer::Base.deliveries.empty?
   end
 
 end

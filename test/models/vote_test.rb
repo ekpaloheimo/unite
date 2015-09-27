@@ -100,4 +100,9 @@ class VoteTest < ActiveSupport::TestCase
     assert_equal @vote.order_number, 3001
   end
 
+  test 'should send email invitation' do
+    @vote.email_invite(name: "Kati Kohde", email: "info+testi@unite-the-armies.org", language: :en)
+    assert_not ActionMailer::Base.deliveries.empty?   
+  end
+
 end

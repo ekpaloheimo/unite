@@ -66,4 +66,12 @@ class Vote < ActiveRecord::Base
     end
   end
 
+  def email_invite options
+    return unless @name = options[:name]
+    return unless email = options[:email]
+    return unless language = options[:language]
+    options = options.merge(inviter_name: name)
+    VoteMailer.email_invite(options).deliver_now   
+  end
+
 end

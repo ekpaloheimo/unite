@@ -89,10 +89,14 @@ class VotesControllerTest < ActionController::TestCase
 
   test 'should send email invite' do
     options = {
-      secret_token: "secret1"      
+      secret_token: "secret1",
+      name: "Testaaja",
+      email: "testi@yeah.foo",
+      language: "en"
     }
     post :email_invite, options
-    assert_not ActionMailer::Base.deliveries.empty?
+   
+    assert !ActionMailer::Base.deliveries.empty?
   end
 
 end

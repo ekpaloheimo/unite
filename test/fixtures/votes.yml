@@ -6,6 +6,6 @@ vote_<%= n %>:
   email: <%= "user#{n}@vote-example.com" %>
   country: "FI"
   ip: <%= "127.#{(rand * 255).round}.#{(rand * 255).round}.#{(rand * 255).round}" %>
-  secret_token: "secret#{n}"
+  secret_token: <%= "secret#{n}" %>
 <% end %>
 

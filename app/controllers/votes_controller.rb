@@ -27,14 +27,12 @@ class VotesController < ApplicationController
     
     respond_to do |format|
       format.html do
-        if request.xhr?
-          if @share_valid
-            flash[:success] = "Invitation has been sent, thank you!"
-            head :ok
-          else
-            flash[:error] = "There was an error"
-            head :bad_request
-          end
+        if @share_valid
+          flash[:success] = "Invitation has been sent, thank you!"
+          head :ok
+        else
+          flash[:error] = "There was an error"
+          head :bad_request
         end
       end
     end

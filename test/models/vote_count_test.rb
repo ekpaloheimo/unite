@@ -43,6 +43,7 @@ class VoteCountTest < ActiveSupport::TestCase
     vote1 = vote_counts(:vote_count_fi)
     vote2 = vote_counts(:vote_count_gb)
 
+    VoteCount.clear_values
     assert_equal VoteCount.total, 3000
     assert_equal vote1.diagram_width, 50
     assert_equal vote2.diagram_width, 100       

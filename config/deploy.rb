@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'unite-the-armies'
-set :repo_url, 'git@github.com:jonitoyryla/unite_the_armies.git'
+set :repo_url, 'git@github.com:jonitoyryla/unite-the-armies.git'
 set :deploy_to, '/var/www/unite-the-armies'
 
 # Default value for :linked_files is []

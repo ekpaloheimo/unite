@@ -6,24 +6,13 @@ require "rvm/capistrano"
 set :application, 'unite-the-armies'
 set :repo_url, 'git@github.com:jonitoyryla/unite-the-armies.git'
 set :deploy_to, '/var/www/unite-the-armies'
-
-# Default value for :linked_files is []
-# set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
-
-# Default value for linked_dirs is []
-# set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
-
-# Default value for default_env is {}
-# set :default_env, { path: "/opt/ruby/bin:$PATH" }
-
-# Default value for keep_releases is 5
-# set :keep_releases, 5
-
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
+set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
+set :keep_releases, 5
 set :rvm_ruby_string, :local              # use the same ruby as used locally for deployment
 set :rvm_autolibs_flag, "read-only"       # more info: rvm help autolibs
-
 set :default_env, {
-  'PATH' => "$PATH:/usr/local/rvm/rubies/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0"
+  path: "$PATH:/usr/local/rvm/rubies/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0"
 }
 
 namespace :deploy do

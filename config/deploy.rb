@@ -1,6 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
+require "rvm/capistrano"
+
 set :application, 'unite-the-armies'
 set :repo_url, 'git@github.com:jonitoyryla/unite-the-armies.git'
 set :deploy_to, '/var/www/unite-the-armies'
@@ -16,6 +18,13 @@ set :deploy_to, '/var/www/unite-the-armies'
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+
+set :rvm_ruby_string, :local              # use the same ruby as used locally for deployment
+set :rvm_autolibs_flag, "read-only"       # more info: rvm help autolibs
+
+set :default_env, {
+  'PATH' => "$PATH:/usr/local/rvm/rubies/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0"
+}
 
 namespace :deploy do
 
@@ -59,5 +68,15 @@ namespace :deploy do
     end
   end
 
-
+  desc 'foo'
+  task :foobar do
+    on roles :all do
+      execute "/usr/local/rvm/rubies/ruby-2.2.1/bin/ruby -v"
+      execute "ruby -v"
+    end
+  end
 end
+
+#before 'deploy:foobar', 'rvm:install_rvm'  # install/update RVM
+#before 'deploy:foobar', 'rvm:install_ruby' # install Ruby and create gemset, OR:
+

@@ -7,7 +7,7 @@ role :app, %w{deploy@178.251.154.117}
 role :web, %w{deploy@178.251.154.117}
 role :db,  %w{deploy@178.251.154.117}
 
-server '178.251.154.117', user: 'deploy', roles: %w{app db web}
+server '178.251.154.117', user: 'unite-the-armies', roles: %w{app db web}
 
 # Configuration
 # =============

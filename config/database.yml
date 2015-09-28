@@ -22,5 +22,5 @@ test:
 
 production:
   <<: *default
-  database: unite_the_armies_production
+  database: unite_the_armies_for_production
 

@@ -17,8 +17,8 @@
       $(document).ready(function() {
       function load_votes() {
       $.get('<%= recently_added_votes_path(format: :json, locale: locale) %>').success(function(data) { 
-      recent_votes = new StopDisaster.Collections.Votes(data)
-      view = new StopDisaster.Views.VotesIndex({collection: recent_votes})
+      recent_votes = new UniteTheArmies.Collections.Votes(data)
+      view = new UniteTheArmies.Views.VotesIndex({collection: recent_votes})
       view.render()
       $("#recent_votes").html(view.$el.html())
       })

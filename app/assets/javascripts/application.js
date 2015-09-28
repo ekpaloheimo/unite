@@ -16,7 +16,7 @@
 //= require countries
 //= require underscore
 //= require backbone
-//= require stop_disaster
+//= require unite-the-armies
 //= require flash_messages
 //= require_tree ../templates
 //= require_tree ./models

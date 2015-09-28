@@ -14,13 +14,13 @@ default: &default
 
 development:
   <<: *default
-  database: stop_disaster_for_development
+  database: unite_the_armies_for_development
 
 test:
   <<: *default
-  database: stop_disaster_for_test
+  database: unite_the_armies_for_test
 
 production:
   <<: *default
-  database: stop_disaster_for_production
+  database: unite_the_armies_production
 

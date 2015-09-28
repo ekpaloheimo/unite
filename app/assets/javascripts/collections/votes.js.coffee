@@ -1,2 +1,2 @@
-class StopDisaster.Collections.Votes extends Backbone.Collection
-  model: StopDisaster.Models.Vote
+class UniteTheArmies.Collections.Votes extends Backbone.Collection
+  model: UniteTheArmies.Models.Vote

@@ -1,4 +1,4 @@
-class StopDisaster.Models.Vote extends Backbone.Model
+class UniteTheArmies.Models.Vote extends Backbone.Model
   initialize: ->
 
   calculateAgo: ->

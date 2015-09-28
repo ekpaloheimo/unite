@@ -1,4 +1,4 @@
-window.StopDisaster =
+window.UniteTheArmies =
   Models: {}
   Collections: {}
   Views: {}
@@ -6,4 +6,4 @@ window.StopDisaster =
   initialize: ->
 
 $(document).ready ->
-  StopDisaster.initialize()
+  UniteTheArmies.initialize()

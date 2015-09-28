@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
   end  
 
   def set_locale
-    FastGettext.text_domain = 'stop-disaster'
+    FastGettext.text_domain = 'unite-the-armies'
     FastGettext.available_locales = ['en','es','fr','ar','ru','zh']
     FastGettext.set_locale(
                            params[:locale] || 

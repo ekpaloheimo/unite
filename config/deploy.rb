@@ -1,9 +1,9 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'stop-disaster'
-set :repo_url, 'git@github.com:jonitoyryla/stop-disaster.git'
-set :deploy_to, '/var/www/stop-disaster'
+set :application, 'unite-the-armies'
+set :repo_url, 'git@github.com:jonitoyryla/unite_the_armies.git'
+set :deploy_to, '/var/www/unite-the-armies'
 
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')

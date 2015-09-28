@@ -1,4 +1,4 @@
-class StopDisaster.Views.VotesShow extends Backbone.View
+class UniteTheArmies.Views.VotesShow extends Backbone.View
   template: JST['votes/show']
 
   render: ->

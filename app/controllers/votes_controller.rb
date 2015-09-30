@@ -71,6 +71,7 @@ class VotesController < ApplicationController
   def index    
     @votes = VoteCount.all
     @sorted_votes = @votes.sort { |a,b| b.count <=> a.count }
+    render layout: "simple_layout"
   end
 
   def recently_added
@@ -89,6 +90,7 @@ class VotesController < ApplicationController
       redirect_to votes_path(locale: locale)
       return
     end
+    render layout: "simple_layout"
   end
 
   private
@@ -102,6 +104,7 @@ class VotesController < ApplicationController
     return "en" unless language_code_full
     language_code_full.split("-")[0]
   end
+
   def language_code_full
     http_accept_language.user_preferred_languages.first
   end

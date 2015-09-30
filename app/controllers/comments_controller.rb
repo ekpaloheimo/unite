@@ -5,6 +5,7 @@ class CommentsController < ApplicationController
   # GET /comments.json
   def index
     @comments = Comment.all
+    render layout: "simple_layout"
   end
 
   # GET /comments/1
@@ -15,6 +16,7 @@ class CommentsController < ApplicationController
   # GET /comments/new
   def new
     @comment = Comment.new
+    render layout: "simple_layout"
   end
 
   # GET /comments/1/edit

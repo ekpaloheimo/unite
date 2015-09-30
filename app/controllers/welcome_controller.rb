@@ -4,5 +4,6 @@ class WelcomeController < ApplicationController
   end
 
   def appeal
+    render layout: "simple_layout"
   end
 end

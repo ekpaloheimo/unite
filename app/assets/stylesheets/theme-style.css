@@ -262,8 +262,8 @@ nav a#pull {
 	overflow: hidden;
 	text-decoration: none;
 	height: 61px;
-	width: 55px;
-	background: transparent url("/images/themes.png") no-repeat left top;
+	width: 50px;
+	background: transparent url("/images/themes.gif") no-repeat left top;
 	margin-top: -65px;
 }
 .callbacks_nav:active {

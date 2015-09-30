@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Save the Planet - Unite the Armies!</title>
+    
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+      function load_votes() {
+      $.get('<%= recently_added_votes_path(format: :json, locale: locale) %>').success(function(data) { 
+      recent_votes = new UniteTheArmies.Collections.Votes(data)
+      view = new UniteTheArmies.Views.VotesIndex({collection: recent_votes})
+      view.render()
+      $("#recent_votes").html(view.$el.html())
+      })
+      }
+
+      setInterval(function() { load_votes() }, 5000)
+
+      $("a#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+      $("div.modal-body").html(data);
+      $("form#new_vote").on("ajax:success", function(evt, data, status, xhr) {
+        $("div.modal").modal("hide");
+      });
+      $("form#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
+        $("div.modal").modal("show");
+      });
+      $("a#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
+      });
+
+      $(function() {
+      var pull 		= $('#pull');
+      menu 		= $('nav ul');
+      menuHeight	= menu.height();
+      $(pull).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle();
+      });
+      $(window).resize(function(){
+      var w = $(window).width();
+      if(w > 320 && menu.is(':hidden')) {
+      menu.removeAttr('style');
+      }
+      });
+      });
+      
+    </script>
+
+  </head>
+  <body>
+
+    <!-----start-top-header----->
+    <div id="hello" class="top-header">
+
+    <!-----start-container---->
+    <div class="container">
+      <!-----start-header---->
+      <div class="header">
+	<div class="container">
+	  <div class="logo">
+	    <a href="#"></a>
+	  </div>
+	  <!----start-top-nav---->
+	  <nav class="top-nav">
+            <ul class="nav navbar-nav navbar-right sd-navbar-flags">
+            <li>
+              <a href=<%= url_for only_path: false, locale: :ar %>><img class="flag sa"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :zh %>><img class="flag cn"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :en %>><img class="flag gb"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :fr %>><img class="flag fr"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :ru %>><img class="flag ru"/></a></li>
+            <li>
+              <a href=<%= url_for only_path: false, locale: :es %>><img class="flag es"/></a></li>
+
+	    </ul>
+	    <a href="#" id="pull">
+              <%= image_tag "nav-icon.png", title: "menu" %>
+            </a>
+	  </nav>
+	  
+	  <div class="clear"> </div>
+	</div>
+	<!-----//End-header---->
+      </div>
+      <!-----start-top-header----->
+    </div>
+
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to _("Video"), "/#{locale}" %></li>
+            <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
+            <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
+            <li><%= link_to _("Letter"), "/#{locale}/appeal" %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <%= flash_messages %>
+
+    <div class="unobtrusive-flash-container"></div>
+  </div>
+</div>
+
+<div>
+  <div class="container sd-main">
+    <%= yield :grid %>
+  </div>
+</div>
+
+<%= yield :middle %>
+
+<div>
+  <div class="container sd-main">
+    <%= yield %>
+  </div>
+</div>
+
+<%= yield :form %>
+
+<%= yield :gallery %>
+
+
+<div>
+  <footer class="footer navbar navbar-default text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h6><%= _("About Us") %></h6>
+            <ul class="list-unstyled">
+              <li><%= link_to _("Vihreän Elämänsuojelun Liitto (VESL)"), "http://www.vesl.fi/", target: "_blank" %></li>
+              <li>Eero Paloheimo</li>
+              <li>Ulf Lindström</li>
+              <li>Harriet Lonka</li>
+              <li>Vilma Lonka</li>
+              <li>Tere Vaden</li>
+              <li>Joni Töyrylä</li>
+              <li>Veli Keitel</li>
+              <li><%= _("Contact Us") %></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6><%= _("Share") %></h6>
+            <ul class="list-unstyled">
+              <li><%= _("Facebook") %></li>
+              <li><%= _("Twitter") %></li>
+              <li><%= link_to _("YouTube"), "https://www.youtube.com/watch?v=UuJHJBnSZ3w", target: "_blank" %></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6><%= _("Recent Votes") %></h6>
+            <div id="recent_votes"></div>
+          </div>          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -12,6 +12,8 @@
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
     <script src="/bootstrap/js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -36,13 +38,145 @@
       });
       $("a#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
       });
+
+      $(function() {
+      var pull 		= $('#pull');
+      menu 		= $('nav ul');
+      menuHeight	= menu.height();
+      $(pull).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle();
+      });
+      $(window).resize(function(){
+      var w = $(window).width();
+      if(w > 320 && menu.is(':hidden')) {
+      menu.removeAttr('style');
+      }
+      });
+      });
+      
     </script>
+
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+      auto: true,
+      pager: true,
+      nav: true,
+      speed: 500,
+      namespace: "callbacks",
+      before: function () {
+      $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+      $('.events').append("<li>after event fired.</li>");
+      }
+      });
+      
+      });
+    </script>
+
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+      auto: true,
+      pager: true,
+      nav: true,
+      speed: 500,
+      namespace: "callbacks",
+      before: function () {
+      $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+      $('.events').append("<li>after event fired.</li>");
+      }
+      });
+      
+      });
+    </script>
+
+
   </head>
-  <body>    
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right sd-navbar-flags">
+  <body>
+
+    <!-----start-top-header----->
+    <div id="hello" class="top-header">
+      <!-- Slideshow 4 -->
+      <div  id="top" class="callbacks_container">
+	<ul class="rslides" id="slider4">
+	  <li>
+	    <%= image_tag "slide01.jpg" %>
+	    <div class="caption text-center">
+	      <div class="slide-text-info">
+		<h1>Stop the Disaster - Unite the Armies!</h1>
+		<div class="slide-text-info-btns">
+		</div>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <%= image_tag "slide02.jpg" %>
+	    <div class="caption text-center">
+	      <div class="slide-text-info">
+		<h1>Looking for plastic</h1>
+		<div class="slide-text-info-btns">
+                  He Spends Each Morning Looking For Recyclable Plastic That He Can Sell For 35 Cents Per Kilo To Help His Family
+		</div>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <%= image_tag "slide03.jpg" %>
+	    <div class="caption text-center">
+	      <div class="slide-text-info">
+		<h1>Our planet need really every help we can give.</h1>
+		<div class="slide-text-info-btns">
+		</div>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <%= image_tag "slide04.jpg" %>
+	    <div class="caption text-center">
+	      <div class="slide-text-info">
+		<h1>A man collects dead fish in Donghu lake in Wuhan.</h1>
+		<div class="slide-text-info-btns">
+		</div>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <%= image_tag "slide05.jpg" %>
+	    <div class="caption text-center">
+	      <div class="slide-text-info">
+		<h1>WHO lists most polluted countries: Delhi air worst.</h1>
+		<div class="slide-text-info-btns">
+		</div>
+	      </div>
+	    </div>
+	  </li>
+
+	</ul>
+      </div>
+      <div class="clear"> </div>
+      <!---- //End-slider----->
+    </div>
+
+    <!-----start-conatiner---->
+    <div class="container">
+      <!-----start-header---->
+      <div class="header">
+	<div class="container">
+	  <div class="logo">
+	    <a href="#"></a>
+	  </div>
+	  <!----start-top-nav---->
+	  <nav class="top-nav">
+            <ul class="nav navbar-nav navbar-right sd-navbar-flags">
             <li>
               <a href=<%= url_for only_path: false, locale: :ar %>><img class="flag sa"/></a></li>
             <li>
@@ -55,7 +189,23 @@
               <a href=<%= url_for only_path: false, locale: :ru %>><img class="flag ru"/></a></li>
             <li>
               <a href=<%= url_for only_path: false, locale: :es %>><img class="flag es"/></a></li>
-          </ul>
+
+	    </ul>
+	    <a href="#" id="pull">
+              <%= image_tag "nav-icon.png", title: "menu" %>
+            </a>
+	  </nav>
+	  
+	  <div class="clear"> </div>
+	</div>
+	<!-----//End-header---->
+      </div>
+      <!-----start-top-header----->
+    </div>
+
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to _("Video"), "/#{locale}" %></li>
             <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
@@ -69,12 +219,30 @@
     <%= flash_messages %>
 
     <div class="unobtrusive-flash-container"></div>
+  </div>
+</div>
 
-    <div class="container sd-main">
-      <%= yield %>
-    </div>
+<div>
+  <div class="container sd-main">
+    <%= yield :grid %>
+  </div>
+</div>
 
-    <footer class="footer navbar navbar-default text-center">
+<%= yield :middle %>
+
+<div>
+  <div class="container sd-main">
+    <%= yield %>
+  </div>
+</div>
+
+<%= yield :form %>
+
+<%= yield :gallery %>
+
+
+<div>
+  <footer class="footer navbar navbar-default text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-3">

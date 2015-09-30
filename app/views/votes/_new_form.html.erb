@@ -1,3 +1,4 @@
+<div class="new_vote_form">
 <% 
    remote = request.xhr? ? true : false   
 %>
@@ -41,9 +42,10 @@
     <%= f.hidden_field :humanizer_question_id %>
   </div>
   <div class="field">
-    <%= f.submit "Sign", :class => "btn btn-primary form-control" %>
+    <%= f.submit "Sign", :class => "btn btn-primary" %>
   </div>
 </div>
 
 <% end %>
 
+</div>

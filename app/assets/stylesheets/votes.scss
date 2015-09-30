@@ -2,6 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// Background Gradient: Top to Bottom
+@mixin bg-gradient-t2b($start-colour, $end-colour) {
+    background-color: $start-colour;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($start-colour), to($end-colour));
+    background-image: -webkit-linear-gradient(top, $start-colour, $end-colour);
+    background-image:    -moz-linear-gradient(top, $start-colour, $end-colour);
+    background-image:     -ms-linear-gradient(top, $start-colour, $end-colour);
+    background-image:      -o-linear-gradient(top, $start-colour, $end-colour);
+    background-image:         linear-gradient(top, $start-colour, $end-colour);
+    filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}');
+}
+
 article {
   margin: 50px 0;
 }
@@ -19,4 +31,19 @@ article {
   h1 { text-align: center; }
 }
 
+.demand {
+  @include bg-gradient-t2b(#aaa, #555);
+  box-shadow: 10px 10px 5px #888888;
+  color: white !important;
+}
 
+.new_vote_form {
+  box-shadow: 10px 10px 5px #888888;
+  padding: 20px; 
+  margin: 20px;
+
+}
+
+.download-right p { 
+  line-height: inherit !important;
+}

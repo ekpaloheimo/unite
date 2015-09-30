@@ -6,7 +6,7 @@ require "rvm/capistrano"
 set :application, 'unite-the-armies'
 set :repo_url, 'git@github.com:jonitoyryla/unite-the-armies.git'
 set :deploy_to, '/var/www/unite-the-armies'
-set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml', 'public/google19017f947f5d57ed.html')
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml', 'public/googleca9639854eea1a9b.html')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :keep_releases, 5
 set :rvm_ruby_string, :local              # use the same ruby as used locally for deployment

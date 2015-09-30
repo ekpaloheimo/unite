@@ -1,40 +1,183 @@
-<article>
-<h1 class="page-header"><%= _("Background") %></h1>
-<p class="lead">
-  <%= _("We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.") %>
-</p>
+<% content_for :middle do %>
+<!-----start-Share instantly----->
+<div id="share" class="Share-instantly">
+  <div class="container">
+    <div class="col-md-5 Share-instantly-left">
+      <span> </span>
+    </div>
+    <div class="col-md-7 Share-instantly-right">
+      <h3>Counter acting</h3>
+      <p class="head-para">
+        <%= _("It would simply be a logical extension of these actions to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.") %>
+      </p>
+      <!----- start-Share-instantly-slider---->
+      <!-- Prettify -->
+      <script>
+	$(document).ready(function() {
+	$("#owl-demo , #owl-demo1").owlCarousel({
+	items : 1,
+	lazyLoad : true,
+	autoPlay : true,
+	});
+	});
+      </script>
+      <script>
+	$(document).ready(function() {
+	$("#owl-demo3").owlCarousel({
+	items : 4,
+	lazyLoad : true,
+	autoPlay : true,
+	navigation: false,
+	pagination: false,
+	});
+	});
+      </script>
+      <!----- //End-Share-instantly-slider---->
+      <!-- start content_slider -->
+      <div class="slider">
+	<div id="da-slider" class="da-slider">
+	  <div class="da-slide">
+	    <div class="da-img">
+              <%= image_tag "share-slide-pic.png", class: "img-responsive", alt: " " %>
+            </div>
+	    <div class="slide-text">
+	      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+	    </div>
+	    <div class="clear"></div>
+	  </div>
+	  <div class="da-slide">
+	    <div class="da-img">
+              <%= image_tag "share-slide-pic.png", class: "img-responsive", alt: " " %>
+            </div>
+	    <div class="slide-text">
+	      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+	    </div>
+	    <div class="clear"></div>
+	  </div>
+	  <div class="da-slide">
+	    <div class="da-img">
+              <%= image_tag "share-slide-pic.png", class: "img-responsive", alt: " " %> 
+            </div>
+	    <div class="slide-text">
+	      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+	    </div>
+	    <div class="clear"></div>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<div class="clearfix"> </div>
+<!-----//End-Share instantly----->
+<% end %>
 
-<h2> <%= _("State of the global environment - point of no return") %> </h2>
+<% content_for :grid do %>
+<!-----start-features----->
+<div id="over" class="features text-center">
+  <div class="container">
+    <h2><%= _("Background") %></h2>
+    <!---- start-features-grids------>
+    <div class="features-grids text-center">
+      <div class="col-md-4 features-grid">
+	<span> </span>
+	<h3><%= _("Campaign") %></h3>
+	<p><%= _("We introduce this global campaign to support an initiative officially presented to the United Nations Secretariat by two professors, professor U.B. Lindström and professor Eero Paloheimo.") %></p>
+      </div>
+      <div class="col-md-4 features-grid">
+	<span class="t-icon1"> </span>
+	<h3><%= _("State of the global environment - point of no return") %></h3>
+	<p><%= _("The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return.") %></p>
+      </div>
+      <div class="col-md-4 features-grid">
+	<span class="t-icon2"> </span>
+	<h3><%= _("New global role for the Military") %></h3>
+	<p><%= _("It is the accepted practice all round the globe that the military is called in to assist those areas affected by sudden and unexpected environmental disasters.") %></p>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <!---- //End-features-grids------>
+  </div>
+</div>
+<!-----//End-features----->
+<% end %>
 
-<p>
-  <%= _("The main concern of this campaign is the fact that the state of the global environment is radically deteriorating. Harmful developments have accelerated and we are approaching a point of no return.") %>
-</p>
+<% content_for :gallery do %>
+  <!----- start-gallery----->
+  <div id="gall" class="gallery">
+    <div class="container">
+      <h3>Each of us must learn to work not for his or her self, family or nation, but for the benefit of all mankind. Universal responsibility is the real key to human survival. </h3>     
+      <p>-- Dalai Lama</p>
+    </div>
+    <div id="owl-demo3" class="owl-carousel owl-carousel2">
+      <div class="item">
+        <%= image_tag "g1.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g2.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Join the Armies</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g3.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g4.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g1.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g2.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+      </div>
+      <div class="item">
+        <%= image_tag "g3.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+	<div class="clearfix"> </div>
+      </div>
+      <div class="item">
+        <%= image_tag "g4.jpg", class: "lazyOwl", alt: "" %>
+	<p class="img_slider"><span class="g-title">Stop the Disaster</span> <a class="likes" href="#"><i class="fa fa-heart"> </i> 65 </a></p>
+	<div class="clearfix"> </div>
+      </div>
+      <div class="clearfix"> </div>
+      
+    </div>
+  </div>
+  <!----- //End-gallery----->
 
-<h2><%= _("New global role for the Military") %> </h2>
+<% end %>
 
-<p>
-  <%= _("It is the accepted practice all round the globe that the military is called in to assist those areas affected by sudden and unexpected environmental disasters.") %>
-</p>
+<h2 class="jumbotron demand"> <%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %> </h2>
 
-<p>
-  <%= _("It would simply be a logical extension of these actions to employ such a resource in counteracting the effects of large-scale and inexorably-advancing catastrophes.") %>
-</p>
+<% content_for :form do %>
+  <!-----start-download---->
+  <div id="down" class="download">
+    <div class="container">
+      <div class="col-md-5 download-left">
+	<a href="#"><span> </span></a>
+      </div>
+      <div class="col-md-7 download-right">
+	<p><%= _("Sign now!") %>, <br /><%= _("STOP DISASTER – NOW!") %>  <br /> <%= _("The global environmental catastrophe is emerging and the process is accelerating.") %></p>
+	<p><%= _("We are in a hurry. Radical actions are urgently needed to save our planet.") %></p>
+	<ul class="list-unstyled list-inline">
+	  <li><a class="l-apple" href="#"><span> </span></a></li>
+	  <li><a class="l-google" href="#"><span> </span></a></li>
+	</ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <!-----//End-download---->
+<% end %>
 
-<h2 class="jumbotron"> <%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %> </h2>
-</article>
-
-<article>
-<h1 class="page-header"><%= _("Sign now!") %></h1>
-<p class="lead"><%= _("STOP DISASTER – NOW!") %></p>
-<p>
-  <%= _("The global environmental catastrophe is emerging and the process is accelerating.") %>
-</p>
-<p>
-  <%= _("We are in a hurry. Radical actions are urgently needed to save our planet.") %>
-</p>
 <h2 class="jumbotron">
   <%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.") %>
 </h2>
-</article>
-
+  
 <%= render partial: "new_form" %>

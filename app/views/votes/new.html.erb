@@ -153,8 +153,6 @@
 
 <% end %>
 
-<h2 class="jumbotron demand"> <%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %> </h2>
-
 <% content_for :form do %>
   <!-----start-download---->
   <div id="down" class="download">
@@ -176,8 +174,11 @@
   <!-----//End-download---->
 <% end %>
 
-<h2 class="jumbotron">
-  <%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.") %>
-</h2>
-  
-<%= render partial: "new_form" %>
+<div class="jumbotron demand"> 
+  <h2><%= _("We demand the United Nations to instigate a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %></h2>
+  <h2><%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative.") %></h2>
+</div>
+
+<div style="margin:100px auto;width:500px;">  
+  <%= render partial: "new_form" %>
+</div>

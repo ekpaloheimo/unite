@@ -102,7 +102,9 @@
 	      <div class="slide-text-info">
 		<h1>Looking for plastic</h1>
 		<div class="slide-text-info-btns">
-                  He Spends Each Morning Looking For Recyclable Plastic That He Can Sell For 35 Cents Per Kilo To Help His Family
+                  He Spends Each Morning Looking For Recyclable Plastic That He Can Sell For 35 Cents Per Kilo To Help His Family.
+                  <br/>
+                  <%= link_to _("Image from Bored Panda"), "http://www.boredpanda.com/this-spends-each-morning-picking-through-the-floating-trash-looking-for-recyclable-plastic-that-he-can-sell-for-35-cents-per-kilo-to-help-his-family/" %>
 		</div>
 	      </div>
 	    </div>
@@ -113,6 +115,12 @@
 	      <div class="slide-text-info">
 		<h1>Our planet need really every help we can give.</h1>
 		<div class="slide-text-info-btns">
+                  <%= _("For 200 years we've been conquering Nature. Now we're beating it to death.") %>
+                  <br/>
+                  <%= _("-- Tom McMillan") %>
+                  <br/>
+                  <br/>                     
+                  <%= link_to _("Image from Video at Environment & Pollution"), "https://www.youtube.com/watch?v=hy36t8p2Hfk" %>
 		</div>
 	      </div>
 	    </div>
@@ -123,6 +131,7 @@
 	      <div class="slide-text-info">
 		<h1>A man collects dead fish in Donghu lake in Wuhan.</h1>
 		<div class="slide-text-info-btns">
+                  <%= link_to _("Image from The Guardian"), "http://www.theguardian.com/books/2010/jul/17/when-billion-chinese-jump-watts" %>
 		</div>
 	      </div>
 	    </div>
@@ -144,11 +153,9 @@
       <!---- //End-slider----->
     </div>
 
-    <!-----start-conatiner---->
-    <div class="container">
       <!-----start-header---->
       <div class="header">
-	<div class="container">
+	<div>
 	  <div class="logo">
 	    <a href="#"></a>
 	  </div>
@@ -156,18 +163,35 @@
 	  <nav class="top-nav">
             <ul class="nav navbar-nav navbar-right sd-navbar-flags">
             <li>
-              <a href=<%= url_for only_path: false, locale: :ar %>><img class="flag sa"/></a></li>
+              <a href=<%= url_for only_path: false, locale: :ar %>>
+                <%= image_tag "blank.gif", class: "flag flag-sa" %>
+              </a>
+            </li>
             <li>
-              <a href=<%= url_for only_path: false, locale: :zh %>><img class="flag cn"/></a></li>
+              <a href=<%= url_for only_path: false, locale: :zh %>>
+                <%= image_tag "blank.gif", class: "flag flag-cn" %>
+              </a>
+            </li>
             <li>
-              <a href=<%= url_for only_path: false, locale: :en %>><img class="flag gb"/></a></li>
+              <a href=<%= url_for only_path: false, locale: :en %>>
+                <%= image_tag "blank.gif", class: "flag flag-gb" %>
+              </a>
+            </li>
             <li>
-              <a href=<%= url_for only_path: false, locale: :fr %>><img class="flag fr"/></a></li>
+              <a href=<%= url_for only_path: false, locale: :fr %>>
+                <%= image_tag "blank.gif", class: "flag flag-fr" %>
+              </a>
+            </li>
             <li>
-              <a href=<%= url_for only_path: false, locale: :ru %>><img class="flag ru"/></a></li>
+              <a href=<%= url_for only_path: false, locale: :ru %>>
+                <%= image_tag "blank.gif", class: "flag flag-ru" %>                
+              </a>
+            </li>
             <li>
-              <a href=<%= url_for only_path: false, locale: :es %>><img class="flag es"/></a></li>
-
+              <a href=<%= url_for only_path: false, locale: :es %>>
+                <%= image_tag "blank.gif", class: "flag flag-es" %>
+              </a>
+            </li>
 	    </ul>
 	    <a href="#" id="pull">
               <%= image_tag "nav-icon.png", title: "menu" %>
@@ -178,7 +202,11 @@
 	</div>
 	<!-----//End-header---->
       </div>
-      <!-----start-top-header----->
+
+
+    <!-----start-contatiner---->
+    <div class="container">
+     
     </div>
 
     <div class="navbar navbar-default navbar-static-top">
@@ -188,7 +216,7 @@
             <li><%= link_to _("Video"), "/#{locale}" %></li>
             <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
             <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
-            <li><%= link_to _("Letter"), "/#{locale}/appeal" %></li>
+            <li><%= link_to _("Appeal"), "/#{locale}/appeal" %></li>
           </ul>
         </div>
       </div>

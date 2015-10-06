@@ -24,6 +24,41 @@ article {
   display: table;
 }
 
+.ua-middle-appeal {
+  background: white;
+  padding: 20px;
+
+  .download-left {
+    margin-top: 0px;
+  }
+  .download-right { 
+    margin-top: 10px;
+    text-align: right;
+  }
+}
+
+.ua-vote-container {
+  margin-top: 20px;
+  background: white;
+  // background: #eee;
+  .ua-suggest {
+    // @include bg-gradient-t2b(#eee, #aaa);
+    //  box-shadow: 10px 10px 5px #888888;
+    //  color: white !important;
+
+  }
+  .ua-vote-form {
+    width: 100%;
+    background: white;
+    .new_vote_form {
+      box-shadow: 10px 10px 5px #888888;
+      padding: 20px; 
+      margin: 20px;
+      border: 1px solid #ddd;
+    }
+  }  
+}
+
 .sd-table-votes {
   border: 2px solid #333 !important;
   border-radius: 20px;
@@ -31,18 +66,6 @@ article {
   h1 { text-align: center; }
 }
 
-.demand {
-  @include bg-gradient-t2b(#aaa, #555);
-  box-shadow: 10px 10px 5px #888888;
-  color: white !important;
-}
-
-.new_vote_form {
-  box-shadow: 10px 10px 5px #888888;
-  padding: 20px; 
-  margin: 20px;
-  max-width: 400px;
-}
 
 .facebook-icon span {
   background: rgba(0, 0, 0, 0) url("/images/facebook-logo.jpeg") no-repeat scroll 0 0 !important;
@@ -54,4 +77,9 @@ article {
 
 .download-right p { 
   line-height: inherit !important;
+}
+
+.header { 
+  left: 0;
+  right: 20px;
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Save the Planet - Unite the Armies!</title>
+    
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+
+  </head>
+  <body>
+
+
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="ua-video-top">
+          Welcome to Save the Planet - Unite the Armies, <%= link_to "join the movement!", new_vote_path %>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <%= yield %>
+    </div>
+
+  </body>
+</html>

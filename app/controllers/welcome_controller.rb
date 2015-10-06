@@ -1,6 +1,7 @@
 class WelcomeController < ApplicationController
   def index
-    render layout: "video"
+    # render layout: "video"
+    render layout: "video_layout"
   end
 
   def appeal

@@ -515,18 +515,17 @@ p.img_slider1{
 /*-----*/
 /*----- start-download-----*/
 .download{
-	background: #DE5D5D;
 	padding: 7em 0;
+	background: #DE5D5D;
 }
 .download-left{
 	text-align: center;
 	margin-top: 4.2em;
 }
 .download-left a span{
-	width:304px;
-	height:299px;
-	display:inline-block;
-	background:url(/images/download-logo.png) no-repeat 0px 0px;
+	width: 346px;
+	height: 346px;
+	display: inline-block;
 }
 .download-right p{
 	color:#fff;

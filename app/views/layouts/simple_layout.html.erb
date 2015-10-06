@@ -107,7 +107,7 @@
             <li><%= link_to _("Video"), "/#{locale}" %></li>
             <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
             <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
-            <li><%= link_to _("Letter"), "/#{locale}/appeal" %></li>
+            <li><%= link_to _("Appeal"), "/#{locale}/appeal" %></li>
           </ul>
         </div>
       </div>
@@ -128,7 +128,7 @@
 <%= yield :middle %>
 
 <div>
-  <div class="container sd-main">
+  <div class="container ua-main">
     <%= yield %>
   </div>
 </div>

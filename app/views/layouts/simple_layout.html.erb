@@ -1,65 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Save the Planet - Unite the Armies!</title>
-    
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <%= csrf_meta_tags %>
-
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function() {
-      function load_votes() {
-      $.get('<%= recently_added_votes_path(format: :json, locale: locale) %>').success(function(data) { 
-      recent_votes = new UniteTheArmies.Collections.Votes(data)
-      view = new UniteTheArmies.Views.VotesIndex({collection: recent_votes})
-      view.render()
-      $("#recent_votes").html(view.$el.html())
-      })
-      }
-
-      setInterval(function() { load_votes() }, 5000)
-
-      $("a#new_vote").on("ajax:success", function(evt, data, status, xhr) {
-      $("div.modal-body").html(data);
-      $("form#new_vote").on("ajax:success", function(evt, data, status, xhr) {
-        $("div.modal").modal("hide");
-      });
-      $("form#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
-        $("div.modal").modal("show");
-      });
-      $("a#new_vote").on("ajax:error", function(evt, data, status, xhr) {});
-      });
-
-      $(function() {
-      var pull 		= $('#pull');
-      menu 		= $('nav ul');
-      menuHeight	= menu.height();
-      $(pull).on('click', function(e) {
-      e.preventDefault();
-      menu.slideToggle();
-      });
-      $(window).resize(function(){
-      var w = $(window).width();
-      if(w > 320 && menu.is(':hidden')) {
-      menu.removeAttr('style');
-      }
-      });
-      });
-      
-    </script>
-
-  </head>
+    <%= render partial: "header" %>
+  </head> 
   <body>
-
     <!-----start-top-header----->
     <div id="hello" class="top-header">
 
@@ -72,27 +16,7 @@
 	    <a href="#"></a>
 	  </div>
 	  <!----start-top-nav---->
-	  <nav class="top-nav">
-            <ul class="nav navbar-nav navbar-right sd-navbar-flags">
-            <li>
-              <a href=<%= url_for only_path: false, locale: :ar %>><img class="flag sa"/></a></li>
-            <li>
-              <a href=<%= url_for only_path: false, locale: :zh %>><img class="flag cn"/></a></li>
-            <li>
-              <a href=<%= url_for only_path: false, locale: :en %>><img class="flag gb"/></a></li>
-            <li>
-              <a href=<%= url_for only_path: false, locale: :fr %>><img class="flag fr"/></a></li>
-            <li>
-              <a href=<%= url_for only_path: false, locale: :ru %>><img class="flag ru"/></a></li>
-            <li>
-              <a href=<%= url_for only_path: false, locale: :es %>><img class="flag es"/></a></li>
-
-	    </ul>
-	    <a href="#" id="pull">
-              <%= image_tag "nav-icon.png", title: "menu" %>
-            </a>
-	  </nav>
-	  
+	  <%= render partial: "top_nav" %>  
 	  <div class="clear"> </div>
 	</div>
 	<!-----//End-header---->

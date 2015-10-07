@@ -3,7 +3,7 @@
 <table class="table">
   <% @sorted_votes.each do |vote_count| %>
     <tr>
-      <td><%= image_tag "", :class => [:flag, vote_count.country] %></td>
+      <td><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
       <td><%= Country.code_to_name(vote_count.country) %></td>
       <td style="width:100%">
         <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>

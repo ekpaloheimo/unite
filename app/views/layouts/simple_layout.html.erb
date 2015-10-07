@@ -4,25 +4,6 @@
     <%= render partial: "header" %>
   </head> 
   <body>
-    <!-----start-top-header----->
-    <div id="hello" class="top-header">
-
-    <!-----start-container---->
-    <div class="container">
-      <!-----start-header---->
-      <div class="header">
-	<div class="container">
-	  <div class="logo">
-	    <a href="#"></a>
-	  </div>
-	  <!----start-top-nav---->
-	  <%= render partial: "top_nav" %>  
-	  <div class="clear"> </div>
-	</div>
-	<!-----//End-header---->
-      </div>
-      <!-----start-top-header----->
-    </div>
 
     <div class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
@@ -60,7 +41,6 @@
 <%= yield :form %>
 
 <%= yield :gallery %>
-
 
 <div>
   <footer class="footer navbar navbar-default text-center">

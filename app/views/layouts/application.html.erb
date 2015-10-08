@@ -4,7 +4,6 @@
     <%= render partial: "header" %>
   </head>
   <body>
-
     <!-----start-top-header----->
     <div id="hello" class="top-header">
       <!-- Slideshow 4 -->
@@ -14,9 +13,7 @@
 	    <%= image_tag "slide01.jpg" %>
 	    <div class="caption text-center">
 	      <div class="slide-text-info">
-		<h1>Stop the Disaster - Unite the Armies!</h1>
-		<div class="slide-text-info-btns">
-		</div>
+		<h1><%= _("The polluted Air is a global danger!") %></h1>
 	      </div>
 	    </div>
 	  </li>
@@ -24,12 +21,7 @@
 	    <%= image_tag "slide02.jpg" %>
 	    <div class="caption text-center">
 	      <div class="slide-text-info">
-		<h1>Looking for plastic</h1>
-		<div class="slide-text-info-btns">
-                  He Spends Each Morning Looking For Recyclable Plastic That He Can Sell For 35 Cents Per Kilo To Help His Family.
-                  <br/>
-                  <%= link_to _("Image from Bored Panda"), "http://www.boredpanda.com/this-spends-each-morning-picking-through-the-floating-trash-looking-for-recyclable-plastic-that-he-can-sell-for-35-cents-per-kilo-to-help-his-family/" %>
-		</div>
+		<h1><%= _("Water is the Mother of Life – we all need it!") %></h1>
 	      </div>
 	    </div>
 	  </li>
@@ -37,15 +29,7 @@
 	    <%= image_tag "slide03.jpg" %>
 	    <div class="caption text-center">
 	      <div class="slide-text-info">
-		<h1>Our planet need really every help we can give.</h1>
-		<div class="slide-text-info-btns">
-                  <%= _("For 200 years we've been conquering Nature. Now we're beating it to death.") %>
-                  <br/>
-                  <%= _("-- Tom McMillan") %>
-                  <br/>
-                  <br/>                     
-                  <%= link_to _("Image from Video at Environment & Pollution"), "https://www.youtube.com/watch?v=hy36t8p2Hfk" %>
-		</div>
+		<h1><%= _("Billions Tons of Plastic Waste spoil the Shores and Oceans!") %></h1>
 	      </div>
 	    </div>
 	  </li>
@@ -53,10 +37,7 @@
 	    <%= image_tag "slide04.jpg" %>
 	    <div class="caption text-center">
 	      <div class="slide-text-info">
-		<h1>A man collects dead fish in Donghu lake in Wuhan.</h1>
-		<div class="slide-text-info-btns">
-                  <%= link_to _("Image from The Guardian"), "http://www.theguardian.com/books/2010/jul/17/when-billion-chinese-jump-watts" %>
-		</div>
+		<h1><%= _("We must defend Life's Richness on our Planet!") %></h1>
 	      </div>
 	    </div>
 	  </li>
@@ -64,39 +45,30 @@
 	    <%= image_tag "slide05.jpg" %>
 	    <div class="caption text-center">
 	      <div class="slide-text-info">
-		<h1>WHO lists most polluted countries: Delhi air worst.</h1>
-		<div class="slide-text-info-btns">
-		</div>
+		<h1><%= _("Unite the Armies to Save Life – not to Kill!") %></h1>
 	      </div>
 	    </div>
 	  </li>
-
 	</ul>
       </div>
       <div class="clear"> </div>
       <!---- //End-slider----->
     </div>
 
-      <!-----start-header---->
-      <div class="header">
-	<div>
-	  <div class="logo">
-	    <a href="#"></a>
-	  </div>
-	  <!----start-top-nav---->
-	  <%= render partial: "top_nav" %>
-	  <div class="clear"> </div>
+    <!-----start-header---->
+    <div class="header">
+      <div>
+	<div class="logo">
+	  <a href="#"></a>
 	</div>
-	<!-----//End-header---->
+	<!----start-top-nav---->
+	<%= render partial: "top_nav" %>
+	<div class="clear"> </div>
       </div>
-
-
-    <!-----start-contatiner---->
-    <div class="container">
-     
+      <!-----//End-header---->
     </div>
-
-    <div class="navbar navbar-default navbar-static-top">
+    
+    <div class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-collapse">
           <ul class="nav navbar-nav">

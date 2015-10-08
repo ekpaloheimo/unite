@@ -38,7 +38,7 @@
        <p>
        <label for="<%= topic %>">
          <%= radio_button("comment","theme", topic, onChange: "showTopic(this)", :id => topic) %> 
-         <%= _(topic.capitalize) %>
+         <%= _(topic.humanize.gsub(/-/," ")) %>
        </label>
        </p>
     <% end %>
@@ -47,16 +47,16 @@
   <div class="comment-area">
     <% 
        descriptions = {
-         "administration" => "The activites of the United Armies must be controlled by a common, international organ.",
-         "water" => "The force and capacity of the United Armies must ensure the sufficient water resources of our planet.",
-         "air" => "The force and capacity of the United Armies must be directed to the reforestation of deserts.",
-         "plastic-disaster" => "The United Armies must gather the plastic waste from oceans and shores.",
-         "protected-areas" => "The United Armies must protect National Parks on land and sea."
+         "administration" => "The activities of the United Armies must be controlled by a common, international organ.",
+         "water" => "The resources and capacity of United Armies must be directed to reforestation of the deserts.",
+         "air" => "The United Armies must ensure the sufficient water availability for the needs of people and life.",
+         "plastic-waste" => "The United Armies must collect the plastic waste from the oceans and shores.",
+         "protected-areas" => "The United Armies must protect the areas reserved for the nature."
        }
        %>
     <% topics.each do |topic| %>
       <div class="comment-topic comment-<%= topic %>">
-        <h1 class="page-header"><%= _(topic.capitalize) %></h1>
+        <h1 class="page-header"><%= _(topic.humanize.capitalize.gsub(/-/," ")) %></h1>
         <%= image_tag("#{topic}.jpg") %>
         <p class="lead">
           <%= _(descriptions[topic]) %>

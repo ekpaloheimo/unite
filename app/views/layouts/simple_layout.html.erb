@@ -4,7 +4,6 @@
     <%= render partial: "header" %>
   </head> 
   <body>
-
     <div class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-collapse">
@@ -16,64 +15,59 @@
           </ul>
         </div>
       </div>
-    </div>
-    
+    </div>   
     <%= flash_messages %>
-
     <div class="unobtrusive-flash-container"></div>
-  </div>
-</div>
 
-<div>
-  <div class="container sd-main">
-    <%= yield :grid %>
-  </div>
-</div>
-
-<%= yield :middle %>
-
-<div>
-  <div class="container ua-main">
-    <%= yield %>
-  </div>
-</div>
-
-<%= yield :form %>
-
-<%= yield :gallery %>
-
-<div>
-  <footer class="footer navbar navbar-default text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h6><%= _("About Us") %></h6>
-            <ul class="list-unstyled">
-              <li><%= link_to _("Vihreän Elämänsuojelun Liitto (VESL)"), "http://www.vesl.fi/", target: "_blank" %></li>
-              <li>Eero Paloheimo</li>
-              <li>Ulf Lindström</li>
-              <li>Harriet Lonka</li>
-              <li>Vilma Lonka</li>
-              <li>Tere Vaden</li>
-              <li>Joni Töyrylä</li>
-              <li>Veli Keitel</li>
-              <li><%= _("Contact Us") %></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h6><%= _("Share") %></h6>
-            <ul class="list-unstyled">
-              <li><%= _("Facebook") %></li>
-              <li><%= _("Twitter") %></li>
-              <li><%= link_to _("YouTube"), "https://www.youtube.com/watch?v=UuJHJBnSZ3w", target: "_blank" %></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h6><%= _("Recent Votes") %></h6>
-            <div id="recent_votes"></div>
-          </div>          
-        </div>
+    <div>
+      <div class="container ua-main">
+        <%= yield :grid %>
       </div>
-    </footer>
+    </div>
+
+    <%= yield :middle %>
+
+    <div>
+      <div class="container ua-main">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= yield :form %>
+    <%= yield :gallery %>
+
+    <div>
+      <footer class="footer navbar navbar-default text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h6><%= _("About Us") %></h6>
+              <ul class="list-unstyled">
+                <li><%= link_to _("Vihreän Elämänsuojelun Liitto (VESL)"), "http://www.vesl.fi/", target: "_blank" %></li>
+                <li>Eero Paloheimo</li>
+                <li>Ulf Lindström</li>
+                <li>Harriet Lonka</li>
+                <li>Vilma Lonka</li>
+                <li>Tere Vaden</li>
+                <li>Joni Töyrylä</li>
+                <li>Veli Keitel</li>
+                <li><%= _("Contact Us") %></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h6><%= _("Share") %></h6>
+              <ul class="list-unstyled">
+                <li><%= _("Facebook") %></li>
+                <li><%= _("Twitter") %></li>
+                <li><%= link_to _("YouTube"), "https://www.youtube.com/watch?v=UuJHJBnSZ3w", target: "_blank" %></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h6><%= _("Recent Votes") %></h6>
+              <div id="recent_votes"></div>
+            </div>          
+          </div>
+        </div>
+      </footer>
   </body>
 </html>

@@ -2,16 +2,9 @@
 <html>
   <head>
     <%= render partial: "header" %>
+    <meta http-equiv="refresh" content="30;URL=http://unite-the-armies.org/<%= locale %>/votes/new"> 
   </head> 
   <body>
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
-        <div class="ua-video-top">
-          Welcome to Save the Planet - Unite the Armies, <%= link_to "join the movement!", new_vote_path %>
-        </div>
-      </div>
-    </div>
-
     <div>
       <%= yield %>
     </div>

@@ -19,6 +19,7 @@ class Vote < ActiveRecord::Base
   before_save :add_vote_count
 
   has_many :votes, foreign_key: :vote_id
+  has_many :comments, foreign_key: :vote_id
   belongs_to :vote, counter_cache: true
 
   def ago

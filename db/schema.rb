@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151019094115) do
+ActiveRecord::Schema.define(version: 20151019135402) do
 
   create_table "comments", force: :cascade do |t|
     t.string   "topic",      limit: 255
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20151019094115) do
     t.datetime "updated_at",               null: false
     t.string   "ip",         limit: 255
     t.string   "theme",      limit: 255
+    t.integer  "vote_id",    limit: 4
   end
 
   create_table "vote_counts", force: :cascade do |t|

@@ -3,15 +3,15 @@ class CommentsController < ApplicationController
 
   # GET /comments
   # GET /comments.json
-  def index
-    @comments = Comment.all
-    render layout: "simple_layout"
-  end
+  # def index
+  #  @comments = Comment.all
+  #  render layout: "simple_layout"
+  # end
 
   # GET /comments/1
   # GET /comments/1.json
-  def show
-  end
+  # def show
+  # end
 
   # GET /comments/new
   def new
@@ -20,8 +20,8 @@ class CommentsController < ApplicationController
   end
 
   # GET /comments/1/edit
-  def edit
-  end
+  # def edit
+  # end
 
   # POST /comments
   # POST /comments.json
@@ -29,6 +29,19 @@ class CommentsController < ApplicationController
     @comment = Comment.new(comment_params)
     @comment.ip = request.env["REMOTE_ADDR"]
     @comment.bypass_humanizer = true if Rails.env.test?   
+
+    unless session[:current_vote_id]
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
+
+    vote = Vote.where(id: session[:current_vote_id]).first
+    unless vote
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
+    
+    @comment.vote = vote
 
     respond_to do |format|
       if @comment.save

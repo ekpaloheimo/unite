@@ -6,6 +6,7 @@ class CommentTest < ActiveSupport::TestCase
     @comment = comments("one")
     @comment.email_confirmation = @comment.email
     @comment.bypass_humanizer = true
+    @comment.vote = votes("vote_1")
   end
 
   test "should be valid with default data" do
@@ -55,6 +56,11 @@ class CommentTest < ActiveSupport::TestCase
       @comment.theme = theme
       assert @comment.valid?, @comment.errors.full_messages
     end
+  end
+
+  test 'should not save without a vote' do
+    @comment.vote = nil
+    assert_not @comment.valid?
   end
 
 end

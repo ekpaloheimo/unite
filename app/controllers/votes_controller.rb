@@ -107,12 +107,20 @@ class VotesController < ApplicationController
     render :json => votes.to_json
   end
 
+  def clear
+    session.delete :current_vote_id    
+  end
+
   def show
     @vote = Vote.where(secret_token: params[:secret_token]).first
     if @vote.blank?
       redirect_to votes_path(locale: locale)
       return
     end
+
+    # Store current vote to session to allow commenting in contex of
+    # this vote.
+    session[:current_vote_id] = @vote.id
 
     @votes_count = @vote.votes_count ||= 0
     render layout: "simple_layout"

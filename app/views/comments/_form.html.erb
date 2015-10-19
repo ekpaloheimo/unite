@@ -33,7 +33,7 @@
 
   <div class="field">
     <%= f.label _("Choose the topic") %><br>
-    <% topics = %w(administration water air plastic-waste protected-areas) 
+    <% topics = %w(administration water climate plastic-waste protected-areas) 
        topics.each do |topic| %>
        <p>
        <label for="<%= topic %>">
@@ -48,8 +48,8 @@
     <% 
        descriptions = {
          "administration" => "The activities of the United Armies must be controlled by a common, international organ.",
-         "water" => "The resources and capacity of United Armies must be directed to reforestation of the deserts.",
-         "air" => "The United Armies must ensure the sufficient water availability for the needs of people and life.",
+         "water" => "The United Armies must ensure the sufficient water availability everywhere for the needs of people and life.",
+         "climate" => "The resources and capacity of United Armies must be directed to reforestation of the deserts.",
          "plastic-waste" => "The United Armies must collect the plastic waste from the oceans and shores.",
          "protected-areas" => "The United Armies must protect the areas reserved for the nature."
        }
@@ -57,7 +57,7 @@
     <% topics.each do |topic| %>
       <div class="comment-topic comment-<%= topic %>">
         <h1 class="page-header"><%= _(topic.humanize.capitalize.gsub(/-/," ")) %></h1>
-        <%= image_tag("#{topic}.jpg") %>
+        <%= image_tag("#{topic}.jpg", :class => "img-responsive img-rounded") %>
         <p class="lead">
           <%= _(descriptions[topic]) %>
         </p>

@@ -66,18 +66,8 @@
 
     <br style="clear:both"/>
 
-    <p><%= _("Give your name and email") %></p>
     <div class="field">
-      <%= f.label :name %><br>
-      <%= f.text_field :name, :class => "form-control" %>
-    </div>
-    <div class="field">
-      <%= f.label :email %><br>
-      <%= f.text_field :email, :class => "form-control" %>
-    </div>
-    <div class="field">
-      <%= f.label :email_confirmation %><br>
-      <%= f.text_field :email_confirmation, :class => "form-control" %>
+      <%= @vote.name %> (<%= @vote.email %>)
     </div>
     <div class="field">
       <%= f.label _('Comment (max 1000 characters)') %><br>

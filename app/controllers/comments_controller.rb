@@ -15,6 +15,18 @@ class CommentsController < ApplicationController
 
   # GET /comments/new
   def new
+    unless session[:current_vote_id]
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
+
+    vote = Vote.where(id: session[:current_vote_id]).first
+    unless vote
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
+
+    @vote = vote
     @comment = Comment.new
     render layout: "simple_layout"
   end
@@ -45,11 +57,14 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       if @comment.save
-        format.html { redirect_to "/#{locale}/appeal", notice: 'Comment was successfully created.' }
-        # format.json { render :show, status: :created, location: @comment }
+        msg = _("Comment was successfully created.")
+        values = {
+          locale: locale, 
+          secret_token: vote.secret_token
+        }
+        format.html { redirect_to vote_path(values), notice: msg }
       else
         format.html { render :new }
-        # format.json { render json: @comment.errors, status: :unprocessable_entity }
       end
     end
   end

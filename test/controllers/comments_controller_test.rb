@@ -12,6 +12,9 @@ class CommentsControllerTest < ActionController::TestCase
   #end
 
   test "should get new" do
+    vote = votes("vote_1")
+    session[:current_vote_id] = vote.id
+
     get :new
     assert_response :success
   end
@@ -24,16 +27,13 @@ class CommentsControllerTest < ActionController::TestCase
       email = "test02@test.fi"
       post :create, comment: { 
         body: @comment.body, 
-        email: email, 
-        email_confirmation: email,
         language: @comment.language, 
-        name: @comment.name, 
         topic: @comment.topic,
         ip: "0.0.0.0",
         theme: "air"
       }
     end
-    assert_redirected_to appeal_path(locale: "en")
+    assert_redirected_to vote_path(locale: "en", secret_token: vote.secret_token)
     @comment.destroy
   end
 

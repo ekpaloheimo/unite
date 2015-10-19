@@ -123,6 +123,7 @@ class VotesController < ApplicationController
     session[:current_vote_id] = @vote.id
 
     @votes_count = @vote.votes_count ||= 0
+
     render layout: "simple_layout"
   end
 

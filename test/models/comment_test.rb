@@ -4,18 +4,12 @@ class CommentTest < ActiveSupport::TestCase
 
   def setup
     @comment = comments("one")
-    @comment.email_confirmation = @comment.email
     @comment.bypass_humanizer = true
     @comment.vote = votes("vote_1")
   end
 
   test "should be valid with default data" do
     assert @comment.valid?, @comment.errors.full_messages
-  end
-
-  test "should not be valid without a name" do
-    @comment.name = ""
-    assert_not @comment.valid?
   end
 
   test "should not be valid without an ip" do

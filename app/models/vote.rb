@@ -18,6 +18,9 @@ class Vote < ActiveRecord::Base
   before_save :add_secret_token
   before_save :add_vote_count
 
+  has_many :votes, foreign_key: :vote_id
+  belongs_to :vote, counter_cache: true
+
   def ago
     diff = TimeDifference.between(Time.zone.now, created_at).in_each_component
     diff = OpenStruct.new(diff)
@@ -46,7 +49,7 @@ class Vote < ActiveRecord::Base
   end
 
   def votes_missed
-    VoteCount.target_vote_count - order_number
+    VoteCount.target_vote_count - VoteCount.total
   end
 
   # Vote#order_number as the total number of all votes
@@ -67,10 +70,10 @@ class Vote < ActiveRecord::Base
   end
 
   def email_invite options
-    return unless @name = options[:name]
-    return unless email = options[:email]
-    return unless language = options[:language]
-    options = options.merge(inviter_name: name)
+    return unless options[:name]
+    return unless options[:email]
+    return unless options[:language]
+    options = options.merge(inviter_name: name, secret_token: secret_token)
     VoteMailer.email_invite(options).deliver_now   
   end
 

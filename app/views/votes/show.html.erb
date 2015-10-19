@@ -3,23 +3,32 @@
   <p class="lead"><%= _("Do not share this direct link to anybody. Instead, you can use a form below to share a public version of this vote to your friends.") %> </p>
   <p>
     <%= _("Thank you for your support #{@vote.name}!") %>
-    <%= _("You are supporter number #{@vote.order_number}.") %>
+    <%= _("You are supporter number #{@vote.order_number} of the total of #{VoteCount.total}.") %>
     <%= _("We still miss #{@vote.votes_missed} of the 100.000.000") %>
+  </p>
+  <p>
+    <%= _("You have helped campaign by having #{@votes_count} people signed after you") %>
+  </p>
+  <p>
     <%= _("Signatures! Let’s work further!") %>
   </p>
 </article>
 
 <article>
-  <p class="lead"><%= _("Add a comment") %></p>
-  <p>
-    <%= _("You can now add a comment and start discussing") %>
-  </p>
-  <%= button_tag(_("Comment"), class: "btn btn-lg btn-primary", onClick: "window.location='#{new_comment_path}'") %>
+  <fieldset>
+    <legend><%= _("Add a comment") %></legend>
+    <p>
+      <%= _("You can now add a comment and start discussing") %>
+    </p>
+    <%= button_tag(_("Comment"), class: "btn btn-lg btn-primary", onClick: "window.location='#{new_comment_path}'") %>
+  </fieldset>
 </article>
 
 <article>
-  <p class="lead"><%= _("Share your vote!") %></p>
-  <p><%= _("Invite a friend. Fill out a form below and information will be send to given email") %></p> 
-  <%= render partial: "share_vote" %>
+  <fieldset>
+    <legend><%= _("Share your vote!") %></legend>
+    <p><%= _("Invite a friend. Fill out a form below and information will be send to given email") %></p> 
+    <%= render partial: "share_vote" %>
+  </fieldset>
 </article>
 

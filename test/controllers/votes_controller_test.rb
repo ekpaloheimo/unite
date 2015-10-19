@@ -48,8 +48,8 @@ class VotesControllerTest < ActionController::TestCase
   test "should create vote" do
     values = {
       name: "foobar", 
-      email: "foobar@foobar.com", 
-      email_confirmation: "foobar@foobar.com", 
+      email: "foobar01@foobar.com", 
+      email_confirmation: "foobar01@foobar.com", 
       country: "fi"
     }
     assert_difference("Vote.count") do
@@ -58,6 +58,27 @@ class VotesControllerTest < ActionController::TestCase
     vote = assigns(:vote)
     assert_redirected_to vote_path(locale: "en", secret_token: vote.secret_token)
     assert flash[:success], "Thank you for your vote!"
+  end
+
+  test 'should add parent vote id to session' do
+    post :add_parent_vote, secret_token: votes("vote_1").secret_token
+    assert_redirected_to new_vote_path(locale: "en")
+    assert session[:parent_vote_id]
+  end
+
+  test 'should add parent vote' do
+    session[:parent_vote_id] = votes("vote_1").id
+    values = {
+      name: "foobar", 
+      email: "foobar02@foobar.com", 
+      email_confirmation: "foobar02@foobar.com", 
+      country: "fi"
+    }
+    assert_difference("Vote.count") do
+      post :create, vote: values
+    end
+    assert_equal assigns(:vote).vote_id, votes("vote_1").id
+    assert_not session[:parent_vote_id]
   end
 
   test "should flash error if invalid vote" do

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get ':locale/appeal' => 'welcome#appeal', as: :appeal
   get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
   post '/votes/email_invite' => 'votes#email_invite', as: :email_invite_votes
+  get '/votes/add_parent_vote' => 'votes#add_parent_vote', as: :add_parent_vote
 
   scope "(:locale)" do
     resources :votes, :only => [:new, :index, :create]

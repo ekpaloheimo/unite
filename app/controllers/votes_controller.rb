@@ -15,15 +15,15 @@ class VotesController < ApplicationController
 
   # Share only with ajax
   def email_invite
-    vote = Vote.where(secret_token: params[:secret_token]).first
-    unless vote
+    @vote = Vote.where(secret_token: params[:secret_token]).first
+    unless @vote
       flash[:error] = "There was an error"
       head :bad_request
       return
     end
 
     # Share a vote with ActionMailer. If everything is ok, return 200.
-    @share_valid = vote.email_invite(params)
+    @share_valid = @vote.email_invite(params)
     
     respond_to do |format|
       format.html do
@@ -37,12 +37,35 @@ class VotesController < ApplicationController
       end
     end
   end
+
+  # Add parent vote id to session and redirect to new vote.
+  def add_parent_vote
+    vote = Vote.where(secret_token: params[:secret_token]).first
+    if vote
+      session[:parent_vote_id] = vote.id
+    end
+    redirect_to action: :new, locale: locale
+  end
   
+  # If session votes[:parent_id] exists, add parent to this vote
   def create
     @vote = Vote.new(vote_params)
     @vote.ip = request.env["REMOTE_ADDR"]
     @vote.bypass_humanizer = true if Rails.env.test?
+
+    # If session contains parent vote id, add this vote to parent vote
+    # votes association.
+    if session[:parent_vote_id]
+      parent_vote = Vote.where(id: session[:parent_vote_id])[0]
+      parent_vote.votes << @vote if parent_vote
+    end
+
     @vote.save
+
+    # Remove session key after succesfull save
+    if @vote.valid?
+      session.delete :parent_vote_id
+    end
 
     respond_to do |format|
       format.html do
@@ -90,6 +113,8 @@ class VotesController < ApplicationController
       redirect_to votes_path(locale: locale)
       return
     end
+
+    @votes_count = @vote.votes_count ||= 0
     render layout: "simple_layout"
   end
 

@@ -105,4 +105,15 @@ class VoteTest < ActiveSupport::TestCase
     assert_not ActionMailer::Base.deliveries.empty?   
   end
 
+  test 'should increment counter cache' do
+    vote = votes("vote_1")
+    vote.email_confirmation = vote.email
+    vote2 = votes("vote_2")
+    vote2.email_confirmation = vote2.email
+    vote.votes << vote2
+    vote.save
+    vote.reload
+    assert_equal vote.votes_count, 1
+  end
+
 end

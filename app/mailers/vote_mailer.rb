@@ -15,6 +15,7 @@ class VoteMailer < ApplicationMailer
     return unless @name = options[:name]
     return unless email = options[:email]
     return unless language = options[:language]
+    return unless @secret_token = options[:secret_token]
 
     I18n.locale = language
     mail(to: email, subject: _('Invitation to Save the World - Unite the Armies'))

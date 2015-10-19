@@ -1,0 +1,13 @@
+<script>
+  $(document).ready(function() {
+    function setVideoHeight() {
+      var h = $( window ).height();
+      $("#video").css({height: h});
+    }
+    $( window ).on("resize", setVideoHeight);
+    setVideoHeight();
+  });
+</script>
+
+<iframe style="width:100%" id="video" src="https://player.vimeo.com/video/142231291?autoplay=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+

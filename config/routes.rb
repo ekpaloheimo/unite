@@ -1,11 +1,13 @@
 Rails.application.routes.draw do   
   root 'welcome#index'
 
+  get ':locale/video' => 'welcome#video', as: :video
   get ':locale/' => 'welcome#index'
   get ':locale/appeal' => 'welcome#appeal', as: :appeal
   get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
-  post '/votes/email_invite' => 'votes#email_invite', as: :email_invite_votes
-  get '/votes/add_parent_vote' => 'votes#add_parent_vote', as: :add_parent_vote
+  get 'votes/add_parent_vote' => 'votes#add_parent_vote', as: :add_parent_vote
+
+  post 'votes/email_invite' => 'votes#email_invite', as: :email_invite_votes
 
   scope "(:locale)" do
     resources :votes, :only => [:new, :index, :create]

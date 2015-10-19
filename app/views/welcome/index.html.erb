@@ -1,13 +1,8 @@
-<script>
-  $(document).ready(function() {
-    function setVideoHeight() {
-      var h = $( window ).height();
-      $("#video").css({height: h});
-    }
-    $( window ).on("resize", setVideoHeight);
-    setVideoHeight();
-  });
-</script>
-
-<iframe style="width:100%" id="video" src="https://player.vimeo.com/video/142231291?autoplay=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<article class="ua-main-screen">
+  <h1><%= _("First Aid") %></h1>
+  <h2><%= _("To Our Common World") %></h2>
+  <p>
+    <%= link_to _("To Video"), video_path(locale: locale) %> | 
+    <%= link_to _("To Sign Up"), new_vote_path(locale: locale) %>
+  </p>
+</article>

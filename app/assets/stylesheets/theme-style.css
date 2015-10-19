@@ -237,20 +237,26 @@ nav a#pull {
   border: 0;
 }
 .callbacks .caption {
-	display: block;
-	position: absolute;
-	z-index: 2;
-	font-size: 14px;
-	text-shadow: none;
-	color: #fff;
-	left: 0;
-	right: 60%;
-	padding: 10px 20px;
-	margin: 0;
-	max-width: none;
-	top: 0;
-	text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 14px;
+  text-shadow: none;
+  color: #fff;
+  left: 0;
+  right: 60%;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  top: 0;  
+  > a { 
+    color: white !important;
+  }
 }
+.caption-link {
+  color: white;
+}
+
 .callbacks_nav {
   	position: absolute;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);

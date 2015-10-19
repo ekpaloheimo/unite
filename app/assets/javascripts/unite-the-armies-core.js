@@ -43,7 +43,7 @@ ready = function() {
   function startShow() {
     if ($('#slider4').length < 1) return;
     $("#slider4").responsiveSlides({
-      auto: true,
+      auto: false,
       pager: true,
       nav: true,
       speed: 3000,

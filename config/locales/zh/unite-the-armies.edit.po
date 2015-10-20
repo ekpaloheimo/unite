@@ -1,0 +1,328 @@
+# Chinese translations for unite-the-armies package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the unite-the-armies package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unite-the-armies 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-20 15:34+0300\n"
+"PO-Revision-Date: 2015-10-20 15:34+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+msgid "\"Thank you for your support #{@vote.name}!\""
+msgstr ""
+
+msgid "\"We still miss #{@vote.votes_missed} of the 100.000.000.\""
+msgstr ""
+
+msgid "\"You are supporter number #{@vote.order_number} of the total of #{VoteCount.total}.\""
+msgstr ""
+
+msgid "\"You have added #{@vote.comments.size} comments.\""
+msgstr ""
+
+msgid "About Us"
+msgstr ""
+
+msgid "Add a comment"
+msgstr ""
+
+msgid "Appeal"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Campaign"
+msgstr ""
+
+msgid "Choose the language"
+msgstr ""
+
+msgid "Choose the language of the invitation letter"
+msgstr ""
+
+msgid "Choose the topic"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Comment (max 1000 characters)"
+msgstr ""
+
+msgid "Comment was successfully created."
+msgstr ""
+
+msgid "Contact Us"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "Do not share this direct link to anybody. Instead, you can use a form below to share a public version of this vote to your friends."
+msgstr ""
+
+msgid "Do not share this direct link to anybody. Instead, you can use a form on the site to send invitations to your friends by email."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email Confirmation"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "First Aid"
+msgstr ""
+
+msgid "Greetings !"
+msgstr ""
+
+msgid "Helsinki, 4.11.2014"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
+msgstr ""
+
+msgid "Instructions"
+msgstr ""
+
+msgid "Introduction"
+msgstr ""
+
+msgid "Invitation to Save the World - Unite the Armies"
+msgstr ""
+
+msgid "Invite a friend. Fill out a form below and information will be send to given email"
+msgstr ""
+
+msgid ""
+"It is accepted that the military is called to assist the areas affected by sudden disasters. \n"
+"The same power should be used to defend us against slower disasters."
+msgstr ""
+
+msgid "It is logical to extend the local military Saving Actions to Global Saving Actions effecting the slowly but inexorably advancing Catastrophes."
+msgstr ""
+
+msgid "Join the discussion with your own comment."
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Listing comments"
+msgstr ""
+
+msgid "Make an initiative for the action of the armies."
+msgstr ""
+
+msgid "Make the initiative using some UN:s official languages (6)."
+msgstr ""
+
+msgid "Millions Tons on the Shores and Oceans!"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of your friend"
+msgstr ""
+
+msgid "New global role for the Military"
+msgstr ""
+
+msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
+msgstr ""
+
+msgid "Positive initiations will be published."
+msgstr ""
+
+msgid "Present the task with max. 1000 characters."
+msgstr ""
+
+msgid "Read the Appeal"
+msgstr ""
+
+msgid "Recent Votes"
+msgstr ""
+
+msgid "Rules for the Comments"
+msgstr ""
+
+msgid "STOP DISASTER – NOW!"
+msgstr ""
+
+msgid "Save the Planet - Unite the Armies!"
+msgstr ""
+
+msgid "Save the World! Act Now!"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Share your vote!"
+msgstr ""
+
+msgid "Sign"
+msgstr ""
+
+msgid "Sign now!"
+msgstr ""
+
+msgid "Sign the petition"
+msgstr ""
+
+msgid "Signatures! Let’s work further!"
+msgstr ""
+
+msgid "State of the global environment"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention."
+msgstr ""
+
+msgid "Suggest a new task for the Armies not presented here."
+msgstr ""
+
+msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
+msgstr ""
+
+msgid "The Suggested task must benefit the whole world."
+msgstr ""
+
+msgid "The best contributors will be rewarded later."
+msgstr ""
+
+msgid ""
+"The concern of this campaign is that the global environment is radically deteriorating.\n"
+"Dangerous developments have accelerated and approach the point of no return."
+msgstr ""
+
+msgid "The global environmental catastrophe is emerging and the process is accelerating."
+msgstr ""
+
+msgid "The link below will go to your private secret vote"
+msgstr ""
+
+msgid "The polluted Air is a global Challenge!"
+msgstr ""
+
+msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support to a global initiative."
+msgstr ""
+
+msgid "This is your private vote!"
+msgstr ""
+
+msgid "To Our Common World"
+msgstr ""
+
+msgid "To Sign Up"
+msgstr ""
+
+msgid "To Video"
+msgstr ""
+
+msgid "To the Secretary-General and Secretariat of the United Nations"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Unite the Armies to Save Life – not to Kill!"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Vihreän Elämänsuojelun Liitto (VESL)"
+msgstr ""
+
+msgid "Water is the Mother of Life – we all need it!"
+msgstr ""
+
+msgid "We are in a hurry. Radical actions are urgently needed to save our planet."
+msgstr ""
+
+msgid ""
+"We earnestly hope that the United Nations will consider instigating a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have \n"
+"a tangible effect in promoting world peace."
+msgstr ""
+
+msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. LIndstöm and Eero Paloheimo."
+msgstr ""
+
+msgid "We must defend Life's Richness on our Planet!"
+msgstr ""
+
+msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
+msgstr ""
+
+msgid "We suggest the United Nations to express a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
+msgstr ""
+
+msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
+msgstr ""
+
+msgid "You can now add a comment."
+msgstr ""
+
+msgid "You have been invited to Save the World - Unite the Armies by ."
+msgstr ""
+
+msgid "You have helped campaign by having  people signed after you."
+msgstr ""
+
+msgid "You will earn titles by sharing information about this campaign with your friends"
+msgstr ""
+
+msgid "YouTube"
+msgstr ""
+
+msgid "Your friends email address"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "e-mail"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "professor"
+msgstr ""
+
+msgid "seconds"
+msgstr ""

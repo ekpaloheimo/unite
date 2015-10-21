@@ -242,7 +242,7 @@ nav a#pull {
   z-index: 2;
   font-size: 14px;
   text-shadow: none;
-  color: #fff;
+  color: #ffc000;
   left: 0;
   right: 60%;
   padding: 10px 20px;
@@ -253,8 +253,16 @@ nav a#pull {
     color: white !important;
   }
 }
+.caption-link-container {
+  position: absolute;
+  right: 10px;
+  bottom: 30%;
+  z-index: 2;
+  font-size: 3em;
+}
 .caption-link {
-  color: white;
+  #color: white;
+  color: #ffc000;
 }
 
 .callbacks_nav {
@@ -379,12 +387,12 @@ nav a#pull {
 }
 
 .caption { 
-  background: #333; 
-  opacity: 0.5;
+  #background: #333; 
+  #opacity: 0.5;
 }
   .slide-text-info {
     margin-top: 0;
-    h1 { color: white; }
+    h1 { color: #ffc000 !important; }
   }
 
 .slide-text-info-btns{

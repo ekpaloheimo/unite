@@ -1,7 +1,6 @@
 html, body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
-    background-color: #FFF;
+  font-size: 100%;
+  background-color: #FFF;
 }
 body a{
 	transition:0.5s all;
@@ -11,7 +10,6 @@ body a{
 	-ms-transition:0.5s all;
 }
 @font-face {
-    font-family: 'nexa_boldregular';
     src: url('../fonts/Nexa_Free_Bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -152,17 +150,18 @@ nav a#pull {
 }
 /*Smartphone*/
 @media only screen and (max-width : 320px) {
-	nav {
-		float:none;
-	}
-	nav li {
-		display: block;
-		float: none;
-		width: 100%;
-	}
-	nav li a {
-		border-bottom: 1px solid #576979;
-	}
+  .caption-link-container { display: none; }
+  nav {
+    float:none;
+  }
+  nav li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  nav li a {
+    border-bottom: 1px solid #576979;
+  }
 }
 /*----slider----*/
 #slider2,
@@ -249,21 +248,22 @@ nav a#pull {
   margin: 0;
   max-width: none;
   top: 0;  
-  > a { 
-    color: white !important;
-  }
 }
 .caption-link-container {
   position: absolute;
   right: 10px;
-  bottom: 30%;
+  bottom: 17vw;
   z-index: 2;
-  font-size: 3em;
+  font-size: 2em;
+  a { color: #ffc000; }
+  a:hover { color: #ffe000; }
+  a:visited { color: #ffc000; }
+  img { 
+    height: 20px !important; width: 40px !important; 
+    vertical-align: middle;
+  }
 }
-.caption-link {
-  #color: white;
-  color: #ffc000;
-}
+
 
 .callbacks_nav {
   	position: absolute;
@@ -352,7 +352,7 @@ nav a#pull {
 }
 @media screen and (max-width: 600px) {
   h1 {
-    font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 24px/50px;
     }
   .callbacks_nav {
     top: 47%;
@@ -365,7 +365,6 @@ nav a#pull {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size:0;
-  font-family: FontAwesome;
   visibility: visible;
   display: block;
   height:13px;
@@ -383,7 +382,6 @@ nav a#pull {
 }
 .slide-text-info h1{
 	font-size: 2.5em;
-	font-family: 'nexa_boldregular';
 }
 
 .caption { 
@@ -463,7 +461,6 @@ nav a#pull {
 }
 .Share-instantly-right h3{
 	color: #FFF;
-	font-family: 'nexa_boldregular';
 	font-size: 3em;
 }
 .Share-instantly-right p{
@@ -490,7 +487,7 @@ p.img_slider{
 }
 .feature h3 {
 	color: #FFF;
-	font-family: 'nexa_boldregular';
+	# font-family: 'nexa_boldregular';
 	font-size: 3em;
 }
 .feature p {
@@ -545,7 +542,6 @@ p.img_slider1{
 .download-right p{
 	color:#fff;
 	font-size:2.8em;
-	font-family: 'nexa_boldregular';
 }
 .download-right a{
 	color: #FFF;
@@ -577,7 +573,6 @@ p.img_slider1{
 }
 .compatibility h3{
 	color: #666666;
-	font-family: 'nexa_boldregular';
 	font-size: 1.8em;
 	border-bottom: 2px solid #CBCBCB;
 	padding-bottom: 0.5em;
@@ -586,7 +581,6 @@ p.img_slider1{
 }
 .compatibility h4{
 	color:#666;
-	font-family: 'nexa_boldregular';
 	font-size:1.2em;
 }
 .compatibility p{

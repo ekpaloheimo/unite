@@ -8,7 +8,7 @@
       <div class="container-fluid">
         <div class="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to _("Video"), "/#{locale}" %></li>
+            <li><%= link_to _("Video"), video_path(locale: locale) %></li>
             <li><%= link_to _("Sign"), new_vote_path(locale: locale) %></li>
             <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
             <li><%= link_to _("Appeal"), "/#{locale}/appeal" %></li>

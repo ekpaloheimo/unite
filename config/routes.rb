@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get ':locale/video' => 'welcome#video', as: :video
   get ':locale/' => 'welcome#index'
-  get ':locale/appeal' => 'welcome#appeal', as: :appeal
+#  get ':locale/appeal' => 'welcome#appeal', as: :appeal
   get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
   get 'votes/add_parent_vote' => 'votes#add_parent_vote', as: :add_parent_vote
 

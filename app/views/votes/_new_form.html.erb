@@ -19,6 +19,8 @@
 <% end %>  
 
 <div class="ua-sign-the-petition">
+  <h1><%= _("Sign") %></h1>
+  <br/>
   <p class="lead"><%= _("We suggest the United Nations instigates a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible.") %></p>
 
   <div class="field">
@@ -43,7 +45,7 @@
     <%= f.hidden_field :humanizer_question_id %>
   </div>
 
-  <p><%= _("You can also contribute to the discussion after signing. You will get a separate message of that by email.") %></p>
+  <div class="field"><%= _("You can also contribute to the discussion after signing. You will get a separate message of that by email.") %></div>
 
   <div class="field">
     <%= f.submit "Sign", :class => "btn btn-primary" %>

@@ -1,9 +1,9 @@
 <article>
   <h1 class="page-header"><%= _("This is your private vote!") %></h1>
-  <p class="lead"><%= _("Do not share this direct link to anybody. Instead, you can use a form below to share a public version of this vote to your friends.") %> </p>
+  <p class="lead"><%= _("Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends.") %> </p>
   <p>
     <%= _("Thank you for your support #{@vote.name}!") %>
-    <%= _("You are supporter number #{@vote.order_number} of the total of #{VoteCount.total}.") %>
+    <%= _("Your supporter number is #{@vote.order_number}.") %>
     <%= _("We still miss #{@vote.votes_missed} of the 100.000.000.") %>
   </p>
   <p>
@@ -29,8 +29,8 @@
 
 <article>
   <fieldset>
-    <legend><%= _("Share your vote!") %></legend>
-    <p><%= _("Invite a friend. Fill out a form below and information will be send to given email") %></p> 
+    <legend><%= _("Share and duplicate your vote!") %></legend>
+    <p><%= _("Invite your friends. Fill out a form below and information will be sent to given email") %></p> 
     <%= render partial: "share_vote" %>
   </fieldset>
 </article>

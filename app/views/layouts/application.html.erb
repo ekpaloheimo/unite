@@ -111,14 +111,15 @@
 
     <%= yield :appeal %>
     
+    <%= yield :form %>
+
     <div>
       <div class="container sd-main">
         <%= yield %>
       </div>
     </div>
     
-    <%= yield :form %>
-    
+   
     <%= yield :gallery %>
     
     <%= render :partial => "footer" %>

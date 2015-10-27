@@ -380,18 +380,21 @@ nav a#pull {
 .callbacks_here a:after{
 	background:#FFF;
 }
-.slide-text-info h1{
-	font-size: 2.5em;
-}
 
 .caption { 
   #background: #333; 
   #opacity: 0.5;
 }
-  .slide-text-info {
-    margin-top: 0;
-    h1 { color: #ffc000 !important; }
+.slide-text-info {
+  margin-top: 0;
+  h1 {
+    font-size: 2.5em;
+    color: #ffc000;
   }
+  h1.red { 
+    color: red;
+  }
+}
 
 .slide-text-info-btns{
 	margin-top:2.5em;

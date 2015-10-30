@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 18:51+0200\n"
-"PO-Revision-Date: 2015-10-27 18:51+0200\n"
+"POT-Creation-Date: 2015-10-30 10:46+0200\n"
+"PO-Revision-Date: 2015-10-30 10:46+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -97,6 +97,9 @@ msgid "Food for all"
 msgstr ""
 
 msgid "Global responsibility"
+msgstr ""
+
+msgid "Google+"
 msgstr ""
 
 msgid "Greetings %{name}!"
@@ -201,7 +204,10 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-msgid "Share and duplicate your vote!"
+msgid "Share with email"
+msgstr ""
+
+msgid "Share with social media"
 msgstr ""
 
 msgid "Sign"

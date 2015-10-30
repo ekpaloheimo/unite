@@ -98,6 +98,9 @@ msgstr ""
 msgid "Global responsibility"
 msgstr ""
 
+msgid "Google+"
+msgstr ""
+
 msgid "Greetings %{name}!"
 msgstr ""
 
@@ -200,7 +203,10 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-msgid "Share and duplicate your vote!"
+msgid "Share with email"
+msgstr ""
+
+msgid "Share with social media"
 msgstr ""
 
 msgid "Sign"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-10-27 18:52+0200\n"
+"PO-Revision-Date: 2015-10-30 10:47+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -97,6 +97,9 @@ msgstr "Ruokaa kaikille"
 
 msgid "Global responsibility"
 msgstr "Globaalivastuu"
+
+msgid "Google+"
+msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Tervehdys %{name}!"
@@ -200,8 +203,11 @@ msgstr "Pelasta maailma."
 msgid "Share"
 msgstr "Jaa"
 
-msgid "Share and duplicate your vote!"
-msgstr "Jaa ja monista äänesi!"
+msgid "Share with email"
+msgstr "Jaa sähköpostilla"
+
+msgid "Share with social media"
+msgstr "Jaa sosiaalisessa mediassa"
 
 msgid "Sign"
 msgstr "Äänestä"

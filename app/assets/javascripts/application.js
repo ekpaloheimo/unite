@@ -18,6 +18,7 @@
 //= require backbone
 //= require unite-the-armies
 //= require flash_messages
+//= require social-share-button
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections

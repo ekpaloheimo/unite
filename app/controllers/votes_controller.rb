@@ -15,7 +15,7 @@ class VotesController < ApplicationController
 
   # Share only with ajax
   def email_invite
-    @vote = Vote.where(secret_token: params[:secret_token]).first
+    @vote = Vote.where(md5_secret_token: params[:t]).first
     unless @vote
       flash[:error] = "There was an error"
       head :bad_request
@@ -38,9 +38,12 @@ class VotesController < ApplicationController
     end
   end
 
-  # Add parent vote id to session and redirect to new vote.
-  def add_parent_vote
-    vote = Vote.where(secret_token: params[:secret_token]).first
+  # Add parent vote id to session and redirect to new vote.  
+  #
+  # Use md5 crypted secret token in parameters, this way token cannot be
+  # used as a part of the url.
+  def add_parent
+    vote = Vote.where(md5_secret_token: params[:t]).first
     if vote
       session[:parent_vote_id] = vote.id
     end

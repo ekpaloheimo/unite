@@ -29,7 +29,16 @@
 
 <article>
   <fieldset>
-    <legend><%= _("Share and duplicate your vote!") %></legend>
+    <legend><%= _("Share with social media") %></legend>
+    <p>
+      <%= social_share_button_tag("Save the Planet - Unite the Armies", url: add_parent_vote_url(t: @vote.md5_secret_token)) %>
+    </p>
+  </fieldset>
+</article>
+
+<article>
+  <fieldset>
+    <legend><%= _("Share with email") %></legend>
     <p><%= _("Invite your friends. Fill out a form below and information will be sent to given email") %></p> 
     <%= render partial: "share_vote" %>
   </fieldset>

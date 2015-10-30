@@ -61,7 +61,7 @@ class VotesControllerTest < ActionController::TestCase
   end
 
   test 'should add parent vote id to session' do
-    post :add_parent_vote, secret_token: votes("vote_1").secret_token
+    post :add_parent, t: votes("vote_1").md5_secret_token
     assert_redirected_to new_vote_path(locale: "en")
     assert session[:parent_vote_id]
   end
@@ -109,8 +109,10 @@ class VotesControllerTest < ActionController::TestCase
   end
 
   test 'should send email invite' do
+    require 'digest/md5'
+    digest = Digest::MD5.hexdigest("secret1")
     options = {
-      secret_token: "secret1",
+      t: digest,
       name: "Testaaja",
       email: "testi@yeah.foo",
       language: "en"

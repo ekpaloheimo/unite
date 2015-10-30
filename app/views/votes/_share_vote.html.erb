@@ -14,7 +14,7 @@
 <% end %>  
 
 <div>
-  <%= hidden_field_tag(:secret_token, @vote.secret_token) %>
+  <%= hidden_field_tag(:t, @vote.md5_secret_token) %>
   <div class="field">
     <%= label_tag _("Choose the language of the invitation letter") %></br>
     <%= select_tag :language, options_for_select(Language.translated_select_options), :class => "form-control" %>

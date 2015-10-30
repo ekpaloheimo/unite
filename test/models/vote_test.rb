@@ -95,6 +95,13 @@ class VoteTest < ActiveSupport::TestCase
     assert @vote.secret_token
   end
 
+  test 'should have MD5 secret token' do
+    @vote.save
+    require 'digest/md5'
+    digest = Digest::MD5.hexdigest(@vote.secret_token)
+    assert_equal @vote.md5_secret_token, digest
+  end
+
   test 'should have number' do
     @vote.save
     assert_equal @vote.order_number, 3001

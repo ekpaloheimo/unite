@@ -64,7 +64,10 @@ class Vote < ActiveRecord::Base
   def add_secret_token    
     while token = SecureRandom.hex(64) do
       if Vote.where(secret_token: token).blank?
+        require 'digest/md5'
+        digest = Digest::MD5.hexdigest(token)
         self.secret_token = token
+        self.md5_secret_token = digest
         break
       end
     end
@@ -74,7 +77,7 @@ class Vote < ActiveRecord::Base
     return unless options[:name]
     return unless options[:email]
     return unless options[:language]
-    options = options.merge(inviter_name: name, secret_token: secret_token)
+    options = options.merge(inviter_name: name, token: md5_secret_token)
     VoteMailer.email_invite(options).deliver_now   
   end
 

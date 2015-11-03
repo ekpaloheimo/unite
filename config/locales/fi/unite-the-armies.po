@@ -17,9 +17,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
+#, fuzzy
 msgid ""
-"\"Time is running out while we are destroying the planets resources. This must "
-"be changed and it can be changed. You can participate. Take action today.\""
+"\"Time is running out while we are destroying the planet's resources. This must"
+" be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
 "Aika on loppumassa koska olemme tuhoamassa planeettamme resursseja. Tämän on l"
 "oputtava. Muutos on vielä mahdollista. Voit osallistua. Toimi tänään."
@@ -188,7 +189,8 @@ msgstr "Kommenttilista"
 msgid "Make an initiative for the action of the United Armies."
 msgstr "Tee aloite yhdistyneiden armeijoiden toiminnasta"
 
-msgid "Make the initiative using some UN:s official languages (6)."
+#, fuzzy
+msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
 
 msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
@@ -241,11 +243,9 @@ msgstr "Uudelleen metsitys"
 msgid "Richness of cultures"
 msgstr "Kulttuurien rikkaus"
 
-msgid "Rules for the Comments"
+#, fuzzy
+msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "ESTÄ KATASTROFI - NYT!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Pelasta maailma - yhdistetään armeijat!"
@@ -259,17 +259,14 @@ msgstr "Pelasta maailma."
 msgid "Share"
 msgstr "Jaa"
 
-msgid "Share with email"
-msgstr "Jaa sähköpostilla"
+msgid "Share email with your friends"
+msgstr ""
 
 msgid "Share with social media"
 msgstr "Jaa sosiaalisessa mediassa"
 
 msgid "Sign"
 msgstr "Äänestä"
-
-msgid "Sign now!"
-msgstr "Äänestä nyt!"
 
 msgid "Signatures! Let’s work further!"
 msgstr "Allekirjoituksia! Kampanja tarvitsee jokaisen äänen!"
@@ -300,8 +297,8 @@ msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- k
 msgid "Thank you for your support %{name}!"
 msgstr "Kiitos tuestasi %{name}!"
 
-msgid "The Green Federation of Life Protection"
-msgstr "Vihreän Elämänsuojelun Liitto (VESL)"
+msgid "The Green Association for the Protection of Life"
+msgstr ""
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "Ehdotettu tehtävä tulee olla luonteeltaan koko maailmaa auttava."
@@ -407,8 +404,9 @@ msgstr ""
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Tarvitsemme yhä %{count} ääntä tavoitteestamme joka on 100.000.000."
 
+#, fuzzy
 msgid ""
-"We suggest the United Nations suggests a global initiative for a redeployment "
+"We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new environmental task as soon as possibl"
 "e."
 msgstr ""

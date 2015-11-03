@@ -18,8 +18,8 @@ msgstr ""
 "\n"
 
 msgid ""
-"\"Time is running out while we are destroying the planets resources. This must "
-"be changed and it can be changed. You can participate. Take action today.\""
+"\"Time is running out while we are destroying the planet's resources. This must"
+" be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
 
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 msgid "Make an initiative for the action of the United Armies."
 msgstr ""
 
-msgid "Make the initiative using some UN:s official languages (6)."
+msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr ""
 
 msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
@@ -214,10 +214,7 @@ msgstr ""
 msgid "Richness of cultures"
 msgstr ""
 
-msgid "Rules for the Comments"
-msgstr ""
-
-msgid "STOP DISASTER – NOW!"
+msgid "Rules for Comments"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
@@ -232,16 +229,13 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-msgid "Share with email"
+msgid "Share email with your friends"
 msgstr ""
 
 msgid "Share with social media"
 msgstr ""
 
 msgid "Sign"
-msgstr ""
-
-msgid "Sign now!"
 msgstr ""
 
 msgid "Signatures! Let’s work further!"
@@ -269,7 +263,7 @@ msgstr ""
 msgid "Thank you for your support %{name}!"
 msgstr ""
 
-msgid "The Green Federation of Life Protection"
+msgid "The Green Association for the Protection of Life"
 msgstr ""
 
 msgid "The Suggested task must benefit the whole world."
@@ -354,7 +348,7 @@ msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
 msgid ""
-"We suggest the United Nations suggests a global initiative for a redeployment "
+"We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new environmental task as soon as possibl"
 "e."
 msgstr ""

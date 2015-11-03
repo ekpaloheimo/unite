@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-30 10:46+0200\n"
-"PO-Revision-Date: 2015-10-30 10:46+0200\n"
+"POT-Creation-Date: 2015-11-03 11:16+0200\n"
+"PO-Revision-Date: 2015-11-03 11:16+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "\"Time is running out while we are destroying the planets resources. This must be changed and it can be changed. You can participate. Take action today.\""
+msgid "\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
@@ -144,7 +144,7 @@ msgstr ""
 msgid "Make an initiative for the action of the United Armies."
 msgstr ""
 
-msgid "Make the initiative using some UN:s official languages (6)."
+msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr ""
 
 msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
@@ -186,10 +186,7 @@ msgstr ""
 msgid "Richness of cultures"
 msgstr ""
 
-msgid "Rules for the Comments"
-msgstr ""
-
-msgid "STOP DISASTER – NOW!"
+msgid "Rules for Comments"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
@@ -204,16 +201,13 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-msgid "Share with email"
+msgid "Share email with your friends"
 msgstr ""
 
 msgid "Share with social media"
 msgstr ""
 
 msgid "Sign"
-msgstr ""
-
-msgid "Sign now!"
 msgstr ""
 
 msgid "Signatures! Let’s work further!"
@@ -237,7 +231,7 @@ msgstr ""
 msgid "Thank you for your support %{name}!"
 msgstr ""
 
-msgid "The Green Federation of Life Protection"
+msgid "The Green Association for the Protection of Life"
 msgstr ""
 
 msgid "The Suggested task must benefit the whole world."
@@ -297,7 +291,7 @@ msgstr ""
 msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
-msgid "We suggest the United Nations suggests a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
 msgstr ""
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."

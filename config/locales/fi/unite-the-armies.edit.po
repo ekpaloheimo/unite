@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-10-30 10:47+0200\n"
+"PO-Revision-Date: 2015-10-30 10:49+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
-msgid "\"Time is running out while we are destroying the planets resources. This must be changed and it can be changed. You can participate. Take action today.\""
+#, fuzzy
+msgid "\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\""
 msgstr "Aika on loppumassa koska olemme tuhoamassa planeettamme resursseja. Tämän on loputtava. Muutos on vielä mahdollista. Voit osallistua. Toimi tänään."
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
@@ -143,7 +144,8 @@ msgstr "Kommenttilista"
 msgid "Make an initiative for the action of the United Armies."
 msgstr "Tee aloite yhdistyneiden armeijoiden toiminnasta"
 
-msgid "Make the initiative using some UN:s official languages (6)."
+#, fuzzy
+msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
 
 msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
@@ -185,11 +187,9 @@ msgstr "Uudelleen metsitys"
 msgid "Richness of cultures"
 msgstr "Kulttuurien rikkaus"
 
-msgid "Rules for the Comments"
+#, fuzzy
+msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "ESTÄ KATASTROFI - NYT!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Pelasta maailma - yhdistetään armeijat!"
@@ -203,17 +203,14 @@ msgstr "Pelasta maailma."
 msgid "Share"
 msgstr "Jaa"
 
-msgid "Share with email"
-msgstr "Jaa sähköpostilla"
+msgid "Share email with your friends"
+msgstr ""
 
 msgid "Share with social media"
 msgstr "Jaa sosiaalisessa mediassa"
 
 msgid "Sign"
 msgstr "Äänestä"
-
-msgid "Sign now!"
-msgstr "Äänestä nyt!"
 
 msgid "Signatures! Let’s work further!"
 msgstr "Allekirjoituksia! Kampanja tarvitsee jokaisen äänen!"
@@ -236,8 +233,8 @@ msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- k
 msgid "Thank you for your support %{name}!"
 msgstr "Kiitos tuestasi %{name}!"
 
-msgid "The Green Federation of Life Protection"
-msgstr "Vihreän Elämänsuojelun Liitto (VESL)"
+msgid "The Green Association for the Protection of Life"
+msgstr ""
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "Ehdotettu tehtävä tulee olla luonteeltaan koko maailmaa auttava."
@@ -279,7 +276,7 @@ msgid "Video"
 msgstr "Video"
 
 msgid "Water is the Mother of Life – we all need it!"
-msgstr "Vesi on elämän perusta - kaikki tarvitsevat sitä!"
+msgstr "Vesi on elämän äiti - me kaikki tarvitsemme sitä!"
 
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Toivomme, että YK harkitsisi maailman armeijoiden suuntaamista uuteen tehtävään ja tekisi maailmanlaajuisen aloitteen edellä esitetyn ehdotuksen nopeaksi toteuttamiseksi. Aloitteella olisi myös ilmeinen maailmanrauhaa edistävä vaikutuksensa.      "
@@ -296,7 +293,8 @@ msgstr "Toimenpiteitä ehdotamme hankkeisiin, joihin tarvitaan suuria henkilö- 
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Tarvitsemme yhä %{count} ääntä tavoitteestamme joka on 100.000.000."
 
-msgid "We suggest the United Nations suggests a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
+#, fuzzy
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
 msgstr "Ehdotamme Yhdistyneitä Kansakuntia ehdottamaan globaalia aloitetta maapallon armeijoiden yhdistämiseksi ympäristötehtäviin mahdollisimman nopeasti."
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
@@ -343,3 +341,29 @@ msgstr "professori"
 
 msgid "seconds"
 msgstr "sekuntia"
+
+#~ msgid ""
+#~ "\"Time is running out while we are destroying the planets resources. This must "
+#~ "be changed and it can be changed. You can participate. Take action today.\""
+#~ msgstr ""
+#~ "Aika on loppumassa koska olemme tuhoamassa planeettamme resursseja. Tämän on l"
+#~ "oputtava. Muutos on vielä mahdollista. Voit osallistua. Toimi tänään."
+#~ msgid "Make the initiative using some UN:s official languages (6)."
+#~ msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
+#~ msgid "Rules for the Comments"
+#~ msgstr "Kommentoinnin säännöt"
+#~ msgid "STOP DISASTER – NOW!"
+#~ msgstr "ESTÄ KATASTROFI - NYT!"
+#~ msgid "Share with email"
+#~ msgstr "Jaa sähköpostilla"
+#~ msgid "Sign now!"
+#~ msgstr "Äänestä nyt!"
+#~ msgid "The Green Federation of Life Protection"
+#~ msgstr "Vihreän Elämänsuojelun Liitto (VESL)"
+#~ msgid ""
+#~ "We suggest the United Nations suggests a global initiative for a redeployment "
+#~ "of the world’s armed forces into the new environmental task as soon as possibl"
+#~ "e."
+#~ msgstr ""
+#~ "Ehdotamme Yhdistyneitä Kansakuntia ehdottamaan globaalia aloitetta maapallon a"
+#~ "rmeijoiden yhdistämiseksi ympäristötehtäviin mahdollisimman nopeasti."

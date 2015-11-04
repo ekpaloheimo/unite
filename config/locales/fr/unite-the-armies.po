@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-04 11:01+0200\n"
+"PO-Revision-Date: 2015-11-04 11:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -18,7 +18,6 @@ msgstr ""
 " && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "\n"
 
-#, fuzzy
 msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"
 " be changed and it can be changed. You can participate. Take action today.\""
@@ -27,7 +26,6 @@ msgstr ""
 "s de la planète. Ceci doit ”changer et peut être changé. Vous pouvez participe"
 "r. Agissez dès aujourd'hui."
 
-#, fuzzy
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
 "at is why effective and quick actions are necessary. The armies are the only p"
@@ -195,13 +193,11 @@ msgstr "Listage des commentaires"
 msgid "Make an initiative for the action of the United Armies."
 msgstr "Prendre une initiative pour l'action des armées unies."
 
-#, fuzzy
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr ""
 "Faire que l'initiative utilise une des langues officielles des Nations Unies.("
 "6)."
 
-#, fuzzy
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Des millions de tonnes de déchets en plastique sur les plages et les océans!"
 
@@ -250,7 +246,6 @@ msgstr "Reforestation"
 msgid "Richness of cultures"
 msgstr "Richesse des cultures"
 
-#, fuzzy
 msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
 
@@ -267,7 +262,7 @@ msgid "Share"
 msgstr "Partagez"
 
 msgid "Share email with your friends"
-msgstr ""
+msgstr "Partager par courriel"
 
 msgid "Share with social media"
 msgstr "Partagez sur les médias sociaux"
@@ -275,7 +270,6 @@ msgstr "Partagez sur les médias sociaux"
 msgid "Sign"
 msgstr "Signez"
 
-#, fuzzy
 msgid "Signatures! Let’s work further!"
 msgstr "Des signatures! Allons de l'avant!"
 
@@ -285,7 +279,6 @@ msgstr "Etat de l'environnement mondial"
 msgid "Statistics"
 msgstr "Statistiques"
 
-#, fuzzy
 msgid ""
 "Such harmful developments have accelerated and often aggravated one another. I"
 "t is to be feared that this process may reach unnoticed a ‘point of no return’"
@@ -365,18 +358,15 @@ msgstr ""
 msgid "Twitter"
 msgstr "Twitter"
 
-#, fuzzy
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Unissez les armées pour sauver la vie, pas pour tuer!"
 
 msgid "Video"
 msgstr "Vidéo"
 
-#, fuzzy
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
 
-#, fuzzy
 msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
 "itiative to put the proposals outlined above into effect and for a redeploymen"
@@ -389,7 +379,6 @@ msgstr ""
 "velle tâche dès que possible.  Une telle initiative aurait aussi un effet tang"
 "ible dans la promotion de la paix dans le monde. ."
 
-#, fuzzy
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"
 "tions Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
@@ -417,9 +406,8 @@ msgstr ""
 " la main d'oeuvre locale."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr ""
+msgstr "Il nous manque encore ....{nombre} jusqu'à 100 millions"
 
-#, fuzzy
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new environmental task as soon as possibl"
@@ -440,7 +428,6 @@ msgstr ""
 "ion de l'environnement peut être liée directement aux problèmes sociaux dans l"
 "a population locale."
 
-#, fuzzy
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr "Vous voulez avoir l'initiative dans votre langue? Contactez-nous!!"
 

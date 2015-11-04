@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-04 11:01+0200\n"
+"PO-Revision-Date: 2015-11-04 11:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -18,11 +18,9 @@ msgstr ""
 " && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "\n"
 
-#, fuzzy
 msgid "\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\""
 msgstr "Le  temps va manquer, alors que nous sommes en train de détruire les ressources de la planète. Ceci doit ”changer et peut être changé. Vous pouvez participer. Agissez dès aujourd'hui."
 
-#, fuzzy
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "Nous sommes pressés. Nous ne pouvons plus attendre des siècles, nous n'avons que quelques décennies .  C'est pourquoi des actions efficaces et rapides sont nécessaires. Les armées sont la seule possibilité."
 
@@ -146,11 +144,9 @@ msgstr "Listage des commentaires"
 msgid "Make an initiative for the action of the United Armies."
 msgstr "Prendre une initiative pour l'action des armées unies."
 
-#, fuzzy
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Faire que l'initiative utilise une des langues officielles des Nations Unies.(6)."
 
-#, fuzzy
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Des millions de tonnes de déchets en plastique sur les plages et les océans!"
 
@@ -190,7 +186,6 @@ msgstr "Reforestation"
 msgid "Richness of cultures"
 msgstr "Richesse des cultures"
 
-#, fuzzy
 msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
 
@@ -207,7 +202,7 @@ msgid "Share"
 msgstr "Partagez"
 
 msgid "Share email with your friends"
-msgstr ""
+msgstr "Partager par courriel"
 
 msgid "Share with social media"
 msgstr "Partagez sur les médias sociaux"
@@ -215,7 +210,6 @@ msgstr "Partagez sur les médias sociaux"
 msgid "Sign"
 msgstr "Signez"
 
-#, fuzzy
 msgid "Signatures! Let’s work further!"
 msgstr "Des signatures! Allons de l'avant!"
 
@@ -225,7 +219,6 @@ msgstr "Etat de l'environnement mondial"
 msgid "Statistics"
 msgstr "Statistiques"
 
-#, fuzzy
 msgid "Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention."
 msgstr "De tels développements nuisibles se sont accélérés et souvent aggravés les uns après les autres, on peut craindre que ce processus puisse atteindre, sans s'en apercevoir, un point de non retour après lequel il ne pourra s'inverser, ni même être arrêté par une intervention humaine. "
 
@@ -275,22 +268,18 @@ msgstr ""
 msgid "Twitter"
 msgstr "Twitter"
 
-#, fuzzy
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Unissez les armées pour sauver la vie, pas pour tuer!"
 
 msgid "Video"
 msgstr "Vidéo"
 
-#, fuzzy
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
 
-#, fuzzy
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Nous espérons sérieusement que les Nations Unies considéreront la mise en place d'une initiative globale pour mettre en pratique les propositions mentionnées ci-dessus et pour un redéploiement des forces armées du monde dans cette nouvelle tâche dès que possible.  Une telle initiative aurait aussi un effet tangible dans la promotion de la paix dans le monde. ."
 
-#, fuzzy
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr "Nous présentons cette campagne pour supporter l'iniative présentée au secrétariat des  Nationa Unies  par deux professeurs, messieurs U.B. Lindström et Eero Paloheimo."
 
@@ -301,16 +290,14 @@ msgid "We propose action on projects requiring large-scale resources, both of ma
 msgstr "à la fois de la main d'oeuvre et de l'équipement; cela implique les projets agro-forestiers, la forêt, le reboisement et la diversité animale dans la prise de conscience du réchauffement mondial. De tels projets aideraient à prévenir les pires catastrophes; ils pourraient aussi aider et favoriser la stabilité sociale et écologique, l'emploi au niveau local,  en supposant l'utilisation de la main d'oeuvre locale."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr ""
+msgstr "Il nous manque encore ....{nombre} jusqu'à 100 millions"
 
-#, fuzzy
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
 msgstr "Nous suggérons que les Nations Unies proposent une initative mondiale pour un redéploiement des forces armées  en une nouvelle tâche environnementale aussi vite que possible. "
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "Nous, soussignés, nous adressons à vous en raison de notre inquiétude sur l'état de l'environnement général. Dans beaucoup de parties du monde la détérioration de l'environnement peut être liée directement aux problèmes sociaux dans la population locale."
 
-#, fuzzy
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr "Vous voulez avoir l'initiative dans votre langue? Contactez-nous!!"
 
@@ -352,95 +339,3 @@ msgstr "professeur"
 
 msgid "seconds"
 msgstr "secondes"
-
-#~ msgid ""
-#~ "\"Time is running out while we are destroying the planets resources. This must "
-#~ "be changed and it can be changed. You can participate. Take action today.\""
-#~ msgstr ""
-#~ "Le  temps va manquer, alors que nous sommes en train de détruire les ressource"
-#~ "s de la planète. Ceci doit ”changer et peut être changé. Vous pouvez participe"
-#~ "r. Agissez dès aujourd'hui."
-
-#~ msgid ""
-#~ "\"We are in a hurry. We don't have time for centuries, we have only decades. Th"
-#~ "at is why effective and quick actions are necessary. The armies are the only p"
-#~ "ossibility.\""
-#~ msgstr ""
-#~ "Nous sommes pressés. Nous ne pouvons plus attendre des siècles, nous n'avons q"
-#~ "ue quelques décennies .  C'est pourquoi des actions efficaces et rapides sont "
-#~ "nécessaires. Les armées sont la seule possibilité."
-
-#~ msgid "Make the initiative using some UN:s official languages (6)."
-#~ msgstr ""
-#~ "Faire que l'initiative utilise une des langues officielles des Nations Unies.("
-#~ "6)."
-
-#~ msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
-#~ msgstr "Des millions de tonnes de déchets en plastique sur les plages et les océans!"
-
-#~ msgid "Rules for the Comments"
-#~ msgstr "Règles pour les commentaires"
-
-#~ msgid "STOP DISASTER NOW!"
-#~ msgstr "RRETER LE DÉSASTRE MAINTENANT"
-
-#~ msgid "Share with email"
-#~ msgstr "Partager par courriel"
-
-#~ msgid "Sign now!"
-#~ msgstr "Signez maintenant!"
-
-#~ msgid "Signatures! Letâ€™s work further!"
-#~ msgstr "Des signatures! Allons de l'avant!"
-
-#~ msgid ""
-#~ "Such harmful developments have accelerated and often aggravated one another. I"
-#~ "t is to be feared that this process may reach unnoticed a point of no return, "
-#~ "after which it can no longer be reversed, or even arrested, by human intervent"
-#~ "ion."
-#~ msgstr ""
-#~ "De tels développements nuisibles se sont accélérés et souvent aggravés les uns"
-#~ " après les autres, on peut craindre que ce processus puisse atteindre, sans s'"
-#~ "en apercevoir, un point de non retour après lequel il ne pourra s'inverser, ni"
-#~ " même être arrêté par une intervention humaine. "
-
-#~ msgid "The Green Federation of Life Protection"
-#~ msgstr "La Fédération verte de la protection de la vie."
-
-#~ msgid "Unite the Armies to Save Life â€“ not to Kill!"
-#~ msgstr "Unissez les armées pour sauver la vie, pas pour tuer!"
-
-#~ msgid "Water is the Mother of Life â€“ we all need it!"
-#~ msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
-
-#~ msgid ""
-#~ "We earnestly hope that the United Nations will consider suggesting a global in"
-#~ "itiative to put the proposals outlined above into effect and for a redeploymen"
-#~ "t of the worldâ€™s armed forces into this new task as soon as possible. Such a"
-#~ "n initiative would also have a tangible effect in promoting world peace."
-#~ msgstr ""
-#~ "Nous espérons sérieusement que les Nations Unies considéreront la mise en plac"
-#~ "e d'une initiative globale pour mettre en pratique les propositions mentionnée"
-#~ "s ci-dessus et pour un redéploiement des forces armées du monde dans cette nou"
-#~ "velle tâche dès que possible.  Une telle initiative aurait aussi un effet tang"
-#~ "ible dans la promotion de la paix dans le monde. ."
-
-#~ msgid ""
-#~ "We introduce this campaign to support an initiative presented to the United Na"
-#~ "tions Secretariat by two professors: U.B. LindstrÃ¶m and Eero Paloheimo."
-#~ msgstr ""
-#~ "Nous présentons cette campagne pour supporter l'iniative présentée au secrétar"
-#~ "iat des  Nationa Unies  par deux professeurs, messieurs U.B. Lindström et Eero"
-#~ " Paloheimo."
-
-#~ msgid ""
-#~ "We suggest the United Nations suggests a global initiative for a redeployment "
-#~ "of the worldâ€™s armed forces into the new environmental task as soon as possi"
-#~ "ble."
-#~ msgstr ""
-#~ "Nous suggérons que les Nations Unies proposent une initative mondiale pour un "
-#~ "redéploiement des forces armées  en une nouvelle tâche environnementale aussi "
-#~ "vite que possible. "
-
-#~ msgid "Would you like to have the initiative in your language â€“ please, contact us!"
-#~ msgstr "Vous voulez avoir l'initiative dans votre langue? Contactez-nous!!"

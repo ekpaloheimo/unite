@@ -148,7 +148,8 @@ msgstr "Tee aloite yhdistyneiden armeijoiden toiminnasta"
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
 
-msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
+#, fuzzy
+msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Miljoonia tonneja muovijätettä rannoilla ja merellä!"
 
 msgid "Name"
@@ -342,6 +343,8 @@ msgstr "professori"
 msgid "seconds"
 msgstr "sekuntia"
 
+#~ msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
+#~ msgstr "Miljoonia tonneja muovijätettä rannoilla ja merellä!"
 #~ msgid ""
 #~ "\"Time is running out while we are destroying the planets resources. This must "
 #~ "be changed and it can be changed. You can participate. Take action today.\""

@@ -147,7 +147,7 @@ msgstr ""
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr ""
 
-msgid "Millions Tons of Plastic Waste on the Shores and Oceans!"
+msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr ""
 
 msgid "Name"

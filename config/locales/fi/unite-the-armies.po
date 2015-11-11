@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-10-30 10:49+0200\n"
+"PO-Revision-Date: 2015-11-11 16:28+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
-#, fuzzy
 msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"
 " be changed and it can be changed. You can participate. Take action today.\""
@@ -189,11 +188,9 @@ msgstr "Kommenttilista"
 msgid "Make an initiative for the action of the United Armies."
 msgstr "Tee aloite yhdistyneiden armeijoiden toiminnasta"
 
-#, fuzzy
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
 
-#, fuzzy
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Miljoonia tonneja muovijätettä rannoilla ja merellä!"
 
@@ -244,7 +241,6 @@ msgstr "Uudelleen metsitys"
 msgid "Richness of cultures"
 msgstr "Kulttuurien rikkaus"
 
-#, fuzzy
 msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
 
@@ -405,7 +401,6 @@ msgstr ""
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Tarvitsemme yhä %{count} ääntä tavoitteestamme joka on 100.000.000."
 
-#, fuzzy
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new environmental task as soon as possibl"

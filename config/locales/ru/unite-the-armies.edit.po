@@ -30,6 +30,9 @@ msgstr ""
 msgid "Act NOW!"
 msgstr ""
 
+msgid "Add"
+msgstr ""
+
 msgid "Add a comment"
 msgstr ""
 

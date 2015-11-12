@@ -30,6 +30,9 @@ msgstr "Qui sommes-nous?"
 msgid "Act NOW!"
 msgstr "Agissez maintenant!"
 
+msgid "Add"
+msgstr ""
+
 msgid "Add a comment"
 msgstr "Ajoutez un commentaire"
 

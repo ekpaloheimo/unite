@@ -28,6 +28,9 @@ msgstr "Acerca de nosotros"
 msgid "Act NOW!"
 msgstr "!Actúa ahora!"
 
+msgid "Add"
+msgstr ""
+
 msgid "Add a comment"
 msgstr "Deja tu comentario"
 

@@ -198,6 +198,9 @@ msgstr "Sauvez le monde! Agissez maintenant!"
 msgid "Save the planet."
 msgstr "Sauvez la planète."
 
+msgid "Send"
+msgstr ""
+
 msgid "Share"
 msgstr "Partagez"
 

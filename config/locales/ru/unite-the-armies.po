@@ -227,6 +227,9 @@ msgstr ""
 msgid "Save the planet."
 msgstr ""
 
+msgid "Send"
+msgstr ""
+
 msgid "Share"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-12 18:37+0200\n"
+"PO-Revision-Date: 2015-11-12 18:49+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -75,7 +75,7 @@ msgid "Do not share this direct link to anybody. Instead, you can use a form on 
 msgstr "Älä jaa tätä linkkiä kenellekkään. Voit käyttää alla olevaa lomaketta lähettääksesi kutsun ystävillesi sähköpostilla."
 
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
-msgstr "Älä jaa tata linkkiä kenellekkään. Voit käyttää alla olevaa lomaketta lähettääksesi julkisen version äänestä ystävillesi."
+msgstr "Älä jaa tätä linkkiä kenellekkään. Voit käyttää alla olevaa lomaketta lähettääksesi julkisen version äänestä ystävillesi."
 
 msgid "Each of us must learn to work for the benefit of all mankind. Universal responsibility is the real key to human survival."
 msgstr "Jokaisen meistä on opittava toimimaan koko ihmiskunnan parhaaksi. Universaalivastuu on avain ihmiskunnan selviytymiseen."
@@ -196,6 +196,9 @@ msgstr "Pelasta maailma! Toimi nyt!"
 
 msgid "Save the planet."
 msgstr "Pelasta maailma."
+
+msgid "Send"
+msgstr ""
 
 msgid "Share"
 msgstr "Jaa"

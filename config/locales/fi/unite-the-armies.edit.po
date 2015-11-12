@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-12 18:34+0200\n"
+"PO-Revision-Date: 2015-11-12 18:37+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -279,7 +279,7 @@ msgid "We earnestly hope that the United Nations will consider suggesting a glob
 msgstr "Toivomme, että YK harkitsisi maailman armeijoiden suuntaamista uuteen tehtävään ja tekisi maailmanlaajuisen aloitteen edellä esitetyn ehdotuksen nopeaksi toteuttamiseksi. Aloitteella olisi myös ilmeinen maailmanrauhaa edistävä vaikutuksensa.      "
 
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
-msgstr "Esittelemme kampanjan tukeaksemme aloitetta joka on lähetetty Yhdistyneille Kansakunnille professorien U.B. Lindström sekä Eero Paloheimo toimesta."
+msgstr "Esittelemme kampanjan tukeaksemme aloitetta jonka ovat lähettäneet Yhdistyneille Kansakunnille professorit U.B. Lindström sekä Eero Paloheimo."
 
 msgid "We must defend Life's Richness on our Planet!"
 msgstr "Meidän on puolustettava maapallon monimuotoisuutta!"

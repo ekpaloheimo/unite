@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-16 10:33+0200\n"
+"PO-Revision-Date: 2015-11-16 10:57+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -136,7 +136,7 @@ msgid "It is accepted that the military are called to assist the areas affected 
 msgstr "Tavallisesti sotavoimat kutsutaan apuun yllättävien onnettomuuksien tähden.Saman voimavaran tulisi suojella ihmiskuntaa asteittain pahenevilta katastrofeilta."
 
 msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "On johdonmukaista laajentaa hätätoimet äkillisistä onnettomuuksistasuuren mittaluokan katastrofeihin. "
+msgstr "On johdonmukaista laajentaa hätätoimet äkillisistä onnettomuuksista suuren mittaluokan katastrofeihin."
 
 msgid "Language"
 msgstr "Kieli"

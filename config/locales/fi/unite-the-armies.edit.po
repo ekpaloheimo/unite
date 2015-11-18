@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-16 10:57+0200\n"
+"PO-Revision-Date: 2015-11-18 15:32+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Muutos on vielä mahdollinen. Voit osallistua. Toimi jo tänään."
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
-msgstr " ainoa mahdollisuus."
+msgstr "Meillä on kiire. Meillä ei ole aikaa vuosisatoja, vain vuosikymmeniä. Tästä syystä tehokas ja nopea toiminta on välttämätöntä. Armeijat ovat ainoa mahdollisuus."
 
 msgid "About Us"
 msgstr "Tietoa meistä"
@@ -36,11 +36,17 @@ msgstr "Lisää"
 msgid "Add a comment"
 msgstr "Lisää kommentti"
 
+msgid "Administration"
+msgstr "Hallinto"
+
+msgid "Ago"
+msgstr "Milloin"
+
 msgid "Air pollution is a global Challenge!"
 msgstr "Ilmakehän saastuminen on globaali haaste!"
 
-msgid "Appeal"
-msgstr "Aloite"
+msgid "Arabic"
+msgstr "Arabia"
 
 msgid "Background"
 msgstr "Tausta"
@@ -51,6 +57,9 @@ msgstr "Elollisen monimuotoisuus"
 msgid "Campaign"
 msgstr "Kampanja"
 
+msgid "Chinese"
+msgstr "Kiina"
+
 msgid "Choose the language"
 msgstr "Valitse kieli"
 
@@ -60,6 +69,9 @@ msgstr "Valitse kutsukirjeen kieli"
 msgid "Choose the topic"
 msgstr "Valitse aihe"
 
+msgid "Climate"
+msgstr "Ilmasto"
+
 msgid "Comment"
 msgstr "Kommentti"
 
@@ -68,6 +80,9 @@ msgstr "Kommentti (max 1000 merkkiä)"
 
 msgid "Comment was successfully created."
 msgstr "Kommentti on lisätty onnistuneesti."
+
+msgid "Continue"
+msgstr "Jatka"
 
 msgid "Country"
 msgstr "Maa"
@@ -90,14 +105,23 @@ msgstr "Sähköposti"
 msgid "Email Confirmation"
 msgstr "Sähköposti uudelleen"
 
+msgid "English"
+msgstr "Englanti"
+
 msgid "Facebook"
 msgstr "Facebook"
+
+msgid "Finnish"
+msgstr "Suomi"
 
 msgid "First Aid"
 msgstr "Ensiapu"
 
 msgid "Food for all"
 msgstr "Ruokaa kaikille"
+
+msgid "French"
+msgstr "Ranska"
 
 msgid "Global responsibility"
 msgstr "Globaali vastuu"
@@ -171,11 +195,17 @@ msgstr "Uusi teknologia"
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "Poliittisella tasolla on yleisesti hyväksytty, että armeijat kutsutaan apuun pelastettaessa äkillisten ja odottamattomien luonnonkatastrofien uhreja. Saman potentiaalin luonnollista käyttöä olisi hitaamman, mutta mittakaavaltaan suuremman ja vääjäämättä etenevän katastrofin pysäyttäminen, toivottavasti yhdessä kansalaisjärjestöjen kanssa."
 
+msgid "Plastic Waste"
+msgstr "Muovijäte"
+
 msgid "Positive initiations will be published."
 msgstr "Positiiviset aloitteet julkaistaan."
 
 msgid "Present the task with max. 1000 characters."
 msgstr "Ehdota tehtävää korkeintaan 1000 merkin pituisena."
+
+msgid "Protected Areas"
+msgstr "Suojelukohteet"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Radikaaleja toimia tarvitaan maailman pelastamiseksi."
@@ -191,6 +221,9 @@ msgstr "Kulttuurien rikkaus"
 
 msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
+
+msgid "Russian"
+msgstr "Venäjä"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Pelasta maailma - yhdistetään armeijat!"
@@ -219,6 +252,9 @@ msgstr "Äänestä"
 msgid "Signatures! Let’s work further!"
 msgstr "Allekirjoituksia! Kampanja tarvitsee jokaisen äänen!"
 
+msgid "Spanish"
+msgstr "Espanja"
+
 msgid "State of the global environment"
 msgstr "Maailman ympäristön tila"
 
@@ -243,6 +279,18 @@ msgstr "Vihreän Elämänsuojelun Liitto (VESL)"
 msgid "The Suggested task must benefit the whole world."
 msgstr "Ehdotettu tehtävä tulee olla luonteeltaan koko maailmaa auttava."
 
+msgid "The United Armies must collect the plastic waste from the oceans and shores."
+msgstr "Yhdistyneen Armeijan tulee siivota muovijäte rannoilta ja valtameristä."
+
+msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
+msgstr "Yhdistyneen Armeijan tulee varmistaa ihmisten ja muun elollisen veden saanti kaikkialla."
+
+msgid "The United Armies must protect the areas reserved for nature."
+msgstr "Yhdistyneen Armeijan on turvattava suojelualueiden koskemattomuus."
+
+msgid "The activities of the United Armies must be controlled by a common, international organ."
+msgstr "Kansainvälisen yhteisön on valvottava Yhdistyneen Armeijan toimia"
+
 msgid "The best contributors will be rewarded later."
 msgstr "Parhaat tukijat palkitaan myöhemmin."
 
@@ -251,6 +299,9 @@ msgstr "Kampanja pyrkii pysäyttämään maapallon ympäristön ratkaisevan huon
 
 msgid "The link below will go to your private secret vote"
 msgstr "Linkki alapuolella vie henkilökohtaiseen ääneesi"
+
+msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
+msgstr "Yhdistyneen Armeijan voimavarat pitää suunnata autioituneiden alueiden uudelleen metsittämiseen."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettava uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitteelle."
@@ -278,6 +329,9 @@ msgstr "Yhdistäkäämme armeijat pelastaaksemme elämää - ei tappaaksemme!"
 
 msgid "Video"
 msgstr "Video"
+
+msgid "Water"
+msgstr "Vesi"
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "Vesi on elämän äiti - me kaikki tarvitsemme sitä!"

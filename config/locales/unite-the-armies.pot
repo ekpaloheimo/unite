@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-16 09:25+0200\n"
-"PO-Revision-Date: 2015-11-16 09:25+0200\n"
+"POT-Creation-Date: 2015-11-18 15:32+0200\n"
+"PO-Revision-Date: 2015-11-18 15:32+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -36,10 +36,16 @@ msgstr ""
 msgid "Add a comment"
 msgstr ""
 
+msgid "Administration"
+msgstr ""
+
+msgid "Ago"
+msgstr ""
+
 msgid "Air pollution is a global Challenge!"
 msgstr ""
 
-msgid "Appeal"
+msgid "Arabic"
 msgstr ""
 
 msgid "Background"
@@ -51,6 +57,9 @@ msgstr ""
 msgid "Campaign"
 msgstr ""
 
+msgid "Chinese"
+msgstr ""
+
 msgid "Choose the language"
 msgstr ""
 
@@ -60,6 +69,9 @@ msgstr ""
 msgid "Choose the topic"
 msgstr ""
 
+msgid "Climate"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -67,6 +79,9 @@ msgid "Comment (max 1000 characters)"
 msgstr ""
 
 msgid "Comment was successfully created."
+msgstr ""
+
+msgid "Continue"
 msgstr ""
 
 msgid "Country"
@@ -90,13 +105,22 @@ msgstr ""
 msgid "Email Confirmation"
 msgstr ""
 
+msgid "English"
+msgstr ""
+
 msgid "Facebook"
+msgstr ""
+
+msgid "Finnish"
 msgstr ""
 
 msgid "First Aid"
 msgstr ""
 
 msgid "Food for all"
+msgstr ""
+
+msgid "French"
 msgstr ""
 
 msgid "Global responsibility"
@@ -171,10 +195,16 @@ msgstr ""
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr ""
 
+msgid "Plastic Waste"
+msgstr ""
+
 msgid "Positive initiations will be published."
 msgstr ""
 
 msgid "Present the task with max. 1000 characters."
+msgstr ""
+
+msgid "Protected Areas"
 msgstr ""
 
 msgid "Radical actions are urgently needed to save our planet."
@@ -190,6 +220,9 @@ msgid "Richness of cultures"
 msgstr ""
 
 msgid "Rules for Comments"
+msgstr ""
+
+msgid "Russian"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
@@ -219,6 +252,9 @@ msgstr ""
 msgid "Signatures! Let’s work further!"
 msgstr ""
 
+msgid "Spanish"
+msgstr ""
+
 msgid "State of the global environment"
 msgstr ""
 
@@ -243,6 +279,18 @@ msgstr ""
 msgid "The Suggested task must benefit the whole world."
 msgstr ""
 
+msgid "The United Armies must collect the plastic waste from the oceans and shores."
+msgstr ""
+
+msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
+msgstr ""
+
+msgid "The United Armies must protect the areas reserved for nature."
+msgstr ""
+
+msgid "The activities of the United Armies must be controlled by a common, international organ."
+msgstr ""
+
 msgid "The best contributors will be rewarded later."
 msgstr ""
 
@@ -250,6 +298,9 @@ msgid "The concern of this campaign is that the global environment is radically 
 msgstr ""
 
 msgid "The link below will go to your private secret vote"
+msgstr ""
+
+msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
 msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
@@ -277,6 +328,9 @@ msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr ""
 
 msgid "Video"
+msgstr ""
+
+msgid "Water"
 msgstr ""
 
 msgid "Water is the Mother of Life – we all need it!"

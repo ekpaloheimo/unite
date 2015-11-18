@@ -4,6 +4,17 @@ class Language
   def self.names
     %w(arabic chinese english french russian spanish)
   end
+  def self.translated_names
+    {
+      "arabic" => _("Arabic"),
+      "chinese" => _("Chinese"),
+      "english" => _("English"),
+      "french" => _("French"),
+      "russian" => _("Russian"),
+      "spanish" => _("Spanish"),
+      "finnish" => _("Finnish")
+    }
+  end
 
   # Return a list of 2 item lists.
   # 
@@ -11,7 +22,7 @@ class Language
   # option topic. Second item is a option identifier to be stored.
   def self.translated_select_options
     names.map do |name|
-      I18n.translate(name).humanize
+      translated_names[name].humanize
     end.zip(names).sort do |a,b|
       a[0] <=> b[0]
     end   

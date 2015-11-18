@@ -40,10 +40,16 @@ msgstr ""
 msgid "Add a comment"
 msgstr ""
 
+msgid "Administration"
+msgstr ""
+
+msgid "Ago"
+msgstr ""
+
 msgid "Air pollution is a global Challenge!"
 msgstr ""
 
-msgid "Appeal"
+msgid "Arabic"
 msgstr ""
 
 msgid "Background"
@@ -55,6 +61,9 @@ msgstr ""
 msgid "Campaign"
 msgstr ""
 
+msgid "Chinese"
+msgstr ""
+
 msgid "Choose the language"
 msgstr ""
 
@@ -64,6 +73,9 @@ msgstr ""
 msgid "Choose the topic"
 msgstr ""
 
+msgid "Climate"
+msgstr ""
+
 msgid "Comment"
 msgstr ""
 
@@ -71,6 +83,9 @@ msgid "Comment (max 1000 characters)"
 msgstr ""
 
 msgid "Comment was successfully created."
+msgstr ""
+
+msgid "Continue"
 msgstr ""
 
 msgid "Country"
@@ -100,13 +115,22 @@ msgstr ""
 msgid "Email Confirmation"
 msgstr ""
 
+msgid "English"
+msgstr ""
+
 msgid "Facebook"
+msgstr ""
+
+msgid "Finnish"
 msgstr ""
 
 msgid "First Aid"
 msgstr ""
 
 msgid "Food for all"
+msgstr ""
+
+msgid "French"
 msgstr ""
 
 msgid "Global responsibility"
@@ -199,10 +223,16 @@ msgid ""
 "ed, of local NGOs."
 msgstr ""
 
+msgid "Plastic Waste"
+msgstr ""
+
 msgid "Positive initiations will be published."
 msgstr ""
 
 msgid "Present the task with max. 1000 characters."
+msgstr ""
+
+msgid "Protected Areas"
 msgstr ""
 
 msgid "Radical actions are urgently needed to save our planet."
@@ -218,6 +248,9 @@ msgid "Richness of cultures"
 msgstr ""
 
 msgid "Rules for Comments"
+msgstr ""
+
+msgid "Russian"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
@@ -245,6 +278,9 @@ msgid "Sign"
 msgstr ""
 
 msgid "Signatures! Let’s work further!"
+msgstr ""
+
+msgid "Spanish"
 msgstr ""
 
 msgid "State of the global environment"
@@ -275,6 +311,22 @@ msgstr ""
 msgid "The Suggested task must benefit the whole world."
 msgstr ""
 
+msgid "The United Armies must collect the plastic waste from the oceans and shores."
+msgstr ""
+
+msgid ""
+"The United Armies must ensure sufficient water availability everywhere for the"
+" needs of people and life."
+msgstr ""
+
+msgid "The United Armies must protect the areas reserved for nature."
+msgstr ""
+
+msgid ""
+"The activities of the United Armies must be controlled by a common, internatio"
+"nal organ."
+msgstr ""
+
 msgid "The best contributors will be rewarded later."
 msgstr ""
 
@@ -285,6 +337,11 @@ msgid ""
 msgstr ""
 
 msgid "The link below will go to your private secret vote"
+msgstr ""
+
+msgid ""
+"The resources and capacity of the United Armies must be directed to reforestat"
+"ion of the deserts."
 msgstr ""
 
 msgid ""
@@ -321,6 +378,9 @@ msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr ""
 
 msgid "Video"
+msgstr ""
+
+msgid "Water"
 msgstr ""
 
 msgid "Water is the Mother of Life – we all need it!"

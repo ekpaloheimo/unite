@@ -36,11 +36,17 @@ msgstr ""
 msgid "Add a comment"
 msgstr "Ajoutez un commentaire"
 
+msgid "Administration"
+msgstr ""
+
+msgid "Ago"
+msgstr ""
+
 msgid "Air pollution is a global Challenge!"
 msgstr "La polution de l'air est un défi mondial!"
 
-msgid "Appeal"
-msgstr "Appel"
+msgid "Arabic"
+msgstr ""
 
 msgid "Background"
 msgstr "Contexte "
@@ -51,6 +57,9 @@ msgstr "Biodiversité"
 msgid "Campaign"
 msgstr "Campagne"
 
+msgid "Chinese"
+msgstr ""
+
 msgid "Choose the language"
 msgstr "Choisir la langue"
 
@@ -60,6 +69,9 @@ msgstr "Choisir la langue de la lettre d'invitation"
 msgid "Choose the topic"
 msgstr "Choisissez le thème"
 
+msgid "Climate"
+msgstr ""
+
 msgid "Comment"
 msgstr "Commentaire"
 
@@ -68,6 +80,9 @@ msgstr "Commentaire (max 1000 caractères)"
 
 msgid "Comment was successfully created."
 msgstr "Le commentaire est correctement créé."
+
+msgid "Continue"
+msgstr ""
 
 msgid "Country"
 msgstr "Pays"
@@ -90,14 +105,23 @@ msgstr "Courriel"
 msgid "Email Confirmation"
 msgstr "Confirmation du courriel"
 
+msgid "English"
+msgstr ""
+
 msgid "Facebook"
 msgstr "Facebook"
+
+msgid "Finnish"
+msgstr ""
 
 msgid "First Aid"
 msgstr "Première aide"
 
 msgid "Food for all"
 msgstr "De la nourriture pour tous"
+
+msgid "French"
+msgstr ""
 
 msgid "Global responsibility"
 msgstr "Responsabilité mondiale"
@@ -171,11 +195,17 @@ msgstr "Nouvelle technologie"
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "Au niveau politique, il est accepté partout que les militaires soient appelés à aider ceux qui sont affectés par des désastres environnementaux soudains et inattendus."
 
+msgid "Plastic Waste"
+msgstr ""
+
 msgid "Positive initiations will be published."
 msgstr "Les initiatives positives seront publiées."
 
 msgid "Present the task with max. 1000 characters."
 msgstr "Présentez la tâche avec un maximum de 1000 caractères"
+
+msgid "Protected Areas"
+msgstr ""
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Des actions radicales immédiates sont nécessaires pour sauver notre planète."
@@ -191,6 +221,9 @@ msgstr "Richesse des cultures"
 
 msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
+
+msgid "Russian"
+msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Sauvez la planète – Unissez les armées!"
@@ -219,6 +252,9 @@ msgstr "Signez"
 msgid "Signatures! Let’s work further!"
 msgstr "Des signatures! Allons de l'avant!"
 
+msgid "Spanish"
+msgstr ""
+
 msgid "State of the global environment"
 msgstr "Etat de l'environnement mondial"
 
@@ -243,6 +279,18 @@ msgstr ""
 msgid "The Suggested task must benefit the whole world."
 msgstr "La tâche suggérée doit profiter au monde entier."
 
+msgid "The United Armies must collect the plastic waste from the oceans and shores."
+msgstr ""
+
+msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
+msgstr ""
+
+msgid "The United Armies must protect the areas reserved for nature."
+msgstr ""
+
+msgid "The activities of the United Armies must be controlled by a common, international organ."
+msgstr ""
+
 msgid "The best contributors will be rewarded later."
 msgstr "Les meilleures contributions seront récompensées plus tard."
 
@@ -251,6 +299,9 @@ msgstr "La préocupation de cette campagne est que l'environnement mondial se d�
 
 msgid "The link below will go to your private secret vote"
 msgstr "Le lien ci-dessous vous conduira à votre vote privé secret."
+
+msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
+msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "Il y a un potentiel caché à proximité : les armées nationales. Nous devons leur donner une nouvelle tâche positive. Sur ces pages nous rassemblons des supports pour une initiative mondiale."
@@ -279,6 +330,9 @@ msgstr "Unissez les armées pour sauver la vie, pas pour tuer!"
 
 msgid "Video"
 msgstr "Vidéo"
+
+msgid "Water"
+msgstr ""
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
@@ -345,3 +399,6 @@ msgstr "professeur"
 
 msgid "seconds"
 msgstr "secondes"
+
+#~ msgid "Appeal"
+#~ msgstr "Appel"

@@ -44,9 +44,6 @@
 		<h1 class="grey"><%= _("Millions of Tons of Plastic Waste on the Shores and Oceans!") %></h1>
 	      </div>
 	    </div>
-            <div class="caption-link-container">
-              <%# link_to image_tag("yellow-arrow-right-150px.png"), "#links", :class => "caption-link" %>
-            </div>
 	  </li>
 	  <li>
 	    <%= image_tag "slide04.jpg" %>
@@ -55,9 +52,6 @@
 		<h1 class="red"><%= _("We must defend Life's Richness on our Planet!") %></h1>
 	      </div>
 	    </div>
-            <div class="caption-link-container">
-              <%# link_to image_tag("yellow-arrow-right-150px.png"), "#links", :class => "caption-link" %>
-            </div>
 	  </li>
 	  <li>
 	    <%= image_tag "slide05.jpg" %>
@@ -66,8 +60,8 @@
 		<h1><%= _("Unite the Armies to Save Life – not to Kill!") %></h1>
 	      </div>
 	    </div>
-            <div class="caption-link-container">
-              <%= link_to image_tag("yellow-arrow-right-150px.png"), "#links", :class => "caption-link" %>
+            <div class="caption-link-container continue">
+              <%= link_to _("Continue"), "#links", :class => "caption-link" %>
             </div>
 	  </li>
 	</ul>
@@ -97,7 +91,6 @@
             <li><%= link_to _("Video"), video_path(locale: locale) %></li>
             <li><%= link_to _("Sign"), new_vote_path(locale: locale, anchor: :sign) %></li>
             <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
-            <li><%= link_to _("Appeal"), "/#{locale}/appeal" %></li>
           </ul>
         </div>
       </div>

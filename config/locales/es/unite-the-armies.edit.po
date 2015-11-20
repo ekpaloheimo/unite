@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-20 09:25+0200\n"
+"PO-Revision-Date: 2015-11-20 12:45+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -29,7 +29,7 @@ msgid "Act NOW!"
 msgstr "!Actúa ahora!"
 
 msgid "Add"
-msgstr ""
+msgstr "Añade"
 
 msgid "Add a comment"
 msgstr "Deja tu comentario"
@@ -44,7 +44,7 @@ msgid "Air pollution is a global Challenge!"
 msgstr "!La contaminación es un desafio global!"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Árabe"
 
 msgid "Background"
 msgstr "Trasfondo"
@@ -56,7 +56,7 @@ msgid "Campaign"
 msgstr "La campaña"
 
 msgid "Chinese"
-msgstr ""
+msgstr "Chino"
 
 msgid "Choose the language"
 msgstr "Elige un idioma"
@@ -104,13 +104,13 @@ msgid "Email Confirmation"
 msgstr "Confirmar correo"
 
 msgid "English"
-msgstr ""
+msgstr "Inglés"
 
 msgid "Facebook"
 msgstr "Facebook"
 
 msgid "Finnish"
-msgstr ""
+msgstr "Finés"
 
 msgid "First Aid"
 msgstr "Primeros auxilios"
@@ -119,7 +119,7 @@ msgid "Food for all"
 msgstr "Comida para todos"
 
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 msgid "Global responsibility"
 msgstr "Responsabilidad global"
@@ -221,7 +221,7 @@ msgid "Rules for Comments"
 msgstr "Reglas para los comentarios"
 
 msgid "Russian"
-msgstr ""
+msgstr "Ruso"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "!Salvar el planeta - Unificar los Ejércitos!"
@@ -233,13 +233,13 @@ msgid "Save the planet."
 msgstr "!Salvar el planeta!"
 
 msgid "Send"
-msgstr ""
+msgstr "Envía"
 
 msgid "Share"
 msgstr "Compartir"
 
 msgid "Share email with your friends"
-msgstr ""
+msgstr "Compartir con correo electrónico"
 
 msgid "Share with social media"
 msgstr "Compartir en las redes sociales"
@@ -251,7 +251,7 @@ msgid "Signatures! Let’s work further!"
 msgstr "!Firmantes! !Sigamos trabajando!"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 msgid "State of the global environment"
 msgstr "Estado del medio ambiente global"
@@ -272,7 +272,7 @@ msgid "Thank you for your support %{name}!"
 msgstr "!Gracias por tu apoyo %{nombre}!"
 
 msgid "The Green Association for the Protection of Life"
-msgstr ""
+msgstr "La Asociación Verde para la protección de la vida"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "La tarea sugerida debe benificiar al mundo entero."

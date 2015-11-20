@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-04 10:10+0200\n"
+"PO-Revision-Date: 2015-11-20 09:25+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -35,10 +35,10 @@ msgid "Add a comment"
 msgstr "Deja tu comentario"
 
 msgid "Administration"
-msgstr ""
+msgstr "Administración"
 
 msgid "Ago"
-msgstr ""
+msgstr "Hace tiempo"
 
 msgid "Air pollution is a global Challenge!"
 msgstr "!La contaminación es un desafio global!"
@@ -68,7 +68,7 @@ msgid "Choose the topic"
 msgstr "elige un tópico"
 
 msgid "Climate"
-msgstr ""
+msgstr "Medio Ambiente"
 
 msgid "Comment"
 msgstr "Deja un comentario"
@@ -80,7 +80,7 @@ msgid "Comment was successfully created."
 msgstr "El comentario fue creado en forma exitosa"
 
 msgid "Continue"
-msgstr ""
+msgstr "Continua"
 
 msgid "Country"
 msgstr "País"
@@ -194,7 +194,7 @@ msgid "On a political level, it is the accepted practice everywhere that the mil
 msgstr "A nivel político, es una práctica comúnmente aceptada que el ejército sea llamado para ayudar a aquellos afectados por desastres medioambientales repentinos e inesperados. Sería, por tanto, una lógica extensión de esta práctica emplear tal recurso en contrarrestar los efectos de unas catástrofes que gradualmente aumentan en escala y en importancia; todo esto con la ayuda, es de esperar, de las ONGs locales."
 
 msgid "Plastic Waste"
-msgstr ""
+msgstr "Reciduos plásticos"
 
 msgid "Positive initiations will be published."
 msgstr "Seran publicada las iniciativas positivas"
@@ -203,7 +203,7 @@ msgid "Present the task with max. 1000 characters."
 msgstr "Escriba la tarea en un máximo de 1000 carácteres"
 
 msgid "Protected Areas"
-msgstr ""
+msgstr "Áreas protegidas"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Acciones radicales son urgentemente necesarias para salvat nuestro planeta"
@@ -278,16 +278,16 @@ msgid "The Suggested task must benefit the whole world."
 msgstr "La tarea sugerida debe benificiar al mundo entero."
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr ""
+msgstr "Los Ejércitos Unidos deberán recoger los residuos plásticos de los océanos y de las costas."
 
 msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
-msgstr ""
+msgstr "Los Ejércitos Unidos deben de garantizar un flujo suficiente de agua para las necesidades de la gente y de la vida."
 
 msgid "The United Armies must protect the areas reserved for nature."
-msgstr ""
+msgstr "Los Ejércitos Unidos deberán proteger las áreas reservadas para la naturaleza."
 
 msgid "The activities of the United Armies must be controlled by a common, international organ."
-msgstr ""
+msgstr "Las actividades de los Ejércitos Unidos deben ser controladas por un organismo común e internacional. "
 
 msgid "The best contributors will be rewarded later."
 msgstr "Los mejores contribuyentes tendrán su reconocimiento más tarde"
@@ -299,7 +299,7 @@ msgid "The link below will go to your private secret vote"
 msgstr "El enlace, más abojo, facilitará tu voto secreto"
 
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
-msgstr ""
+msgstr "Los recursos y capacidad de los Ejércitos Unidos deben apuntar a la reforestación de los desiertos."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenemos que darle ahora, al ejército, tareas positivas. En estas páginas recogemos los apoyos para una iniciativa global"
@@ -329,7 +329,7 @@ msgid "Video"
 msgstr "Video"
 
 msgid "Water"
-msgstr ""
+msgstr "Agua"
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "!El Agua es la madre de la vida - todos la necesitamos!"
@@ -396,6 +396,3 @@ msgstr "Profesor"
 
 msgid "seconds"
 msgstr "Segundos"
-
-#~ msgid "Appeal"
-#~ msgstr "Nuestro llamado"

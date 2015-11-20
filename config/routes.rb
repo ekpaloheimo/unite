@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get ':locale/video' => 'welcome#video', as: :video
   get ':locale/' => 'welcome#index'
 #  get ':locale/appeal' => 'welcome#appeal', as: :appeal
-  get ':locale/votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
+  get 'votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
   get 'votes/add_parent' => 'votes#add_parent', as: :add_parent_vote
 
   post 'votes/email_invite' => 'votes#email_invite', as: :email_invite_votes

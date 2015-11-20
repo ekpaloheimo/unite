@@ -25,6 +25,10 @@ class ApplicationController < ActionController::Base
                            session[:locale] || 
                            request.env['HTTP_ACCEPT_LANGUAGE']
                            )
+    if session[:locale] and params[:locale] and session[:locale] != params[:locale]
+      puts "Clearing cache ===================="
+      Rails.cache.clear
+    end
     session[:locale] = I18n.locale = FastGettext.locale
   end
 

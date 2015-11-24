@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-04 11:14+0200\n"
+"PO-Revision-Date: 2015-11-24 13:33+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -48,7 +48,7 @@ msgid "Add a comment"
 msgstr "Ajoutez un commentaire"
 
 msgid "Administration"
-msgstr ""
+msgstr "Administration"
 
 msgid "Ago"
 msgstr ""
@@ -57,7 +57,7 @@ msgid "Air pollution is a global Challenge!"
 msgstr "La polution de l'air est un défi mondial!"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabe"
 
 msgid "Background"
 msgstr "Contexte "
@@ -69,7 +69,7 @@ msgid "Campaign"
 msgstr "Campagne"
 
 msgid "Chinese"
-msgstr ""
+msgstr "Chinois"
 
 msgid "Choose the language"
 msgstr "Choisir la langue"
@@ -81,7 +81,7 @@ msgid "Choose the topic"
 msgstr "Choisissez le thème"
 
 msgid "Climate"
-msgstr ""
+msgstr "Climat"
 
 msgid "Comment"
 msgstr "Commentaire"
@@ -93,7 +93,7 @@ msgid "Comment was successfully created."
 msgstr "Le commentaire est correctement créé."
 
 msgid "Continue"
-msgstr ""
+msgstr "continuez"
 
 msgid "Country"
 msgstr "Pays"
@@ -131,13 +131,13 @@ msgid "Email Confirmation"
 msgstr "Confirmation du courriel"
 
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
 msgid "Facebook"
 msgstr "Facebook"
 
 msgid "Finnish"
-msgstr ""
+msgstr "Finnois"
 
 msgid "First Aid"
 msgstr "Première aide"
@@ -146,7 +146,7 @@ msgid "Food for all"
 msgstr "De la nourriture pour tous"
 
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 msgid "Global responsibility"
 msgstr "Responsabilité mondiale"
@@ -256,7 +256,7 @@ msgstr ""
 "inattendus."
 
 msgid "Plastic Waste"
-msgstr ""
+msgstr "Déchets en plastique"
 
 msgid "Positive initiations will be published."
 msgstr "Les initiatives positives seront publiées."
@@ -265,7 +265,7 @@ msgid "Present the task with max. 1000 characters."
 msgstr "Présentez la tâche avec un maximum de 1000 caractères"
 
 msgid "Protected Areas"
-msgstr ""
+msgstr "Aires protégées"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Des actions radicales immédiates sont nécessaires pour sauver notre planète."
@@ -283,7 +283,7 @@ msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
 
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Sauvez la planète – Unissez les armées!"
@@ -313,7 +313,7 @@ msgid "Signatures! Let’s work further!"
 msgstr "Des signatures! Allons de l'avant!"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 msgid "State of the global environment"
 msgstr "Etat de l'environnement mondial"
@@ -348,20 +348,20 @@ msgid "The Suggested task must benefit the whole world."
 msgstr "La tâche suggérée doit profiter au monde entier."
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr ""
+msgstr "Les armées unies doivent ramasser les déchets en plastique des océans et des plages."
 
 msgid ""
 "The United Armies must ensure sufficient water availability everywhere for the"
 " needs of people and life."
-msgstr ""
+msgstr "les armées unies doivent assurer un accès à l'eau partout pour les besoins des gens et de la vie."
 
 msgid "The United Armies must protect the areas reserved for nature."
-msgstr ""
+msgstr "Les armées unies doivent protéger les aires réservées à la nature."
 
 msgid ""
 "The activities of the United Armies must be controlled by a common, internatio"
 "nal organ."
-msgstr ""
+msgstr "Les activités des Armées Unies doivent être contrôlées par un organisme commun internationnal.\n"
 
 msgid "The best contributors will be rewarded later."
 msgstr "Les meilleures contributions seront récompensées plus tard."
@@ -381,7 +381,7 @@ msgstr "Le lien ci-dessous vous conduira à votre vote privé secret."
 msgid ""
 "The resources and capacity of the United Armies must be directed to reforestat"
 "ion of the deserts."
-msgstr ""
+msgstr "Les ressources et la capacité des armées unies doivent être redirigées vers la reforestation des déserts. "
 
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "
@@ -428,7 +428,7 @@ msgid "Video"
 msgstr "Vidéo"
 
 msgid "Water"
-msgstr ""
+msgstr "Eau"
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"

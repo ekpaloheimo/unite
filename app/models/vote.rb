@@ -55,6 +55,7 @@ class Vote < ActiveRecord::Base
 
   # Vote#order_number as the total number of all votes
   def add_vote_count
+    Rails.logger.debug("Adding vote count for #{self.inspect}")
     vote_count = VoteCount.add_vote(self)
     self.order_number = VoteCount.total
   end

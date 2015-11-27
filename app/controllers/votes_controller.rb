@@ -3,6 +3,8 @@ class VotesController < ApplicationController
   helper_method :country_votes
 
   def new
+    clear
+
     @vote = Vote.new
     respond_to do |format|
       format.html do
@@ -63,7 +65,7 @@ class VotesController < ApplicationController
       parent_vote.votes << @vote if parent_vote
     end
 
-    @vote.save
+    @vote.save if @vote.new_record?
 
     # Remove session key after succesfull save
     if @vote.valid?

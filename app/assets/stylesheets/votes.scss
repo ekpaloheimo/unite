@@ -14,11 +14,18 @@
     filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}');
 }
 
+.unobtrusive-flash-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .ua-sign-the-petition {
-  color: #de5d5d;
+  color: black;
   h1 { font-weight: bold; }
   .field { font-weight: bold; }
-  .lead { font-style: oblique; }
+  .lead {}
 }
 
 article {

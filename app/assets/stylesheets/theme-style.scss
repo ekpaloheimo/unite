@@ -381,16 +381,18 @@ nav a#pull {
   #background: #333; 
   #opacity: 0.5;
 }
-.slide-text-info {
+.slide-text-info, .slide-text-description {
   margin-top: 0;
   h1 {
     font-size: 2.5em;
-    color: #ffc000;
   }
-  h1.red { 
+  h1, h2 {     
+    color: #ffc000; 
+  }
+  h1.red, h2.red { 
     color: #b00000;
   }
-  h1.grey { 
+  h1.grey, h2.grey { 
     padding: 1em;
     opacity: 0.8;
     background: #ffffcc;
@@ -468,13 +470,13 @@ nav a#pull {
 	color: #FFF;
 	font-size: 3em;
 }
-.Share-instantly-right p{
+.Share-instantly-right p {
 	color: #ffc000;
 	line-height: 1.8em;
-	font-size: 2em;
+	font-size: 3em;
 }
 .head-para{
-	width: 70%;
+	width: 80%;
 	margin: 1em 0 0.5em;
 }
 p.img_slider{

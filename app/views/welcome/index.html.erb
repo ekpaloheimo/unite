@@ -4,7 +4,7 @@
 
   <hr>
   
-  <div style="margin:10%;padding:20px;">
+  <div style="margin:0 10%;padding:0 20px;">
     <h3><%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative.") %></h3>
     <h3><%= _("Save the planet.") %></h3>
     <h3><%= _("Act NOW!") %></h3>
@@ -12,9 +12,12 @@
 
   <hr>
 
-  <div style="">
+  <div style="padding-bottom:20px;">
   <p class="continue">
-    <%= link_to _("Continue"), video_path(locale: locale) %>
+    <%= link_to _("Read more"), video_path(locale: locale) %>
+  </p>
+  <p class="continue">
+    <%= link_to _("Support now"), new_vote_path(locale: locale, anchor: "sign") %>
   </p>
   </div>
 </article>

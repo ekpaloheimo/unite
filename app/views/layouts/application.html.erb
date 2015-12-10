@@ -21,10 +21,11 @@
 	      <div class="slide-text-info">
 		<h1><%= _("Air pollution is a global Challenge!") %></h1>
 	      </div>
+              <div class="slide-text-description">
+                <h2><%= _("The resources and capacity of the United Armies must be directed to reforestation of the deserts.") %></h2>
+              </div>
 	    </div>
-            <div class="caption-link-container">
-              <%# link_to image_tag("yellow-arrow-right-150px.png"), "#links", :class => "caption-link" %>
-            </div>
+            <div class="caption-link-container"></div>
 	  </li>
 	  <li>
 	    <%= image_tag "slide02.jpg" %>
@@ -32,10 +33,11 @@
 	      <div class="slide-text-info">
 		<h1 class="grey"><%= _("Water is the Mother of Life – we all need it!") %></h1>
 	      </div>
+              <div class="slide-text-description">
+                <h2 class="grey"><%= _("The United Armies must ensure sufficient water availability everywhere for the needs of people and life.") %></h2>
+              </div>
 	    </div>
-            <div class="caption-link-container">
-              <%# link_to image_tag("yellow-arrow-right-150px.png"), "#links", :class => "caption-link" %>
-            </div>
+            <div class="caption-link-container"></div>
 	  </li>
 	  <li>
 	    <%= image_tag "slide03.jpg" %>
@@ -43,6 +45,9 @@
 	      <div class="slide-text-info">
 		<h1 class="grey"><%= _("Millions of Tons of Plastic Waste on the Shores and Oceans!") %></h1>
 	      </div>
+              <div class="slide-text-description">
+                <h2 class="grey"><%= _("The United Armies must collect the plastic waste from the oceans and shores.") %></h2>
+              </div>
 	    </div>
 	  </li>
 	  <li>
@@ -51,6 +56,9 @@
 	      <div class="slide-text-info">
 		<h1 class="red"><%= _("We must defend Life's Richness on our Planet!") %></h1>
 	      </div>
+              <div class="slide-text-description">
+                <h2 class="red"><%= _("The United Armies must protect the areas reserved for nature.") %></h2>
+              </div>
 	    </div>
 	  </li>
 	  <li>
@@ -59,6 +67,9 @@
 	      <div class="slide-text-info">
 		<h1><%= _("Unite the Armies to Save Life – not to Kill!") %></h1>
 	      </div>
+              <div class="slide-text-description">
+                <h2><%= _("The activities of the United Armies must be controlled by a common, international organ.") %></h2>
+              </div>
 	    </div>
             <div class="caption-link-container continue">
               <%= link_to _("Continue"), "#links", :class => "caption-link" %>
@@ -112,15 +123,14 @@
     
     <%= yield :form %>
 
+    <%= yield :gallery %>
+
     <div>
       <div class="container sd-main">
         <%= yield %>
       </div>
     </div>
-    
-   
-    <%= yield :gallery %>
-    
+          
     <%= render :partial => "footer" %>
   </body>
 </html>

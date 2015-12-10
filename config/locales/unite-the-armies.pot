@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-24 14:12+0200\n"
-"PO-Revision-Date: 2015-11-24 14:12+0200\n"
+"POT-Creation-Date: 2015-12-10 16:35+0200\n"
+"PO-Revision-Date: 2015-12-10 16:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -94,9 +94,6 @@ msgid "Do not share this direct link to anybody. Instead, you can use a form on 
 msgstr ""
 
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
-msgstr ""
-
-msgid "Each of us must learn to work for the benefit of all mankind. Universal responsibility is the real key to human survival."
 msgstr ""
 
 msgid "Email"
@@ -207,7 +204,10 @@ msgstr ""
 msgid "Protected Areas"
 msgstr ""
 
-msgid "Radical actions are urgently needed to save our planet."
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
 msgstr ""
 
 msgid "Recent Votes"
@@ -265,6 +265,12 @@ msgid "Such harmful developments have accelerated and often aggravated one anoth
 msgstr ""
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
+msgstr ""
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
 msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
@@ -351,7 +357,7 @@ msgstr ""
 msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
-msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr ""
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."

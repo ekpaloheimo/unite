@@ -104,11 +104,6 @@ msgid ""
 "to share a public version of this vote with your friends."
 msgstr ""
 
-msgid ""
-"Each of us must learn to work for the benefit of all mankind. Universal respon"
-"sibility is the real key to human survival."
-msgstr ""
-
 msgid "Email"
 msgstr ""
 
@@ -235,7 +230,10 @@ msgstr ""
 msgid "Protected Areas"
 msgstr ""
 
-msgid "Radical actions are urgently needed to save our planet."
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
 msgstr ""
 
 msgid "Recent Votes"
@@ -297,6 +295,12 @@ msgid ""
 msgstr ""
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
+msgstr ""
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
 msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
@@ -415,8 +419,8 @@ msgstr ""
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
-"of the world’s armed forces into the new environmental task as soon as possibl"
-"e."
+"of the world’s armed forces into the new significant environmental tasks as so"
+"on as possible."
 msgstr ""
 
 msgid ""

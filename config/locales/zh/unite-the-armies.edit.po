@@ -95,9 +95,6 @@ msgstr ""
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
 msgstr "不要直接分享这个链接，你可以通过下面的表格把这个投票的公众版本分享给你的朋友。"
 
-msgid "Each of us must learn to work for the benefit of all mankind. Universal responsibility is the real key to human survival."
-msgstr "我们每个人都必须学会为全人类的益处而努力。拥有宇宙观的责任感才是人类生存的真正出路。"
-
 msgid "Email"
 msgstr "电子邮件"
 
@@ -206,8 +203,11 @@ msgstr "提议在1000字符以内"
 msgid "Protected Areas"
 msgstr "保护区"
 
-msgid "Radical actions are urgently needed to save our planet."
-msgstr "迫切需要快速的行动来拯救我们的地球。"
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
 
 msgid "Recent Votes"
 msgstr "最新投票"
@@ -265,6 +265,12 @@ msgstr "这类恶性问题正加快恶化，并且往往产生相互作用、彼
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "建议这里还没有提到的新任务。"
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
+msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
@@ -350,8 +356,8 @@ msgstr "我们提议联合国开展行动，大规模调动人力物力资源，
 msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
-msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
-msgstr "我们建议联合国尽快提出倡议，重新部署全球军事力量加入新的环境保护的任务。"
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
+msgstr ""
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "我们出于对全球环境的殷切关心，特此向您寻求帮助。在全世界许多地区，环境恶化都与当地人口面临的社会问题息息相关。"
@@ -397,3 +403,15 @@ msgstr ""
 
 msgid "seconds"
 msgstr ""
+
+#~ msgid ""
+#~ "Each of us must learn to work for the benefit of all mankind. Universal respon"
+#~ "sibility is the real key to human survival."
+#~ msgstr "我们每个人都必须学会为全人类的益处而努力。拥有宇宙观的责任感才是人类生存的真正出路。"
+#~ msgid "Radical actions are urgently needed to save our planet."
+#~ msgstr "迫切需要快速的行动来拯救我们的地球。"
+#~ msgid ""
+#~ "We suggest the United Nations presents a global initiative for a redeployment "
+#~ "of the world’s armed forces into the new environmental task as soon as possibl"
+#~ "e."
+#~ msgstr "我们建议联合国尽快提出倡议，重新部署全球军事力量加入新的环境保护的任务。"

@@ -94,9 +94,6 @@ msgstr "No compartas este enlace con nadie. Puedes, sin embargo, usar el formula
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
 msgstr "No compartas este enlace con nadie. Puedes, sin embargo, usar el formulario de de abajo, para compartir la versión pública de este voto, con tus amigos"
 
-msgid "Each of us must learn to work for the benefit of all mankind. Universal responsibility is the real key to human survival."
-msgstr "Cada uno de nosotros debe aprender a trabajar para el beneficio de la humanidad. Responsabilidad universal es la verdadera llave para la supervivencia humana."
-
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -205,8 +202,11 @@ msgstr "Escriba la tarea en un máximo de 1000 carácteres"
 msgid "Protected Areas"
 msgstr "Áreas protegidas"
 
-msgid "Radical actions are urgently needed to save our planet."
-msgstr "Acciones radicales son urgentemente necesarias para salvat nuestro planeta"
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
 
 msgid "Recent Votes"
 msgstr "Votos recientes"
@@ -264,6 +264,12 @@ msgstr "Estos acontecimientos tan dañinos se han acelerado, y a menudo agravado
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Sugiere una nueva tarea para los Ejércitos Unificados, que no esté en las las expuestas aquí"
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
+msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
@@ -349,8 +355,8 @@ msgstr "Proponemos acciones en proyectos que requieran recursos a gran escala, t
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Todavía nos falta %{contar} de los 100.000.000"
 
-msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
-msgstr "Proponemos que las Naciones Unidas implemente una iniciativa global paraun nuevo despliegue de las Fuerzas Armadas en tareas del Medio Ambiente tan pronto como posible"
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
+msgstr ""
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "Nosotros, los abajo firmantes, nos  dirigimos a ustedes a causa de nuestra preocupación por el medio ambiente. En muchas partes del mundo el deterioro del medio ambiente puede ponerse directamente en relación con problemas sociales entre la población local."
@@ -396,3 +402,21 @@ msgstr "Profesor"
 
 msgid "seconds"
 msgstr "Segundos"
+
+#~ msgid ""
+#~ "Each of us must learn to work for the benefit of all mankind. Universal respon"
+#~ "sibility is the real key to human survival."
+#~ msgstr ""
+#~ "Cada uno de nosotros debe aprender a trabajar para el beneficio de la humanida"
+#~ "d. Responsabilidad universal es la verdadera llave para la supervivencia human"
+#~ "a."
+#~ msgid "Radical actions are urgently needed to save our planet."
+#~ msgstr "Acciones radicales son urgentemente necesarias para salvat nuestro planeta"
+#~ msgid ""
+#~ "We suggest the United Nations presents a global initiative for a redeployment "
+#~ "of the world’s armed forces into the new environmental task as soon as possibl"
+#~ "e."
+#~ msgstr ""
+#~ "Proponemos que las Naciones Unidas implemente una iniciativa global paraun nue"
+#~ "vo despliegue de las Fuerzas Armadas en tareas del Medio Ambiente tan pronto c"
+#~ "omo posible"

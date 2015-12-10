@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-19 17:19+0200\n"
+"PO-Revision-Date: 2015-12-10 16:39+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -95,9 +95,6 @@ msgstr "Älä jaa tätä linkkiä kenellekään. Voit käyttää alla olevaa lom
 
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
 msgstr "Älä jaa tätä linkkiä kenellekään. Voit käyttää alla olevaa lomaketta lähettääksesi julkisen version äänestä ystävillesi."
-
-msgid "Each of us must learn to work for the benefit of all mankind. Universal responsibility is the real key to human survival."
-msgstr "Jokaisen meistä pitäisi oppia toimimaan koko ihmiskunnan parhaaksi. Maailmanlaajuinen vastuu on avain ihmiskunnan selviytymiseen."
 
 msgid "Email"
 msgstr "Sähköposti"
@@ -207,8 +204,11 @@ msgstr "Ehdota tehtävää korkeintaan 1000 merkin pituisena."
 msgid "Protected Areas"
 msgstr "Suojelukohteet"
 
-msgid "Radical actions are urgently needed to save our planet."
-msgstr "Radikaaleja toimia tarvitaan maailman pelastamiseksi."
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr "Radikaaleja toimia tarvitaan maailman pelastamiseksi. Mahdollinen tuleva maailmamme:"
+
+msgid "Read more"
+msgstr "Lue lisää"
 
 msgid "Recent Votes"
 msgstr "Viimeisimmät allekirjoitukset"
@@ -266,6 +266,12 @@ msgstr "Kampanja pyrkii pysäyttämään maapallon ympäristön ratkaisevan huon
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Ehdota uutta tehtävää yhdistetyn armeijan toiminnaksi."
+
+msgid "Support now"
+msgstr "Anna kannatuksesi"
+
+msgid "Support the Initiative"
+msgstr "Anna kannatuksesi"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- kampanjalle!"
@@ -351,8 +357,8 @@ msgstr "Toimenpiteitä ehdotamme hankkeisiin, joihin tarvitaan suuria henkilö- 
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Tarvitsemme yhä %{count} ääntä tavoitteestamme joka on 100.000.000."
 
-msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new environmental task as soon as possible."
-msgstr "Ehdotamme, että Yhdistyneet Kansakunnat tekevät globaalin aloitteen maapallon armeijoiden yhdistämiseksi ja suuntaamiseksi ympäristötehtäviin mahdollisimman nopeasti."
+msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
+msgstr "Ehdotamme, että Yhdistyneet Kansakunnat tekevät globaalin aloitteen maapallon armeijoiden yhdistämiseksi ja suuntaamiseksi merkittäviin ympäristötehtäviin mahdollisimman nopeasti."
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "Me allekirjoittaneet käännymme puoleenne, koska olemme huolestuneet maapallon ympäristön tilasta. Useilla seuduilla ympäristön huonontuminen on vuorovaikutuksessa väestön sosiaalisten ongelmien kanssa. Kielteiset kehityskulut ovat voimistuneet ja vahvistavat usein toisiaan. Näköpiirissä on, että muutos saattaa edetä huomaamatta vaiheeseen, jossa prosessia ei enää saada inhimillisin keinoin pysähtymään."

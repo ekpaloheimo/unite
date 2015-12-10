@@ -113,14 +113,6 @@ msgstr ""
 "No compartas este enlace con nadie. Puedes, sin embargo, usar el formulario de"
 " de abajo, para compartir la versión pública de este voto, con tus amigos"
 
-msgid ""
-"Each of us must learn to work for the benefit of all mankind. Universal respon"
-"sibility is the real key to human survival."
-msgstr ""
-"Cada uno de nosotros debe aprender a trabajar para el beneficio de la humanida"
-"d. Responsabilidad universal es la verdadera llave para la supervivencia human"
-"a."
-
 msgid "Email"
 msgstr "Correo electrónico"
 
@@ -265,8 +257,11 @@ msgstr "Escriba la tarea en un máximo de 1000 carácteres"
 msgid "Protected Areas"
 msgstr "Áreas protegidas"
 
-msgid "Radical actions are urgently needed to save our planet."
-msgstr "Acciones radicales son urgentemente necesarias para salvat nuestro planeta"
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
 
 msgid "Recent Votes"
 msgstr "Votos recientes"
@@ -334,6 +329,12 @@ msgid "Suggest a new task for the Action of the United Armies not presented here
 msgstr ""
 "Sugiere una nueva tarea para los Ejércitos Unificados, que no esté en las las "
 "expuestas aquí"
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
+msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
@@ -484,12 +485,9 @@ msgstr "Todavía nos falta %{contar} de los 100.000.000"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
-"of the world’s armed forces into the new environmental task as soon as possibl"
-"e."
+"of the world’s armed forces into the new significant environmental tasks as so"
+"on as possible."
 msgstr ""
-"Proponemos que las Naciones Unidas implemente una iniciativa global paraun nue"
-"vo despliegue de las Fuerzas Armadas en tareas del Medio Ambiente tan pronto c"
-"omo posible"
 
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "

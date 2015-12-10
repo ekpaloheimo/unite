@@ -116,14 +116,6 @@ msgstr ""
 " formulaire du site pour partager une version publique de ce vote avec vos ami"
 "s."
 
-msgid ""
-"Each of us must learn to work for the benefit of all mankind. Universal respon"
-"sibility is the real key to human survival."
-msgstr ""
-" Chacun d'entre nous doit apprendre à travailler pour le profit de toute l'hum"
-"anité. La responsabilité universelle est la vraie clé  de la survie de l'homme"
-"."
-
 msgid "Email"
 msgstr "Courriel"
 
@@ -267,8 +259,11 @@ msgstr "Présentez la tâche avec un maximum de 1000 caractères"
 msgid "Protected Areas"
 msgstr "Aires protégées"
 
-msgid "Radical actions are urgently needed to save our planet."
-msgstr "Des actions radicales immédiates sont nécessaires pour sauver notre planète."
+msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
 
 msgid "Recent Votes"
 msgstr "Votes récents"
@@ -334,6 +329,12 @@ msgstr ""
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Suggérez une nouvelle tâche pour l'Action des Armées Unies non présentée ici."
+
+msgid "Support now"
+msgstr ""
+
+msgid "Support the Initiative"
+msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
@@ -484,12 +485,9 @@ msgstr "Il nous manque encore ....{nombre} jusqu'à 100 millions"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
-"of the world’s armed forces into the new environmental task as soon as possibl"
-"e."
+"of the world’s armed forces into the new significant environmental tasks as so"
+"on as possible."
 msgstr ""
-"Nous suggérons que les Nations Unies proposent une initative mondiale pour un "
-"redéploiement des forces armées  en une nouvelle tâche environnementale aussi "
-"vite que possible. "
 
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "

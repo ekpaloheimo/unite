@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-12-20 09:48+0200\n"
+"PO-Revision-Date: 2015-12-20 09:51+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -286,16 +286,16 @@ msgid "The Suggested task must benefit the whole world."
 msgstr "Ehdotetun tehtävän tulee olla luonteeltaan koko maailmaa auttava."
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr "Yhdistyneen armeijan tulee siivota muovijäte rannoilta ja valtameristä."
+msgstr "Yhdistyneen armeijan siivottava muovijäte rannoilta ja valtameristä."
 
 msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
 msgstr "Yhdistyneen armeijan varmistettava veden saanti kaikkialla."
 
 msgid "The United Armies must protect the areas reserved for nature."
-msgstr "Yhdistyneen armeijan on turvattava suojelualueiden koskemattomuus."
+msgstr "Yhdistyneen armeijan turvattava suojelualueiden koskemattomuus."
 
 msgid "The activities of the United Armies must be controlled by a common, international organ."
-msgstr "Kansainvälisen yhteisön on valvottava Yhdistyneen armeijan toimia."
+msgstr "Kansainvälisen yhteisön valvottava yhdistyneen armeijan toimia."
 
 msgid "The best contributors will be rewarded later."
 msgstr "Parhaat tukijat palkitaan myöhemmin."
@@ -307,7 +307,7 @@ msgid "The link below will go to your private secret vote"
 msgstr "Linkki alapuolella vie henkilökohtaiseen ääneesi"
 
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
-msgstr "Yhdistyneet armeijat suunnattava aavikoiden metsittämiseen."
+msgstr "Yhdistyneen armeijan suunnattava aavikoiden metsittämiseen."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettava uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitteelle."

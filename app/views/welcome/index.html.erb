@@ -18,21 +18,24 @@
 
   <hr>
   
-  <div style="margin:0 10%;padding:0 20px;">
+  <div style="margin:0 10% 50px 10%;padding:0 20px;">
     <h3><%= _("There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative.") %></h3>
     <h3><%= _("Save the planet.") %></h3>
     <h3><%= _("Act NOW!") %></h3>
+
+    <div style="position:fixed; bottom:20px; right:0;">
+      <p class="continue">
+        <%= link_to _("Read more"), video_path(locale: locale) %>
+      </p>
+      <p class="continue">
+        <%= link_to _("Support now"), new_vote_path(locale: locale, anchor: "sign") %>
+      </p>
+    </div>   
+
+    <div style="height:200px"></div>
   </div>
+
 
   <hr>
-
-  <div style="padding-bottom:20px;">
-  <p class="continue">
-    <%= link_to _("Read more"), video_path(locale: locale) %>
-  </p>
-  <p class="continue">
-    <%= link_to _("Support now"), new_vote_path(locale: locale, anchor: "sign") %>
-  </p>
-  </div>
 
 </article>

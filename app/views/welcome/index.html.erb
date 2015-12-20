@@ -1,4 +1,18 @@
+<!-----start-header---->
+<div class="header">
+  <div>
+    <div class="logo">
+      <a href="#"></a>
+    </div>
+    <!----start-top-nav---->
+    <%= render partial: "top_nav" %>
+    <div class="clear"> </div>
+  </div>
+  <!-----//End-header---->
+</div>
+
 <article class="ua-main-screen">
+
   <h1><%= _("First Aid") %></h1>
   <h2><%= _("To Our Common World") %></h2>
 
@@ -20,4 +34,5 @@
     <%= link_to _("Support now"), new_vote_path(locale: locale, anchor: "sign") %>
   </p>
   </div>
+
 </article>

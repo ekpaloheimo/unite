@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-12-10 16:39+0200\n"
+"PO-Revision-Date: 2015-12-20 09:22+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -268,7 +268,7 @@ msgid "Suggest a new task for the Action of the United Armies not presented here
 msgstr "Ehdota uutta tehtävää yhdistetyn armeijan toiminnaksi."
 
 msgid "Support now"
-msgstr "Anna kannatuksesi"
+msgstr "Kannata"
 
 msgid "Support the Initiative"
 msgstr "Anna kannatuksesi"

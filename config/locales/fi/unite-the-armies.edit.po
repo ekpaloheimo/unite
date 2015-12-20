@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-12-20 09:45+0200\n"
+"PO-Revision-Date: 2015-12-20 09:48+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -289,7 +289,7 @@ msgid "The United Armies must collect the plastic waste from the oceans and shor
 msgstr "Yhdistyneen armeijan tulee siivota muovijäte rannoilta ja valtameristä."
 
 msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
-msgstr "Yhdistyneen armeijan tulee varmistaa ihmisten ja muun elollisen veden saanti kaikkialla."
+msgstr "Yhdistyneen armeijan varmistettava veden saanti kaikkialla."
 
 msgid "The United Armies must protect the areas reserved for nature."
 msgstr "Yhdistyneen armeijan on turvattava suojelualueiden koskemattomuus."

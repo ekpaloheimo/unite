@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-20 10:18+0200\n"
-"PO-Revision-Date: 2015-12-20 10:18+0200\n"
+"POT-Creation-Date: 2015-12-20 10:37+0200\n"
+"PO-Revision-Date: 2015-12-20 10:37+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -43,6 +43,9 @@ msgid "Ago"
 msgstr ""
 
 msgid "Air pollution is a global Challenge!"
+msgstr ""
+
+msgid "Animation realization"
 msgstr ""
 
 msgid "Arabic"
@@ -271,6 +274,9 @@ msgid "Support now"
 msgstr ""
 
 msgid "Support the Initiative"
+msgstr ""
+
+msgid "Technical realization"
 msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"

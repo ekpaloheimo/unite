@@ -50,6 +50,9 @@ msgstr ""
 msgid "Air pollution is a global Challenge!"
 msgstr ""
 
+msgid "Animation realization"
+msgstr ""
+
 msgid "Arabic"
 msgstr ""
 
@@ -302,6 +305,9 @@ msgid "Support now"
 msgstr ""
 
 msgid "Support the Initiative"
+msgstr ""
+
+msgid "Technical realization"
 msgstr ""
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"

@@ -519,7 +519,8 @@ p.img_slider1{
 }
 /*-----start-gallery----*/
 .gallery{
-	padding:3em 0 0 0;
+	#padding:3em 0 0 0;
+        padding: 0;
 }
 .gallery h3{
 	color:#F0645D;
@@ -535,7 +536,8 @@ p.img_slider1{
 /*----- start-download-----*/
 .download{
 	padding: 7em 0;
-	background: #DE5D5D;
+	#background: #DE5D5D;
+        background: black;
 }
 .download-left{
 	text-align: center;
@@ -547,7 +549,8 @@ p.img_slider1{
 	display: inline-block;
 }
 .download-right p{
-	color:#fff;
+        color: #ffc000;
+	#color:#fff;
 	font-size:2.8em;
 }
 .download-right a{

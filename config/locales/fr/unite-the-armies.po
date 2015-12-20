@@ -62,6 +62,9 @@ msgstr ""
 msgid "Arabic"
 msgstr "Arabe"
 
+msgid "Back to top"
+msgstr ""
+
 msgid "Background"
 msgstr "Contexte "
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-12-20 10:38+0200\n"
+"PO-Revision-Date: 2015-12-20 10:43+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -58,6 +58,9 @@ msgstr "Animaatioiden toteutus"
 
 msgid "Arabic"
 msgstr "Arabia"
+
+msgid "Back to top"
+msgstr "Palaa alkuun"
 
 msgid "Background"
 msgstr "Tausta"

@@ -51,6 +51,9 @@ msgstr ""
 msgid "Arabic"
 msgstr ""
 
+msgid "Back to top"
+msgstr ""
+
 msgid "Background"
 msgstr ""
 

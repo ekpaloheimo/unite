@@ -28,9 +28,13 @@
       <div class="col-md-7 Share-instantly-right">
         <p class="head-para">
           <%# _("It is logical to extend the local military Saving Actions to Global Saving Actions effecting the slowly but inexorably advancing Catastrophes.") %>
-          <%= _("It is logical to extend the actions from sudden disasters to large scale catastrophes.") %>
+          <%= _("It is logical to extend the actions from sudden disasters to large scale catastrophes.") %>         
         </p>
         <br/>
+        <div class="continue">
+        <%= link_to _("Continue"), "#background", :class => "caption-link" %>
+        </div>
+
         <p>
           <!----- start-Share-instantly-slider---->
           <!-- Prettify -->
@@ -97,8 +101,9 @@
 
 <% content_for :grid do %>
 <!-----start-features----->
+<a name="background"/>
 <div id="over" class="features text-center">
-  <div class="container">
+  <div class="container">    
     <h2><%= _("Background") %></h2>
     <!---- start-features-grids------>
     <div class="features-grids text-center">

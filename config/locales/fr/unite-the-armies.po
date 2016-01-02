@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-24 14:14+0200\n"
+"PO-Revision-Date: 2016-01-02 10:03+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -63,7 +63,7 @@ msgid "Arabic"
 msgstr "Arabe"
 
 msgid "Back to top"
-msgstr ""
+msgstr "Retour"
 
 msgid "Background"
 msgstr "Contexte "
@@ -267,9 +267,11 @@ msgstr "Aires protégées"
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
+"Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
+"ète. Un monde futur possible"
 
 msgid "Read more"
-msgstr ""
+msgstr "Lisez la suite"
 
 msgid "Recent Votes"
 msgstr "Votes récents"
@@ -337,10 +339,10 @@ msgid "Suggest a new task for the Action of the United Armies not presented here
 msgstr "Suggérez une nouvelle tâche pour l'Action des Armées Unies non présentée ici."
 
 msgid "Support now"
-msgstr ""
+msgstr "Adhérez maintenant"
 
 msgid "Support the Initiative"
-msgstr ""
+msgstr "Soutenez l'initiative"
 
 msgid "Technical realization"
 msgstr ""
@@ -497,6 +499,9 @@ msgid ""
 "of the world’s armed forces into the new significant environmental tasks as so"
 "on as possible."
 msgstr ""
+"Nous suggérons que les Nations Unies présentent une initiative mondiale pour l"
+"e redéploiement des forces armées en des tâches environnementales avec une nou"
+"velle signification dès que possible"
 
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "

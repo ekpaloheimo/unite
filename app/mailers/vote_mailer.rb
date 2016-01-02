@@ -32,7 +32,8 @@ class VoteMailer < ApplicationMailer
     votes_from = UaSetting.instance.sent_at || Vote.first.created_at
     @votes = Vote.where(created_at: votes_from..votes_to).order(:created_at)
 
-    mail(to: "info@jonitoyryla.eu", subject: "Unite The Armies - allekirjoittajat", cc: "info@jonitoyryla.eu")
+    mail_to = Rails.configuration.x.backup_email
+    mail(to: mail_to, subject: "Unite The Armies - allekirjoittajat", cc: "info@jonitoyryla.eu")
   end
 
 end

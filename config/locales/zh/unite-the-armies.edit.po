@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-20 12:42+0200\n"
+"PO-Revision-Date: 2016-01-02 10:05+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese\n"
 "Language: zh\n"
@@ -27,7 +27,7 @@ msgid "About Us"
 msgstr "关于我们"
 
 msgid "Act NOW!"
-msgstr ""
+msgstr "现在就开始行动"
 
 msgid "Add"
 msgstr ""
@@ -51,7 +51,7 @@ msgid "Arabic"
 msgstr ""
 
 msgid "Back to top"
-msgstr ""
+msgstr "返回页面顶部"
 
 msgid "Background"
 msgstr "背景"
@@ -210,10 +210,10 @@ msgid "Protected Areas"
 msgstr "保护区"
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
+msgstr "相关的行动需立即展开以拯救我们共有的星球。以及未来的世界"
 
 msgid "Read more"
-msgstr ""
+msgstr "拯救我们共有的世界"
 
 msgid "Recent Votes"
 msgstr "最新投票"
@@ -264,7 +264,7 @@ msgid "State of the global environment"
 msgstr "全球环境状况"
 
 msgid "Statistics"
-msgstr ""
+msgstr "统计数据"
 
 msgid "Such harmful developments have accelerated and often aggravated one another. It is to be feared that this process may reach unnoticed a ‘point of no return’, after which it can no longer be reversed, or even arrested, by human intervention."
 msgstr "这类恶性问题正加快恶化，并且往往产生相互作用、彼此加剧的严重性。我们担忧这一过程会在人们的忽视中一直发展至无可挽回的地步，之后便再也不能经由人力干预得到逆转，甚至无法遏止。"
@@ -273,10 +273,10 @@ msgid "Suggest a new task for the Action of the United Armies not presented here
 msgstr "建议这里还没有提到的新任务。"
 
 msgid "Support now"
-msgstr ""
+msgstr "现在就支持我们的行动"
 
 msgid "Support the Initiative"
-msgstr ""
+msgstr "支持这项计划"
 
 msgid "Technical realization"
 msgstr ""
@@ -342,7 +342,7 @@ msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "联合军队来保护生命—不要杀戮。"
 
 msgid "Video"
-msgstr ""
+msgstr "视频"
 
 msgid "Water"
 msgstr "水"
@@ -366,7 +366,7 @@ msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
-msgstr ""
+msgstr "我们建议联合国在此项计划中进行全球性指挥，并尽快调集全球的武装部队进行大规模的环境改善任务"
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "我们出于对全球环境的殷切关心，特此向您寻求帮助。在全世界许多地区，环境恶化都与当地人口面临的社会问题息息相关。"
@@ -415,15 +415,3 @@ msgstr ""
 
 msgid "seconds"
 msgstr ""
-
-#~ msgid ""
-#~ "Each of us must learn to work for the benefit of all mankind. Universal respon"
-#~ "sibility is the real key to human survival."
-#~ msgstr "我们每个人都必须学会为全人类的益处而努力。拥有宇宙观的责任感才是人类生存的真正出路。"
-#~ msgid "Radical actions are urgently needed to save our planet."
-#~ msgstr "迫切需要快速的行动来拯救我们的地球。"
-#~ msgid ""
-#~ "We suggest the United Nations presents a global initiative for a redeployment "
-#~ "of the world’s armed forces into the new environmental task as soon as possibl"
-#~ "e."
-#~ msgstr "我们建议联合国尽快提出倡议，重新部署全球军事力量加入新的环境保护的任务。"

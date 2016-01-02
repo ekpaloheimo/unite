@@ -1,4 +1,4 @@
-<h1>Your vote has been registered <%= @vote.name %>!</h1>
+<h1><%= _("Your support has been registered %{name}!") % {name: @vote.name} %> </h1>
 
 <p class="lead"><%= _("Background") %></p>
 <p><%= _("We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo.") %></p>

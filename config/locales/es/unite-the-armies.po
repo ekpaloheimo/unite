@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-11-20 12:45+0200\n"
+"PO-Revision-Date: 2016-01-02 09:59+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -61,7 +61,7 @@ msgid "Arabic"
 msgstr "Árabe"
 
 msgid "Back to top"
-msgstr ""
+msgstr "Volver al inicio"
 
 msgid "Background"
 msgstr "Trasfondo"
@@ -265,9 +265,11 @@ msgstr "Áreas protegidas"
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
+"Se necesitan urgentemente acciones radicals para salvar nuestro planeta. un fu"
+"turo posible para el mundo"
 
 msgid "Read more"
-msgstr ""
+msgstr "Sigue leyendo"
 
 msgid "Recent Votes"
 msgstr "Votos recientes"
@@ -337,10 +339,10 @@ msgstr ""
 "expuestas aquí"
 
 msgid "Support now"
-msgstr ""
+msgstr "Danos tu apoyo ahora!"
 
 msgid "Support the Initiative"
-msgstr ""
+msgstr "Apoya la iniciativa"
 
 msgid "Technical realization"
 msgstr ""
@@ -497,6 +499,9 @@ msgid ""
 "of the world’s armed forces into the new significant environmental tasks as so"
 "on as possible."
 msgstr ""
+"Sugerimos que las Naciones Unidas presente una iniciativa global para un nuevo"
+" despliegue de las fuerzas armadas del mundo, lo más pronto posible, y que las"
+" lleve hacia importantes tareas medioambientales"
 
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "
@@ -538,6 +543,9 @@ msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "Correos electrónicos de tus amigos"
+
+msgid "Your support has been registered %{name}!"
+msgstr ""
 
 msgid "Your supporter number is %{count}."
 msgstr "Tu número de contriibuyente es %{contar}"

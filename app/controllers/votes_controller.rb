@@ -89,6 +89,8 @@ class VotesController < ApplicationController
             flash[:success] = "Thank you for your vote!"
             redirect_to vote_path(locale: locale, secret_token: @vote.secret_token)
           else
+            #flash[:error] = "There was an error while adding your vote"
+            #redirect_to new_vote_path(locale: locale, anchor: "sign")
             render :new
           end
         end

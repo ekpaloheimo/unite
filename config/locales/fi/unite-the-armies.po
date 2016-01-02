@@ -530,6 +530,9 @@ msgstr "Youtube"
 msgid "Your friends email address"
 msgstr "Ystäväsi sähköpostiosoite"
 
+msgid "Your support has been registered %{name}!"
+msgstr ""
+
 msgid "Your supporter number is %{count}."
 msgstr "Olet tukija %{count}"
 

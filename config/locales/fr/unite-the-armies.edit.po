@@ -398,6 +398,9 @@ msgstr "YouTube"
 msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
+msgid "Your support has been registered %{name}!"
+msgstr ""
+
 msgid "Your supporter number is %{count}."
 msgstr "Votre numéro de supporteur est %{nombre}."
 

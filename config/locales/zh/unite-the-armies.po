@@ -475,6 +475,9 @@ msgstr ""
 msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"
 
+msgid "Your support has been registered %{name}!"
+msgstr ""
+
 msgid "Your supporter number is %{count}."
 msgstr ""
 

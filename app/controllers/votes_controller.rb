@@ -70,6 +70,14 @@ class VotesController < ApplicationController
     # Remove session key after succesfull save
     if @vote.valid?
       session.delete :parent_vote_id
+
+      # If sent_count amount of votes is added after last backup email,
+      # send a backup email.
+
+      uas = UaSetting.instance
+      if VoteCount.total >= uas.vote_count + Rails.configuration.x.send_count
+        uas.send!       
+      end
     end
 
     respond_to do |format|

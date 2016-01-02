@@ -38,4 +38,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.x.backup_email = "info@jonitoyryla.eu"
+  config.x.send_count = 100
 end

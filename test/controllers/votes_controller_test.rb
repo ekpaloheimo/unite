@@ -60,6 +60,30 @@ class VotesControllerTest < ActionController::TestCase
     assert flash[:success], "Thank you for your vote!"
   end
 
+  test 'should send backup mail after creating vote' do
+    uas = UaSetting.instance
+    uas.sent_at = nil
+    uas.vote_count = 0
+    uas.sent_count = 3001
+    uas.save
+
+    VoteCount.clear_values
+
+    assert_equal VoteCount.total, 3000
+
+    values = {
+      name: "foobar", 
+      email: "foobar01@foobar.com", 
+      email_confirmation: "foobar01@foobar.com", 
+      country: "fi"
+    }
+    post :create, vote: values
+
+    uas.reload
+    assert_equal uas.vote_count, 3001
+    assert_not ActionMailer::Base.deliveries.empty?   
+  end
+
   test 'should add parent vote id to session' do
     post :add_parent, t: votes("vote_1").md5_secret_token
     assert_redirected_to new_vote_path(locale: "en")

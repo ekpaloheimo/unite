@@ -18,6 +18,7 @@ gem 'gettext_i18n_rails'
 gem 'time_difference'
 gem 'rvm-capistrano'
 gem 'social-share-button'
+gem 'acts_as_singleton'
 
 group :development, :test do
   gem 'byebug'

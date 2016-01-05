@@ -27,4 +27,7 @@
 
 </script>
 
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<%
+  recaplocale = (locale == "zh") ? "zh-CH" : locale
+%>
+<script src='https://www.google.com/recaptcha/api.js?hl=<%= recaplocale %>'></script>

@@ -47,6 +47,11 @@ class CommentsController < ApplicationController
       return
     end
 
+    unless RecaptchaVerifier.verify(params["g-recaptcha-response"])
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
+
     vote = Vote.where(id: session[:current_vote_id]).first
     unless vote
       redirect_to new_vote_path(locale: locale)

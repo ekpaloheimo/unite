@@ -19,7 +19,13 @@ class VotesController < ApplicationController
   def email_invite
     @vote = Vote.where(md5_secret_token: params[:t]).first
     unless @vote
-      flash[:error] = "There was an error"
+      flash[:error] = _("There was an error")
+      head :bad_request
+      return
+    end
+
+    unless RecaptchaVerifier.verify(params["g-recaptcha-response"])
+      flash[:error] = _("There was an error with human verifying")
       head :bad_request
       return
     end
@@ -30,10 +36,10 @@ class VotesController < ApplicationController
     respond_to do |format|
       format.html do
         if @share_valid
-          flash[:success] = "Invitation has been sent, thank you!"
+          flash[:success] = _("Invitation has been sent, thank you!")
           head :ok
         else
-          flash[:error] = "There was an error"
+          flash[:error] = _("There was an error")
           head :bad_request
         end
       end
@@ -57,6 +63,11 @@ class VotesController < ApplicationController
     @vote = Vote.new(vote_params)
     @vote.ip = request.env["REMOTE_ADDR"]
     @vote.bypass_humanizer = true if Rails.env.test?
+
+    unless RecaptchaVerifier.verify(params["g-recaptcha-response"])
+      redirect_to new_vote_path(locale: locale)
+      return
+    end
 
     # If session contains parent vote id, add this vote to parent vote
     # votes association.
@@ -85,16 +96,16 @@ class VotesController < ApplicationController
         if request.xhr?
           if @vote.valid?
             VoteMailer.sign_up(@vote).deliver_later
-            flash[:success] = "Thank you for your vote!"
+            flash[:success] = _("Thank you for your vote!")
             head :ok
           else
-            flash[:error] = "There was an error while adding your vote"
+            flash[:error] = _("There was an error while adding your vote")
             head :bad_request
           end
         else
           if @vote.valid?
             VoteMailer.sign_up(@vote).deliver_later
-            flash[:success] = "Thank you for your vote!"
+            flash[:success] = _("Thank you for your vote!")
             redirect_to vote_path(locale: locale, secret_token: @vote.secret_token)
           else
             #flash[:error] = "There was an error while adding your vote"

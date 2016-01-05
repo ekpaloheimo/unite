@@ -1,7 +1,7 @@
 class Comment < ActiveRecord::Base
-  include Humanizer
+  #include Humanizer
   attr_accessor :bypass_humanizer
-  require_human_on :create, :unless => :bypass_humanizer
+  #require_human_on :create, :unless => :bypass_humanizer
 
   #validates :name, presence: true
   validates :language, presence: true

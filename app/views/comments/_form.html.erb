@@ -80,9 +80,12 @@
       <%= f.text_area :body, :class => "form-control" %>
     </div>
     <div class="field">
-      <%= f.label :humanizer_answer, @comment.humanizer_question %>
-      <%= f.text_field :humanizer_answer, :class => "form-control" %>
-      <%= f.hidden_field :humanizer_question_id %>
+      <div class="g-recaptcha" data-sitekey="6LfwgBQTAAAAAJrdJfpdvnMhibW4iUFJRdlK0ZXb"></div>
+    </div>
+    <div class="field">
+      <%# f.label :humanizer_answer, @comment.humanizer_question %>
+      <%# f.text_field :humanizer_answer, :class => "form-control" %>
+      <%# f.hidden_field :humanizer_question_id %>
     </div>
     <div class="actions">
       <%= f.submit _("Add"), :class => "btn btn-primary form-control" %>

@@ -1,7 +1,6 @@
 class Vote < ActiveRecord::Base
-  include Humanizer
-  require_human_on :create, :unless => :bypass_humanizer
-
+  # include Humanizer
+  # require_human_on :create, :unless => :bypass_humanizer
   attr_accessor :bypass_humanizer
   attr_reader :ago
 

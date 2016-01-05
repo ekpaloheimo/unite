@@ -19,6 +19,8 @@ gem 'time_difference'
 gem 'rvm-capistrano'
 gem 'social-share-button'
 gem 'acts_as_singleton'
+#gem 'recaptcha', require: 'recaptcha/rails'
+gem 'httparty'
 
 group :development, :test do
   gem 'byebug'

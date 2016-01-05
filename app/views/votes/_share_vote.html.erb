@@ -32,9 +32,12 @@
     <%= text_field_tag :email_confirmation, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag :humanizer_answer, @vote.humanizer_question %> <br/>
-    <%= text_field_tag :humanizer_answer, nil, :class => "form-control" %>
-    <%= hidden_field_tag :humanizer_question_id, @vote.humanizer_question_id %>
+    <div class="g-recaptcha" data-sitekey="6LfwgBQTAAAAAJrdJfpdvnMhibW4iUFJRdlK0ZXb"></div>
+  </div>
+  <div class="field">
+    <%# label_tag :humanizer_answer, @vote.humanizer_question %> <br/>
+    <%# text_field_tag :humanizer_answer, nil, :class => "form-control" %>
+    <%# hidden_field_tag :humanizer_question_id, @vote.humanizer_question_id %>
   </div>
   <div class="field">
     <%= submit_tag _("Send"), :class => "btn btn-primary btn-lg btn-block" %>

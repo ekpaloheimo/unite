@@ -180,6 +180,9 @@ msgstr "Iniciativa presentada a las Naciones Unidas:"
 msgid "Instructions"
 msgstr "Instrucciones"
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr "Invitación a salvar el Mundo- Unificar los Ejércitos"
 
@@ -353,6 +356,9 @@ msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércit
 msgid "Thank you for your support %{name}!"
 msgstr "!Gracias por tu apoyo %{nombre}!"
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "La Asociación Verde para la protección de la vida"
 
@@ -411,6 +417,15 @@ msgstr ""
 "Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenem"
 "os que darle ahora, al ejército, tareas positivas. En estas páginas recogemos "
 "los apoyos para una iniciativa global"
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
+msgstr ""
 
 msgid "This is your private vote!"
 msgstr "!Este es tu voto privado!"

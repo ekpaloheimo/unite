@@ -153,6 +153,9 @@ msgstr "Aloite Yhdistyneille Kansakunnille:"
 msgid "Instructions"
 msgstr "Ohjeet"
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr "Kutsu \"Pelastakamme maailma - yhdistäkäämme armeijat\" kampanjaan"
 
@@ -288,6 +291,9 @@ msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- k
 msgid "Thank you for your support %{name}!"
 msgstr "Kiitos tuestasi %{name}!"
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "Vihreä Elämänsuojelun Liitto (VESL)"
 
@@ -320,6 +326,15 @@ msgstr "Yhdistynyt armeija suunnattava aavikoiden metsittämiseen."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettava uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitteelle."
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
+msgstr ""
 
 msgid "This is your private vote!"
 msgstr "Tämä on henkilökohtainen äänesi!"

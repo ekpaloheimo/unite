@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-02 09:59+0200\n"
-"PO-Revision-Date: 2016-01-02 09:59+0200\n"
+"POT-Creation-Date: 2016-01-06 17:53+0200\n"
+"PO-Revision-Date: 2016-01-06 17:53+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -153,6 +153,9 @@ msgstr ""
 msgid "Instructions"
 msgstr ""
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr ""
 
@@ -288,6 +291,9 @@ msgstr ""
 msgid "Thank you for your support %{name}!"
 msgstr ""
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr ""
 
@@ -319,6 +325,15 @@ msgid "The resources and capacity of the United Armies must be directed to refor
 msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
+msgstr ""
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
 msgstr ""
 
 msgid "This is your private vote!"

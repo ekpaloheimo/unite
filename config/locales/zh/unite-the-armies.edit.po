@@ -152,6 +152,9 @@ msgstr "提交给联合国的倡议"
 msgid "Instructions"
 msgstr ""
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr ""
 
@@ -287,6 +290,9 @@ msgstr ""
 msgid "Thank you for your support %{name}!"
 msgstr "谢谢你和你的支持！你是第 %{name}"
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr ""
 
@@ -319,6 +325,15 @@ msgstr "军队的资源和能力要被定向在使沙漠森林化方面。"
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
+msgstr ""
 
 msgid "This is your private vote!"
 msgstr "这是你的个人投票！"

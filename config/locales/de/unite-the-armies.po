@@ -166,6 +166,9 @@ msgstr ""
 msgid "Instructions"
 msgstr ""
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr ""
 
@@ -318,6 +321,9 @@ msgstr ""
 msgid "Thank you for your support %{name}!"
 msgstr ""
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr ""
 
@@ -361,6 +367,15 @@ msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "
 "armies a new, positive task. In these pages we collect support for a global in"
 "itiative."
+msgstr ""
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
 msgstr ""
 
 msgid "This is your private vote!"

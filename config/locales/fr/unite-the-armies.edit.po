@@ -153,6 +153,9 @@ msgstr "Initiative presentée aux Nations Unies."
 msgid "Instructions"
 msgstr "Instructions"
 
+msgid "Invitation has been sent, thank you!"
+msgstr ""
+
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr "Invitation à Sauver le Monde- Unissez les Armées"
 
@@ -288,6 +291,9 @@ msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 msgid "Thank you for your support %{name}!"
 msgstr "Merci pour votre support %{nom}!"
 
+msgid "Thank you for your vote!"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "L'association verte pour la protection de la vie"
 
@@ -321,6 +327,15 @@ msgstr "Les ressources et la capacité des armées unies doivent être redirigé
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "Il y a un potentiel caché à proximité : les armées nationales. Nous devons leur donner une nouvelle tâche positive. Sur ces pages nous rassemblons des supports pour une initiative mondiale."
+
+msgid "There was an error"
+msgstr ""
+
+msgid "There was an error while adding your vote"
+msgstr ""
+
+msgid "There was an error with human verifying"
+msgstr ""
 
 msgid "This is your private vote!"
 msgstr "Ceci est votre vote privé!"

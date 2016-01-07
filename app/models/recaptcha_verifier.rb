@@ -16,7 +16,6 @@ class RecaptchaVerifier
     response_success?(recaptcha_response)
   end
 
-  private
   def recaptcha_url(response, secret, ip)
     "https://www.google.com/recaptcha/api/siteverify?secret=#{secret}&response=#{response}&remoteip=#{ip}"
   end

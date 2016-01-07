@@ -10,7 +10,6 @@ class RecaptchaVerifier
   end
 
   def verify
-    return true
     return true if Rails.env.test?
     recaptcha_response = HTTParty.get(recaptcha_url(@response, secret, @ip))   
     response_success?(recaptcha_response)

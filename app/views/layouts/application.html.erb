@@ -125,7 +125,9 @@
 
     <%= yield :gallery %>
 
+    <% if locale == :fi %>
     <%= yield :supporters %>
+    <% end %>
 
     <div>
       <div class="container sd-main">

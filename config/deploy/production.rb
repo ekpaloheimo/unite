@@ -3,11 +3,15 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-role :app, %w{deploy@178.251.154.117}
-role :web, %w{deploy@178.251.154.117}
-role :db,  %w{deploy@178.251.154.117}
+#role :app, %w{unite-the-armies@188.117.25.189}
+#role :web, %w{unite-the-armies@188.117.25.189}
+#role :db,  %w{unite-the-armies@188.117.25.189}
 
-server '178.251.154.117', user: 'unite-the-armies', roles: %w{app db web}
+server '188.117.25.189', user: 'ubuntu', roles: %w{app db web}
+
+set :ssh_options, {  
+  keys: %w(/home/jto/.ssh/unite-the-armies.pem /home/jto/.ssh/id_rsa_ekpaloheimo_git)
+}
 
 # Configuration
 # =============

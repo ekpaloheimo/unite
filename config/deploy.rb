@@ -4,9 +4,9 @@ lock '3.4.0'
 require "rvm/capistrano"
 
 set :application, 'unite-the-armies'
-set :repo_url, 'git@github.com:jonitoyryla/unite-the-armies.git'
+set :repo_url, 'git@unite.github.com:ekpaloheimo/unite-the-armies.git'
 set :deploy_to, '/var/www/unite-the-armies.org'
-set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml', 'public/googleca9639854eea1a9b.html', 'public/videos/eero-paloheimo.mp4', 'public/videos/ub-lindstrom.mp4')
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml', 'public/googleca9639854eea1a9b.html')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :keep_releases, 5
 set :rvm_ruby_string, :local              # use the same ruby as used locally for deployment
@@ -60,8 +60,6 @@ namespace :deploy do
   desc 'foo'
   task :foobar do
     on roles :all do
-      execute "/usr/local/rvm/rubies/ruby-2.2.1/bin/ruby -v"
-      execute "ruby -v"
     end
   end
 end

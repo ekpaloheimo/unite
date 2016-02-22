@@ -13,6 +13,6 @@
  *= require_tree .
  *= require_self
  *= require flags
-*= require social-share-button
+ *= require social-share-button
  */
 

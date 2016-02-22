@@ -1,140 +1,438 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <%= render partial: "header" %>
-
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Save the Planet - Unite the Armies" />
-    <meta property="og:description"   content="STOP DISASTER – NOW! Radical actions are urgently needed to save our planet." />
-    <meta property="og:image"         content="<%= image_url("ua-banner.jpg") %>" />
-
   </head>
-  <body>
-    <!-----start-top-header----->
-    <div id="hello" class="top-header">
-      <!-- Slideshow 4 -->
-      <div  id="top" class="callbacks_container">
-	<ul class="rslides" id="slider4">
-	  <li>
-	    <%= image_tag "slide01.jpg" %>
-	    <div class="caption">
-	      <div class="slide-text-info">
-		<h1><%= _("Air pollution is a global Challenge!") %></h1>
-	      </div>
-              <div class="slide-text-description">
-                <h2><%= _("The resources and capacity of the United Armies must be directed to reforestation of the deserts.") %></h2>
-              </div>
-	    </div>
-            <div class="caption-link-container"></div>
-	  </li>
-	  <li>
-	    <%= image_tag "slide02.jpg" %>
-	    <div class="caption">
-	      <div class="slide-text-info">
-		<h1 class="grey"><%= _("Water is the Mother of Life – we all need it!") %></h1>
-	      </div>
-              <div class="slide-text-description">
-                <h2 class="grey"><%= _("The United Armies must ensure sufficient water availability everywhere for the needs of people and life.") %></h2>
-              </div>
-	    </div>
-            <div class="caption-link-container"></div>
-	  </li>
-	  <li>
-	    <%= image_tag "slide03.jpg" %>
-	    <div class="caption">
-	      <div class="slide-text-info">
-		<h1 class="grey"><%= _("Millions of Tons of Plastic Waste on the Shores and Oceans!") %></h1>
-	      </div>
-              <div class="slide-text-description">
-                <h2 class="grey"><%= _("The United Armies must collect the plastic waste from the oceans and shores.") %></h2>
-              </div>
-	    </div>
-	  </li>
-	  <li>
-	    <%= image_tag "slide04.jpg" %>
-	    <div class="caption">
-	      <div class="slide-text-info">
-		<h1 class="red"><%= _("We must defend Life's Richness on our Planet!") %></h1>
-	      </div>
-              <div class="slide-text-description">
-                <h2 class="red"><%= _("The United Armies must protect the areas reserved for nature.") %></h2>
-              </div>
-	    </div>
-	  </li>
-	  <li>
-	    <%= image_tag "slide05.jpg" %>
-	    <div class="caption">
-	      <div class="slide-text-info">
-		<h1><%= _("Unite the Armies to Save Life – not to Kill!") %></h1>
-	      </div>
-              <div class="slide-text-description">
-                <h2><%= _("The activities of the United Armies must be controlled by a common, international organ.") %></h2>
-              </div>
-	    </div>
-            <div class="caption-link-container continue">
-              <%= link_to _("Continue"), "#links", :class => "caption-link" %>
-            </div>
-	  </li>
-	</ul>
-      </div>
-      <div class="clear"> </div>
-      <!---- //End-slider----->
-    </div>
 
-    <!-----start-header---->
-    <div class="header">
-      <div>
-	<div class="logo">
-	  <a href="#"></a>
+<body class="shop home-page">
+
+  <!-- Overlay Navigation Menu -->
+  <div class="overlay-navigation-wrapper enter-bottom" data-no-scrollbar data-animation="slide-in">
+    <div class="overlay-navigation-scroll-pane">
+      <div class="overlay-navigation-inner">
+	<div class="v-align-middle">
+	  <div class="overlay-navigation-header row collapse full-width">
+	    <div class="column width-12">
+	      <div class="navigation-hide overlay-nav-hide">
+		<a href="#">
+		  <span class="icon-cancel"></span>
+		</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row collapse full-width">
+	    <div class="column width-12">
+	      <nav class="overlay-navigation nav-block">
+		<h4 class="menu-title">VALIKKO</h4>
+		<ul>
+		  <li>
+		    <a href="#"
+		       class="contains-sub-menu">ETUSIVU</a>
+		  </li>
+		  <li>
+		    <a href="tietoa.html"
+		       class="contains-sub-menu">TIETOA</a>
+		  </li>
+		  <li>
+		    <a href="kannata.html"
+		       class="contains-sub-menu">KANNATA</a>
+		  </li>
+		</ul>
+	      </nav>
+	    </div>
+	  </div>
+	  <div class="overlay-navigation-footer row full-width">
+	    <div class="column width-12 no-padding">
+	      <p class="copyright
+			no-margin-bottom">&copy;
+		2016 UNITE THE
+		ARMIES. All
+		Rights
+		Reserved.</p>
+	    </div>
+	  </div>
 	</div>
-	<!----start-top-nav---->
-	<%= render partial: "top_nav" %>
-	<div class="clear"> </div>
-      </div>
-      <!-----//End-header---->
-    </div>
-    
-    <div class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-collapse">
-          <ul class="nav navbar-nav">
-            <a name="links"></a>
-            <li><%= link_to _("Video"), video_path(locale: locale) %></li>
-            <li><%= link_to _("Sign"), new_vote_path(locale: locale, anchor: :sign) %></li>
-            <li><%= link_to _("Statistics"), votes_path(locale: locale) %></li>
-          </ul>
-        </div>
       </div>
     </div>
-    
-    <%= flash_messages %>
-    
-    <div class="unobtrusive-flash-container"></div>
+  </div>
+  <!-- Overlay Navigation Menu End -->
 
-    <%= yield :middle %>
+  <div class="wrapper reveal-side-navigation">
+    <div class="wrapper-inner">
 
-    <div>
-      <div class="container sd-main">
-        <%= yield :grid %>
+      <!-- Header -->
+      <header class="header header-fixed header-fixed-on-mobile header-transparent" data-sticky-threshold="window-height" data-bkg-threshold="100">
+	<div class="header-inner">
+	  <div class="row nav-bar">
+	    <div class="column width-12 nav-bar-inner">
+	      <div class="logo">
+		<div class="logo-inner">
+		  <a href="etusivu.html">
+                    <%= image_tag "barber-shop/logo-dark.png", alt: "Logo" %>
+                  </a>
+                  <a href="etusivu.html">
+                    <%= image_tag "barber-shop/logo.png", alt: "Logo" %>
+		  </a>
+		</div>
+	      </div>
+	      <nav class="navigation nav-block secondary-navigation nav-right">
+		<ul>
+		  
+		  <li class="aux-navigation hide">
+		    <!-- Aux Navigation -->
+		    <a href="#" class="navigation-show overlay-nav-show nav-icon">
+		      <span class="icon-menu"></span>
+		    </a>
+		  </li>
+		</ul>
+	      </nav>
+	      <nav class="navigation nav-block primary-navigation nav-right no-margin-right">
+		<ul>
+		  <li class="current">
+		    <a href="#"
+		       class="contains-sub-menu">ETUSIVU</a>
+		  </li>
+		  <li>
+		    <a href="tietoa.html"
+		       class="contains-sub-menu">TIETOA</a>
+		  </li>
+		  <li>
+		    <a href="kannata.html"
+		       class="contains-sub-menu">KANNATA</a>
+		  </li>
+
+                  <%= render partial: "top_nav" %>
+
+		</ul>
+	      </nav>
+	    </div>
+	  </div>
+	</div>
+      </header>
+      <!-- Header End -->
+      <!-- Content -->
+      <div class="content clearfix">
+	<!-- Fullscreen Slider Section -->
+	<section class="section-block featured-media window-height tm-slider-parallax-container">
+	  <div class="tm-slider-container full-width-slider" data-featured-slider data-progress-bar="false" data-parallax data-parallax-fade-out data-auto-advance data-animation="slide" data-scale-under="960">
+
+
+
+	    <ul class="tms-slides">
+	      <li class="tms-slide" data-image data-force-fit>
+		<div class="tms-content">
+		  <div class="tms-content-inner center left-on-mobile v-align-middle">
+		    <div class="row">
+		      <div class="column width-12">
+			<h1 class="tms-caption title-xlarge color-white lspacing-medium mb-20 weight-bold" data-animate-in="opacity:0;scale:1.5px;duration:600ms;easing:easeFastSlow;" data-no-scale>PELASTA MAAILMA</h1>
+
+                        <h5 class="tms-caption color-white lspacing-medium hide-on-mobile" data-animate-in="opacity:0;transY:50px;duration:600ms;delay:300ms;easing:easeFastSlow;" data-no-scale>ARMEIJOILLE ON  ANNETTAVA UUSI, RAKENTAVA TEHTÄVÄ</h5>
+			<div class="clear"></div>
+			<a href="#leffa"
+			   class="tms-caption
+				  button
+				  scroll-link
+				  large
+				  bkg-white
+				  thick
+				  bkg-hover-beige
+				  color-black
+				  color-hover-white
+				  text-uppercase
+				  no-margin-bottom"
+			   data-animate-in="opacity:0;transY:50px;duration:600ms;delay:400ms;easing:easeFastSlow;"
+			   data-no-scale
+			   >TOIMI
+			  NYT<span class="hide-on-mobile">,
+			    LUE
+			    LISÄÄ</span></a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<img data-src="images/barber-shop/slider/slide-1-fs.jpg"
+		     data-retina
+		     src="images/blank.png"
+		     alt=""/>
+	      </li>
+	    </ul>
+	  </div>
+	</section>
+	<!-- Fullscreen Slider Section End -->
+
+	<!-- About -->
+	<section id="leffa">
+
+	  <div class="section-block replicable-content bkg-grey-ultralight">
+	    <div class="row">
+	      <div class="column width-6 offset-3 center">
+		<h2 class="mb-30">ENSIAPU
+		  YHTEISELLE
+		  MAAILMALLEMME</h2>
+	      </div>
+	      <div class="column width-6 offset-3 left">
+		<p class="mb-30"
+		   style="text-align:center;">On
+		  olemassa piilevä
+		  potentiaali: <strong>kansalliset
+		    armeijat</strong>. Armeijoille
+		  on annettava uusi,
+		  rakentava
+		  tehtävä. Tällä
+		  sivustolla keräämme
+		  tukea globaalille
+		  aloitteelle.<br>
+		</p>
+	      </div>
+	      <div class="column width-10 offset-1">
+		<div class="thumbnail">
+                  <%= image_tag "barber-shop/vimeo_bg.jpg", alt:"", width:1440, height:700 %>
+		  <div class="caption-over-outer">
+		    <div class="caption-over-inner center color-white">
+		      <div class="row">
+			<div class="column width-12">
+			  <a href="http://player.vimeo.com/video/153508732?autoplay=1&amp;color=a09283"
+			     data-image-url="#"
+			     data-caption="Armeijoille
+					   on
+					   annettava
+					   uusi,
+					   rakentava
+					   tehtävä."
+			     class="lightbox-link
+				    icon-play
+				    icon-circled
+				    border-white
+				    color-white
+				    color-hover-white
+				    bkg-hover-beige
+				    circled
+				    large"></a>
+
+			</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+        </section>
+	<!-- About End -->
+
+        <!-- columnit -->
+        <section>
+	  <div class="section-block replicable-content bkg-charcoal color-white">
+
+            <div class="row">
+	      <div class="column width-12">
+		<div class="row">
+		  <div class="column width-6">
+		    <div class="feature-column large center horizon" data-animate-in="transX:-30px;" data-threshold="1">
+		      <div style="margin: 20px 0;">
+                        <%= image_tag "barber-shop/pollution.jpg", alt:"" %>
+                      </div>
+                      <div class="feature-text">
+		        <h5>Ilmakehän saastuminen on globaali haaste!</h5>
+			<p>Yhdistynyt armeija suunnattava aavikoiden metsittämiseen.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="column width-6">
+		    <div class="feature-column large center horizon" data-animate-in="transX:30px;delay:200ms;" data-threshold="1">
+                      <div style="margin: 20px 0;">
+                        <%= image_tag "barber-shop/nowater.jpg", alt:"" %>
+                      </div> <div class="feature-text">
+			<h5>Vesi
+			  on
+			  elämän
+			  äiti
+			  -
+			  me
+			  kaikki
+			  tarvitsemme
+			  sitä!</h5>
+			<p>Yhdistyneen
+			  armeijan
+			  varmistettava
+			  veden
+			  saanti
+			  kaikkialla.</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="column width-6">
+		    <div class="feature-column large center horizon" data-animate-in="transX:-30px;delay:400ms;" data-threshold="1">
+		      <div style="margin:20px 0;">
+                        <%= image_tag "barber-shop/trash.jpg", alt:"" %>
+                      </div>
+		      <div class="feature-text">
+			<h5>Miljoonia
+			  tonneja
+			  muovijätettä
+			  rannoilla
+			  ja
+			  valtamerissä!</h5>
+			<p>Yhdistyneen
+			  armeijan
+			  siivottava
+			  muovijäte
+			  rannoilta
+			  ja
+			  valtameristä.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="column width-6">
+		    <div class="feature-column large center horizon" data-animate-in="transX:30px;delay:600ms;" data-threshold="1">
+                      <div style="margin: 20px 0;">
+                        <%= image_tag "barber-shop/polars.jpg", alt:"" %>
+                      </div> 
+                      <div class="feature-text">
+			<h5>On
+			  puolustettava
+			  maapallon
+			  elämän
+			  monimuotoisuutta!</h5>
+			<p>Yhdistyneen
+			  armeijan
+			  turvattava
+			  suojelualueiden
+			  koskemattomuus.</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </div>           
+          </div>
+        </section> 
       </div>
-    </div>    
+            
+      <!-- Feature Section 1 -->
+      <section class="section-block feature-1 bkg-beige">
+	<div class="row no-padding-bottom">
+	  <div class="column width-6 offset-3">
+	    <div class="feature-content">
+	      <div class="feature-content-inner">
+		
+		<a href="tietoa.html" class="button xlarge bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90">
+		  <span class="icon-info-with-circle
+			       left"></span>
+		  LUE
+		  LISÄÄ
+		</a>
+                
+                <a href="kannata.html" class="button xlarge bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90">
+		  <span class="icon-add-user
+			       left"></span>
+		  KANNATA
+		</a>
+                
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+      </section>
+      <!-- Feature Section 1 End -->
 
-    <%= yield :appeal %>
-    
-    <%= yield :form %>
+      <!-- Footer -->
+      <footer class="footer">
+	<div class="footer-top">
+	  <div class="row">
+	    <div class="column width-4">
+	      <div class="widget">
+		<h4 class="widget-title">
+                  <%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %>
+                </h4>
+                <%= image_tag "barber-shop/vesl_logo.jpg", alt:"Vihreä Elämänsuojelun Liitto" %>
+              </div>
+	    </div>
+	    <div class="column width-3">
+	      <div class="widget">
+		<h4 class="widget-title">Tietoa meistä</h4>
+		<ul class="list-group small">
+                  <li>
+                    <%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %>
+                  </li>
+                  <li><span class="post-info"><span class="post-date">Veli
+                        Keitel (<%= _("Animation realization") %>)</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Riikka
+                        Kämppi</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Pekka
+                        Lehtinen</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Ulf
+                        Lindström</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Pentti
+                        Linkola</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Harriet
+                        Lonka</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Vilma
+                        Lonka</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Mika
+                        Mattila</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Nina
+                        Motaleff</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Maria
+                        Pakkala</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Eero
+                        Paloheimo</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Terhi
+                        Paloheimo</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Kimmo
+                        Pietiläinen</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Lasse
+                        Poser</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Ville
+                        Rantanen</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Song Xiao
+                        Ling</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Adrian
+                        Soto</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Pasi
+                        Takkinen</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Joni
+                        Töyrylä (<%= _("Technical realization") %>)</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Tere
+                        Vadén</span></span></li>
+                  <li><span class="post-info"><span class="post-date">Michael
+                        Wynne-Ellis</span></span></li>
+		</ul>
+	      </div>
+	    </div>
+	    <div class="column width-3">
+	      <div class="widget">
+		<h4 class="widget-title"><%= _("Recent Votes") %></h4>
+                <div id="recent_votes"></div>		
+	      </div>
+	    </div>
+	    <div class="column width-2">
+	      <ul class="social-list list-horizontal pull-right clear-float-on-mobile">
+                <li><a href="#"><span class="icon-facebook-with-circle
+                            	             medium"></span></a></li>
+		<li><a href="#"><span class="icon-twitter-with-circle
+					     medium"></span></a></li>
+		<li><a href="#"><span class="icon-youtube-with-circle
+					     medium"></span></a></li>
+		<li><a href="#"><span class="icon-google-with-circle
+					     medium"></span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </footer>
+      <!-- Footer End -->
 
-    <%= yield :gallery %>
-
-    <% if locale == :fi %>
-    <%= yield :supporters %>
-    <% end %>
-
-    <div>
-      <div class="container sd-main">
-        <%= yield %>
-      </div>
     </div>
-          
-    <%= render :partial => "footer" %>
-  </body>
+  </div>
+
+  <!-- Js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+  <script src="js/timber.master.min.js"></script>
+</body>
 </html>

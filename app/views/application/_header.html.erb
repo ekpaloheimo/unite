@@ -5,8 +5,8 @@
       <div class="column width-12 nav-bar-inner">
 	<div class="logo">
 	  <div class="logo-inner">
-            <%= link_to image_tag("barber-shop/logo-dark.png", alt: "Logo"), root_path, :class => "no-transition" %>
-            <%= link_to image_tag("barber-shop/logo.png", alt: "Logo"), root_path, :class => "no-transition" %>
+            <%= link_to image_tag("barber-shop/logo-dark.png", alt: "Logo"), locale_root_path(locale: locale), :class => "no-transition" %>
+            <%= link_to image_tag("barber-shop/logo.png", alt: "Logo"), locale_root_path(locale: locale), :class => "no-transition" %>
 	  </div>
 	</div>
 	<nav class="navigation nav-block secondary-navigation nav-right">
@@ -21,11 +21,6 @@
 	</nav>
         <nav class="navigation nav-block primary-navigation nav-right no-margin-right">
           <ul>
-            <% if false %>
-            <li>
-              <%= link_to _("Etusivu"), locale_root_path(locale: locale), :class => "contains-sub-menu", data: { :no_turbolink => true } %>
-            </li>
-            <% end %>
             <li>
               <%= link_to _("Statistics"), votes_path(locale: locale), :class => "contains-sub-menu", data: { :no_turbolink => true } %>
             </li>

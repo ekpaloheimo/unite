@@ -1,0 +1,17 @@
+<nav class="navigation nav-block primary-navigation nav-right no-margin-right">
+  <ul>
+    <li>
+      <a href="#" class="contains-sub-menu">ETUSIVU</a>
+    </li>
+    <li>
+      <%= link_to _("Statistics"), votes_path(locale: locale), :class => "contains-sub-menu" %>
+    </li>
+    <li>
+      <%= link_to _("Read more"), video_path(locale: locale), :class => "contains-sub-menu" %>
+    </li>
+    <li>
+      <%= link_to _("Support now"), new_vote_path(locale: locale), :class => "contains-sub-menu" %>
+    </li>
+    <%= render partial: "top_nav" %>
+  </ul>
+</nav>

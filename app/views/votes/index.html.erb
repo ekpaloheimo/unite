@@ -1,14 +1,52 @@
-<h1>Total: <%= VoteCount.total %> votes</h1>
+<!-- Content -->
+<div class="content clearfix">
 
-<table class="table">
-  <% @sorted_votes.each do |vote_count| %>
-    <tr>
-      <td><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
-      <td><%= Country.code_to_name(vote_count.country) %></td>
-      <td style="width:100%">
-        <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
-      </td> 
-      <td><%= vote_count.count %></td>
-    </tr>
-  <% end %>
-</table>
+  <!-- Fullscreen Slider Section -->
+  <section class="section-block featured-media tm-slider-parallax-container">
+    <div class="tm-slider-container full-width-slider" data-featured-slider data-progress-bar="false" data-parallax data-parallax-fade-out data-auto-advance data-animation="slide" data-scale-under="960">
+      <ul class="tms-slides">
+	<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.3">
+	  <div class="tms-content">
+	    <div class="tms-content-inner center left-on-mobile v-align-middle">
+	      <div class="row">
+		<div class="column width-12">
+		  <h1 class="tms-caption title-xlarge color-white lspacing-medium no-margin-bottom weight-bold" data-animate-in="opacity:0;scale:1.5px;duration:600ms;easing:easeFastSlow;"
+		      data-no-scale>
+                    <%= _("%{count} votes" % { count: VoteCount.total }) %>
+		  </h1>
+		  <div class="clear"></div>
+		  <h5 class="tms-caption color-white lspacing-medium mt-20"
+		      data-animate-in="opacity:0;transY:50px;duration:600ms;delay:300ms;easing:easeFastSlow;" data-no-scale>
+                    <%= _("More work must be done") %>
+                  </h5>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	  <img data-src="/images/slide-3-fs.jpg" data-retina src="/images/blank.png" alt=""/>
+	</li>
+      </ul>
+    </div>
+  </section>
+  <!-- Fullscreen Slider Section End -->
+
+<section>
+  <div class="section-block feature-1">
+    <table class="table">
+      <% @sorted_votes.each do |vote_count| %>
+        <tr>
+          <td><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
+          <td><%= Country.code_to_name(vote_count.country) %></td>
+          <td style="width:100%">
+            <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
+          </td> 
+          <td><%= vote_count.count %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</section>
+
+</div>
+<!-- Content End -->
+

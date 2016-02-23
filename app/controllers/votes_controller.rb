@@ -120,7 +120,6 @@ class VotesController < ApplicationController
   def index    
     @votes = VoteCount.all
     @sorted_votes = @votes.sort { |a,b| b.count <=> a.count }
-    render layout: "simple_layout"
   end
 
   def recently_added
@@ -149,8 +148,6 @@ class VotesController < ApplicationController
     session[:current_vote_id] = @vote.id
 
     @votes_count = @vote.votes_count ||= 0
-
-    render layout: "simple_layout"
   end
 
   private

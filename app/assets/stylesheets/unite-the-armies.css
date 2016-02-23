@@ -1,0 +1,7 @@
+.table, th, td { border: 0 !important; }
+.table > tbody > tr > td, .table > tbody > tr > th {
+  border-top: 1px solid #ddd !important;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: top;
+}

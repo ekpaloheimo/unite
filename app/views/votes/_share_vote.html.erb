@@ -20,15 +20,15 @@
     <%= select_tag :language, options_for_select(Language.translated_select_options), :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Name of your friend") %> (*) <br/>
+    <%= label_tag _("Name of your friend") + " *" %><br/>
     <%= text_field_tag :name, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Your friends email address") %> (*) <br/>
+    <%= label_tag _("Your friends email address") + " *" %> <br/>
     <%= text_field_tag :email, nil, :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Email Confirmation") %> (*) <br/>
+    <%= label_tag _("Email Confirmation") + " *" %> <br/>
     <%= text_field_tag :email_confirmation, nil, :class => "form-control" %>
   </div>
   <div class="field">
@@ -40,7 +40,7 @@
     <%# hidden_field_tag :humanizer_question_id, @vote.humanizer_question_id %>
   </div>
   <div class="field">
-    <%= submit_tag _("Send"), :class => "btn btn-primary btn-lg btn-block" %>
+    <%= submit_tag _("Send"), :class => "button xlarge bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90" %>
   </div>
 </div>
 <% end %>

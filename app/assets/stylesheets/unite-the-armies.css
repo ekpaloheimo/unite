@@ -5,3 +5,7 @@
   padding: 8px;
   vertical-align: top;
 }
+
+.comment-area { 
+  display: none 
+}

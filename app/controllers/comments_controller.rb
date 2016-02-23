@@ -28,7 +28,6 @@ class CommentsController < ApplicationController
 
     @vote = vote
     @comment = Comment.new
-    render layout: "simple_layout"
   end
 
   # GET /comments/1/edit

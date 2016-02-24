@@ -4,10 +4,12 @@
     <div class="row">
       <div class="column width-4">
 	<div class="widget">
+          <%= link_to "http://www.vesl.fi/", target: "_blank" do %>
 	  <h4 class="widget-title">
-            <%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %>
+            <%= _("The Green Association for the Protection of Life") %>
           </h4>
-          <%= image_tag "barber-shop/vesl_logo.jpg", alt:"Vihreä Elämänsuojelun Liitto" %>
+          <%= image_tag "veslogo.jpg", alt: _("The Green Association for the Protection of Life") %>
+          <% end %>
         </div>
       </div>
       <div class="column width-3">
@@ -17,48 +19,66 @@
             <li>
               <%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %>
             </li>
-            <li><span class="post-info"><span class="post-date">Veli
-                  Keitel (<%= _("Animation realization") %>)</span></span></li>
-            <li><span class="post-info"><span class="post-date">Riikka
-                  Kämppi</span></span></li>
-            <li><span class="post-info"><span class="post-date">Pekka
-                  Lehtinen</span></span></li>
-            <li><span class="post-info"><span class="post-date">Ulf
-                  Lindström</span></span></li>
-            <li><span class="post-info"><span class="post-date">Pentti
-                  Linkola</span></span></li>
-            <li><span class="post-info"><span class="post-date">Harriet
-                  Lonka</span></span></li>
-            <li><span class="post-info"><span class="post-date">Vilma
-                  Lonka</span></span></li>
-            <li><span class="post-info"><span class="post-date">Mika
-                  Mattila</span></span></li>
-            <li><span class="post-info"><span class="post-date">Nina
-                  Motaleff</span></span></li>
-            <li><span class="post-info"><span class="post-date">Maria
-                  Pakkala</span></span></li>
-            <li><span class="post-info"><span class="post-date">Eero
-                  Paloheimo</span></span></li>
-            <li><span class="post-info"><span class="post-date">Terhi
-                  Paloheimo</span></span></li>
-            <li><span class="post-info"><span class="post-date">Kimmo
-                  Pietiläinen</span></span></li>
-            <li><span class="post-info"><span class="post-date">Lasse
-                  Poser</span></span></li>
-            <li><span class="post-info"><span class="post-date">Ville
-                  Rantanen</span></span></li>
-            <li><span class="post-info"><span class="post-date">Song Xiao
-                  Ling</span></span></li>
-            <li><span class="post-info"><span class="post-date">Adrian
-                  Soto</span></span></li>
-            <li><span class="post-info"><span class="post-date">Pasi
-                  Takkinen</span></span></li>
-            <li><span class="post-info"><span class="post-date">Joni
-                  Töyrylä (<%= _("Technical realization") %>)</span></span></li>
-            <li><span class="post-info"><span class="post-date">Tere
-                  Vadén</span></span></li>
-            <li><span class="post-info"><span class="post-date">Michael
-                  Wynne-Ellis</span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Eetu Bergman
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Hayang Hu
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Piia Häkkinen
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Elli Kempas
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Riikka Kämppi
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Pekka Lehtinen
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Ulf Lindström
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Pentti Linkola
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Harriet Lonka
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Mika Mattila
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Nina Motaleff
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Aurora Paloheimo
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Eero Paloheimo
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Kimmo Pietiläinen
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Lasse Poser
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Carolin Rehm
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Adrian Soto
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Joni Töyrylä (<%= _("Technical realization") %>)
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Tere Vadén
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Michael Wynne-Ellis
+                </span></span></li>
 	  </ul>
 	</div>
       </div>
@@ -70,14 +90,26 @@
       </div>
       <div class="column width-2">
 	<ul class="social-list list-horizontal pull-right clear-float-on-mobile">
-          <li><a href="#"><span class="icon-facebook-with-circle
-                            	       medium"></span></a></li>
-	  <li><a href="#"><span class="icon-twitter-with-circle
-				       medium"></span></a></li>
-	  <li><a href="#"><span class="icon-youtube-with-circle
-				       medium"></span></a></li>
-	  <li><a href="#"><span class="icon-google-with-circle
-				       medium"></span></a></li>
+          <li>
+            <%= link_to "https://www.facebook.com/unitethearmiesnow", target: "_blank" do %>
+            <span class="icon-facebook-with-circle medium"></span>
+            <% end %>
+          </li>         
+	  <li>
+            <a href="#">
+              <span class="icon-twitter-with-circle medium"></span>
+            </a>
+          </li>
+	  <li>
+            <%= link_to "https://www.youtube.com/channel/UCbBytuGB3cDGyJ2RCSWpovw", target: "_blank" do %>
+            <span class="icon-youtube-with-circle  medium"></span>
+            <% end %>
+          </li>
+	  <li>
+            <%= link_to "https://plus.google.com/u/0/b/110514912421465474435/110514912421465474435/about/p/pub", target: "_blank" do %> 
+            <span class="icon-google-with-circle medium"></span>
+            <% end %> 
+          </li>
 	</ul>
       </div>
     </div>

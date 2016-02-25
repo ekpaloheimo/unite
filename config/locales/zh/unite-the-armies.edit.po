@@ -23,6 +23,10 @@ msgstr "时间紧迫，我们正在摧毁地球资源。我们必须改变这种
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "我们必须抓紧行动。我们没有几个世纪的时间，可能只有几十年。所以我们需要快速有效的行动。军队是唯一的可能。"
 
+#, fuzzy
+msgid "%{count} votes"
+msgstr "最新投票"
+
 msgid "About Us"
 msgstr "关于我们"
 
@@ -86,6 +90,10 @@ msgstr "评论（1000字符以内）"
 msgid "Comment was successfully created."
 msgstr ""
 
+#, fuzzy
+msgid "Comments"
+msgstr "评论"
+
 msgid "Continue"
 msgstr "继续"
 
@@ -146,6 +154,9 @@ msgstr ""
 msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
 msgstr "在接下来的数十年中，唯有采取强力有效的应对措施才能中断这一问题的恶化过程。我们在此提议：全球军力开支应得到重新分配，转而用于以更集中的方式解决社会问题及环境恶化。"
 
+msgid "In these pages we collect support for a global initiative."
+msgstr ""
+
 msgid "Initiative presented to the United Nations:"
 msgstr "提交给联合国的倡议"
 
@@ -179,8 +190,14 @@ msgstr "提出切实可行的行动倡议"
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "使用联合国的一些官方语言提出倡议（6）"
 
+msgid "Menu"
+msgstr ""
+
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "成千上万吨的塑料垃圾污染了海洋和海岸。"
+
+msgid "More work must be done"
+msgstr ""
 
 msgid "Name"
 msgstr "姓名"
@@ -212,6 +229,9 @@ msgstr "提议在1000字符以内"
 msgid "Protected Areas"
 msgstr "保护区"
 
+msgid "Radical actions are urgently needed to save our planet."
+msgstr ""
+
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr "相关的行动需立即展开以拯救我们共有的星球。以及未来的世界"
 
@@ -233,11 +253,18 @@ msgstr "评论规则"
 msgid "Russian"
 msgstr ""
 
+msgid "STOP DISASTER – NOW!"
+msgstr ""
+
 msgid "Save the Planet - Unite the Armies!"
 msgstr ""
 
 msgid "Save the World! Act Now!"
 msgstr "拯救地球。马上行动"
+
+#, fuzzy
+msgid "Save the planet"
+msgstr "拯救地球"
 
 msgid "Save the planet."
 msgstr "拯救地球"
@@ -275,11 +302,19 @@ msgstr "这类恶性问题正加快恶化，并且往往产生相互作用、彼
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "建议这里还没有提到的新任务。"
 
+#, fuzzy
+msgid "Support"
+msgstr "现在就支持我们的行动"
+
 msgid "Support now"
 msgstr "现在就支持我们的行动"
 
 msgid "Support the Initiative"
 msgstr "支持这项计划"
+
+#, fuzzy
+msgid "Supporters"
+msgstr "现在就支持我们的行动"
 
 msgid "Technical realization"
 msgstr ""
@@ -287,7 +322,8 @@ msgstr ""
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
 
-msgid "Thank you for your support %{name}!"
+#, fuzzy
+msgid "Thank you for your support %{name}"
 msgstr "谢谢你和你的支持！你是第 %{name}"
 
 msgid "Thank you for your vote!"
@@ -323,6 +359,9 @@ msgstr ""
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
 msgstr "军队的资源和能力要被定向在使沙漠森林化方面。"
 
+msgid "There is a hidden potential at hand: the national armies."
+msgstr ""
+
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
 
@@ -335,7 +374,8 @@ msgstr ""
 msgid "There was an error with human verifying"
 msgstr ""
 
-msgid "This is your private vote!"
+#, fuzzy
+msgid "This is your private vote"
 msgstr "这是你的个人投票！"
 
 msgid "To Our Common World"
@@ -367,6 +407,12 @@ msgstr "水是生命之源—我们都需要它。"
 
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "我们衷心企盼联合国能够率先开展一项全球行动以实施上述提议，并重新调遣全世界的武装部队，使其尽快参与至此项新使命中。该项行动能够切实有效地促进世界和平。"
+
+msgid "We have to give the armies a new, positive task"
+msgstr ""
+
+msgid "We have to give the armies a new, positive task."
+msgstr ""
 
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr "我们介绍这项活动是为支持U.B. LIndström 和 Eero Paloheimo两位教授提交给联合国秘书处的一项倡议。"
@@ -430,3 +476,9 @@ msgstr ""
 
 msgid "seconds"
 msgstr ""
+
+#~ msgid "Thank you for your support %{name}!"
+#~ msgstr "谢谢你和你的支持！你是第 %{name}"
+
+#~ msgid "This is your private vote!"
+#~ msgstr "这是你的个人投票！"

@@ -35,6 +35,10 @@ msgstr ""
 "ue quelques décennies .  C'est pourquoi des actions efficaces et rapides sont "
 "nécessaires. Les armées sont la seule possibilité."
 
+#, fuzzy
+msgid "%{count} votes"
+msgstr "Votes récents"
+
 msgid "About Us"
 msgstr "Qui sommes-nous?"
 
@@ -97,6 +101,10 @@ msgstr "Commentaire (max 1000 caractères)"
 
 msgid "Comment was successfully created."
 msgstr "Le commentaire est correctement créé."
+
+#, fuzzy
+msgid "Comments"
+msgstr "Commentaire"
 
 msgid "Continue"
 msgstr "continuez"
@@ -177,6 +185,9 @@ msgstr ""
 "dirigée (avec d'autres mesures) pour aborder la détérioration sociale et envir"
 "onnementale d'une façon plus concentrée "
 
+msgid "In these pages we collect support for a global initiative."
+msgstr ""
+
 msgid "Initiative presented to the United Nations:"
 msgstr "Initiative presentée aux Nations Unies."
 
@@ -226,8 +237,14 @@ msgstr ""
 "Faire que l'initiative utilise une des langues officielles des Nations Unies.("
 "6)."
 
+msgid "Menu"
+msgstr ""
+
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Des millions de tonnes de déchets en plastique sur les plages et les océans!"
+
+msgid "More work must be done"
+msgstr ""
 
 msgid "Name"
 msgstr "Nom"
@@ -268,6 +285,9 @@ msgstr "Présentez la tâche avec un maximum de 1000 caractères"
 msgid "Protected Areas"
 msgstr "Aires protégées"
 
+msgid "Radical actions are urgently needed to save our planet."
+msgstr ""
+
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
 "Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
@@ -291,11 +311,18 @@ msgstr "Règles pour les commentaires"
 msgid "Russian"
 msgstr "Russe"
 
+msgid "STOP DISASTER – NOW!"
+msgstr ""
+
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Sauvez la planète – Unissez les armées!"
 
 msgid "Save the World! Act Now!"
 msgstr "Sauvez le monde! Agissez maintenant!"
+
+#, fuzzy
+msgid "Save the planet"
+msgstr "Sauvez la planète."
 
 msgid "Save the planet."
 msgstr "Sauvez la planète."
@@ -341,11 +368,19 @@ msgstr ""
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Suggérez une nouvelle tâche pour l'Action des Armées Unies non présentée ici."
 
+#, fuzzy
+msgid "Support"
+msgstr "Adhérez maintenant"
+
 msgid "Support now"
 msgstr "Adhérez maintenant"
 
 msgid "Support the Initiative"
 msgstr "Soutenez l'initiative"
+
+#, fuzzy
+msgid "Supporters"
+msgstr "Adhérez maintenant"
 
 msgid "Technical realization"
 msgstr ""
@@ -353,7 +388,8 @@ msgstr ""
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 
-msgid "Thank you for your support %{name}!"
+#, fuzzy
+msgid "Thank you for your support %{name}"
 msgstr "Merci pour votre support %{nom}!"
 
 msgid "Thank you for your vote!"
@@ -409,6 +445,9 @@ msgstr ""
 "Les ressources et la capacité des armées unies doivent être redirigées vers la"
 " reforestation des déserts. "
 
+msgid "There is a hidden potential at hand: the national armies."
+msgstr ""
+
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "
 "armies a new, positive task. In these pages we collect support for a global in"
@@ -427,7 +466,8 @@ msgstr ""
 msgid "There was an error with human verifying"
 msgstr ""
 
-msgid "This is your private vote!"
+#, fuzzy
+msgid "This is your private vote"
 msgstr "Ceci est votre vote privé!"
 
 msgid "To Our Common World"
@@ -479,6 +519,12 @@ msgstr ""
 "s ci-dessus et pour un redéploiement des forces armées du monde dans cette nou"
 "velle tâche dès que possible.  Une telle initiative aurait aussi un effet tang"
 "ible dans la promotion de la paix dans le monde. ."
+
+msgid "We have to give the armies a new, positive task"
+msgstr ""
+
+msgid "We have to give the armies a new, positive task."
+msgstr ""
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

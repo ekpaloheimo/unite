@@ -31,7 +31,7 @@
   <!-- Fullscreen Slider Section End -->
 
 <section>
-  <div class="section-block feature-1">
+  <div class="section-block feature-1" style="min-height: 200px">
     <table class="table">
       <% @sorted_votes.each do |vote_count| %>
         <tr>
@@ -46,6 +46,108 @@
     </table>
   </div>
 </section>
+
+  <% if locale == :fi %>
+  <!-- Feature Column Section -->
+<section>
+  <div id="featured-trips" class="section-block replicable-content">
+    <div class="row">
+      <div class="column width-8 offset-2">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <h5 class="text-uppercase text-small weight-light color-grey">Seuraavat, eri aloja edustavat, merkittävät professorit ovat antaneet vetoomukselle kannatuksensa:
+            </h5>
+	    
+	  </div>
+	</div>
+      </div>
+      
+    </div>
+    <div class="row">
+      
+      <div class="column width-4 offset-2">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <p class="mb-mobile-30">
+              Mikael Fortelius, evoluutiopaleontologia<br>
+              Pekka Kauppi, ympäristönsuojelu <br>
+              Anto Leikola, oppihistoria <br>
+              Pentti Murole, kaupunkisuunnittelu <br>
+              Heikki Palva, arabian kieli <br>
+              Juha Pentikäinen, pohjoinen etnografia <br></p>
+	  </div>
+	</div>
+      </div>
+      
+      <div class="column width-6">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <p class="mb-mobile-30">
+              Eero Saksela, lääketiede <br>
+              Jan Söderlund, arkkitehtuuri <br>
+              Peter Tigerstedt, kasvitiede <br>
+              Tuija Vihavainen, puutekniikka <br>
+              Reijo Vihko, lääketiede <br>
+              Yrjö Wiherheimo, teollinen muotoilu </p>
+	  </div>
+	</div>
+        
+	
+      </div>
+      
+    </div>
+  </div>
+  <!-- Feature Column Section end -->
+  
+  <!-- Feature Column Section -->
+  <div id="featured-trips" class="section-block replicable-content bkg-charcoal color-white">
+    <div class="row">
+      <div class="column width-8 offset-2">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <h5 class="text-uppercase text-small weight-light color-grey">Seuraavat suomalaiset kirjailijat ja suomentajat ovat antaneet vetoomukselle kannatuksensa:</h5>	    
+	  </div>
+	</div>
+      </div>
+      
+    </div>
+    <div class="row">
+      
+      <div class="column width-4 offset-2">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <p class="mb-mobile-30">
+            Maikki Harjanne, kirjailija<br/>
+            Arto Häilä, suomentaja<br/>
+            Timo Hännikäinen, kirjailija<br/>
+            Risto Isomäki, kirjailija<br/>
+            Tiina Krohn, kirjailija<br/>
+            Pentti Linkola, kirjailija<br/>
+	  </div>
+	</div>
+      </div>
+      
+      <div class="column width-6">
+	<div class="feature-column small center">
+	  <div class="feature-text">
+	    <p class="mb-mobile-30">
+              Harri Manner, kirjailija<br>
+              Hannu Mäkelä, kirjailija<br>
+              Kimmo Pietiläinen, suomentaja<br>
+              Mauno Saari, kirjailija<br>
+              Hannu Salama, kirjailija<br>
+              Kaari Utrio, kirjailija</p>
+	  </div>
+	</div>
+        
+	
+      </div>
+      
+    </div>
+  </div>
+</section>
+  <!-- Feature Column Section end -->
+  <% end %>
 
 </div>
 <!-- Content End -->

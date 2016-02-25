@@ -33,6 +33,10 @@ msgstr ""
 "бходимы эффективные и быстрые действия. Армии – это единственная наша возможно"
 "сть."
 
+#, fuzzy
+msgid "%{count} votes"
+msgstr "Наиболее недавние голоса"
+
 msgid "About Us"
 msgstr "О нас"
 
@@ -95,6 +99,10 @@ msgstr "Комментарий (макс. 1000 знаков)"
 
 msgid "Comment was successfully created."
 msgstr "Комментарий был успешно добавлен."
+
+#, fuzzy
+msgid "Comments"
+msgstr "Комментарий"
 
 msgid "Continue"
 msgstr "Следуйте дальше"
@@ -176,6 +184,9 @@ msgstr ""
 " (вместе с другими мерами)на приостановление более фокусированным образом, чем"
 " в настоящее время, ухудшения социальной сферы и состояния окружающей среды."
 
+msgid "In these pages we collect support for a global initiative."
+msgstr ""
+
 msgid "Initiative presented to the United Nations:"
 msgstr "Инициатива, представленная ООН:"
 
@@ -223,8 +234,14 @@ msgstr "Выступите с инициативой по поводу дейс�
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Выступите с инициативой, используя один из официальных языков ООН (6)."
 
+msgid "Menu"
+msgstr ""
+
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Миллионы тонн пластмассовых отходов на побережьях и в океанах!"
+
+msgid "More work must be done"
+msgstr ""
 
 msgid "Name"
 msgstr "Имя и фамилия"
@@ -268,6 +285,9 @@ msgstr "Предложите задание, используя макс. 1000 �
 msgid "Protected Areas"
 msgstr "Заповедники"
 
+msgid "Radical actions are urgently needed to save our planet."
+msgstr ""
+
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
 "Необходимы радикальные действия для спасения нашей планеты. Возможный будущий "
@@ -291,11 +311,18 @@ msgstr "Правила, касающиеся комментариев"
 msgid "Russian"
 msgstr "Русский"
 
+msgid "STOP DISASTER – NOW!"
+msgstr ""
+
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Спасите Планету – Объедините армии!"
 
 msgid "Save the World! Act Now!"
 msgstr "Спасите мир! Действуйте сейчас!"
+
+#, fuzzy
+msgid "Save the planet"
+msgstr "Спасите планету."
 
 msgid "Save the planet."
 msgstr "Спасите планету."
@@ -343,11 +370,19 @@ msgstr ""
 "Предложите новое задание для Действия Объединенных армий, которое здесь не был"
 "о указано."
 
+#, fuzzy
+msgid "Support"
+msgstr "Окажите поддержку сейчас"
+
 msgid "Support now"
 msgstr "Окажите поддержку сейчас"
 
 msgid "Support the Initiative"
 msgstr "Окажите поддержку инициативе"
+
+#, fuzzy
+msgid "Supporters"
+msgstr "Окажите поддержку сейчас"
 
 msgid "Technical realization"
 msgstr "Техническое выполнение"
@@ -355,7 +390,8 @@ msgstr "Техническое выполнение"
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Спасибо за ваше содействие кампании – Спасите мир – Объедините армии!"
 
-msgid "Thank you for your support %{name}!"
+#, fuzzy
+msgid "Thank you for your support %{name}"
 msgstr "Спасибо за вашу поддержку %{name}!"
 
 msgid "Thank you for your vote!"
@@ -410,6 +446,9 @@ msgstr ""
 "Ресурсы Объединенных армий необходимо направить на восстановление леса в пусты"
 "нях."
 
+msgid "There is a hidden potential at hand: the national armies."
+msgstr ""
+
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "
 "armies a new, positive task. In these pages we collect support for a global in"
@@ -428,7 +467,8 @@ msgstr "При добавлении вашего голоса произошла
 msgid "There was an error with human verifying"
 msgstr "При проверке человеком произошла ошибка"
 
-msgid "This is your private vote!"
+#, fuzzy
+msgid "This is your private vote"
 msgstr "Это ваш личный голос!"
 
 msgid "To Our Common World"
@@ -481,6 +521,12 @@ msgstr ""
 ", и перенаправления как можно скорее глобальных армий на выполнение этого ново"
 "го задания. такая инициатива также оказала бы заметное воздействие на способст"
 "вование достижению мира в мире."
+
+msgid "We have to give the armies a new, positive task"
+msgstr ""
+
+msgid "We have to give the armies a new, positive task."
+msgstr ""
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

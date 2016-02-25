@@ -28,6 +28,9 @@ msgid ""
 "ossibility.\""
 msgstr ""
 
+msgid "%{count} votes"
+msgstr ""
+
 msgid "About Us"
 msgstr ""
 
@@ -89,6 +92,9 @@ msgid "Comment (max 1000 characters)"
 msgstr ""
 
 msgid "Comment was successfully created."
+msgstr ""
+
+msgid "Comments"
 msgstr ""
 
 msgid "Continue"
@@ -160,6 +166,9 @@ msgid ""
 "anner than at present."
 msgstr ""
 
+msgid "In these pages we collect support for a global initiative."
+msgstr ""
+
 msgid "Initiative presented to the United Nations:"
 msgstr ""
 
@@ -200,7 +209,13 @@ msgstr ""
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr ""
 
+msgid "Menu"
+msgstr ""
+
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
+msgstr ""
+
+msgid "More work must be done"
 msgstr ""
 
 msgid "Name"
@@ -239,6 +254,9 @@ msgstr ""
 msgid "Protected Areas"
 msgstr ""
 
+msgid "Radical actions are urgently needed to save our planet."
+msgstr ""
+
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
 
@@ -260,10 +278,16 @@ msgstr ""
 msgid "Russian"
 msgstr ""
 
+msgid "STOP DISASTER – NOW!"
+msgstr ""
+
 msgid "Save the Planet - Unite the Armies!"
 msgstr ""
 
 msgid "Save the World! Act Now!"
+msgstr ""
+
+msgid "Save the planet"
 msgstr ""
 
 msgid "Save the planet."
@@ -306,10 +330,16 @@ msgstr ""
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr ""
 
+msgid "Support"
+msgstr ""
+
 msgid "Support now"
 msgstr ""
 
 msgid "Support the Initiative"
+msgstr ""
+
+msgid "Supporters"
 msgstr ""
 
 msgid "Technical realization"
@@ -318,7 +348,7 @@ msgstr ""
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
 
-msgid "Thank you for your support %{name}!"
+msgid "Thank you for your support %{name}"
 msgstr ""
 
 msgid "Thank you for your vote!"
@@ -363,6 +393,9 @@ msgid ""
 "ion of the deserts."
 msgstr ""
 
+msgid "There is a hidden potential at hand: the national armies."
+msgstr ""
+
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "
 "armies a new, positive task. In these pages we collect support for a global in"
@@ -378,7 +411,7 @@ msgstr ""
 msgid "There was an error with human verifying"
 msgstr ""
 
-msgid "This is your private vote!"
+msgid "This is your private vote"
 msgstr ""
 
 msgid "To Our Common World"
@@ -419,6 +452,12 @@ msgid ""
 "itiative to put the proposals outlined above into effect and for a redeploymen"
 "t of the world’s armed forces into this new task as soon as possible. Such an "
 "initiative would also have a tangible effect in promoting world peace."
+msgstr ""
+
+msgid "We have to give the armies a new, positive task"
+msgstr ""
+
+msgid "We have to give the armies a new, positive task."
 msgstr ""
 
 msgid ""

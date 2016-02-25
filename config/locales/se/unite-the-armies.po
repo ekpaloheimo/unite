@@ -1,170 +1,156 @@
-# Spanish translations for unite-the-armies package.
-# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the unite-the-armies package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: unite-the-armies 1.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-01-02 09:59+0200\n"
+"Project-Id-Version: 1\n"
+"PO-Revision-Date: 2016-02-25 12:50+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish\n"
-"Language: es\n"
+"Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"\n"
 
 msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"
 " be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
-"Se acaba el tiempo, entretanto, nosotros estamos destruyendo los recursos del "
-"planeta. Esto debe cambiar y puede ser cambiado. Tú puedes participar.!Actúa h"
-"oy!"
+"\"Tiden tar slut medan vi förstör planetens resursser. Det måste ändras och det"
+" kan ändras. Du kan delta. Handla idag.\""
 
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
 "at is why effective and quick actions are necessary. The armies are the only p"
 "ossibility.\""
 msgstr ""
-"Tenemos prisa. No nos quedan siglos, sólo tenemos unas décadas de tiempo. Pore"
-"sta razón, son necesarias acciones rápidas y efectivas. Los ejércitos son la ú"
-"nica posibilidad"
+"\"Vi har bråttom.Vi har inte århundraden på oss, endast årtionden. Därför behöv"
+"s effektiva och snabba handlingar. Arméerna är den enda möjligheten.\""
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "Votos recientes"
+msgstr "%{count} Senaste röster"
 
 msgid "About Us"
-msgstr "Acerca de nosotros"
+msgstr "Om oss"
 
 msgid "Act NOW!"
-msgstr "!Actúa ahora!"
+msgstr " Handla NU "
 
 msgid "Add"
-msgstr "Añade"
+msgstr "Tillägg "
 
 msgid "Add a comment"
-msgstr "Deja tu comentario"
+msgstr "Tillägg en kommentar"
 
 msgid "Administration"
-msgstr "Administración"
+msgstr "Administration "
 
 msgid "Ago"
-msgstr "Hace tiempo"
+msgstr "Sedan"
 
 msgid "Air pollution is a global Challenge!"
-msgstr "!La contaminación es un desafio global!"
+msgstr "Luftföroreningen är en världsomfattande Utmaning "
 
 msgid "Animation realization"
-msgstr ""
+msgstr "Animation realisering "
 
 msgid "Arabic"
-msgstr "Árabe"
+msgstr "Arabiska "
 
 msgid "Back to top"
-msgstr "Volver al inicio"
+msgstr "Tillbaka till början"
 
 msgid "Background"
-msgstr "Trasfondo"
+msgstr " Bakgrunden"
 
 msgid "Biodiversity"
-msgstr "Biodiversidad"
+msgstr "Biodiversitet"
 
 msgid "Campaign"
-msgstr "La campaña"
+msgstr "Kampanjen"
 
 msgid "Chinese"
-msgstr "Chino"
+msgstr "Kinesiska"
 
 msgid "Choose the language"
-msgstr "Elige un idioma"
+msgstr "Välj språk"
 
 msgid "Choose the language of the invitation letter"
-msgstr "Elige el idioma para la carta de invitación"
+msgstr "Väljinbjudningsbrevets språk"
 
 msgid "Choose the topic"
-msgstr "elige un tópico"
+msgstr "Välj ämnet"
 
 msgid "Climate"
-msgstr "Medio Ambiente"
+msgstr "Klimatet "
 
 msgid "Comment"
-msgstr "Deja un comentario"
+msgstr "Kommentar"
 
 msgid "Comment (max 1000 characters)"
-msgstr "Comentario (máximo 1000 carácteres)"
+msgstr "Kommentar(max 1000 tecken)"
 
 msgid "Comment was successfully created."
-msgstr "El comentario fue creado en forma exitosa"
+msgstr "Kommentarenskapades framgångsrikt"
 
-#, fuzzy
 msgid "Comments"
-msgstr "Deja un comentario"
+msgstr "Kommentar"
 
 msgid "Continue"
-msgstr "Continua"
+msgstr "Fortsätt"
 
 msgid "Country"
-msgstr "País"
+msgstr " Landet"
 
 msgid "Created at"
-msgstr "Creado en"
+msgstr "Skapades vid"
 
 msgid ""
 "Do not share this direct link to anybody. Instead, you can use a form on the s"
 "ite to send invitations to your friends by email."
 msgstr ""
-"No compartas este enlace con nadie. Puedes, sin embargo, usar el formulario de"
-" la página web para enviar por correo electrónico invitaciones a tus amigos"
+"Dela inte den direktalänkenmed någon.Istället använd en form från siten föratt"
+" skicka inbjudan till dina vänner via e-mail."
 
 msgid ""
 "Do not share this direct link with anybody. Instead, you can use a form below "
 "to share a public version of this vote with your friends."
 msgstr ""
-"No compartas este enlace con nadie. Puedes, sin embargo, usar el formulario de"
-" de abajo, para compartir la versión pública de este voto, con tus amigos"
 
 msgid "Email"
-msgstr "Correo electrónico"
+msgstr "Email"
 
 msgid "Email Confirmation"
-msgstr "Confirmar correo"
+msgstr "Email bekräftelse"
 
 msgid "English"
-msgstr "Inglés"
+msgstr "Engelska"
 
 msgid "Facebook"
 msgstr "Facebook"
 
 msgid "Finnish"
-msgstr "Finés"
+msgstr "Finska"
 
 msgid "First Aid"
-msgstr "Primeros auxilios"
+msgstr "Första Hjälpen"
 
 msgid "Food for all"
-msgstr "Comida para todos"
+msgstr "Mat för alla"
 
 msgid "French"
-msgstr "Francés"
+msgstr "Franska"
 
 msgid "Global responsibility"
-msgstr "Responsabilidad global"
+msgstr "Världsomfattande ansvar "
 
 msgid "Google+"
-msgstr "Goole+"
+msgstr "Google+"
 
 msgid "Greetings %{name}!"
-msgstr "Saludos %{nombre}"
+msgstr "Hälsningar %(namnet)"
 
 msgid "Happy mankind"
-msgstr "Una humandidad feliz"
+msgstr " Lykclig mänsklighet"
 
 msgid "Helsinki, 4.11.2014"
-msgstr "Helsinki 4.11.2014"
+msgstr "Helsingfors, 4.11.2104"
 
 msgid "IP"
 msgstr "IP"
@@ -176,85 +162,85 @@ msgid ""
 "easures) to address social and environmental deterioration in a more focused m"
 "anner than at present."
 msgstr ""
-"En las próximas décadas sólo se podrá parar el avance de este proceso mediante"
-" contramedidas fuertes y eficaces. Proponemos para su consideración la idea de"
-" que el gasto global en armamento sea redirigido (junto con otras medidas) a a"
-"bordar el deterioro social y medioambiental de una manera más concentrada que "
-"en el presente."
+"Inom de nästa få decennierna kan endast starka och effektiva motåtgärder stopp"
+"a framstegen av denna process. Vi föreslår at du reflekterar över idén om att "
+"en världsomfattande användning av militär utrustning borde omdirigeras (tillsa"
+"mmans med andra åtgärder) för att hindra social och miljöbetingad förstörelse "
+"på ett mer riktat sätt än för närvarande."
 
 msgid "In these pages we collect support for a global initiative."
 msgstr ""
 
 msgid "Initiative presented to the United Nations:"
-msgstr "Iniciativa presentada a las Naciones Unidas:"
+msgstr "Initiativet presenterat till United Nations"
 
 msgid "Instructions"
-msgstr "Instrucciones"
+msgstr "Anvisningar"
 
 msgid "Invitation has been sent, thank you!"
-msgstr ""
+msgstr "Inbjudan är utskickat, tack "
 
 msgid "Invitation to Save the World - Unite the Armies"
-msgstr "Invitación a salvar el Mundo- Unificar los Ejércitos"
+msgstr "Inbjudan att rädda världen - Unite the Armies"
 
 msgid ""
 "Invite your friends. Fill out a form below and information will be sent to giv"
 "en email"
 msgstr ""
-"Invita a tus amigos. Llena el formulario de abajo y la información será enviad"
-"a al correspondiente correo electrónico"
+"Bjuda in dina vänner. Fyll i blanketten nedan och information skickas till rel"
+"evant email."
 
 msgid ""
 "It is accepted that the military are called to assist the areas affected by su"
 "dden disasters. The same power should be used to defend us against gradual dis"
 "asters."
 msgstr ""
-"Por hoy es aceptado que los militares sean llamado a ayudar regiones afectadas"
-" por repentinos desastres. De la misma forma ellos deberían defendernos de los"
-" desastres"
+"Det är accepterat att militären kan inkallas för att hjälpa områden där en plö"
+"tslig katastrof har inträffat. Samma styrkor borde användas att försvara oss m"
+"ot gradvis skeende katastrofer."
 
 msgid ""
 "It is logical to extend the actions from sudden disasters to large scale catas"
 "trophes."
 msgstr ""
-"Es lógico ampliar las acciones desde desastres repentinos hasta catástrofes a "
-"gran escala"
+"Det är logiskt att utvidga verksamheten från plötsliga katastroferr till katas"
+"trofer av en störree skala"
 
 msgid "Language"
-msgstr "Idioma"
+msgstr "Språket"
 
 msgid "Listing comments"
-msgstr "Lista de comentarios"
+msgstr "Listade synpunkter"
 
 msgid "Make an initiative for the action of the United Armies."
-msgstr "Proponer una iniciativa para la acción de los Ejércitos Unificados"
+msgstr "Ta ett ett initiativ för en projekt för United Armies "
 
 msgid "Make the initiative using some of the UN:s official languages (6)."
-msgstr "Proponer la iniciativa usando uno de los idiomas oficiales (6) de la ONU"
+msgstr "Ta ett initiativ genom att använda något av FN:s officiella språk (6)"
 
 msgid "Menu"
 msgstr ""
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
-msgstr "!Millones de toneladas de basura plástica en las costas y los oceanos!"
+msgstr "Miljontals ton plastavfall i havsstränderna och havet"
 
 msgid "More work must be done"
 msgstr ""
 
 msgid "Name"
-msgstr "Nombre"
+msgstr "Namn"
 
 msgid "Name of your friend"
-msgstr "Nombre de tu amigo"
+msgstr "Din väns namn"
 
 msgid "New future"
-msgstr "Nuevo futuro"
+msgstr "Ny framtid"
 
 msgid "New global role for the Military"
-msgstr "Un nuevo rol global para los militares"
+msgstr "Ny världsomfattande roll för militären"
 
 msgid "New technology"
-msgstr "Nueva tecnología"
+msgstr "Ny teknologi"
 
 msgid ""
 "On a political level, it is the accepted practice everywhere that the military"
@@ -264,93 +250,92 @@ msgid ""
 "ale and inexorably-advancing catastrophes; this with the help, it is to be hop"
 "ed, of local NGOs."
 msgstr ""
-"A nivel político, es una práctica comúnmente aceptada que el ejército sea llam"
-"ado para ayudar a aquellos afectados por desastres medioambientales repentinos"
-" e inesperados. Sería, por tanto, una lógica extensión de esta práctica emplea"
-"r tal recurso en contrarrestar los efectos de unas catástrofes que gradualment"
-"e aumentan en escala y en importancia; todo esto con la ayuda, es de esperar, "
-"de las ONGs locales."
+"På den politiska nivån är det en allmänt godkänd praxis att militären inhar ka"
+"llats till hjälp då plötsliga och oväntade miljökatastrofer har inträffat. Det"
+" skulle helt enkelt vara en logisk utvidgning av denna praxis att nyttja sådan"
+"a resursser föratt motverka effekterna av det mer gradvisa men mycket storskal"
+"iga och accelererande  katastroferna  i samarbete med de lokala medborgarorgan"
+"isationerna."
 
 msgid "Plastic Waste"
-msgstr "Reciduos plásticos"
+msgstr "Plastavfall"
 
 msgid "Positive initiations will be published."
-msgstr "Seran publicada las iniciativas positivas"
+msgstr "Positiva initiativ skall publiceras"
 
 msgid "Present the task with max. 1000 characters."
-msgstr "Escriba la tarea en un máximo de 1000 carácteres"
+msgstr "Presentera uppgiften med max 1000 tecken"
 
 msgid "Protected Areas"
-msgstr "Áreas protegidas"
+msgstr "Skyddade områden"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr ""
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
-"Se necesitan urgentemente acciones radicals para salvar nuestro planeta. un fu"
-"turo posible para el mundo"
+"Radikala åtgärder behövs brådskande för att rädda vår planet. Den möjliga fram"
+"tida världen:"
 
 msgid "Read more"
-msgstr "Sigue leyendo"
+msgstr "Läs mera"
 
 msgid "Recent Votes"
-msgstr "Votos recientes"
+msgstr "Senaste röster"
 
 msgid "Reforestation"
-msgstr "Reforestación"
+msgstr "Skogsomplantering"
 
 msgid "Richness of cultures"
-msgstr "La riqueza de las culturas"
+msgstr "Kulturrikedom"
 
 msgid "Rules for Comments"
-msgstr "Reglas para los comentarios"
+msgstr "Regler för kommentarer"
 
 msgid "Russian"
-msgstr "Ruso"
+msgstr "Ryska"
 
 msgid "STOP DISASTER – NOW!"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
-msgstr "!Salvar el planeta - Unificar los Ejércitos!"
+msgstr "Rädda planeten – Förena arméerna"
 
 msgid "Save the World! Act Now!"
-msgstr "!Salvar el planeta! !Actúa Ahora!"
+msgstr "Rädda jorden! Handla NU"
 
-#, fuzzy
 msgid "Save the planet"
-msgstr "!Salvar el planeta!"
+msgstr "Rädda Planeten"
 
 msgid "Save the planet."
-msgstr "!Salvar el planeta!"
+msgstr "Rädda Planeten."
 
 msgid "Send"
-msgstr "Envía"
+msgstr "Skicka"
 
 msgid "Share"
-msgstr "Compartir"
+msgstr "Dela"
 
 msgid "Share email with your friends"
-msgstr "Compartir con correo electrónico"
+msgstr "Dela email med dina vänner"
 
 msgid "Share with social media"
-msgstr "Compartir en las redes sociales"
+msgstr "Dela med de sociala medieernan"
 
 msgid "Sign"
-msgstr "Firma"
+msgstr "Underteckna"
 
 msgid "Signatures! Let’s work further!"
-msgstr "!Firmantes! !Sigamos trabajando!"
+msgstr "Underskrifter! Låt oss jobba vidare!"
 
 msgid "Spanish"
-msgstr "Español"
+msgstr "Spanska"
 
 msgid "State of the global environment"
-msgstr "Estado del medio ambiente global"
+msgstr "Den  den globala miljöns status"
 
 msgid "Statistics"
-msgstr "Estadísticas"
+msgstr "Statistik"
 
 msgid ""
 "Such harmful developments have accelerated and often aggravated one another. I"
@@ -358,92 +343,84 @@ msgid ""
 ", after which it can no longer be reversed, or even arrested, by human interve"
 "ntion."
 msgstr ""
-"Estos acontecimientos tan dañinos se han acelerado, y a menudo agravado, mutua"
-"mente. Es de temer que este proceso pueda alcanzar un inadvertido ‘punto de no"
-" retorno’ tras el cual ya no pueda ser revertido, o ni siquiera detenido, por "
-"la intervención humana."
+"Skadliga trender har accelererats och ofta förvärrat varandra. Man kan misstän"
+"ka att denna process  som sker i smyg når en punkt 'utan  återkomst' och inte "
+"längre kan stoppas av människan"
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr ""
-"Sugiere una nueva tarea para los Ejércitos Unificados, que no esté en las las "
-"expuestas aquí"
+"Föreslå en ny uppgift för de förenade arméerna som inte har blivit presenterad"
+" här"
 
-#, fuzzy
 msgid "Support"
-msgstr "Danos tu apoyo ahora!"
+msgstr "Stöd ny"
 
 msgid "Support now"
-msgstr "Danos tu apoyo ahora!"
+msgstr "Stöd ny"
 
 msgid "Support the Initiative"
-msgstr "Apoya la iniciativa"
+msgstr "Stöd initiativet"
 
-#, fuzzy
 msgid "Supporters"
-msgstr "Danos tu apoyo ahora!"
+msgstr "Stöd ny"
 
 msgid "Technical realization"
-msgstr ""
+msgstr "Tekniska förverkligande"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
-msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
+msgstr "Tack för ditt bidragande för att Rädda världen - Förena Arméerna!"
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
-msgstr "!Gracias por tu apoyo %{nombre}!"
+msgstr "Tack för ditt stöd %(namn)!"
 
 msgid "Thank you for your vote!"
-msgstr ""
+msgstr "Tack för din röst"
 
 msgid "The Green Association for the Protection of Life"
-msgstr "La Asociación Verde para la protección de la vida"
+msgstr "Gröna Förbundet för Livets Beskydd"
 
 msgid "The Suggested task must benefit the whole world."
-msgstr "La tarea sugerida debe benificiar al mundo entero."
+msgstr "De föreslåda uppgifter måste gynna hela världen"
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr ""
-"Los Ejércitos Unidos deberán recoger los residuos plásticos de los océanos y d"
-"e las costas."
+msgstr "De förenade arméerna skall samla plastavfall frånhavoch stränder."
 
 msgid ""
 "The United Armies must ensure sufficient water availability everywhere for the"
 " needs of people and life."
-msgstr ""
-"Los Ejércitos Unidos deben de garantizar un flujo suficiente de agua para las "
-"necesidades de la gente y de la vida."
+msgstr "De förenade arméerna måste verka för tillräcklig vattenförsörjning."
 
 msgid "The United Armies must protect the areas reserved for nature."
-msgstr "Los Ejércitos Unidos deberán proteger las áreas reservadas para la naturaleza."
+msgstr "De förenade arméerna skallbeskydda naturskyddsområden"
 
 msgid ""
 "The activities of the United Armies must be controlled by a common, internatio"
 "nal organ."
 msgstr ""
-"Las actividades de los Ejércitos Unidos deben ser controladas por un organismo"
-" común e internacional. "
+"Aktiviteter av de förenade arméerna skall kontrolleras av allmän, internatione"
+"ll organ."
 
 msgid "The best contributors will be rewarded later."
-msgstr "Los mejores contribuyentes tendrán su reconocimiento más tarde"
+msgstr "Bästa anhängare skall belönas senare"
 
 msgid ""
 "The concern of this campaign is that the global environment is radically deter"
 "iorating. Dangerous developments have accelerated and approach the point of no"
 " return."
 msgstr ""
-"La preocupación de este campaña es que el medio ambiente global se está deteri"
-"orando. Desarrollos peligrosos han acelerado este deterioro hasta un punto de "
-"no retorno"
+" Den här kampanjen bekymrar sig  för att den globala  miljöns har försämrats r"
+"adikalt. Farliga trender har accelererats och nått en punkt med ingen återkoms"
+"t"
 
 msgid "The link below will go to your private secret vote"
-msgstr "El enlace, más abojo, facilitará tu voto secreto"
+msgstr "Linken nedan ska leda till din privata hemliga röst"
 
 msgid ""
 "The resources and capacity of the United Armies must be directed to reforestat"
 "ion of the deserts."
 msgstr ""
-"Los recursos y capacidad de los Ejércitos Unidos deben apuntar a la reforestac"
-"ión de los desiertos."
+" De förenade Arméernas  resurser och kapacitet skall nyttjas för skogsrplanter"
+"ing av ökenmark"
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr ""
@@ -453,31 +430,30 @@ msgid ""
 "armies a new, positive task. In these pages we collect support for a global in"
 "itiative."
 msgstr ""
-"Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenem"
-"os que darle ahora, al ejército, tareas positivas. En estas páginas recogemos "
-"los apoyos para una iniciativa global"
+"Det finns en undangömd potential till hands: i de nationella arméerna. Vi måst"
+"e ge arméerna en ny positiv uppgift. I dessa sidor samlar vi stöd för världsom"
+"fattande initiativ"
 
 msgid "There was an error"
-msgstr ""
+msgstr "Det har inträffat ett fel"
 
 msgid "There was an error while adding your vote"
-msgstr ""
+msgstr "Det har inträffat ett fel då din röst adderarades"
 
 msgid "There was an error with human verifying"
-msgstr ""
+msgstr "Mänskan har begått ett fel"
 
-#, fuzzy
 msgid "This is your private vote"
-msgstr "!Este es tu voto privado!"
+msgstr "Denna är din privata röst"
 
 msgid "To Our Common World"
-msgstr "Por Nuestro Mundo Común"
+msgstr "Till Vår Gemensamma Värld"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
-msgstr "Al Secretario General y al Secretariado de las Naciones Unidas."
+msgstr "Till Generalsekreterare och Sekretariatet av de Förenta Nationerna"
 
 msgid "Topic"
-msgstr "Tópicos"
+msgstr "Tema"
 
 msgid ""
 "Total global spending on armaments is estimated at $1500 billion annually; suc"
@@ -487,27 +463,26 @@ msgid ""
 "ates the extent of the potential needed for action in this matter, should the "
 "political will be found."
 msgstr ""
-"El gasto total en armamento mundial gira en torno a los 1’5 billones anuales; "
-"tal gasto puede ser puesto en perspectiva comparándolo con el coste estimado d"
-"e la reforestación de todo el desierto del Sáhara, que supondría una sexta par"
-"te del gasto anual en armamento mundial. Este ejemplo ilustra claramente el al"
-"cance del potencial necesario para actuar en este asunto, si se encontrara la "
-"voluntad política."
+"Arméernas totala kostnader i världen uppskattas nå 1500 miljard dollar årligen"
+"; sådana kostnader kan sättas i ett perspektiv genom att jämföra kostnader av "
+"skogsplantering över hela Sahara, som uppskattas vara en sjättedel av militärä"
+" årliga kosnader. Detta exempel  illustrerar klart potentialen av den föreslag"
+"na åtgärden om bara den politiska viljan finns."
 
 msgid "Twitter"
 msgstr "Twitter"
 
 msgid "Unite the Armies to Save Life – not to Kill!"
-msgstr "!Unificar los Ejércitos para Salvar Vidas- no para Matar!"
+msgstr "Förena arméerna för att rädda livet - inte för att döda"
 
 msgid "Video"
 msgstr "Video"
 
 msgid "Water"
-msgstr "Agua"
+msgstr "Vattnet"
 
 msgid "Water is the Mother of Life – we all need it!"
-msgstr "!El Agua es la madre de la vida - todos la necesitamos!"
+msgstr "Vattnet är Livets Moder - vi alla behöver det"
 
 msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
@@ -515,11 +490,10 @@ msgid ""
 "t of the world’s armed forces into this new task as soon as possible. Such an "
 "initiative would also have a tangible effect in promoting world peace."
 msgstr ""
-"Esperamos seriamente que las Naciones Unidas tengan en consideración motivar l"
-"a realización de una iniciativa global para llevar a efecto las supradichas pr"
-"oposiciones y para la redistribución de las fuerzas armadas en una nueva tarea"
-" tan pronto como sea posible. Esta iniciativa tendría también un efecto bien t"
-"angible en promover la paz mundial."
+"Vi önskar att de Förenta Nationerna betrakta förslaget om detta världsomfattan"
+"de initiativ och nyttjar ovanstående presentation för omgruppering av världens"
+" militära krafter in i denna nya uppgift så fort som möjligt.Ett sådant initia"
+"tiv skulle också ha en vikitig fredsbefrämjande effekt i världen."
 
 msgid "We have to give the armies a new, positive task"
 msgstr ""
@@ -531,11 +505,12 @@ msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"
 "tions Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr ""
-"Llevamos a cabo esta campaña para apoyar la iniciativa presentada al Secretari"
-"ado de las Naciones Unidas por dos profesores: U.B. Lindström y EeroPaloheimo"
+"Vi introducerar denna kampanj för att stödja initiativet, vilket två professor"
+"er, U. B. Lidström och Eero Paloheimo, har framställt för sekretariatet hos Fö"
+"renta Nationerna"
 
 msgid "We must defend Life's Richness on our Planet!"
-msgstr "Tenemos que defender la Riqueza de nuestro Planeta"
+msgstr "Vi måste försvara Livets Rikedom på vår Planet"
 
 msgid ""
 "We propose action on projects requiring large-scale resources, both of manpowe"
@@ -545,24 +520,23 @@ msgid ""
 "and social stability, and employment at the local level, assuming the use of l"
 "ocal labor."
 msgstr ""
-"Proponemos acciones en proyectos que requieran recursos a gran escala, tanto d"
-"e mano de obra como de equipamiento; estos incluirían proyectos agroforestales"
-" y reubicación de bosques, plantas y animales con miras a evitar el calentamie"
-"nto global. Tales proyectos ayudarían a evitar las peores catástrofes; también"
-" ayudarían y fomentarían la estabilidad social y el empleo a nivel local, supo"
-"niendo que se empleara mano de obra local."
+"Vi föreslår verksamhet  som kräver stora resurser, både arbetskraft och utrust"
+"ning; det skulle omfatta  tex. åkerskogsodling,  vatteförsörjning och beskogni"
+"ng. Generellt skulle tyngdpunkten vara projekt som stöder socialt och miljömäs"
+"sigt hållbara åtgärder. Sådana projekter skulle samdtidigt  förebygga katastrt"
+"rofer och minska fattigdomen."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "Todavía nos falta %{contar} de los 100.000.000"
+msgstr "Vi saknar ytterligare%(mängd) av 100.000.000"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new significant environmental tasks as so"
 "on as possible."
 msgstr ""
-"Sugerimos que las Naciones Unidas presente una iniciativa global para un nuevo"
-" despliegue de las fuerzas armadas del mundo, lo más pronto posible, y que las"
-" lleve hacia importantes tareas medioambientales"
+"Vi föreslår Förenta Nationerna att presentera ett världsomfattande initiativ f"
+"ör nygruppering av världens militära makter till nya betydelsefulla miljöbetin"
+"gade uppgifter så fort som möjligt."
 
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "
@@ -570,58 +544,55 @@ msgid ""
 " environment can be linked directly to social problems among the local populat"
 "ion."
 msgstr ""
-"Nosotros, los abajo firmantes, nos  dirigimos a ustedes a causa de nuestra pre"
-"ocupación por el medio ambiente. En muchas partes del mundo el deterioro del m"
-"edio ambiente puede ponerse directamente en relación con problemas sociales en"
-"tre la población local."
+"Vi undertecknade adressater vänder oss till er i vår oro över tillståndet av d"
+"en globala miljön. I många delar av världen försämringen av miljön kandirektko"
+"pplas till sociala problem bland lokalinvånare"
 
 msgid "Would you like to have the initiative in your language – please, contact us!"
-msgstr "Si quieres expresar tu iniciativa en tu propio idioma, por favor,!contáctanos!"
+msgstr "Om du vill ha initiativet i ditt språk - var god, kontakta oss!"
 
 msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
-"Después de firmar, puedes contribuir a la discusión. Sobre esto te enviaremos "
-"un correo electrónico por separado"
+"Du kan också medverka samtalet efter undertecknandet. Du kommer att få ett sep"
+"arat meddelande av detta via e-mail"
 
 msgid "You can now add a comment."
-msgstr "Puedes, ahora, escribir tu comentario"
+msgstr "Nu kan du tillägga en kommentar"
 
 msgid "You have added %{count} comments."
-msgstr "Tú has sumado %{contar} comentarios"
+msgstr "Du har tillagt%(mängd) kommentarer"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr ""
-"Tú has sido invitado a la campaña Salvar el Planeta- Unificar los Ejércitos po"
-"r %{nombre}"
+msgstr "Du har blivit inbjuden till Save the World - United the Armies genom %(namn)"
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "Tú has contribuido a la campaña al motivar %{contar} personas a firmar"
+msgstr "Du har hjälpt kampanjen genom att%{mängd} människor har undertecknat efter dig"
 
 msgid "YouTube"
 msgstr "YouTube"
 
 msgid "Your friends email address"
-msgstr "Correos electrónicos de tus amigos"
+msgstr "Din väns e-mail adress"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr "Din stöd har registrerats%(namn)!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Tu número de contriibuyente es %{contar}"
+msgstr "Din stödnummer är%(belopp)"
 
 msgid "days"
-msgstr "Días"
+msgstr "dagar"
 
 msgid "e-mail"
-msgstr "Correo electrónico"
+msgstr "e-mail"
 
 msgid "minutes"
-msgstr "Minutos"
+msgstr "minuter"
 
 msgid "professor"
-msgstr "Profesor"
+msgstr "professor"
 
 msgid "seconds"
-msgstr "Segundos"
+msgstr "sekunder"

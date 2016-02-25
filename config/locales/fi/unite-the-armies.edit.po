@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-12-20 12:00+0200\n"
+"PO-Revision-Date: 2016-02-25 12:56+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -23,6 +23,9 @@ msgstr ""
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "Meillä on kiire. Meillä ei ole aikaa vuosisatoja, vain vuosikymmeniä. Tästä syystä tehokas ja nopea toiminta on välttämätöntä. Armeijat ovat ainoa mahdollisuus."
+
+msgid "%{count} votes"
+msgstr "%{count} ääntä"
 
 msgid "About Us"
 msgstr "Tietoa meistä"
@@ -87,6 +90,9 @@ msgstr "Kommentti (max 1000 merkkiä)"
 msgid "Comment was successfully created."
 msgstr "Kommentti on lisätty onnistuneesti."
 
+msgid "Comments"
+msgstr "Kommentit"
+
 msgid "Continue"
 msgstr "Jatka"
 
@@ -147,6 +153,9 @@ msgstr "IP"
 msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
 msgstr "Vain vahvat ja tehokkaat vastatoimet voivat torjua muutoksen kiihtymisen tulevina vuosikymmeninä. Ehdotamme harkittavaksi, että maailman varustelumenoja suunnattaisiin nykyistä tehokkaammin vahingollisen ekologis/sosiaalisen muutoksen pysäyttämiseen, ympäristön muun suojelun rinnalla.  "
 
+msgid "In these pages we collect support for a global initiative."
+msgstr "Näillä sivuilla keräämme tukea globaalille aloitteelle."
+
 msgid "Initiative presented to the United Nations:"
 msgstr "Aloite Yhdistyneille Kansakunnille:"
 
@@ -154,7 +163,7 @@ msgid "Instructions"
 msgstr "Ohjeet"
 
 msgid "Invitation has been sent, thank you!"
-msgstr ""
+msgstr "Kutsu on lähetetty, kiitos!"
 
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr "Kutsu \"Pelastakamme maailma - yhdistäkäämme armeijat\" kampanjaan"
@@ -180,8 +189,14 @@ msgstr "Tee aloite yhdistyneiden armeijoiden toiminnasta"
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielestä."
 
+msgid "Menu"
+msgstr "Valikko"
+
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Miljoonia tonneja muovijätettä rannoilla ja valtamerissä!"
+
+msgid "More work must be done"
+msgstr "Tarvitaan enemmän työtä"
 
 msgid "Name"
 msgstr "Nimi"
@@ -213,6 +228,9 @@ msgstr "Ehdota tehtävää korkeintaan 1000 merkin pituisena."
 msgid "Protected Areas"
 msgstr "Suojelukohteet"
 
+msgid "Radical actions are urgently needed to save our planet."
+msgstr "Radikaaleja toimenpiteitä tarvitaan planeettamme pelastamiseksi."
+
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr "Radikaaleja toimia tarvitaan maailman pelastamiseksi. Mahdollinen tuleva maailmamme:"
 
@@ -234,11 +252,17 @@ msgstr "Kommentoinnin säännöt"
 msgid "Russian"
 msgstr "Venäjä"
 
+msgid "STOP DISASTER – NOW!"
+msgstr "ESTÄ KATASTROFI - NYT!"
+
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Pelasta maailma - yhdistetään armeijat!"
 
 msgid "Save the World! Act Now!"
 msgstr "Pelasta maailma! Toimi nyt!"
+
+msgid "Save the planet"
+msgstr "Pelasta maailma"
 
 msgid "Save the planet."
 msgstr "Pelasta maailma."
@@ -276,11 +300,17 @@ msgstr "Kampanja pyrkii pysäyttämään maapallon ympäristön ratkaisevan huon
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Ehdota uutta tehtävää yhdistetyn armeijan toiminnaksi."
 
+msgid "Support"
+msgstr "Kannata"
+
 msgid "Support now"
 msgstr "Kannata"
 
 msgid "Support the Initiative"
 msgstr "Anna kannatuksesi"
+
+msgid "Supporters"
+msgstr "Kannattajat"
 
 msgid "Technical realization"
 msgstr "Tekninen toteutus"
@@ -288,11 +318,11 @@ msgstr "Tekninen toteutus"
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- kampanjalle!"
 
-msgid "Thank you for your support %{name}!"
+msgid "Thank you for your support %{name}"
 msgstr "Kiitos tuestasi %{name}!"
 
 msgid "Thank you for your vote!"
-msgstr ""
+msgstr "Kiitos äänestäsi!"
 
 msgid "The Green Association for the Protection of Life"
 msgstr "Vihreä Elämänsuojelun Liitto (VESL)"
@@ -324,19 +354,22 @@ msgstr "Linkki alapuolella vie henkilökohtaiseen ääneesi"
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
 msgstr "Yhdistynyt armeija suunnattava aavikoiden metsittämiseen."
 
+msgid "There is a hidden potential at hand: the national armies."
+msgstr "On olemassa piiloitettu potentiaali: kansalliset armeijat."
+
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettava uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitteelle."
 
 msgid "There was an error"
-msgstr ""
+msgstr "Tapahtui virhe"
 
 msgid "There was an error while adding your vote"
-msgstr ""
+msgstr "Tapahtui virhe ääntä lisättäessä"
 
 msgid "There was an error with human verifying"
-msgstr ""
+msgstr "Tapahtui virhe varmennuksessa"
 
-msgid "This is your private vote!"
+msgid "This is your private vote"
 msgstr "Tämä on henkilökohtainen äänesi!"
 
 msgid "To Our Common World"
@@ -368,6 +401,12 @@ msgstr "Vesi on elämän äiti - me kaikki tarvitsemme sitä!"
 
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Toivomme, että YK harkitsisi maailman armeijoiden suuntaamista uuteen tehtävään ja tekisi maailmanlaajuisen aloitteen edellä esitetyn ehdotuksen nopeaksi toteuttamiseksi. Aloitteella olisi myös ilmeinen maailmanrauhaa edistävä vaikutuksensa.      "
+
+msgid "We have to give the armies a new, positive task"
+msgstr "Meidän on annettava armeijoille uusi positiivinen tehtävä"
+
+msgid "We have to give the armies a new, positive task."
+msgstr "Meidän on annettava armeijoille uusi positiivinen tehtävä."
 
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr "Kampanjamme tukee aloitetta, jonka ovat lähettäneet Yhdistyneille Kansakunnille professorit U.B. Lindström ja Eero Paloheimo."
@@ -412,7 +451,7 @@ msgid "Your friends email address"
 msgstr "Ystäväsi sähköpostiosoite"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr "Kannatuksesi on rekisteröity %{name}!"
 
 msgid "Your supporter number is %{count}."
 msgstr "Olet tukija %{count}"

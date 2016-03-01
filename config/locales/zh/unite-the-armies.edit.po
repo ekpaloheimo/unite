@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-01 10:57+0200\n"
+"PO-Revision-Date: 2016-03-01 16:26+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese\n"
 "Language: zh\n"
@@ -131,6 +131,9 @@ msgstr "足够的食物"
 
 msgid "French"
 msgstr ""
+
+msgid "Give the armies a new, positive task: protect the environment"
+msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
 
 msgid "Global responsibility"
 msgstr "全球性的责任感"

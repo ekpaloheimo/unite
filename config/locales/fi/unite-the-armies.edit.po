@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-02-25 12:56+0200\n"
+"PO-Revision-Date: 2016-03-01 16:29+0200\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -131,6 +131,9 @@ msgstr "Ruokaa kaikille"
 
 msgid "French"
 msgstr "Ranska"
+
+msgid "Give the armies a new, positive task: protect the environment"
+msgstr "Annetaan armeijoille uusi positiivinen, ympäristönsuojelijan tehtävä"
 
 msgid "Global responsibility"
 msgstr "Globaali vastuu"

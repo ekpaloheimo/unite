@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-03-01 11:19+0200\n"
+"PO-Revision-Date: 2016-03-01 16:28+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -140,6 +140,9 @@ msgstr "Nahrung für alle"
 
 msgid "French"
 msgstr "Französisch"
+
+msgid "Give the armies a new, positive task: protect the environment"
+msgstr "Den Armeen eine neue, positive Aufgabe geben: Schützt die Umwelt"
 
 msgid "Global responsibility"
 msgstr "Globale Verantwortung"

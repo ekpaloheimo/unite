@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-01-02 09:59+0200\n"
+"PO-Revision-Date: 2016-03-01 11:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
@@ -284,7 +284,7 @@ msgid "Protected Areas"
 msgstr "Áreas protegidas"
 
 msgid "Radical actions are urgently needed to save our planet."
-msgstr ""
+msgstr "Se necesitan urgentemente acciones radicals para salvar nuestro planeta."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
@@ -318,7 +318,6 @@ msgstr "!Salvar el planeta - Unificar los Ejércitos!"
 msgid "Save the World! Act Now!"
 msgstr "!Salvar el planeta! !Actúa Ahora!"
 
-#, fuzzy
 msgid "Save the planet"
 msgstr "!Salvar el planeta!"
 
@@ -368,9 +367,8 @@ msgstr ""
 "Sugiere una nueva tarea para los Ejércitos Unificados, que no esté en las las "
 "expuestas aquí"
 
-#, fuzzy
 msgid "Support"
-msgstr "Danos tu apoyo ahora!"
+msgstr "Apoyo"
 
 msgid "Support now"
 msgstr "Danos tu apoyo ahora!"
@@ -378,9 +376,8 @@ msgstr "Danos tu apoyo ahora!"
 msgid "Support the Initiative"
 msgstr "Apoya la iniciativa"
 
-#, fuzzy
 msgid "Supporters"
-msgstr "Danos tu apoyo ahora!"
+msgstr "Partidarios"
 
 msgid "Technical realization"
 msgstr ""
@@ -388,9 +385,8 @@ msgstr ""
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
-msgstr "!Gracias por tu apoyo %{nombre}!"
+msgstr "!Gracias por tu apoyo %{nombre}"
 
 msgid "Thank you for your vote!"
 msgstr ""
@@ -466,7 +462,6 @@ msgstr ""
 msgid "There was an error with human verifying"
 msgstr ""
 
-#, fuzzy
 msgid "This is your private vote"
 msgstr "!Este es tu voto privado!"
 
@@ -522,10 +517,10 @@ msgstr ""
 "angible en promover la paz mundial."
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "TENEMOS QUE DARLE AHORA, AL EJÉRCITO, TAREAS POSITIVAS"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "TENEMOS QUE DARLE AHORA, AL EJÉRCITO, TAREAS POSITIVAS."
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-02-25 12:34+0200\n"
+"PO-Revision-Date: 2016-03-01 11:19+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -275,6 +275,8 @@ msgstr "Naturschutzgebiet"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr ""
+"Tiefgreifende Maßnahmen sind dringend notwendig, um unseren Planeten zu retten"
+"."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
@@ -358,7 +360,7 @@ msgstr ""
 "gestellt ist."
 
 msgid "Support"
-msgstr "Jetzt unterstützen"
+msgstr "unterstützen"
 
 msgid "Support now"
 msgstr "Jetzt unterstützen"
@@ -367,7 +369,7 @@ msgid "Support the Initiative"
 msgstr "Die Initiative unterstützen"
 
 msgid "Supporters"
-msgstr "Jetzt unterstützen"
+msgstr "Unterstützer"
 
 msgid "Technical realization"
 msgstr "Technische Umsetzung"
@@ -508,10 +510,10 @@ msgstr ""
 " Beitrag auf dem Weg zum Weltfrieden leisten."
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "Wir müssen den Armeen eine neue, positive Aufgabe geben"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "Wir müssen den Armeen eine neue, positive Aufgabe geben."
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

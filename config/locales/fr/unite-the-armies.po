@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-01-02 10:03+0200\n"
+"PO-Revision-Date: 2016-03-01 11:04+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -287,6 +287,8 @@ msgstr "Aires protégées"
 
 msgid "Radical actions are urgently needed to save our planet."
 msgstr ""
+"Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
+"ète."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
@@ -320,9 +322,8 @@ msgstr "Sauvez la planète – Unissez les armées!"
 msgid "Save the World! Act Now!"
 msgstr "Sauvez le monde! Agissez maintenant!"
 
-#, fuzzy
 msgid "Save the planet"
-msgstr "Sauvez la planète."
+msgstr "Sauvez la planète"
 
 msgid "Save the planet."
 msgstr "Sauvez la planète."
@@ -368,9 +369,8 @@ msgstr ""
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "Suggérez une nouvelle tâche pour l'Action des Armées Unies non présentée ici."
 
-#, fuzzy
 msgid "Support"
-msgstr "Adhérez maintenant"
+msgstr "Adhérez"
 
 msgid "Support now"
 msgstr "Adhérez maintenant"
@@ -378,9 +378,8 @@ msgstr "Adhérez maintenant"
 msgid "Support the Initiative"
 msgstr "Soutenez l'initiative"
 
-#, fuzzy
 msgid "Supporters"
-msgstr "Adhérez maintenant"
+msgstr "Partisans"
 
 msgid "Technical realization"
 msgstr ""
@@ -521,10 +520,10 @@ msgstr ""
 "ible dans la promotion de la paix dans le monde. ."
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "Nous devons les armeés donner une nouvelle tâche positive"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "Nous devons les armeés donner une nouvelle tâche positive."
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

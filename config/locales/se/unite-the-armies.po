@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-02-25 12:50+0200\n"
+"PO-Revision-Date: 2016-03-01 11:22+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -270,7 +270,7 @@ msgid "Protected Areas"
 msgstr "Skyddade områden"
 
 msgid "Radical actions are urgently needed to save our planet."
-msgstr ""
+msgstr "Radikala åtgärder behövs brådskande för att rädda vår planet."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
@@ -353,7 +353,7 @@ msgstr ""
 " här"
 
 msgid "Support"
-msgstr "Stöd ny"
+msgstr "Stödj"
 
 msgid "Support now"
 msgstr "Stöd ny"
@@ -362,7 +362,7 @@ msgid "Support the Initiative"
 msgstr "Stöd initiativet"
 
 msgid "Supporters"
-msgstr "Stöd ny"
+msgstr "Stödjarna"
 
 msgid "Technical realization"
 msgstr "Tekniska förverkligande"
@@ -496,10 +496,10 @@ msgstr ""
 "tiv skulle också ha en vikitig fredsbefrämjande effekt i världen."
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "Vi måste ge arméerna en ny positiv uppgift"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "Vi måste ge arméerna en ny positiv uppgift."
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

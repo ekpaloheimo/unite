@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-01-12 14:07+0200\n"
+"PO-Revision-Date: 2016-03-01 11:09+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -286,7 +286,7 @@ msgid "Protected Areas"
 msgstr "Заповедники"
 
 msgid "Radical actions are urgently needed to save our planet."
-msgstr ""
+msgstr "Необходимы радикальные действия для спасения нашей планеты."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr ""
@@ -320,9 +320,8 @@ msgstr "Спасите Планету – Объедините армии!"
 msgid "Save the World! Act Now!"
 msgstr "Спасите мир! Действуйте сейчас!"
 
-#, fuzzy
 msgid "Save the planet"
-msgstr "Спасите планету."
+msgstr "Спасите планету"
 
 msgid "Save the planet."
 msgstr "Спасите планету."
@@ -370,9 +369,8 @@ msgstr ""
 "Предложите новое задание для Действия Объединенных армий, которое здесь не был"
 "о указано."
 
-#, fuzzy
 msgid "Support"
-msgstr "Окажите поддержку сейчас"
+msgstr "ПОДДЕРЖКУ"
 
 msgid "Support now"
 msgstr "Окажите поддержку сейчас"
@@ -380,9 +378,8 @@ msgstr "Окажите поддержку сейчас"
 msgid "Support the Initiative"
 msgstr "Окажите поддержку инициативе"
 
-#, fuzzy
 msgid "Supporters"
-msgstr "Окажите поддержку сейчас"
+msgstr "сторонники"
 
 msgid "Technical realization"
 msgstr "Техническое выполнение"
@@ -390,9 +387,8 @@ msgstr "Техническое выполнение"
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Спасибо за ваше содействие кампании – Спасите мир – Объедините армии!"
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
-msgstr "Спасибо за вашу поддержку %{name}!"
+msgstr "Спасибо за вашу поддержку %{name}"
 
 msgid "Thank you for your vote!"
 msgstr "Спасибо за Вашу поддержку!"
@@ -467,9 +463,8 @@ msgstr "При добавлении вашего голоса произошла
 msgid "There was an error with human verifying"
 msgstr "При проверке человеком произошла ошибка"
 
-#, fuzzy
 msgid "This is your private vote"
-msgstr "Это ваш личный голос!"
+msgstr "Это ваш личный голос"
 
 msgid "To Our Common World"
 msgstr "Нашему Общему миру"
@@ -523,10 +518,10 @@ msgstr ""
 "вование достижению мира в мире."
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "АРМИЯМ ДОЛЖНО БЫТЬ ДАНО НОВОЕ, ПОЛОЖИТЕЛЬНОЕ ЗАДАНИЕ"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "АРМИЯМ ДОЛЖНО БЫТЬ ДАНО НОВОЕ, ПОЛОЖИТЕЛЬНОЕ ЗАДАНИЕ."
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"

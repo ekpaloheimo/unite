@@ -90,11 +90,8 @@
               Reijo Vihko, lääketiede <br>
               Yrjö Wiherheimo, teollinen muotoilu </p>
 	  </div>
-	</div>
-        
-	
-      </div>
-      
+	</div>        	
+      </div>      
     </div>
   </div>
   <!-- Feature Column Section end -->
@@ -108,11 +105,9 @@
 	    <h5 class="text-uppercase text-small weight-light color-grey">Seuraavat suomalaiset kirjailijat ja suomentajat ovat antaneet vetoomukselle kannatuksensa:</h5>	    
 	  </div>
 	</div>
-      </div>
-      
+      </div>      
     </div>
-    <div class="row">
-      
+    <div class="row">      
       <div class="column width-4 offset-2">
 	<div class="feature-column small center">
 	  <div class="feature-text">
@@ -129,7 +124,7 @@
       
       <div class="column width-6">
 	<div class="feature-column small center">
-	  <div class="feature-text">
+     	  <div class="feature-text">
 	    <p class="mb-mobile-30">
               Harri Manner, kirjailija<br>
               Hannu Mäkelä, kirjailija<br>
@@ -138,16 +133,25 @@
               Hannu Salama, kirjailija<br>
               Kaari Utrio, kirjailija</p>
 	  </div>
-	</div>
-        
-	
-      </div>
-      
+	</div>       	
+      </div>      
     </div>
   </div>
 </section>
-  <!-- Feature Column Section end -->
-  <% end %>
+
+<section>
+  <div id="featured-trips" class="section-block replicable-content center">
+    <div class="row">
+      <%= link_to new_vote_path(locale: locale), { :class => "button xlarge bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90", :data => { :no_turbolink => true }} do %>
+        <span class="icon-add-user left"></span>
+        <%= _("Support now") %>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Column Section end -->
+<% end %>
 
 </div>
 <!-- Content End -->

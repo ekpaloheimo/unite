@@ -49,6 +49,14 @@
 
   <div class="field">
     <%= f.submit _("Send"), :class => "btn btn-primary" %>
+
+    <% if locale == :fi %>
+    <%= link_to votes_path(locale: locale), { :class => "button large bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90", :data => { :no_turbolink => true }} do %>
+    <span class="icon-add-user left"></span>
+    Katso ketkä ovat kannattaneet!
+    <% end %>
+    <% end %>
+
   </div>
 </div>
 

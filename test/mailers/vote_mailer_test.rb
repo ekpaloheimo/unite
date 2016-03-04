@@ -23,7 +23,7 @@ class VoteMailerTest < ActionMailer::TestCase
   test 'should send email invitations' do
     I18n.locale = :en
     vote = votes(:vote_1)
-    email = VoteMailer.email_invite(inviter_name: "Kalle Kutsuja", name: "Joni Töyrylä", email: "info@jonitoyryla.eu", language: :en, token: vote.md5_secret_token).deliver_now
+    email = VoteMailer.email_invite(inviter_name: "Kalle Kutsuja", name: "Joni Töyrylä", email: "info@jonitoyryla.eu", language: "english", token: vote.md5_secret_token).deliver_now
     assert_not ActionMailer::Base.deliveries.empty?   
   end
 

@@ -18,7 +18,7 @@ class VoteMailer < ApplicationMailer
     return unless @token = options[:token]
 
     old_locale = I18n.locale
-    value = Language.locale(language)
+    value = Language.locale(language.to_s)
     if value.blank?
       Rails.logger.error("No language")
       return

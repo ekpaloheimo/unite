@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-03-01 16:29+0200\n"
+"PO-Revision-Date: 2016-03-04 10:25+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -112,6 +112,8 @@ msgid ""
 "Do not share this direct link with anybody. Instead, you can use a form below "
 "to share a public version of this vote with your friends."
 msgstr ""
+"Dela inte den direkta länken med någon. Istället använd en form från siten för"
+" att skicka inbjudan till dina vänner via e-mail"
 
 msgid "Email"
 msgstr "Email"
@@ -172,7 +174,7 @@ msgstr ""
 "på ett mer riktat sätt än för närvarande."
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr "I dessa sidor samlar vi stöd för världsomfattande initiativ"
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Initiativet presenterat till United Nations"
@@ -222,13 +224,13 @@ msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Ta ett initiativ genom att använda något av FN:s officiella språk (6)"
 
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Miljontals ton plastavfall i havsstränderna och havet"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "Mer arbete måste utföras"
 
 msgid "Name"
 msgstr "Namn"
@@ -299,7 +301,7 @@ msgid "Russian"
 msgstr "Ryska"
 
 msgid "STOP DISASTER – NOW!"
-msgstr ""
+msgstr "Stoppa katastrofen - NU"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Rädda planeten – Förena arméerna"
@@ -426,7 +428,7 @@ msgstr ""
 "ing av ökenmark"
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "Det finns en undangömd potential till hands: i de nationella arméerna."
 
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "

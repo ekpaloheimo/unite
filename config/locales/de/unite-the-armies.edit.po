@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-03-01 16:28+0200\n"
+"PO-Revision-Date: 2016-03-04 09:37+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgid "In the next few decades only strong and effective countermeasures will be
 msgstr "In den kommenden Jahrzehnten werden nur solide und effektive Gegenmaßnahmen in der Lage sein, das Fortschreiten dieses Prozesses zu stoppen. Wir schlagen vor, globale Rüstungsausgaben (einhergehend mit anderen Maßnahmen) umzuwidmen, um dem sozialen und dem ökologischen Verfall in einer stärker zielgerichteten Weise anzugehen als es aktuell geschieht."
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr "Auf diesen Seiten bitten wir um die Unterstützung für eine globale Initiative."
 
 msgid "Initiative presented to the United Nations:"
 msgstr " Initiative gerichtet an die Vereinten Nationen"
@@ -183,13 +183,13 @@ msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Initiative ergreifen in offiziellen UN-Sprachen (6)."
 
 msgid "Menu"
-msgstr ""
+msgstr "Inhalt"
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Millionen Tonnen von Plastikmüll an den Küsten und in den Weltmeeren!"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "Es muss mehr getan werden"
 
 msgid "Name"
 msgstr "Name"
@@ -246,7 +246,7 @@ msgid "Russian"
 msgstr "Russisch"
 
 msgid "STOP DISASTER – NOW!"
-msgstr ""
+msgstr "JETZT die Katastrophe stoppen!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Den Planeten retten - die Armeen vereinigen!"
@@ -348,7 +348,7 @@ msgid "The resources and capacity of the United Armies must be directed to refor
 msgstr "Die Ressourcen und die Kapazität der  „United Armies“ müssen zur Aufforstung der Wüsten eingesetzt werden."
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "Ein verstecktes Potential liegt auf der Hand: die nationalen Armeen."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "Ein verstecktes Potential liegt auf der Hand: die nationalen Armeen. Wir müssen den Armeen eine neue, positive Aufgabe geben. Auf diesen Seiten bitten wir um die Unterstützung für eine globale Initiative."

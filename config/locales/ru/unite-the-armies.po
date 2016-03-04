@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-01 16:26+0200\n"
+"PO-Revision-Date: 2016-03-04 10:18+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -33,9 +33,8 @@ msgstr ""
 "бходимы эффективные и быстрые действия. Армии – это единственная наша возможно"
 "сть."
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "Наиболее недавние голоса"
+msgstr "%{count} К-во голосов"
 
 msgid "About Us"
 msgstr "О нас"
@@ -100,9 +99,8 @@ msgstr "Комментарий (макс. 1000 знаков)"
 msgid "Comment was successfully created."
 msgstr "Комментарий был успешно добавлен."
 
-#, fuzzy
 msgid "Comments"
-msgstr "Комментарий"
+msgstr "комментариев"
 
 msgid "Continue"
 msgstr "Следуйте дальше"
@@ -190,7 +188,7 @@ msgstr ""
 " в настоящее время, ухудшения социальной сферы и состояния окружающей среды."
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr "На этом сайте мы набираем поддержку для глобальной инициативы."
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Инициатива, представленная ООН:"
@@ -240,13 +238,13 @@ msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Выступите с инициативой, используя один из официальных языков ООН (6)."
 
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Миллионы тонн пластмассовых отходов на побережьях и в океанах!"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "Необходимо приложить еще больше усилий"
 
 msgid "Name"
 msgstr "Имя и фамилия"
@@ -317,7 +315,7 @@ msgid "Russian"
 msgstr "Русский"
 
 msgid "STOP DISASTER – NOW!"
-msgstr ""
+msgstr "ОСТАНОВИТЕ БЕДУ - СЕЙЧАС!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Спасите Планету – Объедините армии!"
@@ -448,7 +446,7 @@ msgstr ""
 "нях."
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "В наличии имеется скрытый потенциал: национальные армии. "
 
 msgid ""
 "There is a hidden potential at hand: the national armies. We have to give the "

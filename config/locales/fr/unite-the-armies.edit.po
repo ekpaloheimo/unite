@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-01 16:27+0200\n"
+"PO-Revision-Date: 2016-03-04 10:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -24,9 +24,8 @@ msgstr "Le  temps va manquer, alors que nous sommes en train de détruire les re
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "Nous sommes pressés. Nous ne pouvons plus attendre des siècles, nous n'avons que quelques décennies .  C'est pourquoi des actions efficaces et rapides sont nécessaires. Les armées sont la seule possibilité."
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "Votes récents"
+msgstr "%{count} votes"
 
 msgid "About Us"
 msgstr "Qui sommes-nous?"
@@ -50,7 +49,7 @@ msgid "Air pollution is a global Challenge!"
 msgstr "La polution de l'air est un défi mondial!"
 
 msgid "Animation realization"
-msgstr ""
+msgstr "Réalisation de l'animation"
 
 msgid "Arabic"
 msgstr "Arabe"
@@ -91,9 +90,8 @@ msgstr "Commentaire (max 1000 caractères)"
 msgid "Comment was successfully created."
 msgstr "Le commentaire est correctement créé."
 
-#, fuzzy
 msgid "Comments"
-msgstr "Commentaire"
+msgstr "Commentaires"
 
 msgid "Continue"
 msgstr "continuez"
@@ -159,7 +157,7 @@ msgid "In the next few decades only strong and effective countermeasures will be
 msgstr "Dans les quelques dizaines d'années à venir, seules des contre-mesures fortes et efficaces pourront être capables d'arrêter la marche du processus . Nous proposons à votre attention l'idée que la dépense mondiale des armements soit redirigée (avec d'autres mesures) pour aborder la détérioration sociale et environnementale d'une façon plus concentrée "
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr "Sur ces pages nous rassemblons des supports pour une initiative mondiale"
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Initiative presentée aux Nations Unies."
@@ -168,7 +166,7 @@ msgid "Instructions"
 msgstr "Instructions"
 
 msgid "Invitation has been sent, thank you!"
-msgstr ""
+msgstr "l'Invitation à été envoyée, merci!"
 
 msgid "Invitation to Save the World - Unite the Armies"
 msgstr "Invitation à Sauver le Monde- Unissez les Armées"
@@ -195,13 +193,13 @@ msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Faire que l'initiative utilise une des langues officielles des Nations Unies.(6)."
 
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Des millions de tonnes de déchets en plastique sur les plages et les océans!"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "On doit faire plus de travail"
 
 msgid "Name"
 msgstr "Nom"
@@ -258,7 +256,7 @@ msgid "Russian"
 msgstr "Russe"
 
 msgid "STOP DISASTER – NOW!"
-msgstr ""
+msgstr "ARRÊTER LE DÉSASTRE - MAINTENANT!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Sauvez la planète – Unissez les armées!"
@@ -318,17 +316,16 @@ msgid "Supporters"
 msgstr "Partisans"
 
 msgid "Technical realization"
-msgstr ""
+msgstr "Réalisation technique"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
-msgstr "Merci pour votre support %{nom}!"
+msgstr "Merci pour votre support %{nom}"
 
 msgid "Thank you for your vote!"
-msgstr ""
+msgstr "Merci pour votre vote"
 
 msgid "The Green Association for the Protection of Life"
 msgstr "L'association verte pour la protection de la vie"
@@ -362,23 +359,22 @@ msgid "The resources and capacity of the United Armies must be directed to refor
 msgstr "Les ressources et la capacité des armées unies doivent être redirigées vers la reforestation des déserts. "
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "Il y a un potential cache à proximité: les armées nationales."
 
 msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr "Il y a un potentiel caché à proximité : les armées nationales. Nous devons leur donner une nouvelle tâche positive. Sur ces pages nous rassemblons des supports pour une initiative mondiale."
 
 msgid "There was an error"
-msgstr ""
+msgstr "Il y a eu une erreur"
 
 msgid "There was an error while adding your vote"
-msgstr ""
+msgstr "Il y a eu une erreur quand vous avez ajouté votre vote"
 
 msgid "There was an error with human verifying"
-msgstr ""
+msgstr "Il y a eu une erreur avec la vérification de l'humain"
 
-#, fuzzy
 msgid "This is your private vote"
-msgstr "Ceci est votre vote privé!"
+msgstr "Ceci est votre vote privé"
 
 msgid "To Our Common World"
 msgstr "Pour notre monde à nous tous"
@@ -460,7 +456,7 @@ msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr "Votre support a été enregistré % {name}!"
 
 msgid "Your supporter number is %{count}."
 msgstr "Votre numéro de supporteur est %{nombre}."

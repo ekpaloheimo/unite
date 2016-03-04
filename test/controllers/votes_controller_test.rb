@@ -6,6 +6,10 @@ class VotesControllerTest < ActionController::TestCase
     ActiveSupport::JSON.decode @response.body
   end
 
+  def setup
+    session[:locale] = :en
+  end
+
   test 'should route' do
     assert_recognizes({:controller => 'votes', :action => 'index', :locale => "en"}, '/en/votes')
 
@@ -139,11 +143,25 @@ class VotesControllerTest < ActionController::TestCase
       t: digest,
       name: "Testaaja",
       email: "testi@yeah.foo",
-      language: "en"
+      language: "english"
     }
-    post :email_invite, options
-   
+    post :email_invite, options  
     assert !ActionMailer::Base.deliveries.empty?
+    assert_equal I18n.locale, :en
+  end
+
+  test 'should send email invite in arabic' do
+    require 'digest/md5'
+    digest = Digest::MD5.hexdigest("secret1")
+    options = {
+      t: digest,
+      name: "Testaaja",
+      email: "testi@yeah.foo",
+      language: "arabic"
+    }
+    post :email_invite, options   
+    assert !ActionMailer::Base.deliveries.empty?
+    assert_equal I18n.locale, :en
   end
 
 end

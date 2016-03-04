@@ -17,8 +17,15 @@ class VoteMailer < ApplicationMailer
     return unless language = options[:language]
     return unless @token = options[:token]
 
-    I18n.locale = language
+    old_locale = I18n.locale
+    value = Language.locale(language)
+    if value.blank?
+      Rails.logger.error("No language")
+      return
+    end
+    I18n.locale = value
     mail(to: email, subject: _('Invitation to Save the World - Unite the Armies'))
+    I18n.locale = old_locale
   end  
 
   def vote_backup votes_to

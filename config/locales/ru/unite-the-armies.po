@@ -151,6 +151,9 @@ msgstr "Питание для всех"
 msgid "French"
 msgstr "Французский"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 "Давайте передадим армиям новое гуманное задание: охранять нашу общую окружающу"
@@ -383,6 +386,10 @@ msgstr "Окажите поддержку инициативе"
 
 msgid "Supporters"
 msgstr "сторонники"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "Испанский"
 
 msgid "Technical realization"
 msgstr "Техническое выполнение"

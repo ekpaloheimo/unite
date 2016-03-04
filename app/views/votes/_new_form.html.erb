@@ -40,15 +40,9 @@
     <%= _("Country") %> (*) </br>
     <%= f.select :country, options_for_select(Country.for_select, country_code), :class => "form-control" %>
   </div>
-
+  
   <div class="field">
     <div class="g-recaptcha" data-sitekey="6LfwgBQTAAAAAJrdJfpdvnMhibW4iUFJRdlK0ZXb"></div>
-  </div>
-
-  <div class="field">
-    <%# f.label :humanizer_answer, @vote.humanizer_question %> </br>
-    <%# f.text_field :humanizer_answer, :class => "form-control" %>
-    <%# f.hidden_field :humanizer_question_id %>
   </div>
 
   <div class="field"><%= _("You can also contribute to the discussion after signing. You will get a separate message of that by email.") %></div>

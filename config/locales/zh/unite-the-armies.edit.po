@@ -132,6 +132,9 @@ msgstr "足够的食物"
 msgid "French"
 msgstr "法语"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
 
@@ -314,6 +317,10 @@ msgstr "支持这项计划"
 
 msgid "Supporters"
 msgstr "支持者"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "西班牙语"
 
 msgid "Technical realization"
 msgstr "技术实现"

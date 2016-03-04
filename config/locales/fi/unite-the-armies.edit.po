@@ -132,6 +132,9 @@ msgstr "Ruokaa kaikille"
 msgid "French"
 msgstr "Ranska"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Annetaan armeijoille uusi positiivinen, ympäristönsuojelijan tehtävä"
 
@@ -314,6 +317,10 @@ msgstr "Anna kannatuksesi"
 
 msgid "Supporters"
 msgstr "Kannattajat"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "Espanja"
 
 msgid "Technical realization"
 msgstr "Tekninen toteutus"

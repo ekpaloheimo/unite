@@ -8,16 +8,12 @@ class WelcomeControllerTest < ActionController::TestCase
   end
 
   test "should have correct title" do
+    session[:locale] = :en
     get :index
     assert_select "title", "Save the Planet - Unite the Armies!"
   end
 
   test "should localize" do
-    # get :index
-    # assert_select "div.appeal>div>h3>strong.appeal-title", "To the Secretary-General and Secretariat of the United Nations"
-
-    #get :index, locale: :fi
-    #assert_select "div.appeal>div>h3>strong.appeal-title", "YK:n pääsihteeri ja sihteeristö"
   end
 
 

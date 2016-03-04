@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-04 09:29+0200\n"
+"PO-Revision-Date: 2016-03-04 13:09+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese\n"
 "Language: zh\n"
@@ -28,9 +28,8 @@ msgid ""
 "ossibility.\""
 msgstr "我们必须抓紧行动。我们没有几个世纪的时间，可能只有几十年。所以我们需要快速有效的行动。军队是唯一的可能。"
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "最新投票"
+msgstr "%{count} 投票"
 
 msgid "About Us"
 msgstr "关于我们"
@@ -141,6 +140,9 @@ msgstr "足够的食物"
 msgid "French"
 msgstr "法语"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
 
@@ -179,7 +181,7 @@ msgid "Initiative presented to the United Nations:"
 msgstr "提交给联合国的倡议"
 
 msgid "Instructions"
-msgstr ""
+msgstr "说明"
 
 msgid "Invitation has been sent, thank you!"
 msgstr "邀请已发送，谢谢您\""
@@ -351,6 +353,9 @@ msgstr "支持这项计划"
 
 msgid "Supporters"
 msgstr "支持者"
+
+msgid "Swedish"
+msgstr ""
 
 msgid "Technical realization"
 msgstr "技术实现"
@@ -534,10 +539,10 @@ msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr "您的支持已经被记录%{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr ""
+msgstr "您的支持编号为%{count}."
 
 msgid "days"
 msgstr "天"

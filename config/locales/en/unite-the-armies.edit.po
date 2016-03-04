@@ -131,6 +131,9 @@ msgstr ""
 msgid "French"
 msgstr ""
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 
@@ -312,6 +315,9 @@ msgid "Support the Initiative"
 msgstr ""
 
 msgid "Supporters"
+msgstr ""
+
+msgid "Swedish"
 msgstr ""
 
 msgid "Technical realization"

@@ -122,6 +122,9 @@ msgstr "Nahrung für alle"
 msgid "French"
 msgstr "Französisch"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Den Armeen eine neue, positive Aufgabe geben: Schützt die Umwelt"
 
@@ -304,6 +307,10 @@ msgstr "Die Initiative unterstützen"
 
 msgid "Supporters"
 msgstr "Unterstützer"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "Spanisch"
 
 msgid "Technical realization"
 msgstr "Technische Umsetzung"

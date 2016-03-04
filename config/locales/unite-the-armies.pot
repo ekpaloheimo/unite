@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-01 16:24+0200\n"
-"PO-Revision-Date: 2016-03-01 16:24+0200\n"
+"POT-Creation-Date: 2016-03-04 12:18+0200\n"
+"PO-Revision-Date: 2016-03-04 12:18+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -130,6 +130,9 @@ msgid "Food for all"
 msgstr ""
 
 msgid "French"
+msgstr ""
+
+msgid "German"
 msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
@@ -313,6 +316,9 @@ msgid "Support the Initiative"
 msgstr ""
 
 msgid "Supporters"
+msgstr ""
+
+msgid "Swedish"
 msgstr ""
 
 msgid "Technical realization"

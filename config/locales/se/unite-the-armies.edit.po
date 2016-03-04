@@ -122,6 +122,9 @@ msgstr "Mat för alla"
 msgid "French"
 msgstr "Franska"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Ge arméerna en ny positiv uppgift: att skydda miljön"
 
@@ -304,6 +307,10 @@ msgstr "Stöd initiativet"
 
 msgid "Supporters"
 msgstr "Stödjarna"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "Spanska"
 
 msgid "Technical realization"
 msgstr "Tekniska förverkligande"

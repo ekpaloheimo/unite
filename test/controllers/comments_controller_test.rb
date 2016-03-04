@@ -5,6 +5,10 @@ class CommentsControllerTest < ActionController::TestCase
     @comment = comments(:one)
   end
 
+  def setup
+    session[:locale] = :en
+  end
+
   #test "should get index" do
   #  get :index
   #  assert_response :success
@@ -34,6 +38,25 @@ class CommentsControllerTest < ActionController::TestCase
       }
     end
     assert_redirected_to vote_path(locale: "en", secret_token: vote.secret_token)
+    @comment.destroy
+  end
+
+  test "should create comment in arabic" do
+    session[:locale] = :ar
+    vote = votes("vote_1")
+    session[:current_vote_id] = vote.id
+
+    assert_difference('Comment.count') do
+      email = "test02@test.fi"
+      post :create, comment: { 
+        body: @comment.body, 
+        language: @comment.language, 
+        topic: @comment.topic,
+        ip: "0.0.0.0",
+        theme: "air"
+      }
+    end
+    assert_redirected_to vote_path(locale: "ar", secret_token: vote.secret_token)
     @comment.destroy
   end
 

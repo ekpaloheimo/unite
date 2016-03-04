@@ -132,6 +132,9 @@ msgstr "De la nourriture pour tous"
 msgid "French"
 msgstr "Français"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Donnez aux armées une nouvelle tâche positive : la protection de l'environnement"
 
@@ -314,6 +317,10 @@ msgstr "Soutenez l'initiative"
 
 msgid "Supporters"
 msgstr "Partisans"
+
+#, fuzzy
+msgid "Swedish"
+msgstr "Espagnol"
 
 msgid "Technical realization"
 msgstr "Réalisation technique"

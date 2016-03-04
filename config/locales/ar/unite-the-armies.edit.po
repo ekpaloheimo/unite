@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"PO-Revision-Date: 2016-03-04 09:13+0200\n"
+"PO-Revision-Date: 2016-03-04 12:25+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Arabic <LL@li.org>\n"
 "Language: ar\n"
@@ -127,6 +127,9 @@ msgstr "الطعام للجميع"
 msgid "French"
 msgstr "الفرنسي"
 
+msgid "German"
+msgstr ""
+
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr " أعط الجيوش مهمة جديدة إيجابية : حماية البيئة"
 
@@ -137,7 +140,7 @@ msgid "Google+"
 msgstr "الجوجل+"
 
 msgid "Greetings %{name}!"
-msgstr "تحيات %(الإسم)!"
+msgstr ""
 
 msgid "Happy mankind"
 msgstr "الجنس البشري السعيد"
@@ -310,6 +313,10 @@ msgstr "ادعم المبادرة"
 msgid "Supporters"
 msgstr "أنصار"
 
+#, fuzzy
+msgid "Swedish"
+msgstr "الإسباني"
+
 msgid "Technical realization"
 msgstr "التحقيق التقني"
 
@@ -416,7 +423,7 @@ msgid "We propose action on projects requiring large-scale resources, both of ma
 msgstr "كما نقترح كذلك العمل على المشاريع التي تتطلب موارد كبيرة على صعيد القوى العاملة والمعدات. وتندرج في نطاق هذه المشاريع، على سبيل المثال لا الحصر، عمليات تشجير الغابات، وإعادة زرع النبات والأشجار، وإعادة توطين الحيوانات في أعقاب ظاهرة الاحتباس الحراري. مثل هذه المشاريع من شأنها أن تساعد على تجنب أسوأ الكوارث. كما من شأنها أيضا المساعدة على تعزيز الاستقرار البيئي والاجتماعي إذا شاركت اليد العاملة المحلية في هذه المشاريع. "
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "لا يزال ينقصنا في %(العد)البالغ مجموعه 000 0000 100 "
+msgstr "لا يزال ينقصنا في %{count} البالغ مجموعه 000 0000 100 "
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "نقترح على الأممالمتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على وظائف بيـية مميزة بأسرع وقت مستطاع. "
@@ -434,13 +441,13 @@ msgid "You can now add a comment."
 msgstr "والآن يمكنك أن تضيف تعليقات"
 
 msgid "You have added %{count} comments."
-msgstr "أضفت % من التعليقات"
+msgstr ""
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr "كنت مدعواً لإنقاذ العالم – وحّد الجيوش %(بإسم)"
+msgstr ""
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "ساعدت على الحملة بالعد % ووقّع الناس بعدك"
+msgstr ""
 
 msgid "YouTube"
 msgstr "يوتيوب"
@@ -449,10 +456,10 @@ msgid "Your friends email address"
 msgstr "عنوان البريد الإلكتروني أصديقائك/ صديقاتك"
 
 msgid "Your support has been registered %{name}!"
-msgstr "تم تسجيل دعمك % (الإسم)!"
+msgstr ""
 
 msgid "Your supporter number is %{count}."
-msgstr "رقم ترتيب دعمك هو %(العد)"
+msgstr ""
 
 msgid "days"
 msgstr "أيام"

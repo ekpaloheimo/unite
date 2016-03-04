@@ -1,4 +1,15 @@
 class Language
+  LOCALES = {
+    "arabic" => :ar,
+    "chinese" => :zh,
+    "english" => :en,
+    "french" => :fr,
+    "russian" => :ru,
+    "spanish" => :es,
+    "finnish" => :fi,
+    "german" => :de,
+    "swedish" => :se
+  }  
 
   # Valid UN language literals.
   def self.names
@@ -12,7 +23,9 @@ class Language
       "french" => _("French"),
       "russian" => _("Russian"),
       "spanish" => _("Spanish"),
-      "finnish" => _("Finnish")
+      "finnish" => _("Finnish"),
+      "german" => _("German"),
+      "swedish" => _("Swedish")
     }
   end
 
@@ -26,6 +39,12 @@ class Language
     end.zip(names).sort do |a,b|
       a[0] <=> b[0]
     end   
+  end
+
+  # Return a locale symbol for language name
+  def self.locale value
+    value = value.to_s
+    LOCALES[value]
   end
 
 end

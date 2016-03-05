@@ -2,7 +2,8 @@ require 'test_helper'
 
 class VoteTest < ActiveSupport::TestCase
 
-  def setup
+  def setup 
+    I18n.locale = :en
     @vote = votes("vote_1").dup
     @vote.email = "invalid@vote-example.com"
     @vote.email_confirmation = @vote.email

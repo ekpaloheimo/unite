@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-04 10:14+0200\n"
+"PO-Revision-Date: 2016-03-05 20:05+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -29,9 +29,6 @@ msgstr "%{count} votes"
 
 msgid "About Us"
 msgstr "Qui sommes-nous?"
-
-msgid "Act NOW!"
-msgstr "Agissez maintenant!"
 
 msgid "Add"
 msgstr "Ajoutez"
@@ -59,9 +56,6 @@ msgstr "Retour"
 
 msgid "Background"
 msgstr "Contexte "
-
-msgid "Biodiversity"
-msgstr "Biodiversité"
 
 msgid "Campaign"
 msgstr "Campagne"
@@ -126,9 +120,6 @@ msgstr "Finnois"
 msgid "First Aid"
 msgstr "Première aide"
 
-msgid "Food for all"
-msgstr "De la nourriture pour tous"
-
 msgid "French"
 msgstr "Français"
 
@@ -138,17 +129,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Donnez aux armées une nouvelle tâche positive : la protection de l'environnement"
 
-msgid "Global responsibility"
-msgstr "Responsabilité mondiale"
-
 msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "\"Salutations %{nom}!"
-
-msgid "Happy mankind"
-msgstr "Heureuse humanité"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki, 4.11.2014"
@@ -180,9 +165,6 @@ msgstr "Invitez vos amis .  Remplissez le formulaire ci-dessous et l'information
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "Il est accepté  que les militaires soient appelés à aider ceux qui sont affectés par des désastres environnementaux soudains et inattendus. Cette même puissance pourrait être utilisée pour nous défendre de désastres progressifs"
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "Il est logique d'étendre les actions contre des désastres soudains à des catastrophes à grande échelle."
-
 msgid "Language"
 msgstr "Langue"
 
@@ -210,14 +192,8 @@ msgstr "Nom"
 msgid "Name of your friend"
 msgstr "Nom de votre ami"
 
-msgid "New future"
-msgstr "Nouvel avenir"
-
 msgid "New global role for the Military"
 msgstr "Nouveau rôle mondial pour les militaires"
-
-msgid "New technology"
-msgstr "Nouvelle technologie"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "Au niveau politique, il est accepté partout que les militaires soient appelés à aider ceux qui sont affectés par des désastres environnementaux soudains et inattendus."
@@ -246,12 +222,6 @@ msgstr "Lisez la suite"
 msgid "Recent Votes"
 msgstr "Votes récents"
 
-msgid "Reforestation"
-msgstr "Reforestation"
-
-msgid "Richness of cultures"
-msgstr "Richesse des cultures"
-
 msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
 
@@ -269,9 +239,6 @@ msgstr "Sauvez le monde! Agissez maintenant!"
 
 msgid "Save the planet"
 msgstr "Sauvez la planète"
-
-msgid "Save the planet."
-msgstr "Sauvez la planète."
 
 msgid "Send"
 msgstr "Envoi"
@@ -318,9 +285,8 @@ msgstr "Soutenez l'initiative"
 msgid "Supporters"
 msgstr "Partisans"
 
-#, fuzzy
 msgid "Swedish"
-msgstr "Espagnol"
+msgstr ""
 
 msgid "Technical realization"
 msgstr "Réalisation technique"
@@ -367,9 +333,6 @@ msgstr "Les ressources et la capacité des armées unies doivent être redirigé
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Il y a un potential cache à proximité: les armées nationales."
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "Il y a un potentiel caché à proximité : les armées nationales. Nous devons leur donner une nouvelle tâche positive. Sur ces pages nous rassemblons des supports pour une initiative mondiale."
 
 msgid "There was an error"
 msgstr "Il y a eu une erreur"
@@ -470,9 +433,6 @@ msgstr "Votre numéro de supporteur est %{nombre}."
 
 msgid "days"
 msgstr "ours"
-
-msgid "e-mail"
-msgstr "e-mail"
 
 msgid "minutes"
 msgstr "minutes"

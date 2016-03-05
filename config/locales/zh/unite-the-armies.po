@@ -34,9 +34,6 @@ msgstr "%{count} 投票"
 msgid "About Us"
 msgstr "关于我们"
 
-msgid "Act NOW!"
-msgstr "现在就开始行动"
-
 msgid "Add"
 msgstr "添加"
 
@@ -63,9 +60,6 @@ msgstr "返回页面顶部"
 
 msgid "Background"
 msgstr "背景"
-
-msgid "Biodiversity"
-msgstr "生物多样性"
 
 msgid "Campaign"
 msgstr "活动"
@@ -134,9 +128,6 @@ msgstr "芬兰语"
 msgid "First Aid"
 msgstr "紧急救助"
 
-msgid "Food for all"
-msgstr "足够的食物"
-
 msgid "French"
 msgstr "法语"
 
@@ -146,17 +137,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
 
-msgid "Global responsibility"
-msgstr "全球性的责任感"
-
 msgid "Google+"
 msgstr "谷歌"
 
 msgid "Greetings %{name}!"
 msgstr "您好 %{name}!"
-
-msgid "Happy mankind"
-msgstr "幸福的人类"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "赫尔辛基，2014年11月4日"
@@ -200,11 +185,6 @@ msgid ""
 "asters."
 msgstr "通常部队要去帮助那些突发灾难的地区。同样他们也应该帮助我们对抗那些逐渐到来的灾难。"
 
-msgid ""
-"It is logical to extend the actions from sudden disasters to large scale catas"
-"trophes."
-msgstr "突发的局部性的灾难有可能会演变成大规模的毁灭。"
-
 msgid "Language"
 msgstr "语言"
 
@@ -232,14 +212,8 @@ msgstr "姓名"
 msgid "Name of your friend"
 msgstr "您朋友的名字"
 
-msgid "New future"
-msgstr "新的未来"
-
 msgid "New global role for the Military"
 msgstr "军事力量在全球的新角色"
-
-msgid "New technology"
-msgstr "新技术"
 
 msgid ""
 "On a political level, it is the accepted practice everywhere that the military"
@@ -276,12 +250,6 @@ msgstr "拯救我们共有的世界"
 msgid "Recent Votes"
 msgstr "最新投票"
 
-msgid "Reforestation"
-msgstr "造林"
-
-msgid "Richness of cultures"
-msgstr "丰富的文化"
-
 msgid "Rules for Comments"
 msgstr "评论规则"
 
@@ -298,9 +266,6 @@ msgid "Save the World! Act Now!"
 msgstr "拯救地球。马上行动"
 
 msgid "Save the planet"
-msgstr "拯救地球"
-
-msgid "Save the planet."
 msgstr "拯救地球"
 
 msgid "Send"
@@ -410,12 +375,6 @@ msgstr "军队的资源和能力要被定向在使沙漠森林化方面。"
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "国家的军队在这项行动中有着巨大的潜力"
-
-msgid ""
-"There is a hidden potential at hand: the national armies. We have to give the "
-"armies a new, positive task. In these pages we collect support for a global in"
-"itiative."
-msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
 
 msgid "There was an error"
 msgstr "发生了一个错误\""
@@ -546,9 +505,6 @@ msgstr "您的支持编号为%{count}."
 
 msgid "days"
 msgstr "天"
-
-msgid "e-mail"
-msgstr "电子邮件\""
 
 msgid "minutes"
 msgstr "分"

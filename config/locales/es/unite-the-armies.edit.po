@@ -28,9 +28,6 @@ msgstr "%{count} votos"
 msgid "About Us"
 msgstr "Acerca de nosotros"
 
-msgid "Act NOW!"
-msgstr "!Actúa ahora!"
-
 msgid "Add"
 msgstr "Añade"
 
@@ -57,9 +54,6 @@ msgstr "Volver al inicio"
 
 msgid "Background"
 msgstr "Trasfondo"
-
-msgid "Biodiversity"
-msgstr "Biodiversidad"
 
 msgid "Campaign"
 msgstr "La campaña"
@@ -124,9 +118,6 @@ msgstr "Finés"
 msgid "First Aid"
 msgstr "Primeros auxilios"
 
-msgid "Food for all"
-msgstr "Comida para todos"
-
 msgid "French"
 msgstr "Francés"
 
@@ -136,17 +127,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Dotar a los ejércitos de un papel nuevo, positivo, protector del medio ambiente"
 
-msgid "Global responsibility"
-msgstr "Responsabilidad global"
-
 msgid "Google+"
 msgstr "Goole+"
 
 msgid "Greetings %{name}!"
 msgstr "Saludos %{nombre}"
-
-msgid "Happy mankind"
-msgstr "Una humandidad feliz"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki 4.11.2014"
@@ -178,9 +163,6 @@ msgstr "Invita a tus amigos. Llena el formulario de abajo y la información ser�
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "Por hoy es aceptado que los militares sean llamado a ayudar regiones afectadas por repentinos desastres. De la misma forma ellos deberían defendernos de los desastres"
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "Es lógico ampliar las acciones desde desastres repentinos hasta catástrofes a gran escala"
-
 msgid "Language"
 msgstr "Idioma"
 
@@ -208,14 +190,8 @@ msgstr "Nombre"
 msgid "Name of your friend"
 msgstr "Nombre de tu amigo"
 
-msgid "New future"
-msgstr "Nuevo futuro"
-
 msgid "New global role for the Military"
 msgstr "Un nuevo rol global para los militares"
-
-msgid "New technology"
-msgstr "Nueva tecnología"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "A nivel político, es una práctica comúnmente aceptada que el ejército sea llamado para ayudar a aquellos afectados por desastres medioambientales repentinos e inesperados. Sería, por tanto, una lógica extensión de esta práctica emplear tal recurso en contrarrestar los efectos de unas catástrofes que gradualmente aumentan en escala y en importancia; todo esto con la ayuda, es de esperar, de las ONGs locales."
@@ -244,12 +220,6 @@ msgstr "Sigue leyendo"
 msgid "Recent Votes"
 msgstr "Votos recientes"
 
-msgid "Reforestation"
-msgstr "Reforestación"
-
-msgid "Richness of cultures"
-msgstr "La riqueza de las culturas"
-
 msgid "Rules for Comments"
 msgstr "Reglas para los comentarios"
 
@@ -266,9 +236,6 @@ msgid "Save the World! Act Now!"
 msgstr "!Salvar el planeta! !Actúa Ahora!"
 
 msgid "Save the planet"
-msgstr "!Salvar el planeta!"
-
-msgid "Save the planet."
 msgstr "!Salvar el planeta!"
 
 msgid "Send"
@@ -364,9 +331,6 @@ msgstr "Los recursos y capacidad de los Ejércitos Unidos deben apuntar a la ref
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Tenemos un potencial Escondido a nuestra mano: los ejércitos nacionales."
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenemos que darle ahora, al ejército, tareas positivas. En estas páginas recogemos los apoyos para una iniciativa global"
 
 msgid "There was an error"
 msgstr "Ha habido un error"
@@ -467,9 +431,6 @@ msgstr "Tu número de contriibuyente es %{contar}"
 msgid "days"
 msgstr "Días"
 
-msgid "e-mail"
-msgstr "Correo electrónico"
-
 msgid "minutes"
 msgstr "Minutos"
 
@@ -478,3 +439,40 @@ msgstr "Profesor"
 
 msgid "seconds"
 msgstr "Segundos"
+
+#~ msgid "Act NOW!"
+#~ msgstr "!Actúa ahora!"
+#~ msgid "Biodiversity"
+#~ msgstr "Biodiversidad"
+#~ msgid "Food for all"
+#~ msgstr "Comida para todos"
+#~ msgid "Global responsibility"
+#~ msgstr "Responsabilidad global"
+#~ msgid "Happy mankind"
+#~ msgstr "Una humandidad feliz"
+#~ msgid ""
+#~ "It is logical to extend the actions from sudden disasters to large scale catas"
+#~ "trophes."
+#~ msgstr ""
+#~ "Es lógico ampliar las acciones desde desastres repentinos hasta catástrofes a "
+#~ "gran escala"
+#~ msgid "New future"
+#~ msgstr "Nuevo futuro"
+#~ msgid "New technology"
+#~ msgstr "Nueva tecnología"
+#~ msgid "Reforestation"
+#~ msgstr "Reforestación"
+#~ msgid "Richness of cultures"
+#~ msgstr "La riqueza de las culturas"
+#~ msgid "Save the planet."
+#~ msgstr "!Salvar el planeta!"
+#~ msgid ""
+#~ "There is a hidden potential at hand: the national armies. We have to give the "
+#~ "armies a new, positive task. In these pages we collect support for a global in"
+#~ "itiative."
+#~ msgstr ""
+#~ "Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenem"
+#~ "os que darle ahora, al ejército, tareas positivas. En estas páginas recogemos "
+#~ "los apoyos para una iniciativa global"
+#~ msgid "e-mail"
+#~ msgstr "Correo electrónico"

@@ -29,9 +29,6 @@ msgstr "%{count} Senaste röster"
 msgid "About Us"
 msgstr "Om oss"
 
-msgid "Act NOW!"
-msgstr " Handla NU "
-
 msgid "Add"
 msgstr "Tillägg "
 
@@ -58,9 +55,6 @@ msgstr "Tillbaka till början"
 
 msgid "Background"
 msgstr " Bakgrunden"
-
-msgid "Biodiversity"
-msgstr "Biodiversitet"
 
 msgid "Campaign"
 msgstr "Kampanjen"
@@ -133,9 +127,6 @@ msgstr "Finska"
 msgid "First Aid"
 msgstr "Första Hjälpen"
 
-msgid "Food for all"
-msgstr "Mat för alla"
-
 msgid "French"
 msgstr "Franska"
 
@@ -145,17 +136,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Ge arméerna en ny positiv uppgift: att skydda miljön"
 
-msgid "Global responsibility"
-msgstr "Världsomfattande ansvar "
-
 msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Hälsningar %(namnet)"
-
-msgid "Happy mankind"
-msgstr " Lykclig mänsklighet"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsingfors, 4.11.2104"
@@ -207,13 +192,6 @@ msgstr ""
 "tslig katastrof har inträffat. Samma styrkor borde användas att försvara oss m"
 "ot gradvis skeende katastrofer."
 
-msgid ""
-"It is logical to extend the actions from sudden disasters to large scale catas"
-"trophes."
-msgstr ""
-"Det är logiskt att utvidga verksamheten från plötsliga katastroferr till katas"
-"trofer av en störree skala"
-
 msgid "Language"
 msgstr "Språket"
 
@@ -241,14 +219,8 @@ msgstr "Namn"
 msgid "Name of your friend"
 msgstr "Din väns namn"
 
-msgid "New future"
-msgstr "Ny framtid"
-
 msgid "New global role for the Military"
 msgstr "Ny världsomfattande roll för militären"
-
-msgid "New technology"
-msgstr "Ny teknologi"
 
 msgid ""
 "On a political level, it is the accepted practice everywhere that the military"
@@ -291,12 +263,6 @@ msgstr "Läs mera"
 msgid "Recent Votes"
 msgstr "Senaste röster"
 
-msgid "Reforestation"
-msgstr "Skogsomplantering"
-
-msgid "Richness of cultures"
-msgstr "Kulturrikedom"
-
 msgid "Rules for Comments"
 msgstr "Regler för kommentarer"
 
@@ -314,9 +280,6 @@ msgstr "Rädda jorden! Handla NU"
 
 msgid "Save the planet"
 msgstr "Rädda Planeten"
-
-msgid "Save the planet."
-msgstr "Rädda Planeten."
 
 msgid "Send"
 msgstr "Skicka"
@@ -436,15 +399,6 @@ msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Det finns en undangömd potential till hands: i de nationella arméerna."
-
-msgid ""
-"There is a hidden potential at hand: the national armies. We have to give the "
-"armies a new, positive task. In these pages we collect support for a global in"
-"itiative."
-msgstr ""
-"Det finns en undangömd potential till hands: i de nationella arméerna. Vi måst"
-"e ge arméerna en ny positiv uppgift. I dessa sidor samlar vi stöd för världsom"
-"fattande initiativ"
 
 msgid "There was an error"
 msgstr "Det har inträffat ett fel"
@@ -596,9 +550,6 @@ msgstr "Din stödnummer är%(belopp)"
 
 msgid "days"
 msgstr "dagar"
-
-msgid "e-mail"
-msgstr "e-mail"
 
 msgid "minutes"
 msgstr "minuter"

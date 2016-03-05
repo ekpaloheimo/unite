@@ -30,9 +30,6 @@ msgstr "%{count} ääntä"
 msgid "About Us"
 msgstr "Tietoa meistä"
 
-msgid "Act NOW!"
-msgstr "Toimi NYT!"
-
 msgid "Add"
 msgstr "Lisää"
 
@@ -59,9 +56,6 @@ msgstr "Palaa alkuun"
 
 msgid "Background"
 msgstr "Tausta"
-
-msgid "Biodiversity"
-msgstr "Elämän runsaus"
 
 msgid "Campaign"
 msgstr "Kampanja"
@@ -126,9 +120,6 @@ msgstr "Suomi"
 msgid "First Aid"
 msgstr "Ensiapu"
 
-msgid "Food for all"
-msgstr "Ruokaa kaikille"
-
 msgid "French"
 msgstr "Ranska"
 
@@ -138,17 +129,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Annetaan armeijoille uusi positiivinen, ympäristönsuojelijan tehtävä"
 
-msgid "Global responsibility"
-msgstr "Globaali vastuu"
-
 msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Tervehdys %{name}!"
-
-msgid "Happy mankind"
-msgstr "Onnelliset ihmiset"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki, 4.11.2014"
@@ -180,9 +165,6 @@ msgstr "Kutsu ystäväsi. Täytä alla oleva lomake ja kutsu lähetetään annet
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "Tavallisesti sotavoimat kutsutaan apuun yllättävien onnettomuuksien tähden.Saman voimavaran tulisi suojella ihmiskuntaa asteittain pahenevilta katastrofeilta."
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "On johdonmukaista laajentaa pelastustoimet äkillisistä onnettomuuksista suuren mittaluokan katastrofeihin."
-
 msgid "Language"
 msgstr "Kieli"
 
@@ -210,14 +192,8 @@ msgstr "Nimi"
 msgid "Name of your friend"
 msgstr "Ystäväsi nimi"
 
-msgid "New future"
-msgstr "Uusi tulevaisuus"
-
 msgid "New global role for the Military"
 msgstr "Uusi kansainvälinen sotaväen tehtävä"
-
-msgid "New technology"
-msgstr "Uusi teknologia"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "Poliittisella tasolla on yleisesti hyväksytty, että armeijat kutsutaan apuun pelastettaessa äkillisten ja odottamattomien luonnonkatastrofien uhreja. Saman potentiaalin luonnollista käyttöä olisi hitaamman, mutta mittakaavaltaan suuremman ja vääjäämättä etenevän katastrofin pysäyttäminen, toivottavasti yhdessä kansalaisjärjestöjen kanssa."
@@ -246,12 +222,6 @@ msgstr "Lue lisää"
 msgid "Recent Votes"
 msgstr "Viimeisimmät allekirjoitukset"
 
-msgid "Reforestation"
-msgstr "Uudelleen metsitys"
-
-msgid "Richness of cultures"
-msgstr "Kulttuurien rikkaus"
-
 msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
 
@@ -269,9 +239,6 @@ msgstr "Pelasta maailma! Toimi nyt!"
 
 msgid "Save the planet"
 msgstr "Pelasta maailma"
-
-msgid "Save the planet."
-msgstr "Pelasta maailma."
 
 msgid "Send"
 msgstr "Lähetä"
@@ -366,9 +333,6 @@ msgstr "Yhdistynyt armeija suunnattava aavikoiden metsittämiseen."
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "On olemassa piiloitettu potentiaali: kansalliset armeijat."
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettava uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitteelle."
 
 msgid "There was an error"
 msgstr "Tapahtui virhe"
@@ -469,9 +433,6 @@ msgstr "Olet tukija %{count}"
 msgid "days"
 msgstr "päivää"
 
-msgid "e-mail"
-msgstr "sähköposti"
-
 msgid "minutes"
 msgstr "minuuttia"
 
@@ -480,3 +441,40 @@ msgstr "professori"
 
 msgid "seconds"
 msgstr "sekuntia"
+
+#~ msgid "Act NOW!"
+#~ msgstr "Toimi NYT!"
+#~ msgid "Biodiversity"
+#~ msgstr "Elämän runsaus"
+#~ msgid "Food for all"
+#~ msgstr "Ruokaa kaikille"
+#~ msgid "Global responsibility"
+#~ msgstr "Globaali vastuu"
+#~ msgid "Happy mankind"
+#~ msgstr "Onnelliset ihmiset"
+#~ msgid ""
+#~ "It is logical to extend the actions from sudden disasters to large scale catas"
+#~ "trophes."
+#~ msgstr ""
+#~ "On johdonmukaista laajentaa pelastustoimet äkillisistä onnettomuuksista suuren"
+#~ " mittaluokan katastrofeihin."
+#~ msgid "New future"
+#~ msgstr "Uusi tulevaisuus"
+#~ msgid "New technology"
+#~ msgstr "Uusi teknologia"
+#~ msgid "Reforestation"
+#~ msgstr "Uudelleen metsitys"
+#~ msgid "Richness of cultures"
+#~ msgstr "Kulttuurien rikkaus"
+#~ msgid "Save the planet."
+#~ msgstr "Pelasta maailma."
+#~ msgid ""
+#~ "There is a hidden potential at hand: the national armies. We have to give the "
+#~ "armies a new, positive task. In these pages we collect support for a global in"
+#~ "itiative."
+#~ msgstr ""
+#~ "On olemassa piilevä potentiaali: kansalliset armeijat. Armeijoille on annettav"
+#~ "a uusi, rakentava tehtävä. Tällä sivustolla keräämme tukea globaalille aloitte"
+#~ "elle."
+#~ msgid "e-mail"
+#~ msgstr "sähköposti"

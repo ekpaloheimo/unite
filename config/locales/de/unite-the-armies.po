@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-03-04 09:37+0200\n"
+"PO-Revision-Date: 2016-03-05 20:06+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,9 +31,6 @@ msgstr "%{count} Kürzliche Unterschriften"
 msgid "About Us"
 msgstr "Über uns"
 
-msgid "Act NOW!"
-msgstr "JETZT aktiv werden!"
-
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -60,9 +57,6 @@ msgstr "Nach oben"
 
 msgid "Background"
 msgstr "Hintergrund"
-
-msgid "Biodiversity"
-msgstr "Biodiversität"
 
 msgid "Campaign"
 msgstr "Kampagne"
@@ -135,9 +129,6 @@ msgstr "Finnisch"
 msgid "First Aid"
 msgstr "Erste Hilfe"
 
-msgid "Food for all"
-msgstr "Nahrung für alle"
-
 msgid "French"
 msgstr "Französisch"
 
@@ -147,17 +138,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Den Armeen eine neue, positive Aufgabe geben: Schützt die Umwelt"
 
-msgid "Global responsibility"
-msgstr "Globale Verantwortung"
-
 msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Grüße %{name}!"
-
-msgid "Happy mankind"
-msgstr "Glückliche Menschheit"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki, den 04.11.2014"
@@ -209,13 +194,6 @@ msgstr ""
 "einzusetzen. Die gleiche Macht sollte eingesetzt werden, um uns vor sukzessive"
 "n Katastrophen zu schützen."
 
-msgid ""
-"It is logical to extend the actions from sudden disasters to large scale catas"
-"trophes."
-msgstr ""
-"Es ist folgerichtig die Maßnahmen bezüglich plötzlicher Unglücke auch bei groß"
-"flächigen Katastrophen anzuwenden."
-
 msgid "Language"
 msgstr "Sprache"
 
@@ -243,14 +221,8 @@ msgstr "Name"
 msgid "Name of your friend"
 msgstr "Name Freund_in"
 
-msgid "New future"
-msgstr "Neue Zukunft"
-
 msgid "New global role for the Military"
 msgstr "Neue globale Rolle für das Militär"
-
-msgid "New technology"
-msgstr "Neue Technologie"
 
 msgid ""
 "On a political level, it is the accepted practice everywhere that the military"
@@ -295,12 +267,6 @@ msgstr "Mehr erfahren"
 msgid "Recent Votes"
 msgstr "Kürzliche Unterschriften"
 
-msgid "Reforestation"
-msgstr "Aufforstung"
-
-msgid "Richness of cultures"
-msgstr "Kulturenvielfalt"
-
 msgid "Rules for Comments"
 msgstr "Regeln zum Kommentieren"
 
@@ -318,9 +284,6 @@ msgstr "Die Welt retten! Jetzt handeln!"
 
 msgid "Save the planet"
 msgstr "Den Planeten retten"
-
-msgid "Save the planet."
-msgstr "Den Planeten retten."
 
 msgid "Send"
 msgstr "Absenden"
@@ -377,9 +340,8 @@ msgstr "Die Initiative unterstützen"
 msgid "Supporters"
 msgstr "Unterstützer"
 
-#, fuzzy
 msgid "Swedish"
-msgstr "Spanisch"
+msgstr ""
 
 msgid "Technical realization"
 msgstr "Technische Umsetzung"
@@ -445,15 +407,6 @@ msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Ein verstecktes Potential liegt auf der Hand: die nationalen Armeen."
-
-msgid ""
-"There is a hidden potential at hand: the national armies. We have to give the "
-"armies a new, positive task. In these pages we collect support for a global in"
-"itiative."
-msgstr ""
-"Ein verstecktes Potential liegt auf der Hand: die nationalen Armeen. Wir müsse"
-"n den Armeen eine neue, positive Aufgabe geben. Auf diesen Seiten bitten wir u"
-"m die Unterstützung für eine globale Initiative."
 
 msgid "There was an error"
 msgstr "Ein Fehler ist aufgetreten"
@@ -615,9 +568,6 @@ msgstr "Du bist der/die %{count}. Unterstützer_in ."
 
 msgid "days"
 msgstr "Tage"
-
-msgid "e-mail"
-msgstr "E-Mail"
 
 msgid "minutes"
 msgstr "Minuten"

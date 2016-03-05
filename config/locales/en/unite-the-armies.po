@@ -34,9 +34,6 @@ msgstr ""
 msgid "About Us"
 msgstr ""
 
-msgid "Act NOW!"
-msgstr ""
-
 msgid "Add"
 msgstr ""
 
@@ -62,9 +59,6 @@ msgid "Back to top"
 msgstr ""
 
 msgid "Background"
-msgstr ""
-
-msgid "Biodiversity"
 msgstr ""
 
 msgid "Campaign"
@@ -134,9 +128,6 @@ msgstr ""
 msgid "First Aid"
 msgstr ""
 
-msgid "Food for all"
-msgstr ""
-
 msgid "French"
 msgstr ""
 
@@ -146,16 +137,10 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 
-msgid "Global responsibility"
-msgstr ""
-
 msgid "Google+"
 msgstr ""
 
 msgid "Greetings %{name}!"
-msgstr ""
-
-msgid "Happy mankind"
 msgstr ""
 
 msgid "Helsinki, 4.11.2014"
@@ -198,11 +183,6 @@ msgid ""
 "asters."
 msgstr ""
 
-msgid ""
-"It is logical to extend the actions from sudden disasters to large scale catas"
-"trophes."
-msgstr ""
-
 msgid "Language"
 msgstr ""
 
@@ -230,13 +210,7 @@ msgstr ""
 msgid "Name of your friend"
 msgstr ""
 
-msgid "New future"
-msgstr ""
-
 msgid "New global role for the Military"
-msgstr ""
-
-msgid "New technology"
 msgstr ""
 
 msgid ""
@@ -272,12 +246,6 @@ msgstr ""
 msgid "Recent Votes"
 msgstr ""
 
-msgid "Reforestation"
-msgstr ""
-
-msgid "Richness of cultures"
-msgstr ""
-
 msgid "Rules for Comments"
 msgstr ""
 
@@ -294,9 +262,6 @@ msgid "Save the World! Act Now!"
 msgstr ""
 
 msgid "Save the planet"
-msgstr ""
-
-msgid "Save the planet."
 msgstr ""
 
 msgid "Send"
@@ -403,12 +368,6 @@ msgid ""
 msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
-
-msgid ""
-"There is a hidden potential at hand: the national armies. We have to give the "
-"armies a new, positive task. In these pages we collect support for a global in"
-"itiative."
 msgstr ""
 
 msgid "There was an error"
@@ -535,9 +494,6 @@ msgid "Your supporter number is %{count}."
 msgstr ""
 
 msgid "days"
-msgstr ""
-
-msgid "e-mail"
 msgstr ""
 
 msgid "minutes"

@@ -29,9 +29,6 @@ msgstr ""
 msgid "About Us"
 msgstr ""
 
-msgid "Act NOW!"
-msgstr ""
-
 msgid "Add"
 msgstr ""
 
@@ -57,9 +54,6 @@ msgid "Back to top"
 msgstr ""
 
 msgid "Background"
-msgstr ""
-
-msgid "Biodiversity"
 msgstr ""
 
 msgid "Campaign"
@@ -125,9 +119,6 @@ msgstr ""
 msgid "First Aid"
 msgstr ""
 
-msgid "Food for all"
-msgstr ""
-
 msgid "French"
 msgstr ""
 
@@ -137,16 +128,10 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 
-msgid "Global responsibility"
-msgstr ""
-
 msgid "Google+"
 msgstr ""
 
 msgid "Greetings %{name}!"
-msgstr ""
-
-msgid "Happy mankind"
 msgstr ""
 
 msgid "Helsinki, 4.11.2014"
@@ -179,9 +164,6 @@ msgstr ""
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr ""
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr ""
-
 msgid "Language"
 msgstr ""
 
@@ -209,13 +191,7 @@ msgstr ""
 msgid "Name of your friend"
 msgstr ""
 
-msgid "New future"
-msgstr ""
-
 msgid "New global role for the Military"
-msgstr ""
-
-msgid "New technology"
 msgstr ""
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
@@ -245,12 +221,6 @@ msgstr ""
 msgid "Recent Votes"
 msgstr ""
 
-msgid "Reforestation"
-msgstr ""
-
-msgid "Richness of cultures"
-msgstr ""
-
 msgid "Rules for Comments"
 msgstr ""
 
@@ -267,9 +237,6 @@ msgid "Save the World! Act Now!"
 msgstr ""
 
 msgid "Save the planet"
-msgstr ""
-
-msgid "Save the planet."
 msgstr ""
 
 msgid "Send"
@@ -363,9 +330,6 @@ msgid "The resources and capacity of the United Armies must be directed to refor
 msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
 msgstr ""
 
 msgid "There was an error"
@@ -465,9 +429,6 @@ msgid "Your supporter number is %{count}."
 msgstr ""
 
 msgid "days"
-msgstr ""
-
-msgid "e-mail"
 msgstr ""
 
 msgid "minutes"

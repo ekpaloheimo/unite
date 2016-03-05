@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2016-03-04 09:29+0200\n"
+"PO-Revision-Date: 2016-03-04 13:09+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese\n"
 "Language: zh\n"
@@ -23,15 +23,11 @@ msgstr "时间紧迫，我们正在摧毁地球资源。我们必须改变这种
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "我们必须抓紧行动。我们没有几个世纪的时间，可能只有几十年。所以我们需要快速有效的行动。军队是唯一的可能。"
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "最新投票"
+msgstr "%{count} 投票"
 
 msgid "About Us"
 msgstr "关于我们"
-
-msgid "Act NOW!"
-msgstr "现在就开始行动"
 
 msgid "Add"
 msgstr "添加"
@@ -59,9 +55,6 @@ msgstr "返回页面顶部"
 
 msgid "Background"
 msgstr "背景"
-
-msgid "Biodiversity"
-msgstr "生物多样性"
 
 msgid "Campaign"
 msgstr "活动"
@@ -126,9 +119,6 @@ msgstr "芬兰语"
 msgid "First Aid"
 msgstr "紧急救助"
 
-msgid "Food for all"
-msgstr "足够的食物"
-
 msgid "French"
 msgstr "法语"
 
@@ -138,17 +128,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
 
-msgid "Global responsibility"
-msgstr "全球性的责任感"
-
 msgid "Google+"
 msgstr "谷歌"
 
 msgid "Greetings %{name}!"
 msgstr "您好 %{name}!"
-
-msgid "Happy mankind"
-msgstr "幸福的人类"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "赫尔辛基，2014年11月4日"
@@ -166,7 +150,7 @@ msgid "Initiative presented to the United Nations:"
 msgstr "提交给联合国的倡议"
 
 msgid "Instructions"
-msgstr ""
+msgstr "说明"
 
 msgid "Invitation has been sent, thank you!"
 msgstr "邀请已发送，谢谢您\""
@@ -179,9 +163,6 @@ msgstr "邀请你的朋友。填下面的表格，信息将会发送到你提供
 
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "通常部队要去帮助那些突发灾难的地区。同样他们也应该帮助我们对抗那些逐渐到来的灾难。"
-
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "突发的局部性的灾难有可能会演变成大规模的毁灭。"
 
 msgid "Language"
 msgstr "语言"
@@ -210,14 +191,8 @@ msgstr "姓名"
 msgid "Name of your friend"
 msgstr "您朋友的名字"
 
-msgid "New future"
-msgstr "新的未来"
-
 msgid "New global role for the Military"
 msgstr "军事力量在全球的新角色"
-
-msgid "New technology"
-msgstr "新技术"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "从政治方面看，军队可以用于救助突发的自然灾害，这在全世界都是普遍接受的惯例。因此，我们把这一惯例延伸也是符合逻辑的——理想情况下，在与本土非政府组织合作的基础上，把军队资源用于应对发展更缓慢，但规模更巨大，影响更深远的自然灾害。"
@@ -246,12 +221,6 @@ msgstr "拯救我们共有的世界"
 msgid "Recent Votes"
 msgstr "最新投票"
 
-msgid "Reforestation"
-msgstr "造林"
-
-msgid "Richness of cultures"
-msgstr "丰富的文化"
-
 msgid "Rules for Comments"
 msgstr "评论规则"
 
@@ -268,9 +237,6 @@ msgid "Save the World! Act Now!"
 msgstr "拯救地球。马上行动"
 
 msgid "Save the planet"
-msgstr "拯救地球"
-
-msgid "Save the planet."
 msgstr "拯救地球"
 
 msgid "Send"
@@ -318,9 +284,8 @@ msgstr "支持这项计划"
 msgid "Supporters"
 msgstr "支持者"
 
-#, fuzzy
 msgid "Swedish"
-msgstr "西班牙语"
+msgstr ""
 
 msgid "Technical realization"
 msgstr "技术实现"
@@ -366,9 +331,6 @@ msgstr "军队的资源和能力要被定向在使沙漠森林化方面。"
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "国家的军队在这项行动中有着巨大的潜力"
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
 
 msgid "There was an error"
 msgstr "发生了一个错误\""
@@ -461,16 +423,13 @@ msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr "您的支持已经被记录%{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr ""
+msgstr "您的支持编号为%{count}."
 
 msgid "days"
 msgstr "天"
-
-msgid "e-mail"
-msgstr "电子邮件\""
 
 msgid "minutes"
 msgstr "分"
@@ -480,3 +439,47 @@ msgstr "教授"
 
 msgid "seconds"
 msgstr "秒"
+
+#~ msgid "Act NOW!"
+#~ msgstr "现在就开始行动"
+
+#~ msgid "Biodiversity"
+#~ msgstr "生物多样性"
+
+#~ msgid "Food for all"
+#~ msgstr "足够的食物"
+
+#~ msgid "Global responsibility"
+#~ msgstr "全球性的责任感"
+
+#~ msgid "Happy mankind"
+#~ msgstr "幸福的人类"
+
+#~ msgid ""
+#~ "It is logical to extend the actions from sudden disasters to large scale catas"
+#~ "trophes."
+#~ msgstr "突发的局部性的灾难有可能会演变成大规模的毁灭。"
+
+#~ msgid "New future"
+#~ msgstr "新的未来"
+
+#~ msgid "New technology"
+#~ msgstr "新技术"
+
+#~ msgid "Reforestation"
+#~ msgstr "造林"
+
+#~ msgid "Richness of cultures"
+#~ msgstr "丰富的文化"
+
+#~ msgid "Save the planet."
+#~ msgstr "拯救地球"
+
+#~ msgid ""
+#~ "There is a hidden potential at hand: the national armies. We have to give the "
+#~ "armies a new, positive task. In these pages we collect support for a global in"
+#~ "itiative."
+#~ msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
+
+#~ msgid "e-mail"
+#~ msgstr "电子邮件\""

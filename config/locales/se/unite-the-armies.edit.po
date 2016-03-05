@@ -20,9 +20,6 @@ msgstr "%{count} Senaste röster"
 msgid "About Us"
 msgstr "Om oss"
 
-msgid "Act NOW!"
-msgstr " Handla NU "
-
 msgid "Add"
 msgstr "Tillägg "
 
@@ -49,9 +46,6 @@ msgstr "Tillbaka till början"
 
 msgid "Background"
 msgstr " Bakgrunden"
-
-msgid "Biodiversity"
-msgstr "Biodiversitet"
 
 msgid "Campaign"
 msgstr "Kampanjen"
@@ -116,9 +110,6 @@ msgstr "Finska"
 msgid "First Aid"
 msgstr "Första Hjälpen"
 
-msgid "Food for all"
-msgstr "Mat för alla"
-
 msgid "French"
 msgstr "Franska"
 
@@ -128,17 +119,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Ge arméerna en ny positiv uppgift: att skydda miljön"
 
-msgid "Global responsibility"
-msgstr "Världsomfattande ansvar "
-
 msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Hälsningar %(namnet)"
-
-msgid "Happy mankind"
-msgstr " Lykclig mänsklighet"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsingfors, 4.11.2104"
@@ -170,9 +155,6 @@ msgstr "Bjuda in dina vänner. Fyll i blanketten nedan och information skickas t
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "Det är accepterat att militären kan inkallas för att hjälpa områden där en plötslig katastrof har inträffat. Samma styrkor borde användas att försvara oss mot gradvis skeende katastrofer."
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "Det är logiskt att utvidga verksamheten från plötsliga katastroferr till katastrofer av en störree skala"
-
 msgid "Language"
 msgstr "Språket"
 
@@ -200,14 +182,8 @@ msgstr "Namn"
 msgid "Name of your friend"
 msgstr "Din väns namn"
 
-msgid "New future"
-msgstr "Ny framtid"
-
 msgid "New global role for the Military"
 msgstr "Ny världsomfattande roll för militären"
-
-msgid "New technology"
-msgstr "Ny teknologi"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "På den politiska nivån är det en allmänt godkänd praxis att militären inhar kallats till hjälp då plötsliga och oväntade miljökatastrofer har inträffat. Det skulle helt enkelt vara en logisk utvidgning av denna praxis att nyttja sådana resursser föratt motverka effekterna av det mer gradvisa men mycket storskaliga och accelererande  katastroferna  i samarbete med de lokala medborgarorganisationerna."
@@ -236,12 +212,6 @@ msgstr "Läs mera"
 msgid "Recent Votes"
 msgstr "Senaste röster"
 
-msgid "Reforestation"
-msgstr "Skogsomplantering"
-
-msgid "Richness of cultures"
-msgstr "Kulturrikedom"
-
 msgid "Rules for Comments"
 msgstr "Regler för kommentarer"
 
@@ -259,9 +229,6 @@ msgstr "Rädda jorden! Handla NU"
 
 msgid "Save the planet"
 msgstr "Rädda Planeten"
-
-msgid "Save the planet."
-msgstr "Rädda Planeten."
 
 msgid "Send"
 msgstr "Skicka"
@@ -356,9 +323,6 @@ msgstr " De förenade Arméernas  resurser och kapacitet skall nyttjas för skog
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Det finns en undangömd potential till hands: i de nationella arméerna."
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "Det finns en undangömd potential till hands: i de nationella arméerna. Vi måste ge arméerna en ny positiv uppgift. I dessa sidor samlar vi stöd för världsomfattande initiativ"
 
 msgid "There was an error"
 msgstr "Det har inträffat ett fel"
@@ -459,9 +423,6 @@ msgstr "Din stödnummer är%(belopp)"
 msgid "days"
 msgstr "dagar"
 
-msgid "e-mail"
-msgstr "e-mail"
-
 msgid "minutes"
 msgstr "minuter"
 
@@ -470,3 +431,40 @@ msgstr "professor"
 
 msgid "seconds"
 msgstr "sekunder"
+
+#~ msgid "Act NOW!"
+#~ msgstr " Handla NU "
+#~ msgid "Biodiversity"
+#~ msgstr "Biodiversitet"
+#~ msgid "Food for all"
+#~ msgstr "Mat för alla"
+#~ msgid "Global responsibility"
+#~ msgstr "Världsomfattande ansvar "
+#~ msgid "Happy mankind"
+#~ msgstr " Lykclig mänsklighet"
+#~ msgid ""
+#~ "It is logical to extend the actions from sudden disasters to large scale catas"
+#~ "trophes."
+#~ msgstr ""
+#~ "Det är logiskt att utvidga verksamheten från plötsliga katastroferr till katas"
+#~ "trofer av en störree skala"
+#~ msgid "New future"
+#~ msgstr "Ny framtid"
+#~ msgid "New technology"
+#~ msgstr "Ny teknologi"
+#~ msgid "Reforestation"
+#~ msgstr "Skogsomplantering"
+#~ msgid "Richness of cultures"
+#~ msgstr "Kulturrikedom"
+#~ msgid "Save the planet."
+#~ msgstr "Rädda Planeten."
+#~ msgid ""
+#~ "There is a hidden potential at hand: the national armies. We have to give the "
+#~ "armies a new, positive task. In these pages we collect support for a global in"
+#~ "itiative."
+#~ msgstr ""
+#~ "Det finns en undangömd potential till hands: i de nationella arméerna. Vi måst"
+#~ "e ge arméerna en ny positiv uppgift. I dessa sidor samlar vi stöd för världsom"
+#~ "fattande initiativ"
+#~ msgid "e-mail"
+#~ msgstr "e-mail"

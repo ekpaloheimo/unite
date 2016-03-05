@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"PO-Revision-Date: 2016-03-04 12:25+0200\n"
+"PO-Revision-Date: 2016-03-04 15:38+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Arabic <LL@li.org>\n"
 "Language: ar\n"
@@ -24,9 +24,6 @@ msgstr "الأصوات %{count}"
 
 msgid "About Us"
 msgstr "معلومات عنا"
-
-msgid "Act NOW!"
-msgstr "اعمل الآن!"
 
 msgid "Add"
 msgstr "أضف"
@@ -54,9 +51,6 @@ msgstr "عودة إلى فوق"
 
 msgid "Background"
 msgstr "الخلفية"
-
-msgid "Biodiversity"
-msgstr "التنوع الحيوي"
 
 msgid "Campaign"
 msgstr "الحملة"
@@ -121,9 +115,6 @@ msgstr "الفنلندي"
 msgid "First Aid"
 msgstr "الإسعاف الأولي"
 
-msgid "Food for all"
-msgstr "الطعام للجميع"
-
 msgid "French"
 msgstr "الفرنسي"
 
@@ -133,17 +124,11 @@ msgstr ""
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr " أعط الجيوش مهمة جديدة إيجابية : حماية البيئة"
 
-msgid "Global responsibility"
-msgstr "المسؤولية العالمية"
-
 msgid "Google+"
 msgstr "الجوجل+"
 
 msgid "Greetings %{name}!"
-msgstr ""
-
-msgid "Happy mankind"
-msgstr "الجنس البشري السعيد"
+msgstr "يات %{name}"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "هلسنكي في 4.11.2014"
@@ -175,9 +160,6 @@ msgstr "ادع أصديقائك / صديقاتك. واملاء الإستمار�
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "من المتفق عليه أن تتم دعوة رجال الجيش للمساعدة في المناطق المصابة بكوارث. مفاجئة.   لذا يجب إستعمال نفس القوة للدفاع عننا ضد وقوع كوارث تدريجية. "
 
-msgid "It is logical to extend the actions from sudden disasters to large scale catastrophes."
-msgstr "من المنطقي تمدبد العمليات  من مواجهة المصائب المفاجئة إلى مهسفهىلكوارث واسع النطاق. "
-
 msgid "Language"
 msgstr "اللغة"
 
@@ -205,14 +187,8 @@ msgstr "الإسم"
 msgid "Name of your friend"
 msgstr "إسم صديقك/صديقتك"
 
-msgid "New future"
-msgstr "المستقبل الجديد"
-
 msgid "New global role for the Military"
 msgstr "الدور الجديد العالمي للجيوش"
-
-msgid "New technology"
-msgstr "التكنولوجيا الحديثة"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "على المستوى السياسي، جرت العادة في كل مكان على طلب المساعدة من الجيش عند حدوث كوارث بيئية مفاجئة وغير متوقعة. ومن المنطقي للغاية تمديد هذه الممارسة لتوظيف مثل هذه الموارد في مواجهة آثار كوارث أكثر تدرجا ولكنها أخطر بكثير على النطاق الأوسع. ونأمل أن يتم هذا بالتعاون مع المنظمات غير الحكومية المحلية. "
@@ -241,12 +217,6 @@ msgstr "اقرأ المنزيد"
 msgid "Recent Votes"
 msgstr "آخرالأصوات"
 
-msgid "Reforestation"
-msgstr "إعادة التشجير"
-
-msgid "Richness of cultures"
-msgstr "ثروة الثافات"
-
 msgid "Rules for Comments"
 msgstr "أحكام للتعليقات"
 
@@ -263,9 +233,6 @@ msgid "Save the World! Act Now!"
 msgstr "أنقذ العالم! اعمل الآن!"
 
 msgid "Save the planet"
-msgstr "أنقذ الكوكب."
-
-msgid "Save the planet."
 msgstr "أنقذ الكوكب."
 
 msgid "Send"
@@ -313,9 +280,8 @@ msgstr "ادعم المبادرة"
 msgid "Supporters"
 msgstr "أنصار"
 
-#, fuzzy
 msgid "Swedish"
-msgstr "الإسباني"
+msgstr ""
 
 msgid "Technical realization"
 msgstr "التحقيق التقني"
@@ -361,9 +327,6 @@ msgstr "يجب توجيه موارد الجيوش المتحدة وطافتها�
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "هناك طاقات كامنة في متناول اليد : الجيوض القومية."
-
-msgid "There is a hidden potential at hand: the national armies. We have to give the armies a new, positive task. In these pages we collect support for a global initiative."
-msgstr "يوجد إمكانية كامنة في متناول اليد : الجيوس القومية.  ينبغي علينا أن نزودها بوظيفة جديدة إيجابية. نجمع في هذه الصفحات دعماً من أجل مبادرة عالمية."
 
 msgid "There was an error"
 msgstr "كان هناك خطأ"
@@ -441,13 +404,13 @@ msgid "You can now add a comment."
 msgstr "والآن يمكنك أن تضيف تعليقات"
 
 msgid "You have added %{count} comments."
-msgstr ""
+msgstr "أضفت %{count} من التعليقات"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr ""
+msgstr "قد دُعيت لإنقاذ العالم – وحّد الجيوش  بـ%{name}"
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr ""
+msgstr "عدت على الحملة %{count} ووقّع الناس بعدك"
 
 msgid "YouTube"
 msgstr "يوتيوب"
@@ -456,16 +419,13 @@ msgid "Your friends email address"
 msgstr "عنوان البريد الإلكتروني أصديقائك/ صديقاتك"
 
 msgid "Your support has been registered %{name}!"
-msgstr ""
+msgstr " تسجيل دعمك %{name}"
 
 msgid "Your supporter number is %{count}."
-msgstr ""
+msgstr "رقم ترتيب دعمك هو %{count}"
 
 msgid "days"
 msgstr "أيام"
-
-msgid "e-mail"
-msgstr "البريد الإلكتروني"
 
 msgid "minutes"
 msgstr "دقائق"
@@ -475,3 +435,51 @@ msgstr "الأستاذ"
 
 msgid "seconds"
 msgstr "ثوان"
+
+#~ msgid "Act NOW!"
+#~ msgstr "اعمل الآن!"
+
+#~ msgid "Biodiversity"
+#~ msgstr "التنوع الحيوي"
+
+#~ msgid "Food for all"
+#~ msgstr "الطعام للجميع"
+
+#~ msgid "Global responsibility"
+#~ msgstr "المسؤولية العالمية"
+
+#~ msgid "Happy mankind"
+#~ msgstr "الجنس البشري السعيد"
+
+#~ msgid ""
+#~ "It is logical to extend the actions from sudden disasters to large scale catas"
+#~ "trophes."
+#~ msgstr ""
+#~ "من المنطقي تمدبد العمليات  من مواجهة المصائب المفاجئة إلى مهسفهىلكوارث واسع ال"
+#~ "نطاق. "
+
+#~ msgid "New future"
+#~ msgstr "المستقبل الجديد"
+
+#~ msgid "New technology"
+#~ msgstr "التكنولوجيا الحديثة"
+
+#~ msgid "Reforestation"
+#~ msgstr "إعادة التشجير"
+
+#~ msgid "Richness of cultures"
+#~ msgstr "ثروة الثافات"
+
+#~ msgid "Save the planet."
+#~ msgstr "أنقذ الكوكب."
+
+#~ msgid ""
+#~ "There is a hidden potential at hand: the national armies. We have to give the "
+#~ "armies a new, positive task. In these pages we collect support for a global in"
+#~ "itiative."
+#~ msgstr ""
+#~ "يوجد إمكانية كامنة في متناول اليد : الجيوس القومية.  ينبغي علينا أن نزودها بوظ"
+#~ "يفة جديدة إيجابية. نجمع في هذه الصفحات دعماً من أجل مبادرة عالمية."
+
+#~ msgid "e-mail"
+#~ msgstr "البريد الإلكتروني"

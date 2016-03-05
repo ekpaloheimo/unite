@@ -39,9 +39,6 @@ msgstr "%{count} votos"
 msgid "About Us"
 msgstr "Acerca de nosotros"
 
-msgid "Act NOW!"
-msgstr "!Actúa ahora!"
-
 msgid "Add"
 msgstr "Añade"
 
@@ -68,9 +65,6 @@ msgstr "Volver al inicio"
 
 msgid "Background"
 msgstr "Trasfondo"
-
-msgid "Biodiversity"
-msgstr "Biodiversidad"
 
 msgid "Campaign"
 msgstr "La campaña"
@@ -143,9 +137,6 @@ msgstr "Finés"
 msgid "First Aid"
 msgstr "Primeros auxilios"
 
-msgid "Food for all"
-msgstr "Comida para todos"
-
 msgid "French"
 msgstr "Francés"
 
@@ -157,17 +148,11 @@ msgstr ""
 "Dotar a los ejércitos de un papel nuevo, positivo, protector del medio ambient"
 "e"
 
-msgid "Global responsibility"
-msgstr "Responsabilidad global"
-
 msgid "Google+"
 msgstr "Goole+"
 
 msgid "Greetings %{name}!"
 msgstr "Saludos %{nombre}"
-
-msgid "Happy mankind"
-msgstr "Una humandidad feliz"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki 4.11.2014"
@@ -219,13 +204,6 @@ msgstr ""
 " por repentinos desastres. De la misma forma ellos deberían defendernos de los"
 " desastres"
 
-msgid ""
-"It is logical to extend the actions from sudden disasters to large scale catas"
-"trophes."
-msgstr ""
-"Es lógico ampliar las acciones desde desastres repentinos hasta catástrofes a "
-"gran escala"
-
 msgid "Language"
 msgstr "Idioma"
 
@@ -253,14 +231,8 @@ msgstr "Nombre"
 msgid "Name of your friend"
 msgstr "Nombre de tu amigo"
 
-msgid "New future"
-msgstr "Nuevo futuro"
-
 msgid "New global role for the Military"
 msgstr "Un nuevo rol global para los militares"
-
-msgid "New technology"
-msgstr "Nueva tecnología"
 
 msgid ""
 "On a political level, it is the accepted practice everywhere that the military"
@@ -303,12 +275,6 @@ msgstr "Sigue leyendo"
 msgid "Recent Votes"
 msgstr "Votos recientes"
 
-msgid "Reforestation"
-msgstr "Reforestación"
-
-msgid "Richness of cultures"
-msgstr "La riqueza de las culturas"
-
 msgid "Rules for Comments"
 msgstr "Reglas para los comentarios"
 
@@ -325,9 +291,6 @@ msgid "Save the World! Act Now!"
 msgstr "!Salvar el planeta! !Actúa Ahora!"
 
 msgid "Save the planet"
-msgstr "!Salvar el planeta!"
-
-msgid "Save the planet."
 msgstr "!Salvar el planeta!"
 
 msgid "Send"
@@ -453,15 +416,6 @@ msgstr ""
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Tenemos un potencial Escondido a nuestra mano: los ejércitos nacionales."
-
-msgid ""
-"There is a hidden potential at hand: the national armies. We have to give the "
-"armies a new, positive task. In these pages we collect support for a global in"
-"itiative."
-msgstr ""
-"Tenemos un potencial escondido a nuestra mano: los ejércitos nacionales. Tenem"
-"os que darle ahora, al ejército, tareas positivas. En estas páginas recogemos "
-"los apoyos para una iniciativa global"
 
 msgid "There was an error"
 msgstr "Ha habido un error"
@@ -618,9 +572,6 @@ msgstr "Tu número de contriibuyente es %{contar}"
 
 msgid "days"
 msgstr "Días"
-
-msgid "e-mail"
-msgstr "Correo electrónico"
 
 msgid "minutes"
 msgstr "Minutos"

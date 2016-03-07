@@ -438,41 +438,30 @@ msgstr "ثوان"
 
 #~ msgid "Act NOW!"
 #~ msgstr "اعمل الآن!"
-
 #~ msgid "Biodiversity"
 #~ msgstr "التنوع الحيوي"
-
 #~ msgid "Food for all"
 #~ msgstr "الطعام للجميع"
-
 #~ msgid "Global responsibility"
 #~ msgstr "المسؤولية العالمية"
-
 #~ msgid "Happy mankind"
 #~ msgstr "الجنس البشري السعيد"
-
 #~ msgid ""
 #~ "It is logical to extend the actions from sudden disasters to large scale catas"
 #~ "trophes."
 #~ msgstr ""
 #~ "من المنطقي تمدبد العمليات  من مواجهة المصائب المفاجئة إلى مهسفهىلكوارث واسع ال"
 #~ "نطاق. "
-
 #~ msgid "New future"
 #~ msgstr "المستقبل الجديد"
-
 #~ msgid "New technology"
 #~ msgstr "التكنولوجيا الحديثة"
-
 #~ msgid "Reforestation"
 #~ msgstr "إعادة التشجير"
-
 #~ msgid "Richness of cultures"
 #~ msgstr "ثروة الثافات"
-
 #~ msgid "Save the planet."
 #~ msgstr "أنقذ الكوكب."
-
 #~ msgid ""
 #~ "There is a hidden potential at hand: the national armies. We have to give the "
 #~ "armies a new, positive task. In these pages we collect support for a global in"
@@ -480,6 +469,5 @@ msgstr "ثوان"
 #~ msgstr ""
 #~ "يوجد إمكانية كامنة في متناول اليد : الجيوس القومية.  ينبغي علينا أن نزودها بوظ"
 #~ "يفة جديدة إيجابية. نجمع في هذه الصفحات دعماً من أجل مبادرة عالمية."
-
 #~ msgid "e-mail"
 #~ msgstr "البريد الإلكتروني"

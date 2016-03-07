@@ -442,44 +442,32 @@ msgstr "秒"
 
 #~ msgid "Act NOW!"
 #~ msgstr "现在就开始行动"
-
 #~ msgid "Biodiversity"
 #~ msgstr "生物多样性"
-
 #~ msgid "Food for all"
 #~ msgstr "足够的食物"
-
 #~ msgid "Global responsibility"
 #~ msgstr "全球性的责任感"
-
 #~ msgid "Happy mankind"
 #~ msgstr "幸福的人类"
-
 #~ msgid ""
 #~ "It is logical to extend the actions from sudden disasters to large scale catas"
 #~ "trophes."
 #~ msgstr "突发的局部性的灾难有可能会演变成大规模的毁灭。"
-
 #~ msgid "New future"
 #~ msgstr "新的未来"
-
 #~ msgid "New technology"
 #~ msgstr "新技术"
-
 #~ msgid "Reforestation"
 #~ msgstr "造林"
-
 #~ msgid "Richness of cultures"
 #~ msgstr "丰富的文化"
-
 #~ msgid "Save the planet."
 #~ msgstr "拯救地球"
-
 #~ msgid ""
 #~ "There is a hidden potential at hand: the national armies. We have to give the "
 #~ "armies a new, positive task. In these pages we collect support for a global in"
 #~ "itiative."
 #~ msgstr "国家军队是一项隐藏的资产。我们有必要赋予国家军队新的，积极的任务。在下面的网页中我们征集对一项全球性倡议的支持。"
-
 #~ msgid "e-mail"
 #~ msgstr "电子邮件\""

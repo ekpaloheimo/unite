@@ -37,7 +37,7 @@
         <tr>
           <td><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
           <td><%= Country.code_to_name(vote_count.country) %></td>
-          <td style="width:100%">
+          <td style="width:80%">
             <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
           </td> 
           <td><%= vote_count.count %></td>

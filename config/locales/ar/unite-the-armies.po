@@ -4,11 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"PO-Revision-Date: 2016-03-04 15:38+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2016-03-09 18:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Arabic <LL@li.org>\n"
-"Language: ar\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,20 +16,21 @@ msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"
 " be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
-" ينتهي الوقت بينما نحن ندمّر موارد كوكبنا.يجب تغيير الوضع الحالي، ويمكن تغييره"
-"يمكنك مشاركتنا في هذا النشتطً، لذا إتخذ التدابير اليوم."
+" الوقت ينفد بينما نحن ندمّر موارد الكوكب.هذا يجب أن يتغير وأنه يمكن تغييره،ويم"
+"كنك المشاركة وإتخاذ الإجراءات اليوم."
 
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
 "at is why effective and quick actions are necessary. The armies are the only p"
 "ossibility.\""
 msgstr ""
-"ليس لدينا الوقت لمدة قرون، إنما لدينا الوقت لمدةعقود فقط. إننا مستعجلون.لذلك م"
-"ن الضروري إتخاذ تدابير فعالة وسريعة.وفي هذه الحالة فإن الجيوش ستكون الإمكانية "
-"الوحيدة "
+"ليس لدينا الوقت لقرون، لدينا لعقود فقط. نحن مستعجلون.\n"
+"هذا هو السبب في إتخاذ إجراءات ضرورية فعالة وسريعة. الجيوش هي الإمكانية الوحيدة"
+" "
 
+#, fuzzy
 msgid "%{count} votes"
-msgstr "الأصوات %{count}"
+msgstr "آخرالأصوات"
 
 msgid "About Us"
 msgstr "معلومات عنا"
@@ -45,19 +45,19 @@ msgid "Administration"
 msgstr "الإدارة"
 
 msgid "Ago"
-msgstr "مند"
+msgstr "ماضي"
 
 msgid "Air pollution is a global Challenge!"
-msgstr "يعتبر تلوث الهواء تحدّياً عالمياً"
+msgstr "تلوث الهواء هو تحدّ عالمي"
 
 msgid "Animation realization"
 msgstr "تحقيق الإنتعاش"
 
 msgid "Arabic"
-msgstr "العربي"
+msgstr "عربي"
 
 msgid "Back to top"
-msgstr "عودة إلى فوق"
+msgstr "العودة إلى أعلى"
 
 msgid "Background"
 msgstr "الخلفية"
@@ -66,13 +66,13 @@ msgid "Campaign"
 msgstr "الحملة"
 
 msgid "Chinese"
-msgstr "الصيني"
+msgstr "صيني"
 
 msgid "Choose the language"
 msgstr "اختر اللغة"
 
 msgid "Choose the language of the invitation letter"
-msgstr "اختر اللغة لرسالة الدعوة"
+msgstr "اختر اللغة لخطاب الدعوة"
 
 msgid "Choose the topic"
 msgstr "اختر الموضوع"
@@ -84,16 +84,17 @@ msgid "Comment"
 msgstr "التعليق"
 
 msgid "Comment (max 1000 characters)"
-msgstr "التعليق على الأكثر 1000 رمز"
+msgstr "التعليق (حد أقصى) 1000 حرف"
 
 msgid "Comment was successfully created."
 msgstr "تم تحقيق التعليق بنجاح"
 
+#, fuzzy
 msgid "Comments"
 msgstr "التعليق"
 
 msgid "Continue"
-msgstr "اتبع"
+msgstr "واصل"
 
 msgid "Country"
 msgstr "البلد"
@@ -105,15 +106,15 @@ msgid ""
 "Do not share this direct link to anybody. Instead, you can use a form on the s"
 "ite to send invitations to your friends by email."
 msgstr ""
-"لا تساهم في هذا الرابط المباشر مع أحد. بدلاً من ذلك يمكنك إستعمال الشكل الموجو"
-"د في الموقع لإرسال دعوات إلى أصديقائك صديقاتك عن طريق البريد الإلكتروني"
+"لا تشارك هذا الرابط المباشر مع أي شخص، بدلاً من ذلك، يمكنك إستخدام النموذج الم"
+"وجود على الموقع لإرسال دعوات إلى أصدقائك \n"
 
 msgid ""
 "Do not share this direct link with anybody. Instead, you can use a form below "
 "to share a public version of this vote with your friends."
 msgstr ""
-"لا تساهم في هذا الرابط المباشر مع أحد.بدلاً من ذلك يمكنك إستعمال الشكل الموجود"
-" أدناه لمساهمة في النسخة العامة من هذا الصوت مع أصديقائك / صديقاتك."
+"لا تشارك هذا الرابط المباشر مع أي شخص،بدلاً من ذلك يمكنك إستخدام النموذج أداه "
+"لتقاسم النسخة العامة  للتصويت مع أصدقائك ."
 
 msgid "Email"
 msgstr "البريد الإلكتروني"
@@ -122,31 +123,31 @@ msgid "Email Confirmation"
 msgstr "التأكيد على البريد الإلكتووني"
 
 msgid "English"
-msgstr "الإنجليزي"
+msgstr "إنجليزي"
 
 msgid "Facebook"
 msgstr "فيسبوك"
 
 msgid "Finnish"
-msgstr "الفنلندي"
+msgstr "فنلندي"
 
 msgid "First Aid"
 msgstr "الإسعاف الأولي"
 
 msgid "French"
-msgstr "الفرنسي"
+msgstr "فرنسي"
 
 msgid "German"
 msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
-msgstr " أعط الجيوش مهمة جديدة إيجابية : حماية البيئة"
+msgstr ""
 
 msgid "Google+"
-msgstr "الجوجل+"
+msgstr "جوجل+"
 
 msgid "Greetings %{name}!"
-msgstr "يات %{name}"
+msgstr "!%{name}تحيات  "
 
 msgid "Helsinki, 4.11.2014"
 msgstr "هلسنكي في 4.11.2014"
@@ -167,34 +168,34 @@ msgstr ""
 "اية البيئة الأخرى. "
 
 msgid "In these pages we collect support for a global initiative."
-msgstr "بجمع الدعم للمبادرة العالمية."
+msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "مبادرة معروضة على الأمم المتحدة"
 
 msgid "Instructions"
-msgstr "الإرشادات"
+msgstr "التعليمات"
 
 msgid "Invitation has been sent, thank you!"
 msgstr "تم إرسال الدعوة، شكراً."
 
 msgid "Invitation to Save the World - Unite the Armies"
-msgstr "دعوة من أجل إنقاذ العالم – وحّدوا الجوش"
+msgstr "دعوة من أجل إنقاذ العالم – وحّدوا الجيوش"
 
 msgid ""
 "Invite your friends. Fill out a form below and information will be sent to giv"
 "en email"
 msgstr ""
-"ادع أصديقائك / صديقاتك. واملاء الإستمارة أدناه وسيتم إرسال المعلومات إلى عنوان"
-"\" \" البريد الإلكتروني المعني."
+"ادعو أصدقائك. واملاء الإستمارة أدناه وسيتم إرسال المعلومات إلى عنوان البريد ال"
+"إلكتروني المعني"
 
 msgid ""
 "It is accepted that the military are called to assist the areas affected by su"
 "dden disasters. The same power should be used to defend us against gradual dis"
 "asters."
 msgstr ""
-"من المتفق عليه أن تتم دعوة رجال الجيش للمساعدة في المناطق المصابة بكوارث. مفاج"
-"ئة.   لذا يجب إستعمال نفس القوة للدفاع عننا ضد وقوع كوارث تدريجية. "
+"من المتفق عليه أن تتم دعوة الجيش للمساعدة في المناطق المتضررة بكوارث مفاجئة. ن"
+"فس القوة ينبغي أن تُستخدم للدفاع عنا ضد وقوع كوارث تدريجية."
 
 msgid "Language"
 msgstr "اللغة"
@@ -203,25 +204,25 @@ msgid "Listing comments"
 msgstr "قائمة التعليقات"
 
 msgid "Make an initiative for the action of the United Armies."
-msgstr "قم بمبادرة لإتخاذ التدابير من أجل توحيد الحيوش"
+msgstr "قم بمبادرة لإتخاذ التدابير من أجل توحيد الجيوش"
 
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "قم بالمبادرة من خلال إستعمال بعض اللغات الرسمية الست التابعة للأمم المتحدة  "
 
 msgid "Menu"
-msgstr ""
+msgstr "القائمة"
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
-msgstr "ملايين الأطنان من النفايات البلاستيكية على الشواطئ وعلى المحيطات!"
+msgstr "ملايين الأطنان من النفايات البلاستيكية على شواطئ والمحيطات"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "يجب بذل مزيد من الجهد"
 
 msgid "Name"
 msgstr "الإسم"
 
 msgid "Name of your friend"
-msgstr "إسم صديقك/صديقتك"
+msgstr "إسم صديقك"
 
 msgid "New global role for the Military"
 msgstr "الدور الجديد العالمي للجيوش"
@@ -240,22 +241,22 @@ msgstr ""
 "أوسع. ونأمل أن يتم هذا بالتعاون مع المنظمات غير الحكومية المحلية. "
 
 msgid "Plastic Waste"
-msgstr "المفايات البلاستيكية"
+msgstr "النفايات البلاستيكية"
 
 msgid "Positive initiations will be published."
 msgstr "سيتم نشر مبادرات إيجابية."
 
 msgid "Present the task with max. 1000 characters."
-msgstr "اعرض المهمة بأكثر من 1000 رمز."
+msgstr "اعرض الوظيفة بــ 1000 حرف كحد أقصى."
 
 msgid "Protected Areas"
-msgstr "مناطق محمية"
+msgstr "المناطق المحمية"
 
 msgid "Radical actions are urgently needed to save our planet."
-msgstr "يجب اتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا."
+msgstr ""
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا، عالم المستقبل الممكن"
+msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا. مستقبل العالم الممكن"
 
 msgid "Read more"
 msgstr "اقرأ المنزيد"
@@ -264,20 +265,21 @@ msgid "Recent Votes"
 msgstr "آخرالأصوات"
 
 msgid "Rules for Comments"
-msgstr "أحكام للتعليقات"
+msgstr "قواعد للتعليقات"
 
 msgid "Russian"
-msgstr "الروسي"
+msgstr "روسي"
 
 msgid "STOP DISASTER – NOW!"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"
-msgstr "أنقذ الكوكب – وحّد الجيوش!"
+msgstr "أنقذ الكوكب – وحّد الجيوش"
 
 msgid "Save the World! Act Now!"
-msgstr "أنقذ العالم! اعمل الآن!"
+msgstr "أنقذ العالم اعمل الآن"
 
+#, fuzzy
 msgid "Save the planet"
 msgstr "أنقذ الكوكب."
 
@@ -285,28 +287,28 @@ msgid "Send"
 msgstr "أرسل"
 
 msgid "Share"
-msgstr "ساهم"
+msgstr "شارك"
 
 msgid "Share email with your friends"
-msgstr "ساهم في البريد الإلكتوني مع أصديقائقك / صديقاتك"
+msgstr "شارك في البريد الإلكتوني مع أصدقائك "
 
 msgid "Share with social media"
-msgstr "ساهم في التواصل الإجتماعي"
+msgstr "شارك في التواصل الإجتماعي"
 
 msgid "Sign"
 msgstr "وقّع"
 
 msgid "Signatures! Let’s work further!"
-msgstr "التوقيعات! هيا نتابع العمل!"
+msgstr "التوقيعات هيا لنتابع العمل"
 
 msgid "Spanish"
-msgstr "الإسباني"
+msgstr "إسباني"
 
 msgid "State of the global environment"
 msgstr "حالة البيئة العالمية"
 
 msgid "Statistics"
-msgstr "الإحصاءات"
+msgstr "الإحصاء"
 
 msgid ""
 "Such harmful developments have accelerated and often aggravated one another. I"
@@ -319,10 +321,11 @@ msgstr ""
 "مكن إنسانيا إيقاف هذه التطورات. "
 
 msgid "Suggest a new task for the Action of the United Armies not presented here."
-msgstr "إقترح وظيفة جديدة على نشاط الحيوش المتحدة غير موروض هنا"
+msgstr "إقترح مهمة جديدة  لعمل الجيوش المتحدة غير واردة هنا."
 
+#, fuzzy
 msgid "Support"
-msgstr "دعم"
+msgstr "ادعم الآن"
 
 msgid "Support now"
 msgstr "ادعم الآن"
@@ -330,71 +333,73 @@ msgstr "ادعم الآن"
 msgid "Support the Initiative"
 msgstr "ادعم المبادرة"
 
+#, fuzzy
 msgid "Supporters"
-msgstr "أنصار"
+msgstr "ادعم الآن"
 
+#, fuzzy
 msgid "Swedish"
-msgstr ""
+msgstr "إسباني"
 
 msgid "Technical realization"
-msgstr "التحقيق التقني"
+msgstr "الإنجاز التقني"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
-msgstr "شكراً على مشاركتك في إنقاد العالم – وحّد الجيوش! "
+msgstr "شكراً على مشاركتك في إنقاذ العالم – وحّد الجيوش "
 
+#, fuzzy
 msgid "Thank you for your support %{name}"
-msgstr "%{name}شكراً على دعمك "
+msgstr "!%{name}شكراً على دعمك "
 
 msgid "Thank you for your vote!"
-msgstr "شكراً على صوتك"
+msgstr "شكراً لإعطاء صوتك"
 
 msgid "The Green Association for the Protection of Life"
 msgstr "الجمعية الخضراء لحمياية الحياة"
 
 msgid "The Suggested task must benefit the whole world."
-msgstr "إن على الوظيفة المقترحة يجب أن تفيد العالم كله."
+msgstr "يجب على المهمة المقترحة أن تفيد العالم بأكمله."
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr "يجب على الجيوش المتحدة جمع النفايات البلاستيكية من المحيطات والشواطيئ"
+msgstr "يجب على الجيوش المتحدة جمع النفايات البلاستيكية من المحيطات والشواطئ"
 
 msgid ""
 "The United Armies must ensure sufficient water availability everywhere for the"
 " needs of people and life."
 msgstr ""
-"يجب على الجيوش المتحدة تأمين سهولة الحصول على المياه الصافيةوالسليمة في كل مكا"
+"يجب على الجيوش المتحدة تأمين سهولة الحصول على المياه النقية والسليمة في كل مكا"
 "ن لسد إحتياجات الناس والحياة "
 
 msgid "The United Armies must protect the areas reserved for nature."
-msgstr "يجب على الجيوش المتحدة حماية المناطق المخصصة للطبيعة"
+msgstr "يجب على الجيوش المتحدة حماية المناطق الطبيعية"
 
 msgid ""
 "The activities of the United Armies must be controlled by a common, internatio"
 "nal organ."
-msgstr "يجب على أنشطة الجيوش المتحدة أن تسيطر عليها هيئة دولية مشتركة."
+msgstr "يجب على أنشطة الجيوش المتحدة أن تُدار بواسطة هيئات دولية مشتركة."
 
 msgid "The best contributors will be rewarded later."
-msgstr "يحصل على جائزة أفضل مشترك فيا بعد"
+msgstr "ستتم مكافأة أفضل مشترك في وقت لاحق."
 
 msgid ""
 "The concern of this campaign is that the global environment is radically deter"
 "iorating. Dangerous developments have accelerated and approach the point of no"
 " return."
 msgstr ""
-"إن الفكرة الجوهرية لهذه الحملة هي تدهور البيئة العالمية بشكل شديد.والتطورات ال"
-"خطيرة قدإزدادت حدة وتقترب إلى نقطة اللاعودة. "
+"القلق من هذه الحملة هو أن البيئة العالمية آخذة في التدهور تدريجياً. وقد تسارعت"
+" التطورات الخطيرة وتقترب من نقطة اللاعودة.والتطورات الخطيرة قد إزدادت حدة وتقت"
+"رب إلى نقطة اللاعودة. "
 
 msgid "The link below will go to your private secret vote"
-msgstr "يؤدي الرابط أدناه إلى صوتك السري الخاص بك "
+msgstr "الرابط أدناه سوف يذهب إلى التصويت السري الخاص بك "
 
 msgid ""
 "The resources and capacity of the United Armies must be directed to reforestat"
 "ion of the deserts."
-msgstr ""
-"يجب توجيه موارد الجيوش المتحدة وطافتهاإلى عمليات إعادة تشجير غابات المناطق الص"
-"حراوية"
+msgstr "الموارد وقدرة الجيوش المتحدة يجب أن تُوجّه لإعادة تشجير الصحاري ."
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr "هناك طاقات كامنة في متناول اليد : الجيوض القومية."
+msgstr ""
 
 msgid "There was an error"
 msgstr "كان هناك خطأ"
@@ -403,10 +408,11 @@ msgid "There was an error while adding your vote"
 msgstr "كان هناك خطأ عند إضافة صوتك"
 
 msgid "There was an error with human verifying"
-msgstr "كان هناك خطأفي تعريف الهوية الشخصية"
+msgstr "كان هناك خطأ في تعريف الهوية الشخصية"
 
+#, fuzzy
 msgid "This is your private vote"
-msgstr "هذا هو صوتك الخاص بك"
+msgstr "هذا هو التصويت الخاص بك"
 
 msgid "To Our Common World"
 msgstr "إلى عالمنا المشترك"
@@ -415,7 +421,7 @@ msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr "إلى الأمين العام والأمانة العامة للأمم المتحدة"
 
 msgid "Topic"
-msgstr "المعضوع"
+msgstr "الموضوع"
 
 msgid ""
 "Total global spending on armaments is estimated at $1500 billion annually; suc"
@@ -434,7 +440,7 @@ msgid "Twitter"
 msgstr "تغريد"
 
 msgid "Unite the Armies to Save Life – not to Kill!"
-msgstr "وحّد الجيوش لإنقاد الحياة ولا لقتلها!"
+msgstr "وحّد الجيوش لإنقاذ الحياة لا لقتلها"
 
 msgid "Video"
 msgstr "فيديو"
@@ -443,7 +449,7 @@ msgid "Water"
 msgstr "الماء"
 
 msgid "Water is the Mother of Life – we all need it!"
-msgstr "إن الماءهو أساس وجود الحياة على الأرض – نحن كلنا في حاجة إليه."
+msgstr "إن الماء هو أساس وجود الحياة على الأرض – نحن كلنا في حاجة إليه."
 
 msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
@@ -454,23 +460,23 @@ msgstr ""
 "نأمل أن تنظر الأمم المتحدة في إمكانية توجيه جيوش العالم إلى هذه المهمة الجديدة"
 "، وأن تتخذ مبادرة على الصعيد العالمي لوضع المقترحات المذكورة أعلاه حيز التنفيذ"
 " في أقرب وقت ممكن. ومن شأن هذه المبادرة أيضا أن تُؤثر تأثيرا ملموسا في تعزيز ا"
-"لسلام العالمي."
+"لسلام العالمي. "
 
 msgid "We have to give the armies a new, positive task"
-msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
+msgstr ""
 
 msgid "We have to give the armies a new, positive task."
-msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
+msgstr ""
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"
 "tions Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr ""
-" نحن نقدم هذه الحملة لدعم مبادرة مقدمة إلى الأمين العام للأمم المتحدة بواسطة ا"
-"لأستاذين : ليندستروم وبالاوهيمو."
+" نحن نعرض هذه الحملة لدعم مبادرة قُدّمت إلى الأمانة العامة للأمم المتحدة من قب"
+"ل الأستاذين : ليندستروم وبالوهيمو."
 
 msgid "We must defend Life's Richness on our Planet!"
-msgstr "يجب علينا أن ندافع عن ثروة الحياة على كوكبنا!"
+msgstr " يجب علينا أن ندافع عن ثروة الحياة على كوكبنا!"
 
 msgid ""
 "We propose action on projects requiring large-scale resources, both of manpowe"
@@ -488,16 +494,17 @@ msgstr ""
 "لعاملة المحلية في هذه المشاريع. "
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "لا يزال ينقصنا في %{count} البالغ مجموعه 000 0000 100 "
+msgstr "لا يزال ينقصنا في {tnuoc}% البالغ مجموعه 000 0000 100 "
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
 "of the world’s armed forces into the new significant environmental tasks as so"
 "on as possible."
 msgstr ""
-"نقترح على الأممالمتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على "
-"وظائف بيـية مميزة بأسرع وقت مستطاع. "
+"نقترح على الأمم المتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على"
+" مهام جديدة ومهمة بأسرع وقت ممكن."
 
+#, fuzzy
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "
 "of the global environment. In many parts of the world the deterioration of the"
@@ -506,41 +513,41 @@ msgid ""
 msgstr ""
 "نحن الموقعون أسفله نلجأ إليكم لنعرب عن قلقنا إزاء حالة البيئة العالمية. يرتبط "
 "تدهور البيئة في أجزاء كثيرة من العالم ارتباطا مباشرا بالمشاكل الاجتماعية التي "
-"تعاني منها الساكنة المحلية. "
+"تعاني منها الساكنة المحلية."
 
 msgid "Would you like to have the initiative in your language – please, contact us!"
-msgstr "إذا أردت الحصول على المبادرة بلغتك الأم – من فضلك إتصل بنا "
+msgstr "هل ترغب في الحصول على المبادرة بلغتك – يُرجى الإتصال بنا "
 
 msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
-"يمكنك أيضاً الإشتراك في المناقشة بعد أن توعّق على المبادرة. ستحصل على رسالة من"
-"فردة بالبريد الإلكتروني على شأنه."
+"يمكنك أيضاً الإشتراك في المناقشة بعد أن توقّع على المبادرة. ستحصل على رسالة من"
+"فردة بالبريد الإلكتروني بهدا الخصوص."
 
 msgid "You can now add a comment."
-msgstr "والآن يمكنك أن تضيف تعليقات"
+msgstr "والآن يمكنك أن تضيف تعليقاتك"
 
 msgid "You have added %{count} comments."
-msgstr "أضفت %{count} من التعليقات"
+msgstr "أضفت {tnuoc}% من التعليقات"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr "قد دُعيت لإنقاذ العالم – وحّد الجيوش  بـ%{name}"
+msgstr "!%{name}لقد دُعيت لإنقاذ العالم – وحّد الجيوش  بـ"
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "عدت على الحملة %{count} ووقّع الناس بعدك"
+msgstr "ساعدت على الحملة {tnuoc}% ووقّع الناس بعدك"
 
 msgid "YouTube"
 msgstr "يوتيوب"
 
 msgid "Your friends email address"
-msgstr "عنوان البريد الإلكتروني أصديقائك/ صديقاتك"
+msgstr "عنوان البريد الإلكتروني لأصدقائك"
 
 msgid "Your support has been registered %{name}!"
-msgstr " تسجيل دعمك %{name}"
+msgstr "!%{name}تم تسجيل دعمك "
 
 msgid "Your supporter number is %{count}."
-msgstr "رقم ترتيب دعمك هو %{count}"
+msgstr "رقم ترتيب دعمك هو {tnuoc}%"
 
 msgid "days"
 msgstr "أيام"

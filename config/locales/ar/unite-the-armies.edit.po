@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2016-03-09 18:43+0200\n"
+"PO-Revision-Date: 2016-03-09 20:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgid "German"
 msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
-msgstr ""
+msgstr " أعط الجيوش مهمة جديدة إيجابية : حماية البيئة."
 
 msgid "Google+"
 msgstr "جوجل+"
@@ -142,7 +142,7 @@ msgid "In the next few decades only strong and effective countermeasures will be
 msgstr "ولا يمكن محاربة تسارع هذه التغيرات في العقود القليلة المقبلة إلا باتخاذ تدابير مضادة قوية وفعالة. نقترح عليكم توجيه الإنفاق على التسلح في العالم  لمعالجة التدهور البيئي والاجتماعي بطريقة أكثر تركيزا مما هو عليه الآن—إلى جانب تدابير حماية البيئة الأخرى. "
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr " \"بجمع الدعم للمبادرة العالمية."
 
 msgid "Initiative presented to the United Nations:"
 msgstr "مبادرة معروضة على الأمم المتحدة"
@@ -208,7 +208,7 @@ msgid "Protected Areas"
 msgstr "المناطق المحمية"
 
 msgid "Radical actions are urgently needed to save our planet."
-msgstr ""
+msgstr "يجب اتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا."
 
 msgid "Radical actions are urgently needed to save our planet. Possible future world:"
 msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا. مستقبل العالم الممكن"
@@ -226,7 +226,7 @@ msgid "Russian"
 msgstr "روسي"
 
 msgid "STOP DISASTER – NOW!"
-msgstr ""
+msgstr "! أوقف الكارثة "
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "أنقذ الكوكب – وحّد الجيوش"
@@ -292,7 +292,7 @@ msgid "Thank you for your contribution to the Save the World - Unite The Armies!
 msgstr "شكراً على مشاركتك في إنقاذ العالم – وحّد الجيوش "
 
 msgid "Thank you for your support %{name}"
-msgstr "!%{name}شكراً على دعمك "
+msgstr "%{name}شكراً على دعمك "
 
 msgid "Thank you for your vote!"
 msgstr "شكراً لإعطاء صوتك"
@@ -328,7 +328,7 @@ msgid "The resources and capacity of the United Armies must be directed to refor
 msgstr "الموارد وقدرة الجيوش المتحدة يجب أن تُوجّه لإعادة تشجير الصحاري ."
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "هناك طاقات كامنة في متناول اليد : الجيوض القومية."
 
 msgid "There was an error"
 msgstr "كان هناك خطأ"

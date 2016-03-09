@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2016-03-09 18:14+0200\n"
+"PO-Revision-Date: 2016-03-09 18:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,9 +20,8 @@ msgstr ""
 "ليس لدينا الوقت لقرون، لدينا لعقود فقط. نحن مستعجلون.\n"
 "هذا هو السبب في إتخاذ إجراءات ضرورية فعالة وسريعة. الجيوش هي الإمكانية الوحيدة "
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "آخرالأصوات"
+msgstr "آخرالأصوات %{count}"
 
 msgid "About Us"
 msgstr "معلومات عنا"
@@ -81,7 +80,6 @@ msgstr "التعليق (حد أقصى) 1000 حرف"
 msgid "Comment was successfully created."
 msgstr "تم تحقيق التعليق بنجاح"
 
-#, fuzzy
 msgid "Comments"
 msgstr "التعليق"
 
@@ -236,7 +234,6 @@ msgstr "أنقذ الكوكب – وحّد الجيوش"
 msgid "Save the World! Act Now!"
 msgstr "أنقذ العالم اعمل الآن"
 
-#, fuzzy
 msgid "Save the planet"
 msgstr "أنقذ الكوكب."
 
@@ -273,7 +270,6 @@ msgstr "وقد تفاقمت هذه التطورات الخطيرة إذ غالب
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "إقترح مهمة جديدة  لعمل الجيوش المتحدة غير واردة هنا."
 
-#, fuzzy
 msgid "Support"
 msgstr "ادعم الآن"
 
@@ -283,11 +279,9 @@ msgstr "ادعم الآن"
 msgid "Support the Initiative"
 msgstr "ادعم المبادرة"
 
-#, fuzzy
 msgid "Supporters"
 msgstr "ادعم الآن"
 
-#, fuzzy
 msgid "Swedish"
 msgstr "إسباني"
 
@@ -297,7 +291,6 @@ msgstr "الإنجاز التقني"
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "شكراً على مشاركتك في إنقاذ العالم – وحّد الجيوش "
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
 msgstr "!%{name}شكراً على دعمك "
 
@@ -346,7 +339,6 @@ msgstr "كان هناك خطأ عند إضافة صوتك"
 msgid "There was an error with human verifying"
 msgstr "كان هناك خطأ في تعريف الهوية الشخصية"
 
-#, fuzzy
 msgid "This is your private vote"
 msgstr "هذا هو التصويت الخاص بك"
 
@@ -381,10 +373,10 @@ msgid "We earnestly hope that the United Nations will consider suggesting a glob
 msgstr "نأمل أن تنظر الأمم المتحدة في إمكانية توجيه جيوش العالم إلى هذه المهمة الجديدة، وأن تتخذ مبادرة على الصعيد العالمي لوضع المقترحات المذكورة أعلاه حيز التنفيذ في أقرب وقت ممكن. ومن شأن هذه المبادرة أيضا أن تُؤثر تأثيرا ملموسا في تعزيز السلام العالمي. "
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
 
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr " نحن نعرض هذه الحملة لدعم مبادرة قُدّمت إلى الأمانة العامة للأمم المتحدة من قبل الأستاذين : ليندستروم وبالوهيمو."
@@ -401,7 +393,6 @@ msgstr "لا يزال ينقصنا في {tnuoc}% البالغ مجموعه 000 0
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "نقترح على الأمم المتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على مهام جديدة ومهمة بأسرع وقت ممكن."
 
-#, fuzzy
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr "نحن الموقعون أسفله نلجأ إليكم لنعرب عن قلقنا إزاء حالة البيئة العالمية. يرتبط تدهور البيئة في أجزاء كثيرة من العالم ارتباطا مباشرا بالمشاكل الاجتماعية التي تعاني منها الساكنة المحلية."
 
@@ -446,67 +437,3 @@ msgstr "الأستاذ"
 
 msgid "seconds"
 msgstr "ثوان"
-
-#~ msgid "Act NOW!"
-#~ msgstr "اعمل الآن!"
-
-#~ msgid "Biodiversity"
-#~ msgstr "التنوع الحيوي"
-
-#~ msgid "Food for all"
-#~ msgstr "الطعام للجميع"
-
-#~ msgid "Global responsibility"
-#~ msgstr "المسؤولية العالمية"
-
-#~ msgid "Happy mankind"
-#~ msgstr "الجنس البشري السعيد"
-
-#~ msgid ""
-#~ "It is logical to extend the actions from sudden disasters to large scale catas"
-#~ "trophes."
-#~ msgstr ""
-#~ "من المنطقي أن يُوسّع نطاق الإجراءات من الكوارث المفاجئة إلى كوارث على نطاق واس"
-#~ "ع."
-
-#~ msgid "New future"
-#~ msgstr "المستقبل الجديد"
-
-#~ msgid "New technology"
-#~ msgstr "التكنولوجيا الحديثة"
-
-#~ msgid "Reforestation"
-#~ msgstr "إعادة التشجير"
-
-#~ msgid "Richness of cultures"
-#~ msgstr "ثروة الثقافات"
-
-#~ msgid "Save the planet."
-#~ msgstr "أنقذ الكوكب."
-
-#~ msgid "Thank you for your support %{name}!"
-#~ msgstr "!%{name}شكراً على دعمك "
-
-#~ msgid ""
-#~ "There is a hidden potential at hand: the national armies. We have to give the "
-#~ "armies a new, positive task. In these pages we collect support for a global in"
-#~ "itiative."
-#~ msgstr ""
-#~ "هناك طاقات كامنة في متناول اليد : الجيوس القومية. يجب إعطاء الجيوش مهمة جديدة "
-#~ "إيجابية. في هذه الصفحات نقوم بجمع الدعم للمبادرة العالمية."
-
-#~ msgid "This is your private vote!"
-#~ msgstr "هذا هو التصويت الخاص بك"
-
-#~ msgid ""
-#~ "We the undersigned addressees turn to you because of our concern at the state "
-#~ "of the global environment. In many parts of the world the deterioration of the"
-#~ "environment can be linked directly to social problems among the local populati"
-#~ "on."
-#~ msgstr ""
-#~ "نحن الموقعون أسفله نلجأ إليكم لنعرب عن قلقنا إزاء حالة البيئة العالمية. يرتبط "
-#~ "تدهور البيئة في أجزاء كثيرة من العالم ارتباطا مباشرا بالمشاكل الاجتماعية التي "
-#~ "تعاني منها الساكنة المحلية."
-
-#~ msgid "e-mail"
-#~ msgstr "البريد الإلكتروني"

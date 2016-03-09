@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2016-03-09 18:14+0200\n"
+"PO-Revision-Date: 2016-03-09 18:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,9 +28,8 @@ msgstr ""
 "هذا هو السبب في إتخاذ إجراءات ضرورية فعالة وسريعة. الجيوش هي الإمكانية الوحيدة"
 " "
 
-#, fuzzy
 msgid "%{count} votes"
-msgstr "آخرالأصوات"
+msgstr "آخرالأصوات %{count}"
 
 msgid "About Us"
 msgstr "معلومات عنا"
@@ -89,7 +88,6 @@ msgstr "التعليق (حد أقصى) 1000 حرف"
 msgid "Comment was successfully created."
 msgstr "تم تحقيق التعليق بنجاح"
 
-#, fuzzy
 msgid "Comments"
 msgstr "التعليق"
 
@@ -279,7 +277,6 @@ msgstr "أنقذ الكوكب – وحّد الجيوش"
 msgid "Save the World! Act Now!"
 msgstr "أنقذ العالم اعمل الآن"
 
-#, fuzzy
 msgid "Save the planet"
 msgstr "أنقذ الكوكب."
 
@@ -323,7 +320,6 @@ msgstr ""
 msgid "Suggest a new task for the Action of the United Armies not presented here."
 msgstr "إقترح مهمة جديدة  لعمل الجيوش المتحدة غير واردة هنا."
 
-#, fuzzy
 msgid "Support"
 msgstr "ادعم الآن"
 
@@ -333,11 +329,9 @@ msgstr "ادعم الآن"
 msgid "Support the Initiative"
 msgstr "ادعم المبادرة"
 
-#, fuzzy
 msgid "Supporters"
 msgstr "ادعم الآن"
 
-#, fuzzy
 msgid "Swedish"
 msgstr "إسباني"
 
@@ -347,7 +341,6 @@ msgstr "الإنجاز التقني"
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "شكراً على مشاركتك في إنقاذ العالم – وحّد الجيوش "
 
-#, fuzzy
 msgid "Thank you for your support %{name}"
 msgstr "!%{name}شكراً على دعمك "
 
@@ -410,7 +403,6 @@ msgstr "كان هناك خطأ عند إضافة صوتك"
 msgid "There was an error with human verifying"
 msgstr "كان هناك خطأ في تعريف الهوية الشخصية"
 
-#, fuzzy
 msgid "This is your private vote"
 msgstr "هذا هو التصويت الخاص بك"
 
@@ -463,10 +455,10 @@ msgstr ""
 "لسلام العالمي. "
 
 msgid "We have to give the armies a new, positive task"
-msgstr ""
+msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "يجب إعطاء الجيوش مهمة جديدة إيجابية"
 
 msgid ""
 "We introduce this campaign to support an initiative presented to the United Na"
@@ -504,7 +496,6 @@ msgstr ""
 "نقترح على الأمم المتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على"
 " مهام جديدة ومهمة بأسرع وقت ممكن."
 
-#, fuzzy
 msgid ""
 "We the undersigned addressees turn to you because of our concern at the state "
 "of the global environment. In many parts of the world the deterioration of the"

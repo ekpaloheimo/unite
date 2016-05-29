@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-05-29 13:12+0300\n"
+"PO-Revision-Date: 2016-05-29 15:10+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\""
-msgstr "\"Tiden tar slut medan vi förstör planetens resursser. Det måste ändras och det kan ändras. Du kan delta. Handla idag.\""
+msgstr "\"Tiden tar slut medan vi förstör planetens resursser. Det måste ändras och det kan ändras. Du kan delta. Agera idag.\""
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
 msgstr "\"Vi har bråttom.Vi har inte århundraden på oss, endast årtionden. Därför behövs effektiva och snabba handlingar. Arméerna är den enda möjligheten.\""
@@ -246,7 +246,7 @@ msgid "Spanish"
 msgstr "Spanska"
 
 msgid "State of the global environment"
-msgstr "Den  den globala miljöns status"
+msgstr "Den globala miljöns status"
 
 msgid "Statistics"
 msgstr "Statistik"
@@ -312,7 +312,7 @@ msgid "The link below will go to your private secret vote"
 msgstr "Linken nedan ska leda till din privata hemliga röst"
 
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
-msgstr " De förenade Arméernas  resurser och kapacitet skall nyttjas för skogsrplantering av ökenmark"
+msgstr " De förenade Arméernas  resursser och kapacitet skall nyttjas för skogsrplantering av ökenmark"
 
 msgid "There is a hidden potential at hand: the national armies."
 msgstr "Det finns en undangömd potential till hands: i de nationella arméerna."
@@ -372,7 +372,7 @@ msgid "We must defend Life's Richness on our Planet!"
 msgstr "Vi måste försvara Livets Rikedom på vår Planet"
 
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
-msgstr "Vi föreslår verksamhet  som kräver stora resurser, både arbetskraft och utrustning; det skulle omfatta  tex. åkerskogsodling,  vatteförsörjning och beskogning. Generellt skulle tyngdpunkten vara projekt som stöder socialt och miljömässigt hållbara åtgärder. Sådana projekter skulle samdtidigt  förebygga katastrtrofer och minska fattigdomen."
+msgstr "Vi föreslår verksamhet  som kräver stora resursser, både arbetskraft och utrustning; det skulle omfatta  tex. åkerskogsodling,  vatteförsörjning och beskogning. Generellt skulle tyngdpunkten vara projekt som stöder socialt och miljömässigt hållbara åtgärder. Sådana projekter skulle samdtidigt  förebygga katastrtrofer och minska fattigdomen."
 
 msgid "We still miss %{count} of the 100.000.000."
 msgstr "Vi saknar ytterligare%(mängd) av 100.000.000"
@@ -424,11 +424,3 @@ msgstr "professor"
 
 msgid "seconds"
 msgstr "sekunder"
-
-#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-#~ msgstr ""
-#~ "Radikala åtgärder behövs brådskande för att rädda vår planet. Den möjliga fram"
-#~ "tida världen:"
-
-#~ msgid "STOP DISASTER – NOW!"
-#~ msgstr "Stoppa katastrofen - NU"

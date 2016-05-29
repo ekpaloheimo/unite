@@ -241,9 +241,6 @@ msgstr "保护区"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "需要采取积极的行动拯救我们的星球"
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr "相关的行动需立即展开以拯救我们共有的星球。以及未来的世界"
-
 msgid "Read more"
 msgstr "拯救我们共有的世界"
 
@@ -255,9 +252,6 @@ msgstr "评论规则"
 
 msgid "Russian"
 msgstr "俄语"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "阻止灾难的发生 – 就是现在"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "拯救我们的星球 – 联合我们的军队！"

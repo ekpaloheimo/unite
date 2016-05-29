@@ -212,9 +212,6 @@ msgstr "Заповедники"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Необходимы радикальные действия для спасения нашей планеты."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr "Необходимы радикальные действия для спасения нашей планеты. Возможный будущий мир"
-
 msgid "Read more"
 msgstr "Читайте больше"
 
@@ -226,9 +223,6 @@ msgstr "Правила, касающиеся комментариев"
 
 msgid "Russian"
 msgstr "Русский"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "ОСТАНОВИТЕ БЕДУ - СЕЙЧАС!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Спасите Планету – Объедините армии!"
@@ -441,6 +435,12 @@ msgstr "профессор"
 msgid "seconds"
 msgstr "секунды/секунд"
 
+#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+#~ msgstr ""
+#~ "Необходимы радикальные действия для спасения нашей планеты. Возможный будущий "
+#~ "мир"
+#~ msgid "STOP DISASTER – NOW!"
+#~ msgstr "ОСТАНОВИТЕ БЕДУ - СЕЙЧАС!"
 #~ msgid "Act NOW!"
 #~ msgstr "Действуйте СЕЙЧАС!"
 #~ msgid "Biodiversity"

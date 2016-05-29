@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"PO-Revision-Date: 2016-03-05 20:08+0200\n"
+"PO-Revision-Date: 2016-05-29 13:12+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgid "Greetings %{name}!"
 msgstr "Hälsningar %(namnet)"
 
 msgid "Helsinki, 4.11.2014"
-msgstr "Helsingfors, 4.11.2104"
+msgstr "Helsingfors, 4.11.2014"
 
 msgid "IP"
 msgstr "IP"
@@ -252,11 +252,6 @@ msgstr "Skyddade områden"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Radikala åtgärder behövs brådskande för att rädda vår planet."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-"Radikala åtgärder behövs brådskande för att rädda vår planet. Den möjliga fram"
-"tida världen:"
-
 msgid "Read more"
 msgstr "Läs mera"
 
@@ -268,9 +263,6 @@ msgstr "Regler för kommentarer"
 
 msgid "Russian"
 msgstr "Ryska"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "Stoppa katastrofen - NU"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Rädda planeten – Förena arméerna"
@@ -327,7 +319,7 @@ msgid "Support"
 msgstr "Stödj"
 
 msgid "Support now"
-msgstr "Stöd ny"
+msgstr "Stöd nu"
 
 msgid "Support the Initiative"
 msgstr "Stöd initiativet"
@@ -335,7 +327,6 @@ msgstr "Stöd initiativet"
 msgid "Supporters"
 msgstr "Stödjarna"
 
-#, fuzzy
 msgid "Swedish"
 msgstr "Spanska"
 

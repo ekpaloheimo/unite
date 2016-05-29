@@ -264,11 +264,6 @@ msgstr "Áreas protegidas"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Se necesitan urgentemente acciones radicals para salvar nuestro planeta."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-"Se necesitan urgentemente acciones radicals para salvar nuestro planeta. un fu"
-"turo posible para el mundo"
-
 msgid "Read more"
 msgstr "Sigue leyendo"
 
@@ -280,9 +275,6 @@ msgstr "Reglas para los comentarios"
 
 msgid "Russian"
 msgstr "Ruso"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "PARAR EL DESASTRE- AHORA!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "!Salvar el planeta - Unificar los Ejércitos!"

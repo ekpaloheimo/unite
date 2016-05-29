@@ -237,9 +237,6 @@ msgstr ""
 msgid "Radical actions are urgently needed to save our planet."
 msgstr ""
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-
 msgid "Read more"
 msgstr ""
 
@@ -250,9 +247,6 @@ msgid "Rules for Comments"
 msgstr ""
 
 msgid "Russian"
-msgstr ""
-
-msgid "STOP DISASTER – NOW!"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"

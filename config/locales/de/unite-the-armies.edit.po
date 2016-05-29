@@ -203,9 +203,6 @@ msgstr "Naturschutzgebiet"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Tiefgreifende Maßnahmen sind dringend notwendig, um unseren Planeten zu retten."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr "Tiefgreifende Maßnahmen sind dringend notwendig, um unseren Planeten zu retten. Mögliche zukünftige Welt:"
-
 msgid "Read more"
 msgstr "Mehr erfahren"
 
@@ -217,9 +214,6 @@ msgstr "Regeln zum Kommentieren"
 
 msgid "Russian"
 msgstr "Russisch"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "JETZT die Katastrophe stoppen!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Den Planeten retten - die Armeen vereinigen!"
@@ -430,3 +424,10 @@ msgstr "Professor"
 
 msgid "seconds"
 msgstr "Sekunden"
+
+#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+#~ msgstr ""
+#~ "Tiefgreifende Maßnahmen sind dringend notwendig, um unseren Planeten zu retten"
+#~ ". Mögliche zukünftige Welt:"
+#~ msgid "STOP DISASTER – NOW!"
+#~ msgstr "JETZT die Katastrophe stoppen!"

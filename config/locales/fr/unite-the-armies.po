@@ -268,11 +268,6 @@ msgstr ""
 "Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
 "ète."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-"Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
-"ète. Un monde futur possible"
-
 msgid "Read more"
 msgstr "Lisez la suite"
 
@@ -284,9 +279,6 @@ msgstr "Règles pour les commentaires"
 
 msgid "Russian"
 msgstr "Russe"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "ARRÊTER LE DÉSASTRE - MAINTENANT!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Sauvez la planète – Unissez les armées!"

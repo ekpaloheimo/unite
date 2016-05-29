@@ -259,11 +259,6 @@ msgstr "Suojelukohteet"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "Radikaaleja toimenpiteitä tarvitaan planeettamme pelastamiseksi."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-"Radikaaleja toimia tarvitaan maailman pelastamiseksi. Mahdollinen tuleva maail"
-"mamme:"
-
 msgid "Read more"
 msgstr "Lue lisää"
 
@@ -275,9 +270,6 @@ msgstr "Kommentoinnin säännöt"
 
 msgid "Russian"
 msgstr "Venäjä"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "ESTÄ KATASTROFI - NYT!"
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "Pelasta maailma - yhdistetään armeijat!"

@@ -210,9 +210,6 @@ msgstr "المناطق المحمية"
 msgid "Radical actions are urgently needed to save our planet."
 msgstr "يجب اتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا."
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا. مستقبل العالم الممكن"
-
 msgid "Read more"
 msgstr "اقرأ المنزيد"
 
@@ -224,9 +221,6 @@ msgstr "قواعد للتعليقات"
 
 msgid "Russian"
 msgstr "روسي"
-
-msgid "STOP DISASTER – NOW!"
-msgstr "! أوقف الكارثة "
 
 msgid "Save the Planet - Unite the Armies!"
 msgstr "أنقذ الكوكب – وحّد الجيوش"
@@ -437,3 +431,8 @@ msgstr "الأستاذ"
 
 msgid "seconds"
 msgstr "ثوان"
+
+#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
+#~ msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا. مستقبل العالم الممكن"
+#~ msgid "STOP DISASTER – NOW!"
+#~ msgstr "! أوقف الكارثة "

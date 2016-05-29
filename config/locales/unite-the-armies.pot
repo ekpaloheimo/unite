@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 17:33+0200\n"
-"PO-Revision-Date: 2016-03-07 17:33+0200\n"
+"POT-Creation-Date: 2016-05-29 13:13+0300\n"
+"PO-Revision-Date: 2016-05-29 13:13+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -213,9 +213,6 @@ msgstr ""
 msgid "Radical actions are urgently needed to save our planet."
 msgstr ""
 
-msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-msgstr ""
-
 msgid "Read more"
 msgstr ""
 
@@ -226,9 +223,6 @@ msgid "Rules for Comments"
 msgstr ""
 
 msgid "Russian"
-msgstr ""
-
-msgid "STOP DISASTER – NOW!"
 msgstr ""
 
 msgid "Save the Planet - Unite the Armies!"

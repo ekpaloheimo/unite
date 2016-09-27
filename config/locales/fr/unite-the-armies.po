@@ -18,13 +18,8 @@ msgstr ""
 " && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "\n"
 
-msgid ""
-"\"Time is running out while we are destroying the planet's resources. This must"
-" be changed and it can be changed. You can participate. Take action today.\""
-msgstr ""
-"Le  temps va manquer, alors que nous sommes en train de détruire les ressource"
-"s de la planète. Ceci doit ”changer et peut être changé. Vous pouvez participe"
-"r. Agissez dès aujourd'hui."
+msgid "seconds"
+msgstr "secondes"
 
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
@@ -155,7 +150,7 @@ msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
-msgstr "\"Salutations %{nom}!"
+msgstr "\"Salutations %{name}!"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki, 4.11.2014"
@@ -352,7 +347,7 @@ msgid "Thank you for your contribution to the Save the World - Unite The Armies!
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 
 msgid "Thank you for your support %{name}"
-msgstr "Merci pour votre support %{nom}"
+msgstr "Merci pour votre support %{name}"
 
 msgid "Thank you for your vote!"
 msgstr "Merci pour votre vote"
@@ -505,7 +500,7 @@ msgstr ""
 " la main d'oeuvre locale."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "Il nous manque encore ....{nombre} jusqu'à 100 millions"
+msgstr "Il nous manque encore ... %{count} jusqu'à 100 millions"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -541,15 +536,15 @@ msgid "You can now add a comment."
 msgstr "Vous pouvez maintenant ajouter un commentaire."
 
 msgid "You have added %{count} comments."
-msgstr "Vous avez ajouté  %{nombre} commentaires."
+msgstr "Vous avez ajouté  %{count} commentaires."
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr "Vous avez été invité à Sauver le Monde-Unissez les armées par  %{nom}."
+msgstr "Vous avez été invité à Sauver le Monde-Unissez les armées par  %{name}."
 
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr ""
-"Vous avez aidé la campagne en ayant fait signer  %{nombre} de personnes après "
-"vous."
+"Vous avez aidé la campagne en ayant fait signer  %{count} de personnes après v"
+"ous."
 
 msgid "YouTube"
 msgstr "YouTube"
@@ -558,10 +553,10 @@ msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
 msgid "Your support has been registered %{name}!"
-msgstr "Votre support a été enregistré % {name}!"
+msgstr "Votre support a été enregistré %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Votre numéro de supporteur est %{nombre}."
+msgstr "Votre numéro de supporteur est %{count}."
 
 msgid "days"
 msgstr "ours"
@@ -572,5 +567,10 @@ msgstr "minutes"
 msgid "professor"
 msgstr "professeur"
 
-msgid "seconds"
-msgstr "secondes"
+msgid ""
+"\"Time is running out while we are destroying the planet's resources. This must"
+" be changed and it can be changed. You can participate. Take action today.\""
+msgstr ""
+"Le  temps va manquer, alors que nous sommes en train de détruire les ressource"
+"s de la planète. Ceci doit ”changer et peut être changé. Vous pouvez participe"
+"r. Agissez dès aujourd'hui."

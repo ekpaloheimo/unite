@@ -16,13 +16,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
-msgid ""
-"\"Time is running out while we are destroying the planet's resources. This must"
-" be changed and it can be changed. You can participate. Take action today.\""
-msgstr ""
-"Se acaba el tiempo, entretanto, nosotros estamos destruyendo los recursos del "
-"planeta. Esto debe cambiar y puede ser cambiado. Tú puedes participar.!Actúa h"
-"oy!"
+msgid "seconds"
+msgstr "Segundos"
 
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
@@ -152,7 +147,7 @@ msgid "Google+"
 msgstr "Goole+"
 
 msgid "Greetings %{name}!"
-msgstr "Saludos %{nombre}"
+msgstr "Saludos %{name}"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki 4.11.2014"
@@ -351,7 +346,7 @@ msgid "Thank you for your contribution to the Save the World - Unite The Armies!
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
 
 msgid "Thank you for your support %{name}"
-msgstr "!Gracias por tu apoyo %{nombre}"
+msgstr "!Gracias por tu apoyo %{name}"
 
 msgid "Thank you for your vote!"
 msgstr "Gracias por tu voto"
@@ -504,7 +499,7 @@ msgstr ""
 "niendo que se empleara mano de obra local."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "Todavía nos falta %{contar} de los 100.000.000"
+msgstr "Todavía nos falta %{count} de los 100.000.000"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -540,15 +535,15 @@ msgid "You can now add a comment."
 msgstr "Puedes, ahora, escribir tu comentario"
 
 msgid "You have added %{count} comments."
-msgstr "Tú has sumado %{contar} comentarios"
+msgstr "Tú has sumado %{count} comentarios"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
 msgstr ""
 "Tú has sido invitado a la campaña Salvar el Planeta- Unificar los Ejércitos po"
-"r %{nombre}"
+"r %{name}"
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "Tú has contribuido a la campaña al motivar %{contar} personas a firmar"
+msgstr "Tú has contribuido a la campaña al motivar %{count} personas a firmar"
 
 msgid "YouTube"
 msgstr "YouTube"
@@ -560,7 +555,7 @@ msgid "Your support has been registered %{name}!"
 msgstr "Tu apoyo ha sido registrado %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Tu número de contriibuyente es %{contar}"
+msgstr "Tu número de contriibuyente es %{count}"
 
 msgid "days"
 msgstr "Días"
@@ -571,5 +566,10 @@ msgstr "Minutos"
 msgid "professor"
 msgstr "Profesor"
 
-msgid "seconds"
-msgstr "Segundos"
+msgid ""
+"\"Time is running out while we are destroying the planet's resources. This must"
+" be changed and it can be changed. You can participate. Take action today.\""
+msgstr ""
+"Se acaba el tiempo, entretanto, nosotros estamos destruyendo los recursos del "
+"planeta. Esto debe cambiar y puede ser cambiado. Tú puedes participar.!Actúa h"
+"oy!"

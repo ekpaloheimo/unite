@@ -133,7 +133,7 @@ msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
-msgstr "\"Salutations %{nom}!"
+msgstr "\"Salutations %{name}!"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsinki, 4.11.2014"
@@ -289,7 +289,7 @@ msgid "Thank you for your contribution to the Save the World - Unite The Armies!
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 
 msgid "Thank you for your support %{name}"
-msgstr "Merci pour votre support %{nom}"
+msgstr "Merci pour votre support %{name}"
 
 msgid "Thank you for your vote!"
 msgstr "Merci pour votre vote"
@@ -387,7 +387,7 @@ msgid "We propose action on projects requiring large-scale resources, both of ma
 msgstr "à la fois de la main d'oeuvre et de l'équipement; cela implique les projets agro-forestiers, la forêt, le reboisement et la diversité animale dans la prise de conscience du réchauffement mondial. De tels projets aideraient à prévenir les pires catastrophes; ils pourraient aussi aider et favoriser la stabilité sociale et écologique, l'emploi au niveau local,  en supposant l'utilisation de la main d'oeuvre locale."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "Il nous manque encore ....{nombre} jusqu'à 100 millions"
+msgstr "Il nous manque encore ... %{count} jusqu'à 100 millions"
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "Nous suggérons que les Nations Unies présentent une initiative mondiale pour le redéploiement des forces armées en des tâches environnementales avec une nouvelle signification dès que possible"
@@ -405,13 +405,13 @@ msgid "You can now add a comment."
 msgstr "Vous pouvez maintenant ajouter un commentaire."
 
 msgid "You have added %{count} comments."
-msgstr "Vous avez ajouté  %{nombre} commentaires."
+msgstr "Vous avez ajouté  %{count} commentaires."
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr "Vous avez été invité à Sauver le Monde-Unissez les armées par  %{nom}."
+msgstr "Vous avez été invité à Sauver le Monde-Unissez les armées par  %{name}."
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "Vous avez aidé la campagne en ayant fait signer  %{nombre} de personnes après vous."
+msgstr "Vous avez aidé la campagne en ayant fait signer  %{count} de personnes après vous."
 
 msgid "YouTube"
 msgstr "YouTube"
@@ -420,10 +420,10 @@ msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
 msgid "Your support has been registered %{name}!"
-msgstr "Votre support a été enregistré % {name}!"
+msgstr "Votre support a été enregistré %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Votre numéro de supporteur est %{nombre}."
+msgstr "Votre numéro de supporteur est %{count}."
 
 msgid "days"
 msgstr "ours"
@@ -436,10 +436,3 @@ msgstr "professeur"
 
 msgid "seconds"
 msgstr "secondes"
-
-#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-#~ msgstr ""
-#~ "Des actions radicales de toute urgence sont nécessaires pour sauver notre plan"
-#~ "ète. Un monde futur possible"
-#~ msgid "STOP DISASTER – NOW!"
-#~ msgstr "ARRÊTER LE DÉSASTRE - MAINTENANT!"

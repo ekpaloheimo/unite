@@ -8,12 +8,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid ""
-"\"Time is running out while we are destroying the planet's resources. This must"
-" be changed and it can be changed. You can participate. Take action today.\""
-msgstr ""
-"Tiden tar slut medan vi förstör planetens resurser. Det måste ändras och det k"
-"an ändras. Du kan delta. Handla idag."
+msgid "seconds"
+msgstr "sekunder"
 
 msgid ""
 "\"We are in a hurry. We don’t have time for centuries, we have only decades. Th"
@@ -140,7 +136,7 @@ msgid "Google+"
 msgstr "Google+"
 
 msgid "Greetings %{name}!"
-msgstr "Hälsningar %(namnet)"
+msgstr "Hälsningar %{name}"
 
 msgid "Helsinki, 4.11.2014"
 msgstr "Helsingfors, 4.11.2014"
@@ -334,7 +330,7 @@ msgid "Thank you for your contribution to the Save the World - Unite The Armies!
 msgstr "Tack för ditt bidrag för att Rädda världen - Förena Arméerna!"
 
 msgid "Thank you for your support %{name}"
-msgstr "Tack för ditt stöd %(namn)!"
+msgstr "Tack för ditt stöd %{name}!"
 
 msgid "Thank you for your vote!"
 msgstr "Tack för din röst"
@@ -482,7 +478,7 @@ msgstr ""
 "er och minska fattigdomen."
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "Vi saknar ytterligare%(mängd) av 100.000.000"
+msgstr "Vi saknar ytterligare %{count} av 100.000.000"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -517,15 +513,15 @@ msgid "You can now add a comment."
 msgstr "Nu kan du tillägga en kommentar"
 
 msgid "You have added %{count} comments."
-msgstr "Du har bidragit med %(count) kommentarer"
+msgstr "Du har bidragit med %{count} kommentarer"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
-msgstr "Du har blivit inbjuden till Save the World - United the Armies genom %(name)"
+msgstr "Du har blivit inbjuden till Save the World - United the Armies genom %{name}"
 
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr ""
-"Du har hjälpt kampanjen genom att%{count} människor har undertecknat efter dig"
-"."
+"Du har hjälpt kampanjen genom att %{count} människor har undertecknat efter di"
+"g."
 
 msgid "YouTube"
 msgstr "YouTube"
@@ -534,10 +530,10 @@ msgid "Your friends email address"
 msgstr "Din väns e-mail adress"
 
 msgid "Your support has been registered %{name}!"
-msgstr "Ditt stöd har registrerats%(name)!"
+msgstr "Ditt stöd har registrerats %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Ditt stödnummer är%(count)"
+msgstr "Ditt stödnummer är %{count}"
 
 msgid "days"
 msgstr "dagar"
@@ -548,5 +544,9 @@ msgstr "minuter"
 msgid "professor"
 msgstr "professor"
 
-msgid "seconds"
-msgstr "sekunder"
+msgid ""
+"\"Time is running out while we are destroying the planet's resources. This must"
+" be changed and it can be changed. You can participate. Take action today.\""
+msgstr ""
+"Tiden tar slut medan vi förstör planetens resurser. Det måste ändras och det k"
+"an ändras. Du kan delta. Handla idag."

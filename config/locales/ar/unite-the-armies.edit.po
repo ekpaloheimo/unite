@@ -130,7 +130,7 @@ msgid "Google+"
 msgstr "جوجل+"
 
 msgid "Greetings %{name}!"
-msgstr "!%{name}تحيات  "
+msgstr "! %{name}تحيات  "
 
 msgid "Helsinki, 4.11.2014"
 msgstr "هلسنكي في 4.11.2014"
@@ -382,7 +382,7 @@ msgid "We propose action on projects requiring large-scale resources, both of ma
 msgstr "كما نقترح كذلك العمل على المشاريع التي تتطلب موارد كبيرة على صعيد القوى العاملة والمعدات. وتندرج في نطاق هذه المشاريع، على سبيل المثال لا الحصر، عمليات تشجير الغابات، وإعادة زرع النبات والأشجار، وإعادة توطين الحيوانات في أعقاب ظاهرة الاحتباس الحراري. مثل هذه المشاريع من شأنها أن تساعد على تجنب أسوأ الكوارث. كما من شأنها أيضا المساعدة على تعزيز الاستقرار البيئي والاجتماعي إذا شاركت اليد العاملة المحلية في هذه المشاريع. "
 
 msgid "We still miss %{count} of the 100.000.000."
-msgstr "لا يزال ينقصنا في {tnuoc}% البالغ مجموعه 000 0000 100 "
+msgstr "لا يزال ينقصنا في %{count} البالغ مجموعه 000 0000 100 "
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "نقترح على الأمم المتحدة مبادرة عالمية لإعادة تجنيد القوات المسلحة العالمية على مهام جديدة ومهمة بأسرع وقت ممكن."
@@ -400,13 +400,13 @@ msgid "You can now add a comment."
 msgstr "والآن يمكنك أن تضيف تعليقاتك"
 
 msgid "You have added %{count} comments."
-msgstr "أضفت {tnuoc}% من التعليقات"
+msgstr "أضفت %{count} من التعليقات"
 
 msgid "You have been invited to Save the World - Unite the Armies by %{name}."
 msgstr "!%{name}لقد دُعيت لإنقاذ العالم – وحّد الجيوش  بـ"
 
 msgid "You have helped campaign by having %{count} people signed after you."
-msgstr "ساعدت على الحملة {tnuoc}% ووقّع الناس بعدك"
+msgstr "ساعدت على الحملة %{count} ووقّع الناس بعدك"
 
 msgid "YouTube"
 msgstr "يوتيوب"
@@ -418,7 +418,7 @@ msgid "Your support has been registered %{name}!"
 msgstr "!%{name}تم تسجيل دعمك "
 
 msgid "Your supporter number is %{count}."
-msgstr "رقم ترتيب دعمك هو {tnuoc}%"
+msgstr "رقم ترتيب دعمك هو %{count}"
 
 msgid "days"
 msgstr "أيام"
@@ -431,8 +431,3 @@ msgstr "الأستاذ"
 
 msgid "seconds"
 msgstr "ثوان"
-
-#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-#~ msgstr "يجب إتخاذ تدابير صارمة فوراً لإنقاذ كوكبنا. مستقبل العالم الممكن"
-#~ msgid "STOP DISASTER – NOW!"
-#~ msgstr "! أوقف الكارثة "

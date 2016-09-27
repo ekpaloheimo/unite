@@ -154,7 +154,7 @@ class VotesController < ApplicationController
 
   def country_code
     return request[:vote][:country] if request[:vote] and request[:vote][:country]
-    language_code.upcase
+    nil
   end
 
   def language_code

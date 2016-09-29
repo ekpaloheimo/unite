@@ -56,7 +56,7 @@ GEM
     capistrano-bundler (1.1.4)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
-    capistrano-passenger (0.0.5)
+    capistrano-passenger (0.2.0)
       capistrano (~> 3.0)
     capistrano-rails (1.1.2)
       capistrano (~> 3.1)
@@ -112,7 +112,6 @@ GEM
     minitest (5.5.1)
     multi_json (1.11.0)
     multi_xml (0.5.5)
-    mysql2 (0.3.16)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -205,7 +204,7 @@ DEPENDENCIES
   backbone-on-rails
   byebug
   capistrano (~> 3.1)
-  capistrano-passenger
+  capistrano-passenger (~> 0.2.0)
   capistrano-rails (~> 1.1)
   coffee-rails (~> 4.1.0)
   fast_gettext
@@ -216,7 +215,6 @@ DEPENDENCIES
   humanizer
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2
   rails (= 4.2.1)
   rvm-capistrano
   sass-rails (~> 5.0)
@@ -228,3 +226,6 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.13.1

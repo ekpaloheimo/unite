@@ -14,7 +14,7 @@ class Country < ActiveRecord::Base
 
   # Array for select_tag helper
   def self.for_select
-    [["", "", {:selected => true, :disabled => true, :hidden => true}]] + from_disc.map {|x| x.reverse}
+    from_disc.map {|x| x.reverse}
   end
 
   def self.code_to_name code

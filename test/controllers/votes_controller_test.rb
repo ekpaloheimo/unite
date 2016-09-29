@@ -123,17 +123,17 @@ class VotesControllerTest < ActionController::TestCase
 
   test 'should return correct language code' do
     @request.headers["Accept-Language"] = "fi-FI"
-    assert_equal @controller.send(:language_code), "fi"
+    assert_equal "fi", @controller.send(:language_code)
   end
 
   test 'should return correct country code' do
     @request.headers["Accept-Language"] = "fi-FI"
     @request.params[:vote] = {:country => "BY"}
-    assert_equal @controller.send(:country_code), "BY"
+    assert_equal "BY", @controller.send(:country_code)
 
     @request.headers["Accept-Language"] = nil
     @request.params[:vote] = nil
-    assert_equal @controller.send(:country_code), "EN"
+    assert_equal nil, @controller.send(:country_code)
   end
 
   test 'should send email invite' do

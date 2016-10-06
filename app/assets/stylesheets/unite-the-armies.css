@@ -10,3 +10,19 @@
   display: none 
 }
 
+input.form-control
+{
+    font-size: inherit;
+    font-weight: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+select#vote_country
+{
+    border: 1px solid #bbbbbb;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}

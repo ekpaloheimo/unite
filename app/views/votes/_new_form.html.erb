@@ -39,8 +39,8 @@
   <div class="field">
     <%= _("Country") %> (*)
   </div>
-  <div class="field" style="border: 1px solid #bbbbbb ; padding:6px">
-    <%= f.select :country, options_for_select([["", "", {:selected => true, :disabled => true, :hidden => true}]] + Country.for_select, country_code), :class => "form-control" %>
+  <div class="field">
+    <%= f.select :country, options_for_select([["", "", {:selected => true, :disabled => true, :hidden => true}]] + Country.for_select, country_code), {}, :class => "form-control" %>
   </div></br>
   
   <div class="field">

@@ -10,19 +10,17 @@
   display: none 
 }
 
-input.form-control
+/* Make the input fields and the country selector look the same */
+input.form-control, select#vote_country
 {
+    color: black;
     font-size: inherit;
     font-weight: normal;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    border: 1pt solid #bbbbbb;
+    padding: 1rem 2.5rem;
 }
 
-select#vote_country
+input.form-control:focus, select#vote_country:focus
 {
-    border: 1px solid #bbbbbb;
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+    border-color: #777777;
 }

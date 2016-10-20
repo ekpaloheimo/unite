@@ -46,3 +46,35 @@ input[type="text"].form-control:focus, select#vote_country:focus
 {
     border-color: #777777;
 }
+
+#slideshow-caption
+{
+    position: absolute;
+    z-index: 3;
+    width: 50%;
+    right: 0%;
+    top: 0;
+    height: 100pt;
+    margin-top: 100pt;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px)
+{
+    #slideshow-caption
+    {
+        display: table-cell;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 80%;
+        vertical-align: middle;
+    }
+}

@@ -1,3 +1,25 @@
+body
+{
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+/* skin-barber-shop.css defines many texts as grey, change them to black */
+body,
+.post-info,
+.footer .widget-title,
+.footer .widget-title a,
+.footer-top a:not(.button),
+.footer .widget, .footer address,
+.header-background .navigation > ul > li > a
+{
+    color: black;
+}
+
+.header-transparent .navigation > ul > li > a
+{
+    opacity: 1.0;
+}
+
 .table, th, td { border: 0 !important; }
 .table > tbody > tr > td, .table > tbody > tr > th {
   border-top: 1px solid #ddd !important;

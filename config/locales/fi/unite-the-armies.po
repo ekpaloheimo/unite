@@ -20,7 +20,7 @@ msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"
 " be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
-"Aika loppuu koska tuhoamme planeettamme resursseja. Tämän on muututtava.\n"
+"Aika loppuu, koska tuhoamme planeettamme resursseja. Tämän on muututtava.\n"
 "Muutos on vielä mahdollinen. Voit osallistua. Toimi jo tänään."
 
 msgid ""

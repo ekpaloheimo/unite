@@ -1,3 +1,7 @@
+<!-- disable normal footer rendering for this page -->
+<% content_for :footer do %>
+  <span>&nbsp;</span>
+<% end %>
 <!-- Content -->
 <div class="content clearfix">
 
@@ -30,8 +34,7 @@
   </section>
   <!-- Fullscreen Slider Section End -->
 
-
-  <% if locale == :fi %>
+   <% if locale == :fi %>
   <!-- Feature Column Section -->
       <section>
         <div id="featured-trips" class="section-block replicable-content">
@@ -137,6 +140,10 @@
 <!-- Feature Column Section end -->
 <% end %>
 
+  <!-- Show the footer before country votes -->
+  <%= render partial: "footer" %>
+
+  <!-- Show country votes -->
   <section>
     <div class="section-block feature-1" style="min-height: 200px">
       <table class="table">

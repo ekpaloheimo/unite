@@ -18,7 +18,7 @@ msgstr ""
 
 msgid "\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\""
 msgstr ""
-"Aika loppuu koska tuhoamme planeettamme resursseja. Tämän on muututtava.\n"
+"Aika loppuu, koska tuhoamme planeettamme resursseja. Tämän on muututtava.\n"
 "Muutos on vielä mahdollinen. Voit osallistua. Toimi jo tänään."
 
 msgid "\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\""
@@ -435,10 +435,3 @@ msgstr "professori"
 
 msgid "seconds"
 msgstr "sekuntia"
-
-#~ msgid "Radical actions are urgently needed to save our planet. Possible future world:"
-#~ msgstr ""
-#~ "Radikaaleja toimia tarvitaan maailman pelastamiseksi. Mahdollinen tuleva maail"
-#~ "mamme:"
-#~ msgid "STOP DISASTER – NOW!"
-#~ msgstr "ESTÄ KATASTROFI - NYT!"

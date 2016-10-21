@@ -78,3 +78,12 @@ input[type="text"].form-control:focus, select#vote_country:focus
         vertical-align: middle;
     }
 }
+
+@media (min-width: 768px)
+{
+    #appeal_caption
+    { /*
+        margin-left: 150pt;
+        margin-top: -120pt; */
+    }
+}

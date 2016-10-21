@@ -51,11 +51,11 @@ input[type="text"].form-control:focus, select#vote_country:focus
 {
     position: absolute;
     z-index: 3;
-    width: 50%;
+    width: 600px;
     right: 0%;
     top: 0;
-    height: 100pt;
-    margin-top: 100pt;
+    height: auto;
+    margin-top: 50pt;
     margin-bottom: 0;
 }
 

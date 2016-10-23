@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <img data-src="/images/frontpage-slides/slide-5.jpg" data-retina src="/images/blank.png" alt=""/>
+          <img data-src="/images/frontpage-slides/slide-5.jpg" src="/images/blank.png" alt=""/>
         </li>
       </ul>
     </div>
@@ -67,7 +67,7 @@
   <div class="section-block grid-container fade-in-progressively bkg-charcoal color-white" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="0.7" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
 
     <div class="row">
-      <div class="column width-6">
+      <div class="column width-6" style="padding: 0 1em;">
         <h3 class="mb-50">U.B. Lindström, <%= _("professor") %></h3>
         <p class="mb-40"><%= _("\"Time is running out while we are destroying the planet's resources. This must be changed and it can be changed. You can participate. Take action today.\"") %>
           <br/><a style="text-decoration:underline;" href="#">ulf.lindstrom@kolumbus.fi</a>
@@ -78,7 +78,7 @@
         <p class="weight-bold text-uppercase transparent-element mb-mobile-50"><small>U.B. Lindström, professori</small></p>
       </div>
 
-      <div class="column width-6">
+      <div class="column width-6" style="padding: 0 1em;">
         <h3 class="mb-50">Eero Paloheimo, <%= _("professor") %></h3>
         <p class="mb-40"><%= _("\"We are in a hurry. We don’t have time for centuries, we have only decades. That is why effective and quick actions are necessary. The armies are the only possibility.\"") %>
           <br/>
@@ -141,20 +141,21 @@
       <div class="row no-padding-bottom">
         <div class="column width-6 offset-3">
           <div class="feature-content">
-	    <div class="feature-content-inner">
-	      
+            <div class="feature-content-inner">
+
               <%= link_to new_vote_path(locale: locale), { :class => "button xlarge bkg-black thick bkg-hover-white color-white color-hover-black text-uppercase mb-90", :data => { :no_turbolink => true }} do %>
-	      <span class="icon-add-user left"></span>
-	      <%= _("Support now") %>
+                  <span class="icon-add-user left"></span>
+                  <%= _("Support now") %>
               <% end %>
-              
-	    </div>
+
+            </div>
           </div>
         </div>
       </div>
-      
+
     </section>
     <!-- Feature Section 1 End -->
 
   </div>
   <!-- Content End -->
+</div>

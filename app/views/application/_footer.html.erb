@@ -20,6 +20,9 @@
               <%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %>
             </li>
             <li><span class="post-info"><span class="post-date">
+                  Valtteri Hirvonen (the landscape photos)
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
                   Hayang Hu
                 </span></span></li>
             <li><span class="post-info"><span class="post-date">
@@ -56,6 +59,12 @@
                   Kimmo Pietiläinen
                 </span></span></li>
             <li><span class="post-info"><span class="post-date">
+                  Sanna Saastamoinen-Barrois
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
+                  Emmi Seppänen
+                </span></span></li>
+            <li><span class="post-info"><span class="post-date">
                   Adrian Soto
                 </span></span></li>
             <li><span class="post-info"><span class="post-date">
@@ -67,22 +76,24 @@
             <li><span class="post-info"><span class="post-date">
                   Michael Wynne-Ellis
                 </span></span></li>
-            <li><span class="post-info"><span class="post-date">
-                  Sanna Saastamoinen-Barrois
-                </span></span></li>
-            <li><span class="post-info"><span class="post-date">
-                  Emmi Seppänen
-                </span></span></li>
-            <li><span class="post-info"><span class="post-date">
-                  Valtteri Hirvonen (the landscape photos)
-                </span></span></li>
           </ul>
         </div>
       </div>
       <div class="column width-3">
         <div class="widget">
           <h4 class="widget-title"><%= _("Recent Votes") %></h4>
-          <div id="recent_votes"></div>
+          <!--div id="recent_votes"></div-->
+          <table id="recent_votes" class="table">
+            <thead>
+              <tr class="recent_votes_header">
+                <th><%= _("Country") %></td>
+                <th><%= _("Name") %></td>
+                <th><%= _("Ago") %></td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+
         </div>
       </div>
       <div class="column width-2">

@@ -7,7 +7,7 @@ ready = function() {
       recent_votes = new UniteTheArmies.Collections.Votes(data)
       view = new UniteTheArmies.Views.VotesIndex({collection: recent_votes})
       view.render()
-      $("#recent_votes").html(view.$el.html())
+      $("#recent_votes tbody").replaceWith(view.$el.html())
     })
   }
   
@@ -57,6 +57,7 @@ ready = function() {
     });
   }
 
+  loadVotes();
   setInterval(function() { loadVotes() }, 5000)
   menuEvents();
   voteEvents();

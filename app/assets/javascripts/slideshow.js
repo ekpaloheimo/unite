@@ -44,7 +44,6 @@ function prepareSlideshow(slideshow)
 
 			while (child)
 			{
-				console.log(child.tagName);
 				if (child.tagName.toLowerCase() == "img" && child._nativeWidth && child._nativeHeight)
 				{
 					scaleImage(child);
@@ -67,14 +66,12 @@ function prepareSlideshow(slideshow)
 		var focus_x = (img._focus_x != undefined) ? img._focus_x : 0.5;
 		var focus_y = (img._focus_y != undefined) ? img._focus_y : 0.5;
 		
-//		img.width = w * scale;
-//		img.height = h * scale;
 		img.style.position = "absolute";
         img.style.width = w * scale + "px";
         img.style.height = h * scale + "px";
 		img.style.top = (ch - img.height) * focus_y + "px";
 		img.style.left = (cw - img.width) * focus_x + "px";
-        console.log(w + ", " + h + ", " + cw + ", " + ch + " * " + scale + " => " + img.style.width + ", " + img.style.height);
+//        console.log(w + ", " + h + ", " + cw + ", " + ch + " * " + scale + " => " + img.style.width + ", " + img.style.height);
 	}
 	
 	function prepareSlide(slide, then)

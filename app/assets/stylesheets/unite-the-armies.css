@@ -21,7 +21,7 @@ body,
 }
 
 .table, th, td { border: 0 !important; }
-.table > tbody > tr > td, .table > tbody > tr > th {
+.table > tbody > tr > td, .table > tbody > tr > th, .table > thead > tr > th {
   border-top: 1px solid #ddd !important;
   line-height: 1.42857;
   padding: 8px;
@@ -57,13 +57,13 @@ input[type="text"].form-control:focus, select#vote_country:focus
     height: auto;
     margin-top: 50pt;
     margin-bottom: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px)
 {
     #slideshow-caption
     {
-        display: table-cell;
         position: absolute;
         z-index: 3;
         left: 0;
@@ -86,4 +86,25 @@ input[type="text"].form-control:focus, select#vote_country:focus
         margin-left: 150pt;
         margin-top: -120pt; */
     }
+}
+
+/* core.min.css defines some weird rules, override them for recent votes */
+#recent_votes thead, #recent_votes tbody
+{
+    background: none;
+    color: black;
+    display: table-row-group;
+    float: none;
+}
+
+#recent_votes tr
+{
+    display: table-row;
+    float: none;
+}
+
+#recent_votes th
+{
+    display: table-cell;
+    float: none;
 }

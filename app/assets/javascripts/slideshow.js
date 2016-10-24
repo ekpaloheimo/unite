@@ -114,7 +114,7 @@ function prepareSlideshow(slideshow)
 	function showSlide(slide)
 	{
 		var step = 0;
-		
+
 		slide.style.opacity = 0;
 		slide.style.visibility = "visible";
 		slide.style.zIndex = 1;

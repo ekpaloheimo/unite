@@ -108,3 +108,64 @@ input[type="text"].form-control:focus, select#vote_country:focus
     display: table-cell;
     float: none;
 }
+
+table#country_votes_table
+{
+    background: none;
+    color: black;
+    display: table;
+    float: none;
+}
+
+#country_votes_table tbody
+{
+    background: none;
+    color: black;
+    display: table-row-group;
+    float: none;
+}
+
+#country_votes_table tr
+{
+    display: table-row;
+    float: none;
+}
+
+#country_votes_table th
+{
+    display: table-cell;
+    float: none;
+}
+
+#country_votes_table td.country_flag
+{
+    width: 70px;
+}
+
+#country_votes_table td.country
+{
+    width: 100pt;
+    vertical-align: middle;
+}
+
+#country_votes_table td.vote_percentage
+{
+    width: auto;
+}
+
+#country_votes_table td.vote_count
+{
+    width: 50pt;
+}
+
+@media (max-width: 500px)
+{
+    #country_votes_table td.country_flag
+    {
+        width: 50px;
+    }
+    #country_votes_table td
+    {
+        padding: 5pt;
+    }
+}

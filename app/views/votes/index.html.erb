@@ -138,15 +138,15 @@
   <!-- Show country votes -->
   <section class="section-block feature-1" style="min-height: 200px">
     <div class="row no-padding-bottom">
-      <table class="table">
+      <table id="country_votes_table" class="table" style="table-layout: fixed; width: 100%">
         <% @sorted_votes.each do |vote_count| %>
             <tr>
-              <td><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
-              <td><%= Country.code_to_name(vote_count.country) %></td>
-              <td style="width:80%">
+              <td class="country_flag"><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
+              <td class="country"><%= Country.code_to_name(vote_count.country) %></td>
+              <td class="vote_percentage">
                 <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
               </td>
-              <td><%= vote_count.count %></td>
+              <td class="vote_count"><%= vote_count.count %></td>
             </tr>
         <% end %>
       </table>

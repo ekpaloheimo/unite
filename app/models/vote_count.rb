@@ -80,7 +80,7 @@ class VoteCount < ActiveRecord::Base
   # current: current country percent of all votes.
   def calculate_diagram_width max, current
     return 0 if current <= 0
-    (current.to_f/max.to_f * 100).to_i
+    (current.to_f/max.to_f * 1000).to_i / 10.0
   end
 
   def diagram_width

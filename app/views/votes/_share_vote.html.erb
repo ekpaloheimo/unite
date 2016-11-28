@@ -16,19 +16,19 @@
 <div>
   <%= hidden_field_tag(:t, @vote.md5_secret_token) %>
   <div class="field">
-    <%= label_tag _("Choose the language of the invitation letter") %></br>
+    <%= label_tag _("Choose the language of the invitation letter") %>
     <%= select_tag :language, options_for_select(Language.translated_select_options), :class => "form-control" %>
   </div>
   <div class="field">
-    <%= label_tag _("Name of your friend") + " *" %><br/>
+    <%= label_tag _("Name of your friend") + " *" %>
     <%= text_field_tag :name, nil, :class => "form-control", :style => "color: black !important" %>
   </div>
   <div class="field">
-    <%= label_tag _("Your friends email address") + " *" %> <br/>
+    <%= label_tag _("Your friends email address") + " *" %>
     <%= text_field_tag :email, nil, :class => "form-control", :style => "color: black !important" %>
   </div>
   <div class="field">
-    <%= label_tag _("Email Confirmation") + " *" %> <br/>
+    <%= label_tag _("Email Confirmation") + " *" %>
     <%= text_field_tag :email_confirmation, nil, :class => "form-control", :style => "color: black !important" %>
   </div>
   <div class="field">

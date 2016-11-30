@@ -126,7 +126,7 @@ msgid "German"
 msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
-msgstr ""
+msgstr "Give the armies of the world a new, positive task: to protect the environment"
 
 msgid "Google+"
 msgstr ""
@@ -144,7 +144,7 @@ msgid "In the next few decades only strong and effective countermeasures will be
 msgstr ""
 
 msgid "In these pages we collect support for a global initiative."
-msgstr ""
+msgstr "Via these pages we gather support for a global initiative."
 
 msgid "Initiative presented to the United Nations:"
 msgstr ""
@@ -162,7 +162,7 @@ msgid "Invite your friends. Fill out a form below and information will be sent t
 msgstr ""
 
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
-msgstr ""
+msgstr "It is currently commonly accepted that the military are called to assist the areas affected by sudden disasters. That assistance should also be used to defend us against gradual disasters."
 
 msgid "Language"
 msgstr ""
@@ -180,7 +180,7 @@ msgid "Menu"
 msgstr ""
 
 msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
-msgstr ""
+msgstr "Millions of Tons of Plastic Waste on the Shores and in the Oceans!"
 
 msgid "More work must be done"
 msgstr ""
@@ -192,7 +192,7 @@ msgid "Name of your friend"
 msgstr ""
 
 msgid "New global role for the Military"
-msgstr ""
+msgstr "A new global role for the Military"
 
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr ""
@@ -300,7 +300,7 @@ msgid "The Suggested task must benefit the whole world."
 msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
-msgstr ""
+msgstr "The United Armies must collect the plastic waste that litters the oceans and shores."
 
 msgid "The United Armies must ensure sufficient water availability everywhere for the needs of people and life."
 msgstr ""
@@ -315,16 +315,16 @@ msgid "The best contributors will be rewarded later."
 msgstr ""
 
 msgid "The concern of this campaign is that the global environment is radically deteriorating. Dangerous developments have accelerated and approach the point of no return."
-msgstr ""
+msgstr "This campaign stems from the concern that the global environment is radically deteriorating. The increasing speed of some of the dangerous developments is alarming, with the point of no return approaching fast."
 
 msgid "The link below will go to your private secret vote"
 msgstr ""
 
 msgid "The resources and capacity of the United Armies must be directed to reforestation of the deserts."
-msgstr ""
+msgstr "The United Armies must push toward reforestation of the deserts and allocate its resources and capacity accordingly."
 
 msgid "There is a hidden potential at hand: the national armies."
-msgstr ""
+msgstr "There is a hidden potential at our disposal: the national armies."
 
 msgid "There was an error"
 msgstr ""
@@ -339,7 +339,7 @@ msgid "This is your private vote"
 msgstr ""
 
 msgid "To Our Common World"
-msgstr ""
+msgstr "For Our Common World"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr ""
@@ -372,13 +372,13 @@ msgid "We have to give the armies a new, positive task"
 msgstr ""
 
 msgid "We have to give the armies a new, positive task."
-msgstr ""
+msgstr "We have to give them a new, positive task."
 
 msgid "We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo."
 msgstr ""
 
 msgid "We must defend Life's Richness on our Planet!"
-msgstr ""
+msgstr "We must defend the diversity of life on our planet!"
 
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr ""
@@ -387,7 +387,7 @@ msgid "We still miss %{count} of the 100.000.000."
 msgstr ""
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
-msgstr ""
+msgstr "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces towards significant environmental tasks as soon as possible."
 
 msgid "We the undersigned addressees turn to you because of our concern at the state of the global environment. In many parts of the world the deterioration of the environment can be linked directly to social problems among the local population."
 msgstr ""

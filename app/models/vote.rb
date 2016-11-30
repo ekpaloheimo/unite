@@ -10,7 +10,7 @@ class Vote < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true, email: true
   validates :email_confirmation, presence: true
   validates :ip, presence: true
-  # validates_format_of :ip, :with => /\A(\d{1,3}\.){3}\d{1,3}\z/
+  validates_format_of :ip, :with => /\A(\d{1,3}\.){3}\d{1,3}\z/
   validate :validate_country_code
 
   after_initialize :strip_email
@@ -41,8 +41,8 @@ class Vote < ActiveRecord::Base
 
   # Strip email of whitespace
   def strip_email
-    self.email = email.strip unless email.blank?
-    self.email_confirmation.strip! unless email_confirmation.blank?
+    self.email = email.strip if self.has_attribute?(:email) && email
+    self.email_confirmation.strip! if email_confirmation
   end
 
   # Country code is always saved with downcased letters

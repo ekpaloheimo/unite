@@ -10,9 +10,10 @@ class Vote < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true, email: true
   validates :email_confirmation, presence: true
   validates :ip, presence: true
-  validates_format_of :ip, :with => /\A(\d{1,3}\.){3}\d{1,3}\z/
+  # validates_format_of :ip, :with => /\A(\d{1,3}\.){3}\d{1,3}\z/
   validate :validate_country_code
 
+  after_initialize :strip_email
   after_initialize :downcase_country_code
   before_save :add_secret_token
   before_save :add_vote_count
@@ -20,6 +21,7 @@ class Vote < ActiveRecord::Base
   has_many :votes, foreign_key: :vote_id
   has_many :comments, foreign_key: :vote_id
   belongs_to :vote, counter_cache: true
+
 
   def ago
     diff = TimeDifference.between(Time.zone.now, created_at).in_each_component
@@ -35,6 +37,12 @@ class Vote < ActiveRecord::Base
       ago_string = _("days")
     end     
     "#{ago} #{ago_string}"
+  end
+
+  # Strip email of whitespace
+  def strip_email
+    self.email = email.strip unless email.blank?
+    self.email_confirmation.strip! unless email_confirmation.blank?
   end
 
   # Country code is always saved with downcased letters

@@ -342,6 +342,9 @@ msgstr "Español"
 msgid "Technical realization"
 msgstr "Realización técnica"
 
+msgid "Technology for Life"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
 

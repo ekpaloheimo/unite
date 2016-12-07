@@ -326,6 +326,9 @@ msgstr "Spanska"
 msgid "Technical realization"
 msgstr "Tekniskt förverkligande"
 
+msgid "Technology for Life"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Tack för ditt bidrag för att Rädda världen - Förena Arméerna!"
 

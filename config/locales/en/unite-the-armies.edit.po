@@ -284,6 +284,9 @@ msgstr ""
 msgid "Technical realization"
 msgstr ""
 
+msgid "Technology for Life"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
 

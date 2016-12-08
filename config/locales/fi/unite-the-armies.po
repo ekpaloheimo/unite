@@ -335,7 +335,7 @@ msgid "Technical realization"
 msgstr "Tekninen toteutus"
 
 msgid "Technology for Life"
-msgstr "Tekniikka elämää palvelemaan"
+msgstr "Tekniikka elämää palvelemaan (TEP)"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- kampanjalle!"

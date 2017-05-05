@@ -44,7 +44,7 @@ msgid "Administration"
 msgstr "Hallinto"
 
 msgid "Ago"
-msgstr "Milloin"
+msgstr "Aikaa allekirjoituksesta"
 
 msgid "Air pollution is a global Challenge!"
 msgstr "Ilmakehän saastuminen on globaali haaste!"

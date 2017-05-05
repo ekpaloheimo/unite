@@ -198,6 +198,7 @@ table#country_votes_table
 
 #country_votes_table td.vote_count
 {
+    text-align: right;
     width: 50pt;
 }
 

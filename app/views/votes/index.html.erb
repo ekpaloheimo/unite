@@ -11,7 +11,7 @@
                 <div class="column width-12">
                   <h1 class="tms-caption title-large color-white lspacing-medium no-margin-bottom weight-bold" data-animate-in="opacity:0;scale:1.5px;duration:600ms;easing:easeFastSlow;"
                       data-no-scale>
-                    <%= _("%{count} votes") % { count: VoteCount.total } %>
+                    <%= _("%{count} votes") % { count: number_with_delimiter(VoteCount.total) } %>
                   </h1>
                   <div class="clear"></div>
                   <h5 class="tms-caption color-white lspacing-medium mt-20"
@@ -191,7 +191,7 @@
               <td class="vote_percentage">
                 <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>
               </td>
-              <td class="vote_count"><%= vote_count.count %></td>
+              <td class="vote_count"><%= number_with_delimiter(vote_count.count) %></td>
             </tr>
         <% end %>
       </table>

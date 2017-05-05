@@ -88,7 +88,7 @@ class VoteTest < ActiveSupport::TestCase
   test 'should calculate ago' do
     @vote.save
     assert @vote.ago
-    assert @vote.ago.match(/seconds/)
+    assert @vote.ago.match(/second/)
   end
 
   test 'should have secret token' do

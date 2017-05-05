@@ -287,6 +287,9 @@ msgstr "Realización técnica"
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "!Gracias por tu contribución a Salvar el Planeta- Unificar los Ejércitos!"
 
@@ -386,8 +389,8 @@ msgstr "Tenemos que defender la Riqueza de nuestro Planeta"
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr "Proponemos acciones en proyectos que requieran recursos a gran escala, tanto de mano de obra como de equipamiento; estos incluirían proyectos agroforestales y reubicación de bosques, plantas y animales con miras a evitar el calentamiento global. Tales proyectos ayudarían a evitar las peores catástrofes; también ayudarían y fomentarían la estabilidad social y el empleo a nivel local, suponiendo que se empleara mano de obra local."
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr "Todavía nos falta %{count} de los 100.000.000"
+msgid "We still miss %{count} of the %{target}."
+msgstr "Todavía nos falta %{count} de los %{target}."
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "Sugerimos que las Naciones Unidas presente una iniciativa global para un nuevo despliegue de las fuerzas armadas del mundo, lo más pronto posible, y que las lleve hacia importantes tareas medioambientales"
@@ -423,10 +426,31 @@ msgid "Your support has been registered %{name}!"
 msgstr "Tu apoyo ha sido registrado %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Tu número de contriibuyente es %{count}"
+msgstr "Tu número de contriibuyente es %{count}."
+
+#, fuzzy
+msgid "day"
+msgstr "Días"
 
 msgid "days"
 msgstr "Días"
+
+#, fuzzy
+msgid "here"
+msgstr "Compartir"
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "if you wish see how many people have signed by following your personal invitation."
+msgstr ""
+
+#, fuzzy
+msgid "minute"
+msgstr "Minutos"
 
 msgid "minutes"
 msgstr "Minutos"
@@ -434,5 +458,12 @@ msgstr "Minutos"
 msgid "professor"
 msgstr "Profesor"
 
+#, fuzzy
+msgid "second"
+msgstr "Segundos"
+
 msgid "seconds"
 msgstr "Segundos"
+
+#~ msgid "We still miss %{count} of the 100.000.000."
+#~ msgstr "Todavía nos falta %{count} de los 100.000.000"

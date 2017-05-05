@@ -287,6 +287,9 @@ msgstr "技术实现"
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "感谢您支持 “拯救我们的世界 – 联合我们的军队” 行动"
 
@@ -386,8 +389,8 @@ msgstr "我们必须保护地球上丰富多彩的生命。"
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr "我们提议联合国开展行动，大规模调动人力物力资源，包括在全球变暖加剧的情况下开展农林业项目以及森林和动植物迁移项目。此类项目能够帮助避免最可怕的灾难；它们还可以帮助建立并维护生态和社会稳定，同时通过使用当地劳动力而促进本土就业。"
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr "我们目前仍缺少%{count}达到100.000.000个投票 "
+msgid "We still miss %{count} of the %{target}."
+msgstr "我们目前仍缺少%{count}达到%{target}个投票"
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "我们建议联合国在此项计划中进行全球性指挥，并尽快调集全球的武装部队进行大规模的环境改善任务"
@@ -425,8 +428,29 @@ msgstr "您的支持已经被记录 %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "您的支持编号为 %{count}."
 
+#, fuzzy
+msgid "day"
+msgstr "天"
+
 msgid "days"
 msgstr "天"
+
+#, fuzzy
+msgid "here"
+msgstr "分享"
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "if you wish see how many people have signed by following your personal invitation."
+msgstr ""
+
+#, fuzzy
+msgid "minute"
+msgstr "分"
 
 msgid "minutes"
 msgstr "分"
@@ -434,5 +458,12 @@ msgstr "分"
 msgid "professor"
 msgstr "教授"
 
+#, fuzzy
+msgid "second"
+msgstr "秒"
+
 msgid "seconds"
 msgstr "秒"
+
+#~ msgid "We still miss %{count} of the 100.000.000."
+#~ msgstr "我们目前仍缺少%{count}达到100.000.000个投票 "

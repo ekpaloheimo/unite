@@ -1,28 +1,13 @@
-== README
+== Unite the armies
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Running development server
 
-Things you may want to cover:
+  $ rails server
 
-* Ruby version
+=== Editing translations
 
-* System dependencies
+Edit .edit.po files. Then run
 
-* Configuration
+  $ rake gettext:pack
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+You may need to restart the server for changes to take effect.

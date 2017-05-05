@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 
 msgid "%{count} votes"
-msgstr ""
+msgstr "%{count} supporters"
 
 msgid "About Us"
 msgstr ""
@@ -107,6 +107,8 @@ msgid ""
 "Do not share this direct link with anybody. Instead, you can use a form below "
 "to share a public version of this vote with your friends."
 msgstr ""
+"Do you wish to spread the word? You can use the methods below to invite anyone"
+" and everyone to use their influence on this serious matter!"
 
 msgid "Email"
 msgstr ""
@@ -174,6 +176,8 @@ msgid ""
 "Invite your friends. Fill out a form below and information will be sent to giv"
 "en email"
 msgstr ""
+"Invite your friends. Fill out a form below and information will be sent to giv"
+"en email."
 
 msgid ""
 "It is accepted that the military are called to assist the areas affected by su"
@@ -203,7 +207,7 @@ msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Millions of Tons of Plastic Waste on the Shores and in the Oceans!"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "Great! Spread the word."
 
 msgid "Name"
 msgstr ""
@@ -317,6 +321,9 @@ msgstr ""
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
 
@@ -385,7 +392,7 @@ msgid "There was an error with human verifying"
 msgstr ""
 
 msgid "This is your private vote"
-msgstr ""
+msgstr "This is your private support page"
 
 msgid "To Our Common World"
 msgstr "For Our Common World"
@@ -450,8 +457,10 @@ msgid ""
 "ocal labor."
 msgstr ""
 
-msgid "We still miss %{count} of the 100.000.000."
+msgid "We still miss %{count} of the %{target}."
 msgstr ""
+"Together, we can easily achieve %{target} signatures globally – let’s spread t"
+"he word!"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -493,21 +502,46 @@ msgid "YouTube"
 msgstr ""
 
 msgid "Your friends email address"
-msgstr ""
+msgstr "Your friend’s email address"
 
 msgid "Your support has been registered %{name}!"
 msgstr ""
 
 msgid "Your supporter number is %{count}."
+msgstr "You are supporter number %{count}."
+
+msgid "day"
 msgstr ""
 
 msgid "days"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid ""
+"if you wish see how many people have signed by following your personal invitat"
+"ion."
+msgstr ""
+" if you wish see how many people have signed by following your personal invita"
+"tion."
+
+msgid "minute"
 msgstr ""
 
 msgid "minutes"
 msgstr ""
 
 msgid "professor"
+msgstr ""
+
+msgid "second"
 msgstr ""
 
 msgid ""

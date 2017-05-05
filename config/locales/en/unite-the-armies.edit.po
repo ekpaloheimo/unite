@@ -24,7 +24,7 @@ msgid "\"We are in a hurry. We don’t have time for centuries, we have only dec
 msgstr ""
 
 msgid "%{count} votes"
-msgstr ""
+msgstr "%{count} supporters"
 
 msgid "About Us"
 msgstr ""
@@ -99,7 +99,7 @@ msgid "Do not share this direct link to anybody. Instead, you can use a form on 
 msgstr ""
 
 msgid "Do not share this direct link with anybody. Instead, you can use a form below to share a public version of this vote with your friends."
-msgstr ""
+msgstr "Do you wish to spread the word? You can use the methods below to invite anyone and everyone to use their influence on this serious matter!"
 
 msgid "Email"
 msgstr ""
@@ -159,7 +159,7 @@ msgid "Invitation to Save the World - Unite the Armies"
 msgstr ""
 
 msgid "Invite your friends. Fill out a form below and information will be sent to given email"
-msgstr ""
+msgstr "Invite your friends. Fill out a form below and information will be sent to given email."
 
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "It is currently commonly accepted that the military are called to assist the areas affected by sudden disasters. That assistance should also be used to defend us against gradual disasters."
@@ -183,7 +183,7 @@ msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Millions of Tons of Plastic Waste on the Shores and in the Oceans!"
 
 msgid "More work must be done"
-msgstr ""
+msgstr "Great! Spread the word."
 
 msgid "Name"
 msgstr ""
@@ -287,6 +287,9 @@ msgstr ""
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr ""
 
@@ -339,7 +342,7 @@ msgid "There was an error with human verifying"
 msgstr ""
 
 msgid "This is your private vote"
-msgstr ""
+msgstr "This is your private support page"
 
 msgid "To Our Common World"
 msgstr "For Our Common World"
@@ -386,8 +389,8 @@ msgstr "We must defend the diversity of life on our planet!"
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr ""
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr ""
+msgid "We still miss %{count} of the %{target}."
+msgstr "Together, we can easily achieve %{target} signatures globally – let’s spread the word!"
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces towards significant environmental tasks as soon as possible."
@@ -417,21 +420,42 @@ msgid "YouTube"
 msgstr ""
 
 msgid "Your friends email address"
-msgstr ""
+msgstr "Your friend’s email address"
 
 msgid "Your support has been registered %{name}!"
 msgstr ""
 
 msgid "Your supporter number is %{count}."
+msgstr "You are supporter number %{count}."
+
+msgid "day"
 msgstr ""
 
 msgid "days"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "if you wish see how many people have signed by following your personal invitation."
+msgstr " if you wish see how many people have signed by following your personal invitation."
+
+msgid "minute"
 msgstr ""
 
 msgid "minutes"
 msgstr ""
 
 msgid "professor"
+msgstr ""
+
+msgid "second"
 msgstr ""
 
 msgid "seconds"

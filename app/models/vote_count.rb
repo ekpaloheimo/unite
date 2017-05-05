@@ -29,7 +29,7 @@ class VoteCount < ActiveRecord::Base
   end
 
   def self.target_vote_count
-    100000000
+    100000
   end
   
   def self.clear_values

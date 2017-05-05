@@ -29,7 +29,7 @@ msgstr ""
 "uus."
 
 msgid "%{count} votes"
-msgstr "%{count} ääntä"
+msgstr "%{count} kannattajaa"
 
 msgid "About Us"
 msgstr "Tietoa meistä"
@@ -111,8 +111,8 @@ msgid ""
 "Do not share this direct link with anybody. Instead, you can use a form below "
 "to share a public version of this vote with your friends."
 msgstr ""
-"Älä jaa tätä linkkiä kenellekään. Voit käyttää alla olevaa lomaketta lähettääk"
-"sesi julkisen version äänestä ystävillesi."
+"Haluatko levittää tietoa? Alla linkkejä sosiaaliseen mediaan sekä sähköpostilo"
+"make, jotta voit helposti kutsua ihmisiä allekirjoittamaan!"
 
 msgid "Email"
 msgstr "Sähköposti"
@@ -214,7 +214,7 @@ msgid "Millions of Tons of Plastic Waste on the Shores and Oceans!"
 msgstr "Miljoonia tonneja muovijätettä rannoilla ja valtamerissä!"
 
 msgid "More work must be done"
-msgstr "Tarvitaan enemmän työtä"
+msgstr "Hienoa! Tietoa on levitettävä."
 
 msgid "Name"
 msgstr "Nimi"
@@ -327,15 +327,17 @@ msgstr "Anna kannatuksesi"
 msgid "Supporters"
 msgstr "Kannattajat"
 
-#, fuzzy
 msgid "Swedish"
-msgstr "Espanja"
+msgstr "Ruotsi"
 
 msgid "Technical realization"
 msgstr "Tekninen toteutus"
 
 msgid "Technology for Life"
 msgstr "Tekniikka elämää palvelemaan (TEP)"
+
+msgid "Thank you for spreading the word! Click"
+msgstr "Hienoa, tietoa on levitettävä! Klikkaa"
 
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Kiitos tuestasi \"Pelastakaamme maailma - yhdistäkäämme armeijat\"- kampanjalle!"
@@ -376,9 +378,9 @@ msgid ""
 "iorating. Dangerous developments have accelerated and approach the point of no"
 " return."
 msgstr ""
-"Kampanja pyrkii pysäyttämään maapallon ympäristön ratkaisevan huonontumisen.Mu"
-"uten vaarallinen kehitys kiihtyy ja vie meidät lähelle tilaa, josta ei ole pal"
-"uuta."
+"Kampanja pyrkii pysäyttämään maapallon ympäristön jatkuvan huonontumisen. Muut"
+"en vaarallinen kehitys kiihtyy ja vie meidät lähelle tilaa, josta ei ole paluu"
+"ta."
 
 msgid "The link below will go to your private secret vote"
 msgstr "Linkki alapuolella vie henkilökohtaiseen ääneesi"
@@ -401,7 +403,7 @@ msgid "There was an error with human verifying"
 msgstr "Tapahtui virhe varmennuksessa"
 
 msgid "This is your private vote"
-msgstr "Tämä on henkilökohtainen äänesi!"
+msgstr "Tämä on henkilökohtainen kannattajasivusi"
 
 msgid "To Our Common World"
 msgstr "Yhteiselle maailmallemme"
@@ -483,10 +485,10 @@ msgstr ""
 "lista ekologis/sosiaalista vakautta ja työllisyyttä, jos seudun asukkaat osall"
 "istuisivat toimintaan."
 
-msgid "We still miss %{count} of the 100.000.000."
+msgid "We still miss %{count} of the %{target}."
 msgstr ""
-"Tarvitsemme yhä %{count} ääntä päästäksemme sadan miljoonan äänen tavoitteesee"
-"mme."
+"Yhdessä maailmanlaajuisesti pääsemme %{target} nimeen saakka – levitetään sana"
+"a!"
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -544,16 +546,39 @@ msgid "Your support has been registered %{name}!"
 msgstr "Kannatuksesi on rekisteröity %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Olet tukija %{count}"
+msgstr "Olet kannattaja %{count}."
+
+msgid "day"
+msgstr "päivä"
 
 msgid "days"
 msgstr "päivää"
+
+msgid "here"
+msgstr "tästä"
+
+msgid "hour"
+msgstr "tunti"
+
+msgid "hours"
+msgstr "tuntia"
+
+msgid ""
+"if you wish see how many people have signed by following your personal invitat"
+"ion."
+msgstr ", jos haluat nähdä kuinka moni on allekirjoittanut kutsusi ansiosta!"
+
+msgid "minute"
+msgstr "minuutti"
 
 msgid "minutes"
 msgstr "minuuttia"
 
 msgid "professor"
 msgstr "professori"
+
+msgid "second"
+msgstr "sekunti"
 
 msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"

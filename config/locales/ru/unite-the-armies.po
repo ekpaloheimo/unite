@@ -348,6 +348,9 @@ msgstr "Техническое выполнение"
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Спасибо за ваше содействие кампании – Спасите мир – Объедините армии!"
 
@@ -504,8 +507,8 @@ msgstr ""
 "ижению экологической и социальной стабильности, также как и трудоустройству на"
 " местном уровне, предполагающему использование местной рабочей силы."
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr "Нам ещё не хватает %{count}голосов от нашей цели в 100.000.000."
+msgid "We still miss %{count} of the %{target}."
+msgstr "Нам ещё не хватает %{count} олосов от нашей цели в %{target}."
 
 msgid ""
 "We suggest the United Nations presents a global initiative for a redeployment "
@@ -563,16 +566,43 @@ msgid "Your support has been registered %{name}!"
 msgstr "Ваша поддержка зарегистрирована %{name}"
 
 msgid "Your supporter number is %{count}."
-msgstr "Ваш номер содействующего лица %{count}"
+msgstr "Ваш номер содействующего лица %{count}."
+
+#, fuzzy
+msgid "day"
+msgstr "дня/дней"
 
 msgid "days"
 msgstr "дня/дней"
+
+#, fuzzy
+msgid "here"
+msgstr "Поделитесь информацией"
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid ""
+"if you wish see how many people have signed by following your personal invitat"
+"ion."
+msgstr ""
+
+#, fuzzy
+msgid "minute"
+msgstr "минуты/минут"
 
 msgid "minutes"
 msgstr "минуты/минут"
 
 msgid "professor"
 msgstr "профессор"
+
+#, fuzzy
+msgid "second"
+msgstr "секунды/секунд"
 
 msgid ""
 "\"Time is running out while we are destroying the planet's resources. This must"

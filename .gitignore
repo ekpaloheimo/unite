@@ -18,3 +18,10 @@
 
 /config/database.yml
 /config/secrets.yml
+
+/.idea
+/doc
+/rethinkdb_data/
+/unite_the_armies_for_development
+/unite_the_armies_for_development_backup
+/unite_the_armies_for_test

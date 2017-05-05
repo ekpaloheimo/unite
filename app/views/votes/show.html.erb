@@ -37,14 +37,19 @@
       <div class="column width-4">
 	<div class="feature-column small left">
           <%= _("Your supporter number is %{count}.") % {count: @vote.order_number} %>
-          <%= _("We still miss %{count} of the 100.000.000.") % {count: @vote.votes_missed} %>
+          <%= _("We still miss %{count} of the %{target}.") % {count: number_with_delimiter(@vote.votes_missed), target: number_with_delimiter(VoteCount.target_vote_count)} %>
         </div>
       </div>
       <div class="column width-4">
-	<div class="feature-column small left">
-          <%= _("You have helped campaign by having %{count} people signed after you.") % {count: @votes_count} %>
-          <%= _("You have added %{count} comments.") % {count: @vote.comments.size} %>
-          <%= _("Signatures! Let’s work further!") %>
+	      <div class="feature-column small left">
+          <% if locale == :en || locale == :fi %>
+              <%= _("Thank you for spreading the word! Click") %>
+              <a class="show-on-click" href="#" onclick="event.preventDefault()"><%= _("here") %><span><%= @votes_count %></span></a><%= _("if you wish see how many people have signed by following your personal invitation.") %>
+          <% else %>
+              <%= _("You have helped campaign by having %{count} people signed after you.") % {count: @votes_count} %>
+              <%= _("You have added %{count} comments.") % {count: @vote.comments.size} %>
+              <%= _("Signatures! Let’s work further!") %>
+          <% end %>
         </div>
       </div>
     </div>

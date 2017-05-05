@@ -1,6 +1,5 @@
 $(function() {
-	$("ol.slideshow").each(function(index)
-	{
+	$("ol.slideshow").each(function(index) {
 		prepareSlideshow(this);
 	});
 });
@@ -12,10 +11,14 @@ function prepareSlideshow(slideshow)
 	var animationSteps = 20;
 	var current = null;
 
+    window.addEventListener("resize", onWindowResize);
+    advance();
+
     function getData(name)
     {
         return slideshow.getAttribute("data-" + name);
     }
+
     function getNumber(name, defaultValue)
     {
         var data = getData(name);
@@ -23,29 +26,15 @@ function prepareSlideshow(slideshow)
         return data == defaultValue ? defaultValue : +data;
     }
 
-	function initialize()
-	{
-		var slide = slideshow.firstElementChild;
-
-		while (slide)
-		{
-			slide.style.visibility = "hidden";
-			slide = slide.nextElementSibling;
-		}
-	}
-	
 	function onWindowResize()
 	{
 		var slide = slideshow.firstElementChild;
 
-		while (slide)
-		{
+		while (slide) {
 			var child = slide.firstElementChild;
 
-			while (child)
-			{
-				if (child.tagName.toLowerCase() == "img" && child._nativeWidth && child._nativeHeight)
-				{
+			while (child) {
+				if (child.tagName.toLowerCase() == "img" && child._nativeWidth && child._nativeHeight) {
 					scaleImage(child);
 				}
 				child = child.nextElementChild;
@@ -53,8 +42,8 @@ function prepareSlideshow(slideshow)
 			slide = slide.nextElementSibling;
 		}
 	}
-	
-	function scaleImage(img)
+
+    function scaleImage(img)
 	{
 		var cw = slideshow.clientWidth;
 		var ch = slideshow.clientHeight;
@@ -76,24 +65,12 @@ function prepareSlideshow(slideshow)
 	
 	function prepareSlide(slide, then)
 	{
-		function getData(name)
-		{
-			return slide.getAttribute("data-" + name);
-		}
-		function getNumber(name)
-		{
-			var data = getData(name);
-			
-			return data == undefined ? undefined : +data;
-		}
 		var imageSrc = getData("image-src");
 
-		if (imageSrc)
-		{
+		if (imageSrc) {
 			var img = new Image();
 			
-			img.addEventListener("load", function() 
-			{ 
+			img.addEventListener("load", function() {
 				img._nativeWidth = img.width;
 				img._nativeHeight = img.height;
 				img._focus_x = getNumber("image-focus-x");
@@ -104,51 +81,60 @@ function prepareSlideshow(slideshow)
 				then();
 			});
 			img.src = imageSrc;
-		}
-		else
-		{
+		} else {
 			then();
 		}
+
+        function getData(name)
+        {
+            return slide.getAttribute("data-" + name);
+        }
+        function getNumber(name)
+        {
+            var data = getData(name);
+
+            return data == undefined ? undefined : +data;
+        }
 	}
 	
 	function showSlide(slide)
 	{
 		var step = 0;
+        var slideClass = slide.getAttribute("data-class");
 
 		slide.style.opacity = 0;
 		slide.style.visibility = "visible";
 		slide.style.zIndex = 1;
 		if (current)
 			current.style.zIndex = 0;
-		
+        if (slideClass) {
+            slideshow.setAttribute("data-slide-class", slideClass);
+        } else {
+            slideshow.removeAttribute("data-slide-class");
+        }
+
+        if (current) {
+            animate();
+        } else {
+            slide.style.opacity = 1;
+            current = slide;
+            setTimeout(advance, slideshowDelay);
+        }
+
 		function animate()
 		{
 			var time = step / animationSteps;
 			
 			slide.style.opacity = time;
 			
-			if (step < animationSteps)
-			{
+			if (step < animationSteps) {
 				step++;
 				setTimeout(animate, animationDuration / animationSteps);
-			}
-			else
-			{
+			} else {
 				current.style.visibility = "hidden";
 				current = slide;
 				setTimeout(advance, slideshowDelay);
 			}
-		}
-		
-		if (current)
-		{
-			animate();
-		}
-		else
-		{
-			slide.style.opacity = 1;
-			current = slide;
-			setTimeout(advance, slideshowDelay);
 		}
 	}
 	
@@ -156,21 +142,15 @@ function prepareSlideshow(slideshow)
 	{
 		var next = null;
 		
-		if (current)
-		{
+		if (current) {
 			next = current.nextElementSibling;
 		}
-		if (!next)
-		{
+		if (!next) {
 			next = slideshow.firstElementChild;
 		}
-		if (next)
-		{
+		if (next) {
 			prepareSlide(next, function() { showSlide(next); });
 		}
 	}
-
-	window.addEventListener("resize", onWindowResize)
-	advance();
 }
 

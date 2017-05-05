@@ -278,6 +278,9 @@ msgstr "Tekniskt förverkligande"
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Tack för ditt bidrag för att Rädda världen - Förena Arméerna!"
 
@@ -377,8 +380,8 @@ msgstr "Vi måste försvara livets rikedom på vår planet"
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr "Vi föreslår en verksamhet  som kräver stora resurser, både vad gäller arbetskraft som utrustning; den skulle omfatta  tex. åkerskogsodling,  vattenförsörjning, beskogning och relokering av fauna p.g.a den globala uppvärmningen. Generellt skulle tyngdpunkten förläggas till projekt som stöder socialt och miljömässigt hållbara åtgärder. Dessa projekt skulle samdtidigt  förebygga katastrtrofer och minska fattigdomen."
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr "Vi saknar ytterligare %{count} av 100.000.000"
+msgid "We still miss %{count} of the %{target}."
+msgstr "Vi saknar ytterligare %{count} av %{target}."
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "Vi föreslår att Förenta Nationerna så fort som möjligt presenterar ett världsomfattande initiativ för omgruppering av världens militära makter till nya betydelsefulla miljöbetingade uppgifter."
@@ -414,10 +417,31 @@ msgid "Your support has been registered %{name}!"
 msgstr "Ditt stöd har registrerats %{name}!"
 
 msgid "Your supporter number is %{count}."
-msgstr "Ditt stödnummer är %{count}"
+msgstr "Ditt stödnummer är %{count}."
+
+#, fuzzy
+msgid "day"
+msgstr "dagar"
 
 msgid "days"
 msgstr "dagar"
+
+#, fuzzy
+msgid "here"
+msgstr "Dela"
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "if you wish see how many people have signed by following your personal invitation."
+msgstr ""
+
+#, fuzzy
+msgid "minute"
+msgstr "minuter"
 
 msgid "minutes"
 msgstr "minuter"
@@ -425,5 +449,12 @@ msgstr "minuter"
 msgid "professor"
 msgstr "professor"
 
+#, fuzzy
+msgid "second"
+msgstr "sekunder"
+
 msgid "seconds"
 msgstr "sekunder"
+
+#~ msgid "We still miss %{count} of the 100.000.000."
+#~ msgstr "Vi saknar ytterligare %{count} av 100.000.000"

@@ -288,6 +288,9 @@ msgstr "Réalisation technique"
 msgid "Technology for Life"
 msgstr ""
 
+msgid "Thank you for spreading the word! Click"
+msgstr ""
+
 msgid "Thank you for your contribution to the Save the World - Unite The Armies!"
 msgstr "Merci de votre contribution pour Sauvez le Monde - Unissez les Armées!"
 
@@ -389,8 +392,8 @@ msgstr "Nous devons défendre la richesse de la vie sur notre planète!"
 msgid "We propose action on projects requiring large-scale resources, both of manpower and equipment; these would include agro-forestry projects, forest, plant and animal relocations in the wake of global warming. Such projects would assist in averting the worst catastrophes; they would also aid and foster ecological and social stability, and employment at the local level, assuming the use of local labor."
 msgstr "à la fois de la main d'oeuvre et de l'équipement; cela implique les projets agro-forestiers, la forêt, le reboisement et la diversité animale dans la prise de conscience du réchauffement mondial. De tels projets aideraient à prévenir les pires catastrophes; ils pourraient aussi aider et favoriser la stabilité sociale et écologique, l'emploi au niveau local,  en supposant l'utilisation de la main d'oeuvre locale."
 
-msgid "We still miss %{count} of the 100.000.000."
-msgstr "Il nous manque encore ... %{count} jusqu'à 100 millions"
+msgid "We still miss %{count} of the %{target}."
+msgstr "Il nous manque encore... %{count} jusqu'à %{target}."
 
 msgid "We suggest the United Nations presents a global initiative for a redeployment of the world’s armed forces into the new significant environmental tasks as soon as possible."
 msgstr "Nous suggérons que les Nations Unies présentent une initiative mondiale pour le redéploiement des forces armées en des tâches environnementales avec une nouvelle signification dès que possible"
@@ -428,8 +431,29 @@ msgstr "Votre support a été enregistré %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "Votre numéro de supporteur est %{count}."
 
+#, fuzzy
+msgid "day"
+msgstr "jours"
+
 msgid "days"
-msgstr "ours"
+msgstr "jours"
+
+#, fuzzy
+msgid "here"
+msgstr "Partagez"
+
+msgid "hour"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "if you wish see how many people have signed by following your personal invitation."
+msgstr ""
+
+#, fuzzy
+msgid "minute"
+msgstr "minutes"
 
 msgid "minutes"
 msgstr "minutes"
@@ -437,5 +461,12 @@ msgstr "minutes"
 msgid "professor"
 msgstr "professeur"
 
+#, fuzzy
+msgid "second"
+msgstr "secondes"
+
 msgid "seconds"
 msgstr "secondes"
+
+#~ msgid "We still miss %{count} of the 100.000.000."
+#~ msgstr "Il nous manque encore ... %{count} jusqu'à 100 millions"

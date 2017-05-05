@@ -24,18 +24,22 @@ class Vote < ActiveRecord::Base
 
 
   def ago
+    showHours = I18n.locale == :en || I18n.locale == :fi
     diff = TimeDifference.between(Time.zone.now, created_at).in_each_component
     diff = OpenStruct.new(diff)
     if diff.seconds < 60
-      ago = "%.2f" % diff.seconds
-      ago_string = _("seconds")
+      ago = "%.0f" % diff.seconds.floor
+      ago_string = diff.seconds < 2 ? _("second") : _("seconds")
     elsif diff.minutes < 60
-      ago = "%.2f" % diff.minutes
-      ago_string = _("minutes")
+      ago = "%.0f" % diff.minutes.floor
+      ago_string = diff.minutes < 2 ? _("minute") : _("minutes")
+    elsif diff.hours < 24 && showHours
+      ago = "%.0f" % diff.hours.floor
+      ago_string = diff.hours < 2 ? _("hour") : _("hours")
     else
-      ago = "%.2f" % diff.days
-      ago_string = _("days")
-    end     
+      ago = "%.0f" % diff.days.floor
+      ago_string = diff.days < 2 ? _("day") : _("days")
+    end
     "#{ago} #{ago_string}"
   end
 

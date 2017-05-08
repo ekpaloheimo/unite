@@ -37,7 +37,7 @@ class Vote < ActiveRecord::Base
       ago = "%.0f" % diff.hours.floor
       ago_string = diff.hours < 2 ? _("hour") : _("hours")
     else
-      ago = "%.0f" % diff.days.floor
+      ago = showHours ? ("%.0f" % diff.days.floor) : ("%.2f" % diff.days)
       ago_string = diff.days < 2 ? _("day") : _("days")
     end
     "#{ago} #{ago_string}"

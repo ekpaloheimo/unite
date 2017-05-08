@@ -419,7 +419,6 @@ msgstr "Ditt stöd har registrerats %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "Ditt stödnummer är %{count}."
 
-#, fuzzy
 msgid "day"
 msgstr "dagar"
 
@@ -439,7 +438,6 @@ msgstr ""
 msgid "if you wish see how many people have signed by following your personal invitation."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "minuter"
 
@@ -449,7 +447,6 @@ msgstr "minuter"
 msgid "professor"
 msgstr "professor"
 
-#, fuzzy
 msgid "second"
 msgstr "sekunder"
 

@@ -536,7 +536,6 @@ msgstr "!%{name}تم تسجيل دعمك "
 msgid "Your supporter number is %{count}."
 msgstr "رقم ترتيب دعمك هو %{count}"
 
-#, fuzzy
 msgid "day"
 msgstr "أيام"
 
@@ -558,7 +557,6 @@ msgid ""
 "ion."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "دقائق"
 
@@ -568,7 +566,6 @@ msgstr "دقائق"
 msgid "professor"
 msgstr "الأستاذ"
 
-#, fuzzy
 msgid "second"
 msgstr "ثوان"
 

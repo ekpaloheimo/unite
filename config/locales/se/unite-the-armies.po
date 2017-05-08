@@ -541,7 +541,6 @@ msgstr "Ditt stöd har registrerats %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "Ditt stödnummer är %{count}."
 
-#, fuzzy
 msgid "day"
 msgstr "dagar"
 
@@ -563,7 +562,6 @@ msgid ""
 "ion."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "minuter"
 
@@ -573,7 +571,6 @@ msgstr "minuter"
 msgid "professor"
 msgstr "professor"
 
-#, fuzzy
 msgid "second"
 msgstr "sekunder"
 

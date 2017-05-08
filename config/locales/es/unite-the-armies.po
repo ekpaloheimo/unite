@@ -563,7 +563,6 @@ msgstr "Tu apoyo ha sido registrado %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "Tu número de contriibuyente es %{count}."
 
-#, fuzzy
 msgid "day"
 msgstr "Días"
 
@@ -585,7 +584,6 @@ msgid ""
 "ion."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "Minutos"
 
@@ -595,7 +593,6 @@ msgstr "Minutos"
 msgid "professor"
 msgstr "Profesor"
 
-#, fuzzy
 msgid "second"
 msgstr "Segundos"
 

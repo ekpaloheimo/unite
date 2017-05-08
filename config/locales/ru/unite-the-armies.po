@@ -568,7 +568,6 @@ msgstr "Ваша поддержка зарегистрирована %{name}"
 msgid "Your supporter number is %{count}."
 msgstr "Ваш номер содействующего лица %{count}."
 
-#, fuzzy
 msgid "day"
 msgstr "дня/дней"
 
@@ -590,7 +589,6 @@ msgid ""
 "ion."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "минуты/минут"
 
@@ -600,7 +598,6 @@ msgstr "минуты/минут"
 msgid "professor"
 msgstr "профессор"
 
-#, fuzzy
 msgid "second"
 msgstr "секунды/секунд"
 

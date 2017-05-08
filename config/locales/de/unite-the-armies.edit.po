@@ -419,7 +419,6 @@ msgstr "Die Unterstützung wurde registiert %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "Du bist der/die %{count}. Unterstützer(in)."
 
-#, fuzzy
 msgid "day"
 msgstr "Tage"
 
@@ -439,7 +438,6 @@ msgstr ""
 msgid "if you wish see how many people have signed by following your personal invitation."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "Minuten"
 
@@ -449,7 +447,6 @@ msgstr "Minuten"
 msgid "professor"
 msgstr "Professor"
 
-#, fuzzy
 msgid "second"
 msgstr "Sekunden"
 

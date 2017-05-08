@@ -501,7 +501,6 @@ msgstr "您的支持已经被记录 %{name}!"
 msgid "Your supporter number is %{count}."
 msgstr "您的支持编号为 %{count}."
 
-#, fuzzy
 msgid "day"
 msgstr "天"
 
@@ -523,7 +522,6 @@ msgid ""
 "ion."
 msgstr ""
 
-#, fuzzy
 msgid "minute"
 msgstr "分"
 
@@ -533,7 +531,6 @@ msgstr "分"
 msgid "professor"
 msgstr "教授"
 
-#, fuzzy
 msgid "second"
 msgstr "秒"
 

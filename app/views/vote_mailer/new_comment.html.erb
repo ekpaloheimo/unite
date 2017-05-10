@@ -7,6 +7,4 @@
   <tr><th style="text-align: left">Muokattu:</th><td><%= @comment.updated_at %></td></tr>
   <tr><th style="text-align: left">Aihe:</th><td><%= Comment.translated_themes[@comment.theme] %></td></tr>
 </table>
-<p>
-  <%= @comment.body %>
-</p>
+<p style="white-space: pre-wrap"><%= @comment.body %></p>

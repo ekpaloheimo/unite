@@ -45,7 +45,7 @@ class CommentTest < ActiveSupport::TestCase
   end
 
   test "should be valid with correct theme" do
-    themes = %w(administration air water protected-areas plastic-waste)
+    themes = %w(administration water climate plastic-waste protected-areas)
     themes.each do |theme|     
       @comment.theme = theme
       assert @comment.valid?, @comment.errors.full_messages

@@ -34,7 +34,7 @@ class CommentsControllerTest < ActionController::TestCase
         language: @comment.language, 
         topic: @comment.topic,
         ip: "0.0.0.0",
-        theme: "air"
+        theme: "water"
       }
     end
     assert_redirected_to vote_path(locale: "en", secret_token: vote.secret_token)
@@ -53,7 +53,7 @@ class CommentsControllerTest < ActionController::TestCase
         language: @comment.language, 
         topic: @comment.topic,
         ip: "0.0.0.0",
-        theme: "air"
+        theme: "water"
       }
     end
     assert_redirected_to vote_path(locale: "ar", secret_token: vote.secret_token)

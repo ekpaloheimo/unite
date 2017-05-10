@@ -43,6 +43,14 @@ class VoteMailer < ApplicationMailer
     mail(to: mail_to, subject: "Unite The Armies - allekirjoittajat", cc: "info@jonitoyryla.eu")
   end
 
+  def new_comment(comment)
+    @comment = comment
+    old_locale = I18n.locale
+    I18n.locale = "fi"
+    mail_to = Rails.configuration.x.comment_target_email
+    mail(to: mail_to, subject: "Unite The Armies - uusi kommentti")
+    I18n.locale = old_locale
+  end
 end
 
 

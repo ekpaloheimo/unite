@@ -41,19 +41,12 @@
          "plastic-waste" => _("The United Armies must collect the plastic waste from the oceans and shores."),
          "protected-areas" => _("The United Armies must protect the areas reserved for nature.")
        }
-       topics_localized = {
-         "administration" => _("Administration"),
-         "water" => _("Water"),
-         "climate" => _("Climate"),
-         "plastic-waste" => _("Plastic Waste"),
-         "protected-areas" => _("Protected Areas")
-       }
-       topics.each do |topic| 
+       topics.each do |topic|
     %>
        <p>
        <label for="<%= topic %>">
          <%= radio_button("comment","theme", topic, onChange: "showTopic(this)", :id => topic) %> 
-         <%= topics_localized[topic] %>
+         <%= Comment.translated_themes[topic] %>
        </label>
        </p>
     <% end %>
@@ -62,7 +55,7 @@
   <div class="comment-area">
     <% topics.each do |topic| %>
       <div class="comment-topic comment-<%= topic %>">
-        <h1 class="page-header"><%= topics_localized[topic] %></h1>
+        <h1 class="page-header"><%= Comment.translated_themes[topic] %></h1>
         <%= image_tag("#{topic}.jpg", :class => "img-responsive img-rounded") %>
         <p class="lead">
           <%= _(descriptions[topic]) %>

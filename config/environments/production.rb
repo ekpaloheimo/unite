@@ -79,4 +79,5 @@ Rails.application.configure do
 
   config.x.backup_email = "aurora_paloheimo@hotmail.com"
   config.x.send_count = 100
+  config.x.comment_target_email = "emmi.seppanen@unite-the-armies.org"
 end

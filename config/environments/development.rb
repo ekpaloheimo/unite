@@ -41,4 +41,5 @@ Rails.application.configure do
 
   config.x.backup_email = "info@jonitoyryla.eu"
   config.x.send_count = 100
+  config.x.comment_target_email = "jouni@iwa.fi"
 end

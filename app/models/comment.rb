@@ -23,7 +23,7 @@ class Comment < ActiveRecord::Base
   end
 
   def validate_theme
-    themes = %w(administration air water protected-areas plastic-waste)
+    themes = %w(administration water climate plastic-waste protected-areas)
     if themes.index(theme).nil?
       errors.add(:theme, "is not valid")
     end
@@ -35,4 +35,17 @@ class Comment < ActiveRecord::Base
     end
   end
 
+  def email_comment
+    VoteMailer.new_comment(self).deliver_now
+  end
+
+  def self.translated_themes
+    {
+      "administration" => _("Administration"),
+      "water" => _("Water"),
+      "climate" => _("Climate"),
+      "plastic-waste" => _("Plastic Waste"),
+      "protected-areas" => _("Protected Areas")
+    }
+  end
 end

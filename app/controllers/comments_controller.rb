@@ -56,11 +56,13 @@ class CommentsController < ApplicationController
       redirect_to new_vote_path(locale: locale)
       return
     end
-    
+
+    @vote = vote
     @comment.vote = vote
 
     respond_to do |format|
       if @comment.save
+        @comment.email_comment
         msg = _("Comment was successfully created.")
         values = {
           locale: locale, 

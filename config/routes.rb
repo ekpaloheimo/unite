@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   post 'votes/email_invite' => 'votes#email_invite', as: :email_invite_votes
 
   get 'admin/:admin_hash' => 'welcome#admin', as: :admin_index
-  post 'admin_upload/:admin_hash' => 'welcome#admin_upload', as: :admin_upload
+  post 'admin/:admin_hash' => 'welcome#admin_upload', as: :admin_upload
 
   scope "(:locale)" do
     get '' => 'welcome#index', as: :locale_root

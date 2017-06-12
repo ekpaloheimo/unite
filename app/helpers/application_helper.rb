@@ -18,7 +18,7 @@ module ApplicationHelper
         html = button_tag(type: :button, class: :close, :"data-dismiss" => "alert") do
           "&times;".html_safe
         end
-        html << ("<h1>"+msg+"</h1>").html_safe
+        html << ("<h2>"+msg+"</h2>").html_safe
         html
       end
     end.join.html_safe

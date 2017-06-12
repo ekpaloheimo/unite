@@ -35,12 +35,18 @@ class WelcomeControllerTest < ActionController::TestCase
 
   test 'should parse CSV- file' do    
     admin_csv = fixture_file_upload('files/admin_csv','text/plain')
-
     assert_difference("Vote.count", 2) do
       post :admin_upload, admin_hash: Rails.application.config.admin_hash, admin_csv: admin_csv
     end    
   end
 
+  test 'should not add votes if csv is nil' do    
+    admin_csv = nil
+    assert_no_difference("Vote.count") do
+      post :admin_upload, admin_hash: Rails.application.config.admin_hash, admin_csv: admin_csv
+    end    
+  end
+  
   test 'should filter csv data' do
     get :index
     admin_csv = fixture_file_upload('files/admin_csv','text/plain')

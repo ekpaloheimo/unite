@@ -122,8 +122,9 @@ class VotesController < ApplicationController
     @sorted_votes = @votes.sort { |a,b| b.count <=> a.count }
   end
 
+  # Do not return votes which has created_at in future
   def recently_added
-    @votes = Vote.select(:id, :country,:name, :created_at).last(6)
+    @votes = Vote.select(:id, :country,:name, :created_at).where("created_at <= ?", Time.now).last(6)
     votes = @votes.map do |vote|
       vote_h = vote.attributes.to_h
       vote_h[:ago] = vote.ago

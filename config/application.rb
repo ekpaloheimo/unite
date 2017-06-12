@@ -35,5 +35,7 @@ module UniteTheArmies
       authentication:       'plain',
       enable_starttls_auto: true
     }
+
+    config.admin_hash = "26d438f70627d0a01a9435d3675a6902"
   end
 end

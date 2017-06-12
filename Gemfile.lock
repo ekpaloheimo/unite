@@ -112,7 +112,7 @@ GEM
     minitest (5.5.1)
     multi_json (1.11.0)
     multi_xml (0.5.5)
-    mysql2 (0.3.16)
+    mysql2 (0.3.17)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -216,7 +216,7 @@ DEPENDENCIES
   humanizer
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2
+  mysql2 (= 0.3.17)
   rails (= 4.2.1)
   rvm-capistrano
   sass-rails (~> 5.0)
@@ -230,4 +230,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.13.1
+   1.15.0

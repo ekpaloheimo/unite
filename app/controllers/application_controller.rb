@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
     FastGettext.set_locale(
                            params[:locale] || 
                            session[:locale] || 
-                           request.env['HTTP_ACCEPT_LANGUAGE']
+                           request.env['HTTP_ACCEPT_LANGUAGE'] || :en
                            )
     if session[:locale] and session[:locale] != I18n.locale
       puts "Clearing cache, session:#{session[:locale]} locale:#{I18n.locale}"

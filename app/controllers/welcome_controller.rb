@@ -6,6 +6,9 @@ class WelcomeController < ApplicationController
   def appeal
   end
 
+  def download
+  end
+
   def admin
     if params[:admin_hash] != Rails.application.config.admin_hash
       redirect_to :root

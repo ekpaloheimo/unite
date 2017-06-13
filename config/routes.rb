@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     resources :votes, :only => [:new, :index, :create]
     resources :comments, :only => [:new, :index, :create]
     get 'votes/:secret_token' => 'votes#show', as: :vote
+    get 'download' => 'welcome#download', as: :download
   end
 
 end

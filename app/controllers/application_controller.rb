@@ -19,12 +19,16 @@ class ApplicationController < ActionController::Base
   def set_locale
     FastGettext.text_domain = 'unite-the-armies'
     FastGettext.available_locales = Language::LOCALES.values
+
+    # accept only valid locale values
+    loc = Language::LOCALES.values.index(params[:locale]).nil? ? nil : params[:locale] 
+    
     FastGettext.set_locale(
-                           params[:locale] || 
+                           loc || 
                            session[:locale] || 
                            request.env['HTTP_ACCEPT_LANGUAGE'] || :en
                            )
-    if session[:locale] and session[:locale] != I18n.locale
+    if session[:locale] and (session[:locale].to_sym != I18n.locale)
       puts "Clearing cache, session:#{session[:locale]} locale:#{I18n.locale}"
       Rails.cache.clear
     end

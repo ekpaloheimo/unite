@@ -4,7 +4,7 @@ lock '3.4.0'
 require "rvm/capistrano"
 
 set :application, 'unite-the-armies'
-set :repo_url, 'git@github.com:ekopaloheimo/unite.git'
+set :repo_url, 'git@github.com:ekpaloheimo/unite.git'
 set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml', 'public/googleca9639854eea1a9b.html')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 set :keep_releases, 5

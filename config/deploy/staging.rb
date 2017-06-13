@@ -1,4 +1,3 @@
-server '188.117.30.19', user: 'ubuntu', roles: %w{app db web}
+server 'unite', user: 'ubuntu', roles: %w{app db web}
 set :deploy_to, '/var/www/testi.unite-the-armies.org'
-set :ssh_options, {  
-}
+set :ssh_options, { forward_agent: true }

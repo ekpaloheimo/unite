@@ -2,6 +2,11 @@
 require 'test_helper'
 
 class WelcomeControllerTest < ActionController::TestCase
+
+  def teardown
+    # Clear all unsend invitation mails 
+    ActionMailer::Base.deliveries.clear
+  end
   
   test "should get index" do
     get :index
@@ -32,19 +37,20 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-
   test 'should parse CSV- file' do    
     admin_csv = fixture_file_upload('files/admin_csv','text/plain')
     assert_difference("Vote.count", 2) do
       post :admin_upload, admin_hash: Rails.application.config.admin_hash, admin_csv: admin_csv
-    end    
+    end
+    assert_not ActionMailer::Base.deliveries.empty?    
   end
 
-  test 'should not add votes if csv is nil' do    
+  test 'should not add votes if csv is nil' do
     admin_csv = nil
     assert_no_difference("Vote.count") do
       post :admin_upload, admin_hash: Rails.application.config.admin_hash, admin_csv: admin_csv
     end    
+    assert ActionMailer::Base.deliveries.empty?
   end
   
   test 'should filter csv data' do

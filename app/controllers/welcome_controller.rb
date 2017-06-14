@@ -51,8 +51,11 @@ class WelcomeController < ApplicationController
         ip: ip,
         created_at: new_created_at
       }
-      Vote.create(values)
-      created_at = new_created_at
+      vote = Vote.create(values)
+      if vote.valid?
+        VoteMailer.sign_up(vote).deliver_later
+        created_at = new_created_at
+      end
     end
     
     flash[:success] = "Tiedosto ladattu järjestelmään, kiitos työstäsi ympäristön puolesta!"

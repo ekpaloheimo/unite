@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
     FastGettext.available_locales = Language::LOCALES.values
 
     # accept only valid locale values
-    loc = Language::LOCALES.values.index(params[:locale]).nil? ? nil : params[:locale] 
+    loc = Language::LOCALES.values.index(params[:locale].try(:to_sym)).nil? ? nil : params[:locale] 
     
     FastGettext.set_locale(
                            loc || 

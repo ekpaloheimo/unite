@@ -1,25 +1,28 @@
 <h1><%= _("Your support has been registered %{name}!") % {name: @vote.name} %> </h1>
 
-<p class="lead"><%= _("Background") %></p>
-<p><%= _("We introduce this campaign to support an initiative presented to the United Nations Secretariat by two professors: U.B. Lindström and Eero Paloheimo.") %></p>
-<p><%= _("The concern of this campaign is that the global environment is radically deteriorating. Dangerous developments have accelerated and approach the point of no return.") %></p>
-<p><%= _("It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters.") %></p>
+<p><%= _("Our campaign promotes the petition sent to the United Nations by professors U.B. Lindström and Eero Paloheimo in cooperation with a small deep ecological association (VESL in Finland). As you may recall, the aim is to deploy the world’s armies into environmental work to protect the diversity of the global ecosystem and win the battle against climate change.") %></p>
 
-<br/>
-<br/>
+<p><%= _("It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign. If you would like to hear news about how the campaign is progressing towards this goal, click this link and sign up on our mailing list:") %></p>
 
-<p class="lead"><%= _("Instructions") %></p>
+<p><a href="https://sign-un-petition.org/you-might-be-able-to-help-one-day">https://sign-un-petition.org/you-might-be-able-to-help-one-day</a></p>
+
+<p><%= _("We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do.") %></p>
+
+<p><%= _("Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign.") %></p>
+
+<p><%= _("You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish.") %></p>
+
+<p><%= _("If you click the link below, you’ll find your personal supporter page. If you so wish, you can spread awareness of our campaign via that page, so that the number of those who have signed via your link is recorded there. The best supporters shall be rewarded.") %></p>
+
+<a href="<%= vote_url(secret_token: @vote.secret_token, locale: locale)  %>">My supporter page</a>
+
 <p>
-  <%= _("The link below will go to your private secret vote") %>
+  <%= _("Thank you in any case for signing the petition,") %>
+  <br/>
+  <%= _("sincerely,") %>
 </p>
-<p>
-  <%= _("Do not share this direct link to anybody. Instead, you can use a form on the site to send invitations to your friends by email.") %> 
-</p>
-<p>
-  <%= _("The best contributors will be rewarded later.") %>
-</p>
+<p><%= _("The Unite the Armies campaign team") %></p>
 
 <br/>
 <br/>
 
-<a href="<%= vote_url(secret_token: @vote.secret_token, locale: locale)  %>">View your vote</a>

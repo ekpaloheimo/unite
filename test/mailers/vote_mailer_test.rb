@@ -16,7 +16,7 @@ class VoteMailerTest < ActionMailer::TestCase
     # Test the body of the sent email contains what we expect it to
     assert_equal ['info@unite-the-armies.org'], email.from
     assert_equal ['user1@vote-example.com'], email.to
-    assert_equal 'Thank you for your contribution to the Save the World - Unite The Armies!', email.subject
+    assert_equal "Thank you for signing the Unite the Armies petition", email.subject
     #assert_equal read_fixture('invite').join, email.body.to_s
   end
 

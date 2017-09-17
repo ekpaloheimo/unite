@@ -2,7 +2,7 @@ class VoteMailer < ApplicationMailer
 
   def sign_up(vote)
     @vote = vote
-    mail(to: vote.email, subject: _('Thank you for your contribution to the Save the World - Unite The Armies!'))
+    mail(to: vote.email, subject: _("Thank you for signing the Unite the Armies petition"))
   end
 
   # = params

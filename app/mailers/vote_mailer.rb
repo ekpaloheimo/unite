@@ -2,6 +2,7 @@ class VoteMailer < ApplicationMailer
 
   def sign_up(vote)
     @vote = vote
+    attachments.inline['earth.jpg'] = File.read(Rails.root.join("app/assets/images/earth.jpg"))
     mail(to: vote.email, subject: _("Thank you for signing the Unite the Armies petition"))
   end
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-17 16:29+0300\n"
+"PO-Revision-Date: 2017-10-08 11:15+0300\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -40,19 +40,13 @@ msgid "Administration"
 msgstr "Hallinto"
 
 msgid "Ago"
-msgstr "Aikaa allekirjoituksesta"
+msgstr "Kuinka kauan sitten"
 
 msgid "Air pollution is a global Challenge!"
 msgstr "Ilmakehän saastuminen on globaali haaste!"
 
-msgid "Animation realization"
-msgstr "Animaatioiden toteutus"
-
 msgid "Arabic"
 msgstr "Arabia"
-
-msgid "Back to top"
-msgstr "Palaa alkuun"
 
 msgid "Background"
 msgstr "Tausta"
@@ -87,6 +81,9 @@ msgstr "Kommentti on lisätty onnistuneesti."
 msgid "Comments"
 msgstr "Kommentit"
 
+msgid "Contact our Campaign Assistant"
+msgstr "Ota yhteyttä kampanjan yhteyshenkilöön"
+
 msgid "Continue"
 msgstr "Jatka"
 
@@ -108,9 +105,6 @@ msgstr "Sähköposti uudelleen"
 msgid "English"
 msgstr "Englanti"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Suomi"
 
@@ -125,9 +119,6 @@ msgstr "Saksa"
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Annetaan armeijoille uusi positiivinen, ympäristönsuojelijan tehtävä"
-
-msgid "Google+"
-msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Tervehdys %{name}!"
@@ -222,8 +213,9 @@ msgstr "Radikaaleja toimenpiteitä tarvitaan planeettamme pelastamiseksi."
 msgid "Read more"
 msgstr "Lue lisää"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Viimeisimmät allekirjoitukset"
+msgstr "%{count} kannattajaa"
 
 msgid "Rules for Comments"
 msgstr "Kommentoinnin säännöt"
@@ -242,9 +234,6 @@ msgstr "Pelasta maailma"
 
 msgid "Send"
 msgstr "Lähetä"
-
-msgid "Share"
-msgstr "Jaa"
 
 msgid "Share email with your friends"
 msgstr "Jaa sähköpostilla"
@@ -363,9 +352,6 @@ msgstr "Otsikko"
 msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
 msgstr "Maailman valtioiden yhteisiksi varustelukuluiksi on arvioitu 1500 miljardia dollaria vuodessa. Näitä kuluja voi verrata esimerkiksi Saharan metsittämisen kustannuksiin, jotka olisivat vuosittain noin 1/6 mainituista varustelumenoista. Esimerkki kuvaa suuruusluokkaa, joka on latenttina käytettävissä planeettamme pelastamiseksi, jos poliittinen yhteisymmärrys saavutetaan."
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Yhdistäkäämme armeijat pelastaaksemme elämää - ei tappaaksemme!"
 
@@ -411,6 +397,9 @@ msgstr "Me allekirjoittaneet käännymme puoleenne, koska olemme huolestuneet ma
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr "Haluatko nähdä koko vetoomuksen omalla kielelläsi - ole hyvä ja ota yhteyttä!"
 
+msgid "Would you like to help the campaign by doing voluntary programming? Great! Fork the code from %{github}."
+msgstr "Haluatko auttaa kampanjaa tekemällä vapaaehtoista ohjelmointityötä? Hienoa! Kopioi koodi %{github}:ista."
+
 msgid "You can also contribute to the discussion after signing. You will get a separate message of that by email."
 msgstr "Voit osallistua keskusteluun äänestyksen jälkeen. Saat lisätietoa sähköpostilla."
 
@@ -429,9 +418,6 @@ msgstr "Olet auttanut kampanjaa saamalla %{count} ihmistä äänestämään jäl
 msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
 msgstr ""
 " Antamalla nimesi lupalistaamme et vielä sitoudu mihinkään. Listalta voit myös poistua milloin vain. Voit antaa lupasi myös sähköpostitse vastaamalla tähän viestiin.\n"
-
-msgid "YouTube"
-msgstr "Youtube"
 
 msgid "Your friends email address"
 msgstr "Ystäväsi sähköpostiosoite"

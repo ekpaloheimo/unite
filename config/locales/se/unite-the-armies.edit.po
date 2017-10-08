@@ -30,19 +30,13 @@ msgid "Administration"
 msgstr "Administration "
 
 msgid "Ago"
-msgstr "Sedan"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "Luftföroreningen är en världsomfattande utmaning "
 
-msgid "Animation realization"
-msgstr "Animation"
-
 msgid "Arabic"
 msgstr "Arabiska "
-
-msgid "Back to top"
-msgstr "Tillbaka till början"
 
 msgid "Background"
 msgstr " Bakgrunden"
@@ -77,6 +71,9 @@ msgstr "En konstruktiv kommentar skapades framgångsrikt"
 msgid "Comments"
 msgstr "Kommentar"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -98,9 +95,6 @@ msgstr "Email bekräftelse"
 msgid "English"
 msgstr "Engelska"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Finska"
 
@@ -115,9 +109,6 @@ msgstr "Tyska"
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Ge arméerna en ny positiv uppgift: att skydda miljön"
-
-msgid "Google+"
-msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Hälsningar %{name}"
@@ -212,8 +203,9 @@ msgstr "Det behövs radikala åtgärder för att snabbt rädda vår planet."
 msgid "Read more"
 msgstr "Läs mera"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Senaste röster"
+msgstr "%{count} röster"
 
 msgid "Rules for Comments"
 msgstr "Regler för kommentarer"
@@ -232,9 +224,6 @@ msgstr "Rädda planeten"
 
 msgid "Send"
 msgstr "Skicka"
-
-msgid "Share"
-msgstr "Dela"
 
 msgid "Share email with your friends"
 msgstr "Dela email med dina vänner"
@@ -353,9 +342,6 @@ msgstr "Tema"
 msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
 msgstr "Arméernas totala kostnader i världen uppskattas till 1500 miljarder dollar årligen. Kostnaden kan sättas i perspektiv genom en jämförelse med den uppskattade kostnaden för skogsplantering över hela Sahara, som uppskattas vara en sjättedel av  de militära utgifterna varje år. Detta exempel  illustrerar klart vilken potential den föreslagna åtgärden besitter, om bara den politiska viljan finns."
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Förena arméerna för att rädda livet - inte för att döda"
 
@@ -401,6 +387,9 @@ msgstr "Vi, undertecknade  vänder oss till er i vår oro över den globala milj
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr "Om du vill ha initiativet på ditt språk - var god, kontakta oss!"
 
+msgid "Would you like to help the campaign by doing voluntary programming? Great! Fork the code from %{github}."
+msgstr ""
+
 msgid "You can also contribute to the discussion after signing. You will get a separate message of that by email."
 msgstr "Efter undertecknandet kan du delta i diskussionen. Du kommer att få ett separat meddelande av detta via e-mail"
 
@@ -418,9 +407,6 @@ msgstr "Du har hjälpt kampanjen genom att %{count} människor har undertecknat 
 
 msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "Din väns e-mail adress"
@@ -468,6 +454,24 @@ msgstr "sekunder"
 msgid "sincerely,"
 msgstr ""
 
+#~ msgid "Ago"
+#~ msgstr "Sedan"
+#~ msgid "Recent Votes"
+#~ msgstr "Senaste röster"
+#~ msgid "Animation realization"
+#~ msgstr "Animation"
+#~ msgid "Back to top"
+#~ msgstr "Tillbaka till början"
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+#~ msgid "Google+"
+#~ msgstr "Google+"
+#~ msgid "Share"
+#~ msgstr "Dela"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
 #~ msgid ""
 #~ "Do not share this direct link to anybody. Instead, you can use a form on the s"
 #~ "ite to send invitations to your friends by email."

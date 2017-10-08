@@ -44,19 +44,13 @@ msgid "Administration"
 msgstr "行政"
 
 msgid "Ago"
-msgstr "时间"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "空气污染是全球性的挑战"
 
-msgid "Animation realization"
-msgstr "动画实现"
-
 msgid "Arabic"
 msgstr "阿拉伯语"
-
-msgid "Back to top"
-msgstr "返回页面顶部"
 
 msgid "Background"
 msgstr "背景"
@@ -91,6 +85,9 @@ msgstr "评论成功"
 msgid "Comments"
 msgstr "评论"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "继续"
 
@@ -114,9 +111,6 @@ msgstr "电子邮件确认"
 msgid "English"
 msgstr "英文"
 
-msgid "Facebook"
-msgstr "脸书"
-
 msgid "Finnish"
 msgstr "芬兰语"
 
@@ -131,9 +125,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "赋予军队一项全新且富有意义的使命：保护我们的环境"
-
-msgid "Google+"
-msgstr "谷歌"
 
 msgid "Greetings %{name}!"
 msgstr "您好 %{name}!"
@@ -268,8 +259,9 @@ msgstr "需要采取积极的行动拯救我们的星球"
 msgid "Read more"
 msgstr "拯救我们共有的世界"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "最新投票"
+msgstr "%{count} 投票"
 
 msgid "Rules for Comments"
 msgstr "评论规则"
@@ -288,9 +280,6 @@ msgstr "拯救地球"
 
 msgid "Send"
 msgstr "发送"
-
-msgid "Share"
-msgstr "分享"
 
 msgid "Share email with your friends"
 msgstr "用电子邮件分享给您的朋友\""
@@ -432,9 +421,6 @@ msgstr ""
 "每年全球的军力开支预计为1.5万亿美元。透视这笔开支，与之相比，为整个撒哈拉沙漠植树造林的预算成本仅占全球军力开支的六分之一。上述例证很好阐释了一旦相关政治"
 "问题得以解决，在这一问题上采取行动将有巨大的发展潜力。"
 
-msgid "Twitter"
-msgstr "Twitter推特"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "联合军队来保护生命—不要杀戮。"
 
@@ -508,6 +494,11 @@ msgid "Would you like to have the initiative in your language – please, contac
 msgstr "你想要一份你自己语言的倡议书----请不要犹豫，与我们联系！"
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr "加入后你也可以加入讨论。你会收到一封有关这个活动的邮件。"
@@ -528,9 +519,6 @@ msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "Youtube视频\""
 
 msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"

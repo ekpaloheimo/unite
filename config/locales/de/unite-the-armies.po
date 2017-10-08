@@ -41,19 +41,13 @@ msgid "Administration"
 msgstr "Administration"
 
 msgid "Ago"
-msgstr "Vor"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "Luftverschmutzung ist eine globale Herausforderung!"
 
-msgid "Animation realization"
-msgstr "Animation starten"
-
 msgid "Arabic"
 msgstr "Arabisch"
-
-msgid "Back to top"
-msgstr "Nach oben"
 
 msgid "Background"
 msgstr "Hintergrund"
@@ -88,6 +82,9 @@ msgstr "Der Kommentar wurde erfolgreich erstellt."
 msgid "Comments"
 msgstr "Kommentieren"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "Weiter"
 
@@ -113,9 +110,6 @@ msgstr "E-Mail Bestätigung"
 msgid "English"
 msgstr "Englisch"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Finnisch"
 
@@ -130,9 +124,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Den Armeen eine neue, positive Aufgabe geben: Schützt die Umwelt"
-
-msgid "Google+"
-msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Grüße %{name}!"
@@ -281,8 +272,9 @@ msgstr ""
 msgid "Read more"
 msgstr "Mehr erfahren"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Kürzliche Unterschriften"
+msgstr "%{count} Kürzliche Unterschriften"
 
 msgid "Rules for Comments"
 msgstr "Regeln zum Kommentieren"
@@ -301,9 +293,6 @@ msgstr "Den Planeten retten"
 
 msgid "Send"
 msgstr "Absenden"
-
-msgid "Share"
-msgstr "Teilen"
 
 msgid "Share email with your friends"
 msgstr "E-Mail mit Freund_innen teilen"
@@ -465,9 +454,6 @@ msgstr ""
 "nterventionen in dieser Sache auf, sollten die Politiker_innen darauf eingehen"
 "."
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Armeen vereinigen, um Leben zu retten - nicht um zu töten!"
 
@@ -563,6 +549,11 @@ msgstr ""
 "t aufnehmen!"
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
@@ -587,9 +578,6 @@ msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "E-Mail-Adresse des/der Freund_in"

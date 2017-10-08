@@ -44,19 +44,13 @@ msgid "Administration"
 msgstr "الإدارة"
 
 msgid "Ago"
-msgstr "ماضي"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "تلوث الهواء هو تحدّ عالمي"
 
-msgid "Animation realization"
-msgstr "تحقيق الإنتعاش"
-
 msgid "Arabic"
 msgstr "عربي"
-
-msgid "Back to top"
-msgstr "العودة إلى أعلى"
 
 msgid "Background"
 msgstr "الخلفية"
@@ -91,6 +85,9 @@ msgstr "تم تحقيق التعليق بنجاح"
 msgid "Comments"
 msgstr "التعليق"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "واصل"
 
@@ -116,9 +113,6 @@ msgstr "التأكيد على البريد الإلكتووني"
 msgid "English"
 msgstr "إنجليزي"
 
-msgid "Facebook"
-msgstr "فيسبوك"
-
 msgid "Finnish"
 msgstr "فنلندي"
 
@@ -133,9 +127,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr " أعط الجيوش مهمة جديدة إيجابية : حماية البيئة."
-
-msgid "Google+"
-msgstr "جوجل+"
 
 msgid "Greetings %{name}!"
 msgstr "! %{name}تحيات  "
@@ -278,8 +269,9 @@ msgstr "يجب اتخاذ تدابير صارمة فوراً لإنقاذ كوك
 msgid "Read more"
 msgstr "اقرأ المنزيد"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "آخرالأصوات"
+msgstr "آخرالأصوات %{count}"
 
 msgid "Rules for Comments"
 msgstr "قواعد للتعليقات"
@@ -298,9 +290,6 @@ msgstr "أنقذ الكوكب."
 
 msgid "Send"
 msgstr "أرسل"
-
-msgid "Share"
-msgstr "شارك"
 
 msgid "Share email with your friends"
 msgstr "شارك في البريد الإلكتوني مع أصدقائك "
@@ -450,9 +439,6 @@ msgstr ""
 "بسدس المبالغ المذكورة أعلاه. هذا المثال يوضح بدقة الإمكانيات اللازمة لإنقاذ كو"
 "كبنا إذا توفرت الإرادة السياسية لذلك. "
 
-msgid "Twitter"
-msgstr "تغريد"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "وحّد الجيوش لإنقاذ الحياة لا لقتلها"
 
@@ -541,6 +527,11 @@ msgid "Would you like to have the initiative in your language – please, contac
 msgstr "هل ترغب في الحصول على المبادرة بلغتك – يُرجى الإتصال بنا "
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
@@ -563,9 +554,6 @@ msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "يوتيوب"
 
 msgid "Your friends email address"
 msgstr "عنوان البريد الإلكتروني لأصدقائك"

@@ -30,19 +30,13 @@ msgid "Administration"
 msgstr "Administration"
 
 msgid "Ago"
-msgstr "Vor"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "Luftverschmutzung ist eine globale Herausforderung!"
 
-msgid "Animation realization"
-msgstr "Animation starten"
-
 msgid "Arabic"
 msgstr "Arabisch"
-
-msgid "Back to top"
-msgstr "Nach oben"
 
 msgid "Background"
 msgstr "Hintergrund"
@@ -77,6 +71,9 @@ msgstr "Der Kommentar wurde erfolgreich erstellt."
 msgid "Comments"
 msgstr "Kommentieren"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "Weiter"
 
@@ -98,9 +95,6 @@ msgstr "E-Mail Bestätigung"
 msgid "English"
 msgstr "Englisch"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Finnisch"
 
@@ -115,9 +109,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Den Armeen eine neue, positive Aufgabe geben: Schützt die Umwelt"
-
-msgid "Google+"
-msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "Grüße %{name}!"
@@ -212,8 +203,9 @@ msgstr "Tiefgreifende Maßnahmen sind dringend notwendig, um unseren Planeten zu
 msgid "Read more"
 msgstr "Mehr erfahren"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Kürzliche Unterschriften"
+msgstr "%{count} Kürzliche Unterschriften"
 
 msgid "Rules for Comments"
 msgstr "Regeln zum Kommentieren"
@@ -232,9 +224,6 @@ msgstr "Den Planeten retten"
 
 msgid "Send"
 msgstr "Absenden"
-
-msgid "Share"
-msgstr "Teilen"
 
 msgid "Share email with your friends"
 msgstr "E-Mail mit Freund_innen teilen"
@@ -353,9 +342,6 @@ msgstr "Thema"
 msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
 msgstr "Die gesamte Rüstungsausgaben werden weltweit auf $1500 Milliarden jährlich geschätzt; solche Ausgaben können im Vergleich mit den geschätzten Kosten einer Aufforstung der gesamten Sahara-Wüste relativiert werden. Diese Aufforstung würde ungefähr ein Sechstel der jährlichen weltweiten Rüstungsausgaben betragen. Dieses Beispiel zeigt eingängig das Ausmaß des benötigten Potenzials für die Interventionen in dieser Sache auf, sollten die Politiker_innen darauf eingehen."
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Armeen vereinigen, um Leben zu retten - nicht um zu töten!"
 
@@ -401,6 +387,9 @@ msgstr "Wir, die Unterschreibenden, wenden uns an Sie mit unserem Bedenken anges
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr "In der Übersetzung der Initiative fehlt eine Sprache? - Bitte jederzeit Kontakt aufnehmen!"
 
+msgid "Would you like to help the campaign by doing voluntary programming? Great! Fork the code from %{github}."
+msgstr ""
+
 msgid "You can also contribute to the discussion after signing. You will get a separate message of that by email."
 msgstr "Nach Unterschreibent der Initiative kann am Diskussionsforum teilgenommen werden. Dazu wird eine separate E-Mail verschickt."
 
@@ -418,9 +407,6 @@ msgstr "Vielen Dank für die Unterstützung der Kamapagne. %{count} Personen hab
 
 msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "E-Mail-Adresse des/der Freund_in"
@@ -468,6 +454,24 @@ msgstr "Sekunden"
 msgid "sincerely,"
 msgstr ""
 
+#~ msgid "Ago"
+#~ msgstr "Vor"
+#~ msgid "Recent Votes"
+#~ msgstr "Kürzliche Unterschriften"
+#~ msgid "Animation realization"
+#~ msgstr "Animation starten"
+#~ msgid "Back to top"
+#~ msgstr "Nach oben"
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+#~ msgid "Google+"
+#~ msgstr "Google+"
+#~ msgid "Share"
+#~ msgstr "Teilen"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
 #~ msgid ""
 #~ "Do not share this direct link to anybody. Instead, you can use a form on the s"
 #~ "ite to send invitations to your friends by email."

@@ -49,19 +49,13 @@ msgid "Administration"
 msgstr "Administración"
 
 msgid "Ago"
-msgstr "Hace tiempo"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "!La contaminación es un desafio global!"
 
-msgid "Animation realization"
-msgstr "Animación realización"
-
 msgid "Arabic"
 msgstr "Árabe"
-
-msgid "Back to top"
-msgstr "Volver al inicio"
 
 msgid "Background"
 msgstr "Trasfondo"
@@ -96,6 +90,9 @@ msgstr "El comentario fue creado en forma exitosa"
 msgid "Comments"
 msgstr "Comentarios"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "Continua"
 
@@ -121,9 +118,6 @@ msgstr "Confirmar correo"
 msgid "English"
 msgstr "Inglés"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Finés"
 
@@ -140,9 +134,6 @@ msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 "Dotar a los ejércitos de un papel nuevo, positivo, protector del medio ambient"
 "e"
-
-msgid "Google+"
-msgstr "Goole+"
 
 msgid "Greetings %{name}!"
 msgstr "Saludos %{name}"
@@ -289,8 +280,9 @@ msgstr "Se necesitan urgentemente acciones radicals para salvar nuestro planeta.
 msgid "Read more"
 msgstr "Sigue leyendo"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Votos recientes"
+msgstr "%{count} votos"
 
 msgid "Rules for Comments"
 msgstr "Reglas para los comentarios"
@@ -309,9 +301,6 @@ msgstr "!Salvar el planeta!"
 
 msgid "Send"
 msgstr "Envía"
-
-msgid "Share"
-msgstr "Compartir"
 
 msgid "Share email with your friends"
 msgstr "Compartir con correo electrónico"
@@ -473,9 +462,6 @@ msgstr ""
 "cance del potencial necesario para actuar en este asunto, si se encontrara la "
 "voluntad política."
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "!Unificar los Ejércitos para Salvar Vidas- no para Matar!"
 
@@ -567,6 +553,11 @@ msgid "Would you like to have the initiative in your language – please, contac
 msgstr "Si quieres expresar tu iniciativa en tu propio idioma, por favor,!contáctanos!"
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
@@ -591,9 +582,6 @@ msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "Correos electrónicos de tus amigos"

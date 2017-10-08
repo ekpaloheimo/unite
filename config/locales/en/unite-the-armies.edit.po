@@ -44,13 +44,7 @@ msgstr ""
 msgid "Air pollution is a global Challenge!"
 msgstr ""
 
-msgid "Animation realization"
-msgstr ""
-
 msgid "Arabic"
-msgstr ""
-
-msgid "Back to top"
 msgstr ""
 
 msgid "Background"
@@ -86,6 +80,9 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr ""
 
@@ -107,9 +104,6 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-msgid "Facebook"
-msgstr ""
-
 msgid "Finnish"
 msgstr ""
 
@@ -124,9 +118,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Give the armies of the world a new, positive task: to protect the environment"
-
-msgid "Google+"
-msgstr ""
 
 msgid "Greetings %{name}!"
 msgstr ""
@@ -221,8 +212,9 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr ""
+msgstr "%{count} supporters"
 
 msgid "Rules for Comments"
 msgstr ""
@@ -240,9 +232,6 @@ msgid "Save the planet"
 msgstr ""
 
 msgid "Send"
-msgstr ""
-
-msgid "Share"
 msgstr ""
 
 msgid "Share email with your friends"
@@ -362,9 +351,6 @@ msgstr ""
 msgid "Total global spending on armaments is estimated at $1500 billion annually; such spending can be put into perspective by setting it alongside the estimated cost of the afforestation of the entire Sahara Desert, which would amount to about one-sixth of annual global armaments spending. This example neatly illustrates the extent of the potential needed for action in this matter, should the political will be found."
 msgstr ""
 
-msgid "Twitter"
-msgstr ""
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr ""
 
@@ -410,6 +396,9 @@ msgstr ""
 msgid "Would you like to have the initiative in your language – please, contact us!"
 msgstr ""
 
+msgid "Would you like to help the campaign by doing voluntary programming? Great! Fork the code from %{github}."
+msgstr ""
+
 msgid "You can also contribute to the discussion after signing. You will get a separate message of that by email."
 msgstr ""
 
@@ -426,9 +415,6 @@ msgid "You have helped campaign by having %{count} people signed after you."
 msgstr ""
 
 msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
-msgstr ""
-
-msgid "YouTube"
 msgstr ""
 
 msgid "Your friends email address"

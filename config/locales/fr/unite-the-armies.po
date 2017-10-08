@@ -51,19 +51,13 @@ msgid "Administration"
 msgstr "Administration"
 
 msgid "Ago"
-msgstr "il y a"
+msgstr ""
 
 msgid "Air pollution is a global Challenge!"
 msgstr "La polution de l'air est un défi mondial!"
 
-msgid "Animation realization"
-msgstr "Réalisation de l'animation"
-
 msgid "Arabic"
 msgstr "Arabe"
-
-msgid "Back to top"
-msgstr "Retour"
 
 msgid "Background"
 msgstr "Contexte "
@@ -98,6 +92,9 @@ msgstr "Le commentaire est correctement créé."
 msgid "Comments"
 msgstr "Commentaires"
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr "continuez"
 
@@ -124,9 +121,6 @@ msgstr "Confirmation du courriel"
 msgid "English"
 msgstr "Anglais"
 
-msgid "Facebook"
-msgstr "Facebook"
-
 msgid "Finnish"
 msgstr "Finnois"
 
@@ -143,9 +137,6 @@ msgid "Give the armies a new, positive task: protect the environment"
 msgstr ""
 "Donnez aux armées une nouvelle tâche positive : la protection de l'environneme"
 "nt"
-
-msgid "Google+"
-msgstr "Google+"
 
 msgid "Greetings %{name}!"
 msgstr "\"Salutations %{name}!"
@@ -293,8 +284,9 @@ msgstr ""
 msgid "Read more"
 msgstr "Lisez la suite"
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr "Votes récents"
+msgstr "%{count} votes"
 
 msgid "Rules for Comments"
 msgstr "Règles pour les commentaires"
@@ -313,9 +305,6 @@ msgstr "Sauvez la planète"
 
 msgid "Send"
 msgstr "Envoi"
-
-msgid "Share"
-msgstr "Partagez"
 
 msgid "Share email with your friends"
 msgstr "Partager par courriel"
@@ -473,9 +462,6 @@ msgstr ""
 "'ordre de grandeur  illustre l'importance du potentiel nécessaire pour une act"
 "ion en la matière si on trouve une volonté.\n"
 
-msgid "Twitter"
-msgstr "Twitter"
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr "Unissez les armées pour sauver la vie, pas pour tuer!"
 
@@ -568,6 +554,11 @@ msgid "Would you like to have the initiative in your language – please, contac
 msgstr "Vous voulez avoir l'initiative dans votre langue? Contactez-nous!!"
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
@@ -592,9 +583,6 @@ msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
 msgstr ""
-
-msgid "YouTube"
-msgstr "YouTube"
 
 msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"

@@ -101,7 +101,7 @@
                 </span></span></li>
           </ul>
           <p>
-            Contact our Campaign Assistant:<br>
+            <%= _("Contact our Campaign Assistant") %>:<br>
             <a class="button small" style="color:#333 !important" href="mailto:emmi.seppanen@unite-the-armies.org">emmi.seppanen@unite-the-armies.org</a>
           </p>
         </div>
@@ -150,59 +150,15 @@
     </div>
   </div>
 </footer>
-<!-- Footer End -->
 
-<% if false %>
-<footer class="footer text-center">      
-  <div class="container">
+<footer class="footer">
+  <div class="footer-top">
     <div class="row">
-      <div class="col-md-3">
-        <%= link_to image_tag("veslogo.jpg"), "http://www.vesl.fi/", target: "_blank" %>        
-        <p class="continue"><%= link_to _("Back to top"), root_path %></p>
-        <p class="continue"><%= link_to _("Statistics"), votes_path(locale: locale) %></p>
+      <div class="column width-12 center">
+        <%= (_('Would you like to help the campaign by doing voluntary programming? Great! Fork the code from %{github}.') % { github: link_to("Github", "https://github.com/ekpaloheimo/unite", target: "_blank")}).html_safe   %>
       </div>
-      <div class="col-md-3">
-        <h6><%= _("About Us") %></h6>
-        <ul class="list-unstyled">
-          <li><big><%= link_to _("The Green Association for the Protection of Life"), "http://www.vesl.fi/", target: "_blank" %></big></li>
-          <li>Veli Keitel (<%= _("Animation realization") %>)</li>
-          <li>Riikka Kämppi</li>
-          <li>Pekka Lehtinen</li>
-          <li>Ulf Lindström</li>
-          <li>Pentti Linkola</li>
-          <li>Harriet Lonka</li>
-          <li>Vilma Lonka</li>
-          <li>Mika Mattila</li>
-          <li>Nina Motaleff</li>
-          <li>Maria Pakkala</li>
-          <li>Eero Paloheimo</li>
-          <li>Terhi Paloheimo</li>
-          <li>Kimmo Pietiläinen</li>
-          <li>Lasse Poser</li>
-          <li>Ville Rantanen</li>
-          <li>Song Xiao Ling</li>
-          <li>Adrian Soto</li>
-          <li>Pasi Takkinen</li>
-          <li>Joni Töyrylä (<%= _("Technical realization") %>)</li>
-          <li>Tere Vad&eacute;n</li>
-          <li>Michael Wynne-Ellis</li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h6><%= _("Share") %></h6>
-        <ul class="list-unstyled">
-          <li><%= link_to _("Facebook"), "https://www.facebook.com/unitethearmiesnow", target: "_blank" %></li>
-          <li><%= _("Twitter") %></li>
-          <li><%= link_to _("YouTube"), "https://www.youtube.com/channel/UCbBytuGB3cDGyJ2RCSWpovw", target: "_blank" %></li>
-          <li><%= link_to _("Google+"), "https://plus.google.com/u/0/b/110514912421465474435/110514912421465474435/about/p/pub", target: "_blank" %></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <h6><%= _("Recent Votes") %></h6>
-        <div id="recent_votes"></div>
-      </div>          
     </div>
   </div>
 </footer>
 
-<% end %>
+

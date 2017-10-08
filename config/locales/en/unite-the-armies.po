@@ -51,13 +51,7 @@ msgstr ""
 msgid "Air pollution is a global Challenge!"
 msgstr ""
 
-msgid "Animation realization"
-msgstr ""
-
 msgid "Arabic"
-msgstr ""
-
-msgid "Back to top"
 msgstr ""
 
 msgid "Background"
@@ -93,6 +87,9 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
+msgid "Contact our Campaign Assistant"
+msgstr ""
+
 msgid "Continue"
 msgstr ""
 
@@ -118,9 +115,6 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-msgid "Facebook"
-msgstr ""
-
 msgid "Finnish"
 msgstr ""
 
@@ -135,9 +129,6 @@ msgstr ""
 
 msgid "Give the armies a new, positive task: protect the environment"
 msgstr "Give the armies of the world a new, positive task: to protect the environment"
-
-msgid "Google+"
-msgstr ""
 
 msgid "Greetings %{name}!"
 msgstr ""
@@ -273,8 +264,9 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
+#, fuzzy
 msgid "Recent Votes"
-msgstr ""
+msgstr "%{count} supporters"
 
 msgid "Rules for Comments"
 msgstr ""
@@ -292,9 +284,6 @@ msgid "Save the planet"
 msgstr ""
 
 msgid "Send"
-msgstr ""
-
-msgid "Share"
 msgstr ""
 
 msgid "Share email with your friends"
@@ -440,9 +429,6 @@ msgid ""
 "political will be found."
 msgstr ""
 
-msgid "Twitter"
-msgstr ""
-
 msgid "Unite the Armies to Save Life – not to Kill!"
 msgstr ""
 
@@ -519,6 +505,11 @@ msgid "Would you like to have the initiative in your language – please, contac
 msgstr ""
 
 msgid ""
+"Would you like to help the campaign by doing voluntary programming? Great! For"
+"k the code from %{github}."
+msgstr ""
+
+msgid ""
 "You can also contribute to the discussion after signing. You will get a separa"
 "te message of that by email."
 msgstr ""
@@ -538,9 +529,6 @@ msgstr ""
 msgid ""
 "You may join the obligation-free list also by replying to this e-mail, and can"
 " unsubscribe at any given time if you so wish."
-msgstr ""
-
-msgid "YouTube"
 msgstr ""
 
 msgid "Your friends email address"

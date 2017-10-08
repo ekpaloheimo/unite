@@ -1302,7 +1302,6 @@ body,
 .side-navigation-footer,
 .side-navigation-footer .social-list a{
 	color: #666;
-	font-size: 1.1rem;
 }
 .side-navigation-footer .social-list a:hover{
 	color: #fff;
@@ -1450,7 +1449,6 @@ body,
 .overlay-navigation-footer,
 .overlay-navigation-footer .social-list a{
 	color: #666;
-	font-size: 1.3rem;
 }
 .overlay-navigation-footer .social-list a:hover{
 	color: #000;
@@ -1880,7 +1878,6 @@ body,
 	padding: 2rem;
 }
 .team-2 .social-list{
-	margin-bottom: 0;
 }
 .team-2 .occupation{
 	font-size: 1.6rem;
@@ -2220,7 +2217,6 @@ h4.project-title{
 	margin-right: 0.6rem;
 }
 .post-info-aside .social-list{
-	text-align: left;
 }
 .post-info-aside + .post-content,
 .post-author-aside + .author-bio,
@@ -2656,17 +2652,6 @@ textarea.required-field{
 [22. Social Lists]
 */
 
-.social-list li{
-	font-size: 1rem;
-	text-transform: uppercase;
-	font-weight: 700;
-}
-.social-list li a{
-	color: #333;
-}
-.social-list li.social-list-label{
-	color: #333;
-}
 
 /*------------------------------------------------------------------
 [23. Footer]
@@ -2754,15 +2739,9 @@ textarea.required-field{
 }
 .footer .navigation a,
 .footer .social-list a{
-	font-size: 1.1rem;
-	font-weight: normal;
-	color: #232323;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
 }
 .footer .footer-bottom .navigation, 
 .footer .footer-bottom .social-list{
-	float: none;
 }
 
 /*------------------------------------------------------------------

@@ -12,12 +12,19 @@ class VoteMailerTest < ActionMailer::TestCase
     vote = votes(:vote_1)
     email = VoteMailer.sign_up(vote).deliver_now
     assert_not ActionMailer::Base.deliveries.empty?
- 
-    # Test the body of the sent email contains what we expect it to
+
+    # English letter
     assert_equal ['info@unite-the-armies.org'], email.from
     assert_equal ['user1@vote-example.com'], email.to
     assert_equal "Thank you for signing the Unite the Armies petition", email.subject
     #assert_equal read_fixture('invite').join, email.body.to_s
+
+    # Finnish letter
+    I18n.locale = :fi
+    vote = votes(:vote_1)
+    email = VoteMailer.sign_up(vote).deliver_now
+    assert_not ActionMailer::Base.deliveries.empty?
+    assert_equal "Kiitokset Pelasta Maailma- kampanja vetoomuksen allekirjoituksesta", email.subject    
   end
 
   test 'should send email invitations' do

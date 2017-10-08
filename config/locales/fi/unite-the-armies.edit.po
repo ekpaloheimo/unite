@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-17 12:33+0300\n"
+"PO-Revision-Date: 2017-09-17 16:29+0300\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -148,7 +148,7 @@ msgid "In these pages we collect support for a global initiative."
 msgstr "Näillä sivuilla keräämme tukea globaalille aloitteelle."
 
 msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
-msgstr ""
+msgstr "Voit siis ehkä auttaa kampanjaa vaikket sitä vielä tiedäkään - lähetämme listalaisille postia sitten kun on ajankohtaista. Olemme kertoneet allekirjoittajille, että lähetämme sähköpostia oletusarvoisesti harvoin, mutta jos olet valmis auttamaan, niin sähköposti meiltä silloin tällöin on varmaankin aivan tervetullut! Kun riittävän moni ottaa osaa tähän joukkoistamiseen, pääsemme helpommin yhteiseen tavoitteeseemme."
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Aloite Yhdistyneille Kansakunnille:"
@@ -307,7 +307,7 @@ msgid "Thank you for your vote!"
 msgstr "Kiitos äänestäsi!"
 
 msgid "Thank you in any case for signing the petition,"
-msgstr ""
+msgstr "Kiitos vielä joka tapauksessa vetoomuksen allekirjoittamisesta!"
 
 msgid "The Green Association for the Protection of Life"
 msgstr "Vihreä Elämänsuojelun Liitto (VESL)"
@@ -379,7 +379,7 @@ msgid "Water is the Mother of Life – we all need it!"
 msgstr "Vesi on elämän äiti - me kaikki tarvitsemme sitä!"
 
 msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
-msgstr ""
+msgstr "Käytämme tuota postituslistaa myös kertoaksemme ehdotuksia tavoista, joilla voit auttaa kampanjaa; saatamme joskus tarvita taitoja, joita kampanjatiimiläisillämme ei ole. Saatamme myös ehdottaa mikrotehtäviä, kuten pamflettien viemistä lähikauppaan tai allekirjoitussivumme jakamista sähköisesti, ja toki kuulemme myös ehdotuksia eri tavoista edistää kampanjaa mielellämme. Rahaa emme missään tapauksessa tule pyytämään. "
 
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Toivomme, että YK harkitsisi maailman armeijoiden suuntaamista uuteen tehtävään ja tekisi maailmanlaajuisen aloitteen edellä esitetyn ehdotuksen nopeaksi toteuttamiseksi. Aloitteella olisi myös ilmeinen maailmanrauhaa edistävä vaikutuksensa.      "
@@ -428,6 +428,7 @@ msgstr "Olet auttanut kampanjaa saamalla %{count} ihmistä äänestämään jäl
 
 msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
 msgstr ""
+" Antamalla nimesi lupalistaamme et vielä sitoudu mihinkään. Listalta voit myös poistua milloin vain. Voit antaa lupasi myös sähköpostitse vastaamalla tähän viestiin.\n"
 
 msgid "YouTube"
 msgstr "Youtube"
@@ -475,9 +476,4 @@ msgid "seconds"
 msgstr "sekuntia"
 
 msgid "sincerely,"
-msgstr ""
-
-#~ msgid "Thank you in any case for signing the petition, sincerely,"
-#~ msgstr ""
-#~ "Kiitos vielä joka tapauksessa vetoomuksen allekirjoittamisesta, parhain tervei"
-#~ "sin,"
+msgstr "Parhain terveisin"

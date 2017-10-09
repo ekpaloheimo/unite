@@ -220,6 +220,9 @@ msgstr "Millions of Tons of Plastic Waste on the Shores and in the Oceans!"
 msgid "More work must be done"
 msgstr "Great! Spread the word."
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr ""
 

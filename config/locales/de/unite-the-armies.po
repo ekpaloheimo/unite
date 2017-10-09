@@ -220,6 +220,9 @@ msgstr "Millionen Tonnen von Plastikmüll an den Küsten und in den Weltmeeren!"
 msgid "More work must be done"
 msgstr "Es muss mehr getan werden"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "Name"
 

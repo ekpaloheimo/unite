@@ -170,6 +170,9 @@ msgstr "Miljontals ton plastavfall längs kuster och hav"
 msgid "More work must be done"
 msgstr "Det behövs en större insats"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "Namn"
 

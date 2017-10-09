@@ -231,6 +231,9 @@ msgstr "Миллионы тонн пластмассовых отходов на
 msgid "More work must be done"
 msgstr "Необходимо приложить еще больше усилий"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "Имя и фамилия"
 

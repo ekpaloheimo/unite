@@ -221,6 +221,9 @@ msgstr "ملايين الأطنان من النفايات البلاستيكية
 msgid "More work must be done"
 msgstr "يجب بذل مزيد من الجهد"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "الإسم"
 

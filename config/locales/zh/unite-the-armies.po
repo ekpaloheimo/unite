@@ -213,6 +213,9 @@ msgstr "成千上万吨的塑料垃圾污染了海洋和海岸。"
 msgid "More work must be done"
 msgstr "需要作出更多的努力"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "姓名"
 

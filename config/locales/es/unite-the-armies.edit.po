@@ -178,6 +178,9 @@ msgstr "!Millones de toneladas de basura plástica en las costas y los oceanos!"
 msgid "More work must be done"
 msgstr "Tenemos que trabajar aún más"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "Nombre"
 

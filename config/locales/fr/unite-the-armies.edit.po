@@ -180,6 +180,9 @@ msgstr "Des millions de tonnes de déchets en plastique sur les plages et les oc
 msgid "More work must be done"
 msgstr "On doit faire plus de travail"
 
+msgid "My supporter page"
+msgstr ""
+
 msgid "Name"
 msgstr "Nom"
 

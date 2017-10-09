@@ -6,7 +6,7 @@
 
 <p><%= _("It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign. If you would like to hear news about how the campaign is progressing towards this goal, click this link and sign up on our mailing list:") %></p>
 
-<p><%= link_to _("https://sign-un-petition.org/you-might-be-able-to-help-one-day"), _("https://sign-un-petition.org/you-might-be-able-to-help-one-day")</p>
+<p><%= link_to _("https://sign-un-petition.org/you-might-be-able-to-help-one-day"), _("https://sign-un-petition.org/you-might-be-able-to-help-one-day") %></p>
 
 <p><%= _("We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do.") %></p>
 
@@ -16,7 +16,7 @@
 
 <p><%= _("If you click the link below, you’ll find your personal supporter page. If you so wish, you can spread awareness of our campaign via that page, so that the number of those who have signed via your link is recorded there. The best supporters shall be rewarded.") %></p>
 
-<a href="<%= vote_path(secret_token: @vote.secret_token, locale: locale)  %>"><%= _("My supporter page") %></a>
+<a href="<%= vote_url(secret_token: @vote.secret_token, locale: locale)  %>"><%= _("My supporter page") %></a>
 
 <p>
   <%= _("Thank you in any case for signing the petition,") %>

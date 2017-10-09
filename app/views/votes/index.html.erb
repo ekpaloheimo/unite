@@ -186,7 +186,7 @@
       <table id="country_votes_table" class="table" style="table-layout: fixed; width: 100%">
         <% @sorted_votes.each do |vote_count| %>
             <tr>
-              <td class="country_flag"><%= image_tag "blank.gif", :class => [:flag, "flag-#{vote_count.country}"] %></td>
+              <td class="country_flag"><%= image_tag "blank.gif", :class => ["flag_small", vote_count.country] %></td>
               <td class="country"><%= Country.code_to_name(vote_count.country) %></td>
               <td class="vote_percentage">
                 <div style="width:<%= vote_count.diagram_width %>%; height:30px; background:green"/>

@@ -128,17 +128,11 @@ msgstr "赫尔辛基，2014年11月4日"
 msgid "IP"
 msgstr "IP地址"
 
-msgid "If you click the link below, you’ll find your personal supporter page. If you so wish, you can spread awareness of our campaign via that page, so that the number of those who have signed via your link is recorded there. The best supporters shall be rewarded."
-msgstr ""
-
 msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
 msgstr "在接下来的数十年中，唯有采取强力有效的应对措施才能中断这一问题的恶化过程。我们在此提议：全球军力开支应得到重新分配，转而用于以更集中的方式解决社会问题及环境恶化。"
 
 msgid "In these pages we collect support for a global initiative."
 msgstr "在该网站内我们收集针对该全球行动的支持"
-
-msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
-msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "提交给联合国的倡议"
@@ -178,9 +172,6 @@ msgstr "成千上万吨的塑料垃圾污染了海洋和海岸。"
 
 msgid "More work must be done"
 msgstr "需要作出更多的努力"
-
-msgid "My supporter page"
-msgstr ""
 
 msgid "Name"
 msgstr "姓名"
@@ -297,17 +288,11 @@ msgstr "谢谢你和你的支持！你是第 %{name}"
 msgid "Thank you for your vote!"
 msgstr "感谢您的投票"
 
-msgid "Thank you in any case for signing the petition,"
-msgstr ""
-
 msgid "The Green Association for the Protection of Life"
 msgstr "绿色生命保护组织"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "你的建议必须对全世界都有益处"
-
-msgid "The Unite the Armies campaign team"
-msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
 msgstr "军队要收集海洋和海岸的塑料垃圾"
@@ -366,9 +351,6 @@ msgstr "水"
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "水是生命之源—我们都需要它。"
 
-msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
-msgstr ""
-
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "我们衷心企盼联合国能够率先开展一项全球行动以实施上述提议，并重新调遣全世界的武装部队，使其尽快参与至此项新使命中。该项行动能够切实有效地促进世界和平。"
 
@@ -417,9 +399,6 @@ msgstr "%{name} 邀请您参与我们的 “拯救我们的世界 – 联合我�
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "因为您的参与，已经有 %{count} 人在您之后进行了投票"
 
-msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
-msgstr ""
-
 msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"
 
@@ -445,6 +424,9 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
+msgid "https://sign-un-petition.org/you-might-be-able-to-help-one-day"
+msgstr ""
+
 msgid "if you wish see how many people have signed by following your personal invitation."
 msgstr ""
 
@@ -462,9 +444,6 @@ msgstr "秒"
 
 msgid "seconds"
 msgstr "秒"
-
-msgid "sincerely,"
-msgstr ""
 
 #~ msgid "Ago"
 #~ msgstr "时间"

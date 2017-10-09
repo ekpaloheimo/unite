@@ -129,17 +129,11 @@ msgstr "Helsinki, 4.11.2014"
 msgid "IP"
 msgstr "IP"
 
-msgid "If you click the link below, you’ll find your personal supporter page. If you so wish, you can spread awareness of our campaign via that page, so that the number of those who have signed via your link is recorded there. The best supporters shall be rewarded."
-msgstr ""
-
 msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
 msgstr "Dans les quelques dizaines d'années à venir, seules des contre-mesures fortes et efficaces pourront être capables d'arrêter la marche du processus . Nous proposons à votre attention l'idée que la dépense mondiale des armements soit redirigée (avec d'autres mesures) pour aborder la détérioration sociale et environnementale d'une façon plus concentrée "
 
 msgid "In these pages we collect support for a global initiative."
 msgstr "Sur ces pages nous rassemblons des supports pour une initiative mondiale"
-
-msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
-msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Initiative presentée aux Nations Unies."
@@ -179,9 +173,6 @@ msgstr "Des millions de tonnes de déchets en plastique sur les plages et les oc
 
 msgid "More work must be done"
 msgstr "On doit faire plus de travail"
-
-msgid "My supporter page"
-msgstr ""
 
 msgid "Name"
 msgstr "Nom"
@@ -298,17 +289,11 @@ msgstr "Merci pour votre support %{name}"
 msgid "Thank you for your vote!"
 msgstr "Merci pour votre vote"
 
-msgid "Thank you in any case for signing the petition,"
-msgstr ""
-
 msgid "The Green Association for the Protection of Life"
 msgstr "L'association verte pour la protection de la vie"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "La tâche suggérée doit profiter au monde entier."
-
-msgid "The Unite the Armies campaign team"
-msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
 msgstr "Les armées unies doivent ramasser les déchets en plastique des océans et des plages."
@@ -369,9 +354,6 @@ msgstr "Eau"
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
 
-msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
-msgstr ""
-
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Nous espérons sérieusement que les Nations Unies considéreront la mise en place d'une initiative globale pour mettre en pratique les propositions mentionnées ci-dessus et pour un redéploiement des forces armées du monde dans cette nouvelle tâche dès que possible.  Une telle initiative aurait aussi un effet tangible dans la promotion de la paix dans le monde. ."
 
@@ -420,9 +402,6 @@ msgstr "Vous avez été invité à Sauver le Monde-Unissez les armées par  %{na
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "Vous avez aidé la campagne en ayant fait signer  %{count} de personnes après vous."
 
-msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
-msgstr ""
-
 msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
@@ -448,6 +427,9 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
+msgid "https://sign-un-petition.org/you-might-be-able-to-help-one-day"
+msgstr ""
+
 msgid "if you wish see how many people have signed by following your personal invitation."
 msgstr ""
 
@@ -465,9 +447,6 @@ msgstr "secondes"
 
 msgid "seconds"
 msgstr "secondes"
-
-msgid "sincerely,"
-msgstr ""
 
 #~ msgid "Ago"
 #~ msgstr "il y a"

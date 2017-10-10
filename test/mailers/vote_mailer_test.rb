@@ -24,7 +24,7 @@ class VoteMailerTest < ActionMailer::TestCase
     vote = votes(:vote_1)
     email = VoteMailer.sign_up(vote).deliver_now
     assert_not ActionMailer::Base.deliveries.empty?
-    assert_equal "Kiitokset Pelasta Maailma- kampanja vetoomuksen allekirjoituksesta", email.subject    
+    assert_equal "Kiitokset allekirjoituksesta ja mahdollisuus auttaa", email.subject    
   end
 
   test 'should send email invitations' do

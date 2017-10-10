@@ -127,11 +127,17 @@ msgstr "Helsinki 4.11.2014"
 msgid "IP"
 msgstr "IP"
 
+msgid "If you click the link below, you’ll find your personal supporter page. If you so wish, you can spread awareness of our campaign via that page, so that the number of those who have signed via your link is recorded there. The best supporters shall be rewarded."
+msgstr ""
+
 msgid "In the next few decades only strong and effective countermeasures will be able to halt the advance of this process. We propose for your consideration the idea that global spending on armaments should be re-directed (along with other measures) to address social and environmental deterioration in a more focused manner than at present."
 msgstr "En las próximas décadas sólo se podrá parar el avance de este proceso mediante contramedidas fuertes y eficaces. Proponemos para su consideración la idea de que el gasto global en armamento sea redirigido (junto con otras medidas) a abordar el deterioro social y medioambiental de una manera más concentrada que en el presente."
 
 msgid "In these pages we collect support for a global initiative."
 msgstr "En estas páginas recogemos los apoyos para una iniciativa global."
+
+msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
+msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Iniciativa presentada a las Naciones Unidas:"
@@ -171,6 +177,9 @@ msgstr "!Millones de toneladas de basura plástica en las costas y los oceanos!"
 
 msgid "More work must be done"
 msgstr "Tenemos que trabajar aún más"
+
+msgid "My supporter page"
+msgstr ""
 
 msgid "Name"
 msgstr "Nombre"
@@ -288,11 +297,17 @@ msgstr "!Gracias por tu apoyo %{name}"
 msgid "Thank you for your vote!"
 msgstr "Gracias por tu voto"
 
+msgid "Thank you in any case for signing the petition,"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "La Asociación Verde para la protección de la vida"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "La tarea sugerida debe benificiar al mundo entero."
+
+msgid "The Unite the Armies campaign team"
+msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
 msgstr "Los Ejércitos Unidos deberán recoger los residuos plásticos de los océanos y de las costas."
@@ -351,6 +366,9 @@ msgstr "Agua"
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "!El Agua es la madre de la vida - todos la necesitamos!"
 
+msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
+msgstr ""
+
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Esperamos seriamente que las Naciones Unidas tengan en consideración motivar la realización de una iniciativa global para llevar a efecto las supradichas proposiciones y para la redistribución de las fuerzas armadas en una nueva tarea tan pronto como sea posible. Esta iniciativa tendría también un efecto bien tangible en promover la paz mundial."
 
@@ -399,6 +417,9 @@ msgstr "Tú has sido invitado a la campaña Salvar el Planeta- Unificar los Ejé
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "Tú has contribuido a la campaña al motivar %{count} personas a firmar"
 
+msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
+msgstr ""
+
 msgid "Your friends email address"
 msgstr "Correos electrónicos de tus amigos"
 
@@ -444,6 +465,9 @@ msgstr "Segundos"
 
 msgid "seconds"
 msgstr "Segundos"
+
+msgid "sincerely,"
+msgstr ""
 
 #~ msgid "Ago"
 #~ msgstr "Hace tiempo"

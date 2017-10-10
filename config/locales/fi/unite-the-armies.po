@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-10-09 15:25+0300\n"
+"PO-Revision-Date: 2017-10-10 13:44+0300\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -142,6 +142,13 @@ msgid "IP"
 msgstr "IP"
 
 msgid ""
+"If you click the link below, you’ll find your personal supporter page. If you "
+"so wish, you can spread awareness of our campaign via that page, so that the n"
+"umber of those who have signed via your link is recorded there. The best suppo"
+"rters shall be rewarded."
+msgstr ""
+
+msgid ""
 "In the next few decades only strong and effective countermeasures will be able"
 " to halt the advance of this process. We propose for your consideration the id"
 "ea that global spending on armaments should be re-directed (along with other m"
@@ -155,6 +162,13 @@ msgstr ""
 
 msgid "In these pages we collect support for a global initiative."
 msgstr "Näillä sivuilla keräämme tukea globaalille aloitteelle."
+
+msgid ""
+"Indeed, you might be able to help in a way you cannot yet know, and by joining"
+" forces we will reach our common goal quicker; we will send suggestions to the"
+" list when needed. In addition, we welcome ideas of your own to further the ca"
+"mpaign."
+msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Aloite Yhdistyneille Kansakunnille:"
@@ -216,6 +230,9 @@ msgstr "Miljoonia tonneja muovijätettä rannoilla ja valtamerissä!"
 
 msgid "More work must be done"
 msgstr "Hienoa! Tietoa on levitettävä."
+
+msgid "My supporter page"
+msgstr ""
 
 msgid "Name"
 msgstr "Nimi"
@@ -349,7 +366,7 @@ msgid "Technology for Life"
 msgstr "Tekniikka elämää palvelemaan (TEP)"
 
 msgid "Thank you for signing the Unite the Armies petition"
-msgstr "Kiitokset Pelasta Maailma- kampanja vetoomuksen allekirjoituksesta"
+msgstr "Kiitokset allekirjoituksesta ja mahdollisuus auttaa"
 
 msgid "Thank you for spreading the word! Click"
 msgstr "Hienoa, tietoa on levitettävä! Klikkaa"
@@ -360,11 +377,17 @@ msgstr "Kiitos tuestasi %{name}!"
 msgid "Thank you for your vote!"
 msgstr "Kiitos äänestäsi!"
 
+msgid "Thank you in any case for signing the petition,"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "Vihreä Elämänsuojelun Liitto (VESL)"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "Ehdotetun tehtävän tulee olla luonteeltaan koko maailmaa auttava."
+
+msgid "The Unite the Armies campaign team"
+msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
 msgstr "Yhdistyneen armeijan siivottava muovijäte rannoilta ja valtameristä."
@@ -445,6 +468,15 @@ msgstr "Vesi"
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "Vesi on elämän äiti - me kaikki tarvitsemme sitä!"
+
+msgid ""
+"We also use this list to suggest ways in which you can help the campaign. Thus"
+", if you might be willing to help the campaign by performing a micro job (for "
+"example, leaving flyers in public places, coding, or just sharing our signing "
+"page and inviting people to sign) – given you happen to have some free time at"
+" the time – please click the link above and sign up. However, requesting funds"
+" from our supporters is something we won’t ever do."
+msgstr ""
 
 msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
@@ -546,6 +578,11 @@ msgstr ""
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "Olet auttanut kampanjaa saamalla %{count} ihmistä äänestämään jälkeesi."
 
+msgid ""
+"You may join the obligation-free list also by replying to this e-mail, and can"
+" unsubscribe at any given time if you so wish."
+msgstr ""
+
 msgid "Your friends email address"
 msgstr "Ystäväsi sähköpostiosoite"
 
@@ -592,3 +629,6 @@ msgstr "sekunti"
 
 msgid "seconds"
 msgstr "sekuntia"
+
+msgid "sincerely,"
+msgstr ""

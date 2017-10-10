@@ -148,6 +148,13 @@ msgid "IP"
 msgstr "IP"
 
 msgid ""
+"If you click the link below, you’ll find your personal supporter page. If you "
+"so wish, you can spread awareness of our campaign via that page, so that the n"
+"umber of those who have signed via your link is recorded there. The best suppo"
+"rters shall be rewarded."
+msgstr ""
+
+msgid ""
 "In the next few decades only strong and effective countermeasures will be able"
 " to halt the advance of this process. We propose for your consideration the id"
 "ea that global spending on armaments should be re-directed (along with other m"
@@ -162,6 +169,13 @@ msgstr ""
 
 msgid "In these pages we collect support for a global initiative."
 msgstr "Sur ces pages nous rassemblons des supports pour une initiative mondiale"
+
+msgid ""
+"Indeed, you might be able to help in a way you cannot yet know, and by joining"
+" forces we will reach our common goal quicker; we will send suggestions to the"
+" list when needed. In addition, we welcome ideas of your own to further the ca"
+"mpaign."
+msgstr ""
 
 msgid "Initiative presented to the United Nations:"
 msgstr "Initiative presentée aux Nations Unies."
@@ -220,6 +234,9 @@ msgstr "Des millions de tonnes de déchets en plastique sur les plages et les oc
 
 msgid "More work must be done"
 msgstr "On doit faire plus de travail"
+
+msgid "My supporter page"
+msgstr ""
 
 msgid "Name"
 msgstr "Nom"
@@ -360,11 +377,17 @@ msgstr "Merci pour votre support %{name}"
 msgid "Thank you for your vote!"
 msgstr "Merci pour votre vote"
 
+msgid "Thank you in any case for signing the petition,"
+msgstr ""
+
 msgid "The Green Association for the Protection of Life"
 msgstr "L'association verte pour la protection de la vie"
 
 msgid "The Suggested task must benefit the whole world."
 msgstr "La tâche suggérée doit profiter au monde entier."
+
+msgid "The Unite the Armies campaign team"
+msgstr ""
 
 msgid "The United Armies must collect the plastic waste from the oceans and shores."
 msgstr ""
@@ -453,6 +476,15 @@ msgstr "Eau"
 
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "L'eau est la mère de la vie, nous en avons tous besoin!"
+
+msgid ""
+"We also use this list to suggest ways in which you can help the campaign. Thus"
+", if you might be willing to help the campaign by performing a micro job (for "
+"example, leaving flyers in public places, coding, or just sharing our signing "
+"page and inviting people to sign) – given you happen to have some free time at"
+" the time – please click the link above and sign up. However, requesting funds"
+" from our supporters is something we won’t ever do."
+msgstr ""
 
 msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
@@ -550,6 +582,11 @@ msgstr ""
 "Vous avez aidé la campagne en ayant fait signer  %{count} de personnes après v"
 "ous."
 
+msgid ""
+"You may join the obligation-free list also by replying to this e-mail, and can"
+" unsubscribe at any given time if you so wish."
+msgstr ""
+
 msgid "Your friends email address"
 msgstr "Les adresses électroniques de mes amis"
 
@@ -597,3 +634,6 @@ msgstr "secondes"
 
 msgid "seconds"
 msgstr "secondes"
+
+msgid "sincerely,"
+msgstr ""

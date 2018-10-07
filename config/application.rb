@@ -31,7 +31,8 @@ module UniteTheArmies
       port:                 587,
       domain:               'unite-the-armies.org',
       user_name:            'unite.the.armies',
-      password:             'UnI734rmieS',
+      password:             'harvinainenpuupelastaa',
+      #password:             'UnI734rmieS',
       authentication:       'plain',
       enable_starttls_auto: true
     }

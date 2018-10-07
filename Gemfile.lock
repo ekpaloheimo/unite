@@ -44,7 +44,7 @@ GEM
       ejs
       jquery-rails
       railties
-    binding_of_caller (0.7.2)
+    binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (4.0.4)
@@ -70,7 +70,7 @@ GEM
     coffee-script-source (1.9.1)
     colorize (0.7.5)
     columnize (0.9.0)
-    debug_inspector (0.0.2)
+    debug_inspector (0.0.3)
     eco (1.0.0)
       coffee-script
       eco-source
@@ -191,7 +191,7 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (2.1.2)
+    web-console (2.1.3)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
@@ -227,7 +227,7 @@ DEPENDENCIES
   time_difference
   turbolinks
   uglifier (>= 1.3.0)
-  web-console (~> 2.0)
+  web-console (~> 2.1.3)
 
 BUNDLED WITH
-   1.15.0
+   1.15.4

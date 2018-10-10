@@ -31,7 +31,12 @@ module UniteTheArmies
         ENV[key.to_s] = value
       end if File.exists?(env_file)
     end
-    
+
+    # fp = File.open(Rails.root.join("testi.txt"), "w")
+    # fp.write(ENV['GMAIL_USERNAME'])
+    # fp.write(ENV['GMAIL_PASSWORD'])
+    # fp.close
+
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
@@ -46,4 +51,3 @@ module UniteTheArmies
     config.admin_hash = "26d438f70627d0a01a9435d3675a6902"
   end
 end
-

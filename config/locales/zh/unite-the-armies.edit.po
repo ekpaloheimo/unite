@@ -38,17 +38,20 @@ msgstr "添加评论"
 msgid "Administration"
 msgstr "行政"
 
-msgid "Ago"
-msgstr ""
-
 msgid "Air pollution is a global Challenge!"
 msgstr "空气污染是全球性的挑战"
 
 msgid "Arabic"
 msgstr "阿拉伯语"
 
+msgid "Are you a programmer who knows Rails? The campaign page source code is free and we hope that someone with such skills could help out with programming. If even a couple volunteers are found, the work to come is minimal. Consider dropping us a line!"
+msgstr ""
+
 msgid "Background"
 msgstr "背景"
+
+msgid "Below the link where campaign material can be downloaded. Browse files in a browser, save them to your computer, or print; please note that pamphlet is designed for printing on both sides of the paper."
+msgstr ""
 
 msgid "Campaign"
 msgstr "活动"
@@ -104,6 +107,9 @@ msgstr "电子邮件确认"
 msgid "English"
 msgstr "英文"
 
+msgid "Even if you’ve read everything on our web page, there’s still some material for you to see, such as a printable pamphlet in English+Finnish for you to distribute at your convenience. To spread the idea of armies doing environmental work, see also a simple one-page guide as to how to get more people to sign."
+msgstr ""
+
 msgid "Finnish"
 msgstr "芬兰语"
 
@@ -137,9 +143,6 @@ msgstr "在接下来的数十年中，唯有采取强力有效的应对措施才
 msgid "In these pages we collect support for a global initiative."
 msgstr "在该网站内我们收集针对该全球行动的支持"
 
-msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
-msgstr ""
-
 msgid "Initiative presented to the United Nations:"
 msgstr "提交给联合国的倡议"
 
@@ -155,7 +158,7 @@ msgstr "邀请你的朋友。填下面的表格，信息将会发送到你提供
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "通常部队要去帮助那些突发灾难的地区。同样他们也应该帮助我们对抗那些逐渐到来的灾难。"
 
-msgid "It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign. If you would like to hear news about how the campaign is progressing towards this goal, click this link and sign up on our mailing list:"
+msgid "It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the somewhat more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign."
 msgstr ""
 
 msgid "Language"
@@ -169,6 +172,12 @@ msgstr "提出切实可行的行动倡议"
 
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "使用联合国的一些官方语言提出倡议（6）"
+
+msgid "Material"
+msgstr ""
+
+msgid "Material page"
+msgstr ""
 
 msgid "Menu"
 msgstr "菜单"
@@ -194,7 +203,7 @@ msgstr "军事力量在全球的新角色"
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "从政治方面看，军队可以用于救助突发的自然灾害，这在全世界都是普遍接受的惯例。因此，我们把这一惯例延伸也是符合逻辑的——理想情况下，在与本土非政府组织合作的基础上，把军队资源用于应对发展更缓慢，但规模更巨大，影响更深远的自然灾害。"
 
-msgid "Our campaign promotes the petition sent to the United Nations by professors U.B. Lindström and Eero Paloheimo in cooperation with a small deep ecological association (VESL in Finland). As you may recall, the aim is to deploy the world’s armies into environmental work to protect the diversity of the global ecosystem and win the battle against climate change."
+msgid "Our campaign promotes a petition sent to the United Nations to deploy the world’s armies into environmental work to protect the diversity of the global ecosystem and win the battle against climate change."
 msgstr ""
 
 msgid "Plastic Waste"
@@ -279,8 +288,8 @@ msgstr "支持者"
 msgid "Swedish"
 msgstr ""
 
-msgid "Technical realization"
-msgstr "技术实现"
+msgid "Technical realization 6.2015 - 10.2018"
+msgstr ""
 
 msgid "Technology for Life"
 msgstr ""
@@ -366,9 +375,6 @@ msgstr "水"
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "水是生命之源—我们都需要它。"
 
-msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
-msgstr ""
-
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "我们衷心企盼联合国能够率先开展一项全球行动以实施上述提议，并重新调遣全世界的武装部队，使其尽快参与至此项新使命中。该项行动能够切实有效地促进世界和平。"
 
@@ -417,9 +423,6 @@ msgstr "%{name} 邀请您参与我们的 “拯救我们的世界 – 联合我�
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "因为您的参与，已经有 %{count} 人在您之后进行了投票"
 
-msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
-msgstr ""
-
 msgid "Your friends email address"
 msgstr "你朋友的电子邮箱"
 
@@ -445,7 +448,10 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
-msgid "https://sign-un-petition.org/you-might-be-able-to-help-one-day"
+msgid "http://unite-the-armies.org/en/download"
+msgstr ""
+
+msgid "https://www.dropbox.com/sh/u5gnv99jy2tj6bu/AAAwbxfS04f6sGzSGky0_sZMa?dl=0"
 msgstr ""
 
 msgid "if you wish see how many people have signed by following your personal invitation."
@@ -469,6 +475,8 @@ msgstr "秒"
 msgid "sincerely,"
 msgstr ""
 
+#~ msgid "Technical realization"
+#~ msgstr "技术实现"
 #~ msgid "Ago"
 #~ msgstr "时间"
 #~ msgid "Recent Votes"

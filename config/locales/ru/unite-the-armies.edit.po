@@ -38,17 +38,20 @@ msgstr "Добавьте комментарий"
 msgid "Administration"
 msgstr "Администрация"
 
-msgid "Ago"
-msgstr ""
-
 msgid "Air pollution is a global Challenge!"
 msgstr "Загрязнение воздуха – это глобальная Проблема!"
 
 msgid "Arabic"
 msgstr "Арабский"
 
+msgid "Are you a programmer who knows Rails? The campaign page source code is free and we hope that someone with such skills could help out with programming. If even a couple volunteers are found, the work to come is minimal. Consider dropping us a line!"
+msgstr ""
+
 msgid "Background"
 msgstr "Предыстория"
+
+msgid "Below the link where campaign material can be downloaded. Browse files in a browser, save them to your computer, or print; please note that pamphlet is designed for printing on both sides of the paper."
+msgstr ""
 
 msgid "Campaign"
 msgstr "Кампания"
@@ -104,6 +107,9 @@ msgstr "Подтверждение адреса электронной почт�
 msgid "English"
 msgstr "Английский"
 
+msgid "Even if you’ve read everything on our web page, there’s still some material for you to see, such as a printable pamphlet in English+Finnish for you to distribute at your convenience. To spread the idea of armies doing environmental work, see also a simple one-page guide as to how to get more people to sign."
+msgstr ""
+
 msgid "Finnish"
 msgstr "Финский"
 
@@ -137,9 +143,6 @@ msgstr "В течение нескольких следующих десятил
 msgid "In these pages we collect support for a global initiative."
 msgstr "На этом сайте мы набираем поддержку для глобальной инициативы."
 
-msgid "Indeed, you might be able to help in a way you cannot yet know, and by joining forces we will reach our common goal quicker; we will send suggestions to the list when needed. In addition, we welcome ideas of your own to further the campaign."
-msgstr ""
-
 msgid "Initiative presented to the United Nations:"
 msgstr "Инициатива, представленная ООН:"
 
@@ -155,7 +158,7 @@ msgstr "Пригласите своих друзей. Заполните ниж�
 msgid "It is accepted that the military are called to assist the areas affected by sudden disasters. The same power should be used to defend us against gradual disasters."
 msgstr "Общепринятым является то, что военных привлекают на помощь на территории, подвергнутые неожиданным бедствиям. Ту же силу следовало бы использовать для защиты нас от постепенно развивающихся бедствий."
 
-msgid "It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign. If you would like to hear news about how the campaign is progressing towards this goal, click this link and sign up on our mailing list:"
+msgid "It’s common practice in many countries that armies are called in to assist those affected by sudden environmental disasters. It would be a logical extension of this practice to employ such a resource in counteracting the somewhat more gradual but much larger-scale catastrophes – this with the help, it is to be hoped, of local NGOs – and that is the aim of our campaign."
 msgstr ""
 
 msgid "Language"
@@ -169,6 +172,12 @@ msgstr "Выступите с инициативой по поводу дейс�
 
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "Выступите с инициативой, используя один из официальных языков ООН (6)."
+
+msgid "Material"
+msgstr ""
+
+msgid "Material page"
+msgstr ""
 
 msgid "Menu"
 msgstr "Меню"
@@ -194,7 +203,7 @@ msgstr "Новая глобальная роль Армии"
 msgid "On a political level, it is the accepted practice everywhere that the military is called in to assist those affected by sudden and unexpected environmental disasters. It would simply be a logical extension of this practice to employ such a resource in counteracting the effects of more gradual but much larger-scale and inexorably-advancing catastrophes; this with the help, it is to be hoped, of local NGOs."
 msgstr "На политическом уровне, везде является общепринятой практикой вызывать армию на помощь тем, кого постигли внезапные и неожиданные бедствия. Логичным было бы распространить эту практику на применение данного ресурса для противодействия воздействиям более медленно развивающихся, но более крупномасштабных и неумолимо надвигающихся катастроф; это могло бы быть достигнуто, как мы надеемся, при помощи неправительственных общественных организаций местного уровня."
 
-msgid "Our campaign promotes the petition sent to the United Nations by professors U.B. Lindström and Eero Paloheimo in cooperation with a small deep ecological association (VESL in Finland). As you may recall, the aim is to deploy the world’s armies into environmental work to protect the diversity of the global ecosystem and win the battle against climate change."
+msgid "Our campaign promotes a petition sent to the United Nations to deploy the world’s armies into environmental work to protect the diversity of the global ecosystem and win the battle against climate change."
 msgstr ""
 
 msgid "Plastic Waste"
@@ -280,8 +289,8 @@ msgstr "сторонники"
 msgid "Swedish"
 msgstr "Испанский"
 
-msgid "Technical realization"
-msgstr "Техническое выполнение"
+msgid "Technical realization 6.2015 - 10.2018"
+msgstr ""
 
 msgid "Technology for Life"
 msgstr ""
@@ -367,9 +376,6 @@ msgstr "Вода"
 msgid "Water is the Mother of Life – we all need it!"
 msgstr "Вода – мать жизни – она нужна нам всем!"
 
-msgid "We also use this list to suggest ways in which you can help the campaign. Thus, if you might be willing to help the campaign by performing a micro job (for example, leaving flyers in public places, coding, or just sharing our signing page and inviting people to sign) – given you happen to have some free time at the time – please click the link above and sign up. However, requesting funds from our supporters is something we won’t ever do."
-msgstr ""
-
 msgid "We earnestly hope that the United Nations will consider suggesting a global initiative to put the proposals outlined above into effect and for a redeployment of the world’s armed forces into this new task as soon as possible. Such an initiative would also have a tangible effect in promoting world peace."
 msgstr "Мы убедительно надеемся, что ООН рассмотрит возможность предложения глобальной инициативы, с целью осуществления предложений, намеченных выше в общих чертах, и перенаправления как можно скорее глобальных армий на выполнение этого нового задания. такая инициатива также оказала бы заметное воздействие на способствование достижению мира в мире."
 
@@ -418,9 +424,6 @@ msgstr "%{name}пригласил/а вас к участию в кампани�
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "Вы помогли кампании тем, что привлекли %{count} человек к подписанию после вас."
 
-msgid "You may join the obligation-free list also by replying to this e-mail, and can unsubscribe at any given time if you so wish."
-msgstr ""
-
 msgid "Your friends email address"
 msgstr "Адрес электронной почты вашего друга"
 
@@ -446,7 +449,10 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
-msgid "https://sign-un-petition.org/you-might-be-able-to-help-one-day"
+msgid "http://unite-the-armies.org/en/download"
+msgstr ""
+
+msgid "https://www.dropbox.com/sh/u5gnv99jy2tj6bu/AAAwbxfS04f6sGzSGky0_sZMa?dl=0"
 msgstr ""
 
 msgid "if you wish see how many people have signed by following your personal invitation."
@@ -470,6 +476,8 @@ msgstr "секунды/секунд"
 msgid "sincerely,"
 msgstr ""
 
+#~ msgid "Technical realization"
+#~ msgstr "Техническое выполнение"
 #~ msgid "Ago"
 #~ msgstr "Тому назад"
 #~ msgid "Recent Votes"

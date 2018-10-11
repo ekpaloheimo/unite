@@ -43,17 +43,27 @@ msgstr "أضف التعليق"
 msgid "Administration"
 msgstr "الإدارة"
 
-msgid "Ago"
-msgstr ""
-
 msgid "Air pollution is a global Challenge!"
 msgstr "تلوث الهواء هو تحدّ عالمي"
 
 msgid "Arabic"
 msgstr "عربي"
 
+msgid ""
+"Are you a programmer who knows Rails? The campaign page source code is free an"
+"d we hope that someone with such skills could help out with programming. If ev"
+"en a couple volunteers are found, the work to come is minimal. Consider droppi"
+"ng us a line!"
+msgstr ""
+
 msgid "Background"
 msgstr "الخلفية"
+
+msgid ""
+"Below the link where campaign material can be downloaded. Browse files in a br"
+"owser, save them to your computer, or print; please note that pamphlet is desi"
+"gned for printing on both sides of the paper."
+msgstr ""
 
 msgid "Campaign"
 msgstr "الحملة"
@@ -113,6 +123,13 @@ msgstr "التأكيد على البريد الإلكتووني"
 msgid "English"
 msgstr "إنجليزي"
 
+msgid ""
+"Even if you’ve read everything on our web page, there’s still some material fo"
+"r you to see, such as a printable pamphlet in English+Finnish for you to distr"
+"ibute at your convenience. To spread the idea of armies doing environmental wo"
+"rk, see also a simple one-page guide as to how to get more people to sign."
+msgstr ""
+
 msgid "Finnish"
 msgstr "فنلندي"
 
@@ -159,13 +176,6 @@ msgstr ""
 msgid "In these pages we collect support for a global initiative."
 msgstr " \"بجمع الدعم للمبادرة العالمية."
 
-msgid ""
-"Indeed, you might be able to help in a way you cannot yet know, and by joining"
-" forces we will reach our common goal quicker; we will send suggestions to the"
-" list when needed. In addition, we welcome ideas of your own to further the ca"
-"mpaign."
-msgstr ""
-
 msgid "Initiative presented to the United Nations:"
 msgstr "مبادرة معروضة على الأمم المتحدة"
 
@@ -193,11 +203,9 @@ msgstr ""
 msgid ""
 "It’s common practice in many countries that armies are called in to assist tho"
 "se affected by sudden environmental disasters. It would be a logical extension"
-" of this practice to employ such a resource in counteracting the more gradual "
-"but much larger-scale catastrophes – this with the help, it is to be hoped, of"
-" local NGOs – and that is the aim of our campaign. If you would like to hear n"
-"ews about how the campaign is progressing towards this goal, click this link a"
-"nd sign up on our mailing list:"
+" of this practice to employ such a resource in counteracting the somewhat more"
+" gradual but much larger-scale catastrophes – this with the help, it is to be "
+"hoped, of local NGOs – and that is the aim of our campaign."
 msgstr ""
 
 msgid "Language"
@@ -211,6 +219,12 @@ msgstr "قم بمبادرة لإتخاذ التدابير من أجل توحيد
 
 msgid "Make the initiative using some of the UN:s official languages (6)."
 msgstr "قم بالمبادرة من خلال إستعمال بعض اللغات الرسمية الست التابعة للأمم المتحدة  "
+
+msgid "Material"
+msgstr ""
+
+msgid "Material page"
+msgstr ""
 
 msgid "Menu"
 msgstr "القائمة"
@@ -247,11 +261,9 @@ msgstr ""
 "أوسع. ونأمل أن يتم هذا بالتعاون مع المنظمات غير الحكومية المحلية. "
 
 msgid ""
-"Our campaign promotes the petition sent to the United Nations by professors U."
-"B. Lindström and Eero Paloheimo in cooperation with a small deep ecological as"
-"sociation (VESL in Finland). As you may recall, the aim is to deploy the world"
-"’s armies into environmental work to protect the diversity of the global ecosy"
-"stem and win the battle against climate change."
+"Our campaign promotes a petition sent to the United Nations to deploy the worl"
+"d’s armies into environmental work to protect the diversity of the global ecos"
+"ystem and win the battle against climate change."
 msgstr ""
 
 msgid "Plastic Waste"
@@ -343,8 +355,8 @@ msgstr "ادعم الآن"
 msgid "Swedish"
 msgstr "إسباني"
 
-msgid "Technical realization"
-msgstr "الإنجاز التقني"
+msgid "Technical realization 6.2015 - 10.2018"
+msgstr ""
 
 msgid "Technology for Life"
 msgstr ""
@@ -455,15 +467,6 @@ msgid "Water is the Mother of Life – we all need it!"
 msgstr "إن الماء هو أساس وجود الحياة على الأرض – نحن كلنا في حاجة إليه."
 
 msgid ""
-"We also use this list to suggest ways in which you can help the campaign. Thus"
-", if you might be willing to help the campaign by performing a micro job (for "
-"example, leaving flyers in public places, coding, or just sharing our signing "
-"page and inviting people to sign) – given you happen to have some free time at"
-" the time – please click the link above and sign up. However, requesting funds"
-" from our supporters is something we won’t ever do."
-msgstr ""
-
-msgid ""
 "We earnestly hope that the United Nations will consider suggesting a global in"
 "itiative to put the proposals outlined above into effect and for a redeploymen"
 "t of the world’s armed forces into this new task as soon as possible. Such an "
@@ -553,11 +556,6 @@ msgstr "!%{name}لقد دُعيت لإنقاذ العالم – وحّد الج�
 msgid "You have helped campaign by having %{count} people signed after you."
 msgstr "ساعدت على الحملة %{count} ووقّع الناس بعدك"
 
-msgid ""
-"You may join the obligation-free list also by replying to this e-mail, and can"
-" unsubscribe at any given time if you so wish."
-msgstr ""
-
 msgid "Your friends email address"
 msgstr "عنوان البريد الإلكتروني لأصدقائك"
 
@@ -583,7 +581,10 @@ msgstr ""
 msgid "hours"
 msgstr ""
 
-msgid "https://sign-un-petition.org/you-might-be-able-to-help-one-day"
+msgid "http://unite-the-armies.org/en/download"
+msgstr ""
+
+msgid "https://www.dropbox.com/sh/u5gnv99jy2tj6bu/AAAwbxfS04f6sGzSGky0_sZMa?dl=0"
 msgstr ""
 
 msgid ""

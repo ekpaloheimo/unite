@@ -50,7 +50,7 @@ msgid ""
 "Are you a programmer who knows Rails? The campaign page source code is free an"
 "d we hope that someone with such skills could help out with programming. If ev"
 "en a couple volunteers are found, the work to come is minimal. Consider droppi"
-"ng us a line!"
+"ng us a line! Check our GitHub repository:"
 msgstr ""
 
 msgid "Background"

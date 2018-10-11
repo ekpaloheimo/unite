@@ -35,7 +35,7 @@ msgstr "Luftverschmutzung ist eine globale Herausforderung!"
 msgid "Arabic"
 msgstr "Arabisch"
 
-msgid "Are you a programmer who knows Rails? The campaign page source code is free and we hope that someone with such skills could help out with programming. If even a couple volunteers are found, the work to come is minimal. Consider dropping us a line!"
+msgid "Are you a programmer who knows Rails? The campaign page source code is free and we hope that someone with such skills could help out with programming. If even a couple volunteers are found, the work to come is minimal. Consider dropping us a line! Check our GitHub repository:"
 msgstr ""
 
 msgid "Background"

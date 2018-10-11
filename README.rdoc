@@ -1,13 +1,32 @@
 == Unite the armies
 
+
+
 === Running development server
 
-  $ rails server
+  1) Add database.yml and secrets.yml ( see Rails documentation)
 
-=== Editing translations
+  2) Migrate
 
-Edit .edit.po files. Then run
+  3) $ rails server
 
-  $ rake gettext:pack
+=== Development
 
-You may need to restart the server for changes to take effect.
+  1) Write tests
+
+  2) $ rake test
+
+=== Deployment
+
+  1) $ cap staging deploy
+
+  2) $ cap production deploy
+
+=== Localization
+
+  1) $ rake gettext:find
+
+  2) Edit po files
+
+  3) $ rake gettext:pack
+

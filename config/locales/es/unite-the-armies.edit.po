@@ -49,9 +49,6 @@ msgstr ""
 msgid "Background"
 msgstr "Trasfondo"
 
-msgid "Below the link where campaign material can be downloaded. Browse files in a browser, save them to your computer, or print; please note that pamphlet is designed for printing on both sides of the paper."
-msgstr ""
-
 msgid "Campaign"
 msgstr "La campaña"
 
@@ -175,9 +172,6 @@ msgstr "Proponer la iniciativa usando uno de los idiomas oficiales (6) de la ONU
 msgid "Material"
 msgstr ""
 
-msgid "Material page"
-msgstr ""
-
 msgid "Menu"
 msgstr "Menú"
 
@@ -241,6 +235,9 @@ msgstr "!Salvar el planeta! !Actúa Ahora!"
 
 msgid "Save the planet"
 msgstr "!Salvar el planeta!"
+
+msgid "See link below for a printable pamphlet and other campaign material. You may read the materials online, download them on your computer or print them; note that the pamphlet is designed to be printed on both sides of the paper."
+msgstr ""
 
 msgid "Send"
 msgstr "Envía"
@@ -356,6 +353,9 @@ msgstr "Por Nuestro Mundo Común"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr "Al Secretario General y al Secretariado de las Naciones Unidas."
+
+msgid "To the material page"
+msgstr ""
 
 msgid "Topic"
 msgstr "Tópicos"

@@ -50,9 +50,6 @@ msgstr ""
 msgid "Background"
 msgstr "背景"
 
-msgid "Below the link where campaign material can be downloaded. Browse files in a browser, save them to your computer, or print; please note that pamphlet is designed for printing on both sides of the paper."
-msgstr ""
-
 msgid "Campaign"
 msgstr "活动"
 
@@ -176,9 +173,6 @@ msgstr "使用联合国的一些官方语言提出倡议（6）"
 msgid "Material"
 msgstr ""
 
-msgid "Material page"
-msgstr ""
-
 msgid "Menu"
 msgstr "菜单"
 
@@ -242,6 +236,9 @@ msgstr "拯救地球。马上行动"
 
 msgid "Save the planet"
 msgstr "拯救地球"
+
+msgid "See link below for a printable pamphlet and other campaign material. You may read the materials online, download them on your computer or print them; note that the pamphlet is designed to be printed on both sides of the paper."
+msgstr ""
 
 msgid "Send"
 msgstr "发送"
@@ -356,6 +353,9 @@ msgstr "为了我们共有的世界"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr "致联合国秘书长及秘书处："
+
+msgid "To the material page"
+msgstr ""
 
 msgid "Topic"
 msgstr "题目"

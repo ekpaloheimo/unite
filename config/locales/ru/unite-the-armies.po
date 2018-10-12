@@ -64,12 +64,6 @@ msgstr ""
 msgid "Background"
 msgstr "Предыстория"
 
-msgid ""
-"Below the link where campaign material can be downloaded. Browse files in a br"
-"owser, save them to your computer, or print; please note that pamphlet is desi"
-"gned for printing on both sides of the paper."
-msgstr ""
-
 msgid "Campaign"
 msgstr "Кампания"
 
@@ -233,9 +227,6 @@ msgstr "Выступите с инициативой, используя оди�
 msgid "Material"
 msgstr ""
 
-msgid "Material page"
-msgstr ""
-
 msgid "Menu"
 msgstr "Меню"
 
@@ -314,6 +305,12 @@ msgstr "Спасите мир! Действуйте сейчас!"
 
 msgid "Save the planet"
 msgstr "Спасите планету"
+
+msgid ""
+"See link below for a printable pamphlet and other campaign material. You may r"
+"ead the materials online, download them on your computer or print them; note t"
+"hat the pamphlet is designed to be printed on both sides of the paper."
+msgstr ""
 
 msgid "Send"
 msgstr "Отправьте"
@@ -458,6 +455,9 @@ msgstr "Нашему Общему миру"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr "Генеральному секретарю и Секретариату ООН"
+
+msgid "To the material page"
+msgstr ""
 
 msgid "Topic"
 msgstr "Тема"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unite-the-armies 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-10-11 12:14+0300\n"
+"PO-Revision-Date: 2018-10-12 12:14+0300\n"
 "Last-Translator: Eero Paloheimo <ekpaloheimo@gmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -50,11 +50,6 @@ msgstr "Oletko Railsin perustaidot hallitseva ohjelmoija? Käytämme avointa lä
 
 msgid "Background"
 msgstr "Tausta"
-
-msgid "Below the link where campaign material can be downloaded. Browse files in a browser, save them to your computer, or print; please note that pamphlet is designed for printing on both sides of the paper."
-msgstr ""
-"Alla linkki josta kampanjamateriaalia saa ladattua. Voit tutustua tiedostoihin selaimessa, \n"
-"tallentaa ne koneellesi tai tulostaa; huomaathan pamfletin olevan suunniteltu tulostettavaksi molemmille puolelle paperia."
 
 msgid "Campaign"
 msgstr "Kampanja"
@@ -180,9 +175,6 @@ msgstr "Tee aloite käyttämällä jotain YK:n kuudesta (6) virallisesta kielest
 msgid "Material"
 msgstr "Materiaalia"
 
-msgid "Material page"
-msgstr "Materiaalisivu"
-
 msgid "Menu"
 msgstr "Valikko"
 
@@ -245,6 +237,9 @@ msgstr "Pelasta maailma! Toimi nyt!"
 
 msgid "Save the planet"
 msgstr "Pelasta maailma"
+
+msgid "See link below for a printable pamphlet and other campaign material. You may read the materials online, download them on your computer or print them; note that the pamphlet is designed to be printed on both sides of the paper."
+msgstr "Alla linkki josta kampanjamateriaalia saa ladattua. Voit tutustua tiedostoihin selaimessa, tallentaa ne koneellesi tai tulostaa; huomaathan pamfletin olevan suunniteltu tulostettavaksi molemmille puolelle paperia."
 
 msgid "Send"
 msgstr "Lähetä"
@@ -359,6 +354,9 @@ msgstr "Yhteiselle maailmallemme"
 
 msgid "To the Secretary-General and Secretariat of the United Nations"
 msgstr "YK:n pääsihteerille ja sihteeristölle"
+
+msgid "To the material page"
+msgstr "Materiaalisivulle"
 
 msgid "Topic"
 msgstr "Otsikko"

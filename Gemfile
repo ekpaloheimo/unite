@@ -21,6 +21,7 @@ gem 'social-share-button'
 gem 'acts_as_singleton'
 #gem 'recaptcha', require: 'recaptcha/rails'
 gem 'httparty'
+gem 'loofah', '~> 2.2.3'
 
 group :development, :test do
   gem 'byebug'
